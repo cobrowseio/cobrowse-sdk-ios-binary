@@ -1,1 +1,2 @@
-# CobrowseIO SDK for iOS
+# CobrowseIO
+

@@ -1,0 +1,6 @@
+framework module CobrowseIO {
+  umbrella header "CobrowseIO-umbrella.h"
+
+  export *
+  module * { export * }
+}
