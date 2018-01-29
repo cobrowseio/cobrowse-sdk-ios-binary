@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
     s.name = 'CobrowseIO'
-    s.version = '0.0.17'
+    s.version = '0.0.18'
     s.summary = 'CobrowseIO SDK for iOS'
     s.description = 'CobrowseIO SDK for iOS. See cobrowse.io for more information.'
     s.license = 'Proprietary'
 
-    s.homepage = 'https://github.com'
+    s.homepage = 'https://cobrowse.io/get-started'
     s.author = { 'Andy' => 'andy@cobrowse.io' }
     s.source = { :git => 'https://github.com/cobrowseio/cobrowse-sdk-ios-binary.git', :tag => 'v'+s.version.to_s }
 
