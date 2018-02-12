@@ -3,7 +3,7 @@
 
 @protocol CobrowseIODelegate
 
--(void) cobrowseSessionNeedsUserApproval: (CBIOSession*) session;
+-(void) cobrowseSessionDidUpdate: (CBIOSession*) session;
 -(void) cobrowseSessionDidEnd: (CBIOSession*) session;
 
 @end
