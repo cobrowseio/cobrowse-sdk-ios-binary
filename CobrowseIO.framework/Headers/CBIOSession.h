@@ -18,5 +18,6 @@ typedef void const (^CBErrorSessionBlock)(NSError* err, CBIOSession* session);
 
 -(NSString*) code;
 -(NSString*) id;
+-(NSString*) state;
 
 @end
