@@ -1,6 +1,7 @@
 #import <Foundation/Foundation.h>
 
 @class CBIOSession;
+@class CBIOAgent;
 
 typedef void const (^CBErrorSessionBlock)(NSError* err, CBIOSession* session);
 
@@ -19,5 +20,6 @@ typedef void const (^CBErrorSessionBlock)(NSError* err, CBIOSession* session);
 -(NSString*) code;
 -(NSString*) id;
 -(NSString*) state;
+-(CBIOAgent*) agent;
 
 @end
