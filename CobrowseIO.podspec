@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
     s.name = 'CobrowseIO'
-    s.version = '0.0.21'
+    s.version = '0.0.22'
     s.summary = 'CobrowseIO SDK for iOS'
     s.description = 'CobrowseIO SDK for iOS. See cobrowse.io for more information.'
-    s.license = 'Proprietary'
+    s.license = 'Apache-2.0'
 
     s.homepage = 'https://cobrowse.io/get-started'
     s.author = { 'Andy' => 'andy@cobrowse.io' }
