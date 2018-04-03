@@ -73,9 +73,28 @@ Once you've tested out your app using the trial dashboard you're ready to create
 ### Add your license key
 Once you've signed up for a free account at [cobrowse.io](https://cobrowse.io), you'll be able to find your license key at <https://cobrowse.io/dashboard/settings>. Add this to your SDK setup:
 ```objective-c
-CobrowseIO.instance.license = @"<your license key here>";
+- (BOOL)application:(UIApplication*) application didFinishLaunchingWithOptions:(NSDictionary*) launchOptions
+{
+    CobrowseIO.instance.license = @"<your license key here>";
+    return YES;
+}
 ```
-You can do this anywhere convenient, so long as it's run before displaying the CBIOViewController. We recommend adding it to the `didFinishLaunchingWithOptions` method of your app delegate.
+**Important:** Do this in your `application:didFinishLaunchingWithOptions:` implementation to make sure your device shows up in your dashboard right away.
+
+## Agent Initiated Sessions
+
+Cobrowse.io also support sessions that initiated by support agents, via their dashboard. To do this we use a push notification to the device. To set up agent initiated sessions:
+
+1. Set up Firebase Cloud Messaging for your app. See the latest Firebase documentation for instructions.
+2. Enter your Server Key from the FCM admin settings into the Cobrowse account settings at: https://cobrowse.io/dashboard/settings
+3. Request push permission from the user whenever is appropriate for your app:
+
+```objective-c
+- (void)applicationDidBecomeActive:(UIApplication*) application {
+    [application registerUserNotificationSettings: [UIUserNotificationSettings settingsForTypes:(UIUserNotificationTypeBadge | UIUserNotificationTypeSound | UIUserNotificationTypeAlert) categories:nil]];
+    [application registerForRemoteNotifications];
+}
+```
 
 ## Requirements
 
