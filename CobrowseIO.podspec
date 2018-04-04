@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name = 'CobrowseIO'
-    s.version = '1.0.1'
+    s.version = '1.0.2'
     s.summary = 'CobrowseIO SDK for iOS'
     s.description = 'CobrowseIO SDK for iOS. See cobrowse.io for more information.'
     s.license = 'Apache-2.0'
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
     s.ios.deployment_target = '9.0'
 
-    s.dependency 'Socket.IO-Client-Swift', '~> 13.1.1'
+    s.dependency 'Socket.IO-Client-Swift', '~> 13.1.3'
 
     s.default_subspec = 'Release'
 
