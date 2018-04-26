@@ -5,6 +5,8 @@
 
 static NSString* kCBIOUserIdKey = @"user_id";
 static NSString* kCBIOUserEmailKey = @"user_email";
+static NSString* kCBIODeviceIdKey = @"device_id";
+static NSString* kCBIODeviceNameKey = @"device_name";
 
 typedef NSString CBLicense;
 
