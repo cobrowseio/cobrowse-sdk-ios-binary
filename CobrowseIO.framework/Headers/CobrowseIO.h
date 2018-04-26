@@ -5,6 +5,7 @@
 
 static NSString* kCBIOUserIdKey = @"user_id";
 static NSString* kCBIOUserEmailKey = @"user_email";
+static NSString* kCBIOUserNameKey = @"user_name";
 static NSString* kCBIODeviceIdKey = @"device_id";
 static NSString* kCBIODeviceNameKey = @"device_name";
 
@@ -15,6 +16,8 @@ typedef NSString CBLicense;
 @property CBLicense* license;
 @property NSString* api;
 @property NSDictionary<NSString*, NSValue*>* customData;
+
+@property (readonly) NSString* deviceId;
 
 @property (nonatomic, copy) void (^onStatusTap)(void);
 
