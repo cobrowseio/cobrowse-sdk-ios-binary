@@ -15,7 +15,7 @@ typedef NSString CBLicense;
 
 @property CBLicense* license;
 @property NSString* api;
-@property NSDictionary<NSString*, NSValue*>* customData;
+@property NSDictionary<NSString*, NSObject*>* customData;
 
 @property (readonly) NSString* deviceId;
 
@@ -23,6 +23,7 @@ typedef NSString CBLicense;
 
 +(instancetype) instance;
 +(BOOL) isCobrowseNotification: (NSDictionary*) userInfo;
++(void) onPushNotification: (NSDictionary*) userInfo;
 
 -(instancetype) setDelegate: (id<CobrowseIODelegate>) delegate;
 

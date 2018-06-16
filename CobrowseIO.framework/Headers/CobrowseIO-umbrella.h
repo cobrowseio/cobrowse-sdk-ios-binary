@@ -15,6 +15,7 @@
 #import "CobrowseIORedacted.h"
 #import "CBIOSession.h"
 #import "CBIOAgent.h"
+#import "CBIORESTResource.h"
 #import "CBIOViewController.h"
 
 FOUNDATION_EXPORT double CobrowseIOVersionNumber;

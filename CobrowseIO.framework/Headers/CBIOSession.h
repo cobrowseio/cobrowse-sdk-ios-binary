@@ -1,11 +1,13 @@
 #import <Foundation/Foundation.h>
 
+#import "CBIORESTResource.h"
+
 @class CBIOSession;
 @class CBIOAgent;
 
 typedef void const (^CBErrorSessionBlock)(NSError* err, CBIOSession* session);
 
-@interface CBIOSession : NSObject
+@interface CBIOSession : CBIORESTResource
 
 -(bool) isPending;
 -(bool) isApproved;
@@ -18,7 +20,6 @@ typedef void const (^CBErrorSessionBlock)(NSError* err, CBIOSession* session);
 -(void) end: (CBErrorSessionBlock) callback;
 
 -(NSString*) code;
--(NSString*) id;
 -(NSString*) state;
 -(CBIOAgent*) agent;
 
