@@ -10,7 +10,7 @@ Try our **online demo** at the bottom of our homepage at <https://cobrowse.io/#t
 
 ## Installation
 
-We recommend installing the Cobrowse.io SDK using Cocoapods, add this to your Podfile:
+We recommend installing the Cobrowse.io SDK using Cocoapods. Add this to your Podfile:
 
 ```
 pod 'CobrowseIO'
@@ -39,17 +39,17 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
     return YES;
 }
 ```
-**Important:** Do this in your `application:didFinishLaunchingWithOptions:` implementation to make sure your device shows up in your dashboard right away.
+*Important: Do this in your `application:didFinishLaunchingWithOptions:` implementation to make sure your device shows up in your dashboard right away.*
 
-### Add your license key
+### Add your License Key
 
 Please register an account and generate your free License Key at <https://cobrowse.io/dashboard/settings>.
 
-This will associate sessions from your mobile app with your Cobrowse.io account.
+This will associate sessions from your mobile app with your Cobrowse account.
 
 ### Add device metadata
 
-To help you identify, search, and filter devices in your Cobrowse dashboard, it's helpful to specify any meaningful metadata.
+To help you identify, search, and filter devices in your Cobrowse dashboard, it's helpful to specify any meaningful metadata. We recommend specifying the end-user's email if available. 
 
 You may add any custom key/value pairs you'd like, and they will all be searchable and filterable in your online dashboard. We've added a few placeholders for convenience only - all fields are optional.
 
@@ -63,12 +63,14 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
     print("Cobrowse device id:  \(CobrowseIO.instance().deviceId)")
 
-    CobrowseIO.instance().customData.updateValue("<your_user_id>", forKey: kCBIOUserIdKey);
-    CobrowseIO.instance().customData.updateValue("<your_user_name>", forKey: kCBIOUserNameKey);
-    CobrowseIO.instance().customData.updateValue("<your_user_email>", forKey: kCBIOUserEmailKey);
-    CobrowseIO.instance().customData.updateValue("<your_device_id>", forKey: kCBIODeviceIdKey);
-    CobrowseIO.instance().customData.updateValue("<your_device_name>", forKey: kCBIODeviceNameKey);
-
+    CobrowseIO.instance().customData = [
+        kCBIOUserIdKey: "<your_user_id>" as NSObject,
+        kCBIOUserNameKey: "<your_user_name>" as NSObject,
+        kCBIOUserEmailKey: "<your_user_email>" as NSObject,
+        kCBIODeviceIdKey: "<your_device_id>" as NSObject,
+        kCBIODeviceNameKey: "<your_device_name>" as NSObject
+    ]
+    
     return true
 }
 ```
@@ -101,11 +103,11 @@ Once you have your app running in the iOS Simulator or on a physical device, nav
 
 ## Optional features
 
-[Initiate sessions with push](https://cobrowse.io/docs#initiate-with-push)
+[Initiate sessions with push](./docs/initiate-with-push.md)
 
-[Use 6-digit codes](https://cobrowse.io/docs#user-generated-codes)
+[Use 6-digit codes](./docs/user-initiated-codes.md)
 
-[Redact sensitive data](https://cobrowse.io/docs#redact-sensitive-data)
+[Redact sensitive data](./docs/redact-sensitive-data.md)
 
 ## Questions?
 Any questions at all? Please email us directly at [hello@cobrowse.io](mailto:hello@cobrowse.io).
