@@ -17,6 +17,10 @@
 #import "CBIOAgent.h"
 #import "CBIORESTResource.h"
 #import "CBIOViewController.h"
+#import "CBIOTouch.h"
+#import "CBIOTouchEvent.h"
+#import "CBIOKeyPress.h"
+#import "CBIOResponderExtension.h"
 
 FOUNDATION_EXPORT double CobrowseIOVersionNumber;
 FOUNDATION_EXPORT const unsigned char CobrowseIOVersionString[];

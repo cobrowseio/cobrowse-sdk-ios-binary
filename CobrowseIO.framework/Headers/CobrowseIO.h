@@ -2,6 +2,7 @@
 
 #import "CBIOSession.h"
 #import "CobrowseIODelegate.h"
+#import "CBIOResponderExtension.h"
 
 static NSString* kCBIOUserIdKey = @"user_id";
 static NSString* kCBIOUserEmailKey = @"user_email";
@@ -32,5 +33,6 @@ typedef NSString CBLicense;
 
 -(CBIOSession*) currentSession;
 
++(void) experimental_registerResponderExtension: (Class) klass withTarget: (id<CBIOResponderExtension>) target;
 
 @end
