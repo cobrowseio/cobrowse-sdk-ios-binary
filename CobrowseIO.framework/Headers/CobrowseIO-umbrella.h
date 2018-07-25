@@ -20,6 +20,7 @@
 #import "CBIOTouch.h"
 #import "CBIOTouchEvent.h"
 #import "CBIOKeyPress.h"
+#import "CBIOResponder.h"
 #import "CBIOResponderExtension.h"
 
 FOUNDATION_EXPORT double CobrowseIOVersionNumber;

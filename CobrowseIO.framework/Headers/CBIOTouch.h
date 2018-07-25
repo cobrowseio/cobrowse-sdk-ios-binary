@@ -3,4 +3,6 @@
 
 @interface CBIOTouch : NSObject
 
+@property (readonly, nonnull) UIView* target;
+
 @end

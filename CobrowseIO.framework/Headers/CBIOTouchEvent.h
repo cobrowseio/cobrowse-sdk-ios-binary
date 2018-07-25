@@ -3,4 +3,6 @@
 
 @interface CBIOTouchEvent : NSObject
 
+@property (readonly) CGPoint position;
+
 @end
