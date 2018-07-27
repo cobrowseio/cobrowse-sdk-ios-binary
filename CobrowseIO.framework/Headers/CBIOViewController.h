@@ -4,7 +4,7 @@
 
 @class CBIOSession;
 
-@interface CBIOViewController : UIViewController <CobrowseIODelegate>
+@interface CBIOViewController : UIViewController
 
 -(instancetype) loadSession: (NSString*) codeOrId;
 

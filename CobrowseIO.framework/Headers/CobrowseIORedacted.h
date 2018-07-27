@@ -1,5 +1,5 @@
 
-@protocol CobrowseIORedacted
+@protocol CobrowseIORedacted <NSObject>
 
 -(NSArray*) redactedViews;
 
