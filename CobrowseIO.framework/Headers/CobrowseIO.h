@@ -26,6 +26,9 @@ typedef NSString CBLicense;
 +(BOOL) isCobrowseNotification: (NSDictionary*) userInfo;
 +(void) onPushNotification: (NSDictionary*) userInfo;
 
+-(instancetype) start;
+-(instancetype) stop;
+
 -(instancetype) createSession: (CBErrorSessionBlock) callback;
 -(instancetype) getSession: (NSString*) idOrCode callback: (CBErrorSessionBlock)callback;
 
