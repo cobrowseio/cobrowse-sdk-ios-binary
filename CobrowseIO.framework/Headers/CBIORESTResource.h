@@ -2,4 +2,6 @@
 
 @interface CBIORESTResource : NSObject
 
+-(NSString*) id;
+
 @end
