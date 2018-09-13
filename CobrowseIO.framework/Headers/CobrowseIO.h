@@ -1,5 +1,6 @@
 #import <Foundation/Foundation.h>
 
+#import "CBIODevice.h"
 #import "CBIOSession.h"
 #import "CobrowseIODelegate.h"
 #import "CBIOResponderExtension.h"
@@ -19,6 +20,7 @@ typedef NSString CBLicense;
 @property NSDictionary<NSString*, NSObject*>* customData;
 @property id<CobrowseIODelegate> delegate;
 @property (readonly) NSString* deviceId;
+@property (readonly) CBIODevice* device;
 
 @property (nonatomic, copy) void (^onStatusTap)(void);
 

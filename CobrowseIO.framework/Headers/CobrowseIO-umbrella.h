@@ -14,6 +14,7 @@
 #import "CobrowseIODelegate.h"
 #import "CobrowseIORedacted.h"
 #import "CBIOSession.h"
+#import "CBIODevice.h"
 #import "CBIOAgent.h"
 #import "CBIORESTResource.h"
 #import "CBIOViewController.h"
