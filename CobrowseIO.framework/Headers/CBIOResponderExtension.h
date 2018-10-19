@@ -8,11 +8,11 @@
 
 @optional
 
--(bool) cobrowseTouchesBegan:(NSSet<CBIOTouch*> *)touches withEvent:(CBIOTouchEvent*)event inView: (UIView*) view;
--(bool) cobrowseTouchesMoved:(NSSet<CBIOTouch*> *)touches withEvent:(CBIOTouchEvent*)event inView: (UIView*) view;
--(bool) cobrowseTouchesEnded:(NSSet<CBIOTouch*> *)touches withEvent:(CBIOTouchEvent*)event inView: (UIView*) view;
--(bool) cobrowseTouchesCancelled:(NSSet<CBIOTouch*> *)touches withEvent:(CBIOTouchEvent*)event inView: (UIView*) view;
+-(bool) cobrowseTouchesBegan:(NSSet<CBIOTouch*> *)touches withEvent:(CBIOTouchEvent*)event withResponder: (UIResponder*) responder;
+-(bool) cobrowseTouchesMoved:(NSSet<CBIOTouch*> *)touches withEvent:(CBIOTouchEvent*)event withResponder: (UIResponder*) responder;
+-(bool) cobrowseTouchesEnded:(NSSet<CBIOTouch*> *)touches withEvent:(CBIOTouchEvent*)event withResponder: (UIResponder*) responder;
+-(bool) cobrowseTouchesCancelled:(NSSet<CBIOTouch*> *)touches withEvent:(CBIOTouchEvent*)event withResponder: (UIResponder*) responder;
 
--(bool) cobrowseKeyDown:(CBIOKeyPress*)event inView: (UIView*) view;
+-(bool) cobrowseKeyDown:(CBIOKeyPress*)event withResponder: (UIResponder*) responder;
 
 @end

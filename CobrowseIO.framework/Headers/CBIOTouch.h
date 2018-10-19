@@ -5,4 +5,6 @@
 
 @property (readonly, nonnull) UIView* target;
 
+-(CGPoint) position;
+
 @end

@@ -36,6 +36,6 @@ typedef NSString CBLicense;
 
 -(CBIOSession*) currentSession;
 
-+(void) experimental_registerResponderExtension: (Class) klass withTarget: (id<CBIOResponderExtension>) target;
++(void) experimental_v2_registerResponderExtension: (Class) klass withTarget: (id<CBIOResponderExtension>) target;
 
 @end
