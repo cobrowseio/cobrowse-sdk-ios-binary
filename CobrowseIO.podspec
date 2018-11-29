@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name = 'CobrowseIO'
-    s.version = '1.6.5'
+    s.version = '1.7.0'
     s.summary = 'CobrowseIO SDK for iOS'
     s.description = 'CobrowseIO SDK for iOS. See cobrowse.io for more information.'
     s.license = 'Apache-2.0'
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     s.author = { 'Andy' => 'andy@cobrowse.io' }
     s.frameworks = 'Foundation', 'CoreLocation'
     s.ios.deployment_target = '9.0'
-    s.dependency 'Socket.IO-Client-Swift', '~> 13.2.1'
+    s.dependency 'Socket.IO-Client-Swift', '~> 13.4'
     s.source = { :git => 'https://github.com/cobrowseio/cobrowse-sdk-ios-binary.git', :tag => 'v'+s.version.to_s }
     s.default_subspec = 'Release'
     s.subspec 'Release' do |sp|
