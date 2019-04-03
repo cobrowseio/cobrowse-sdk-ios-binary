@@ -30,6 +30,7 @@ typedef NSString CBLicense;
 
 -(instancetype) start;
 -(instancetype) stop;
+-(instancetype) stop: (void (^)(NSError* err)) callback;
 
 -(instancetype) createSession: (CBErrorSessionBlock) callback;
 -(instancetype) getSession: (NSString*) idOrCode callback: (CBErrorSessionBlock)callback;
