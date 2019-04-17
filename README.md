@@ -105,7 +105,7 @@ Once you have your app running in the iOS Simulator or on a physical device, nav
 
 [Initiate sessions with push](./docs/initiate-with-push.md)
 
-[Use 6-digit codes](./docs/user-initiated-codes.md)
+[Use 6-digit codes](./docs/user-generated-codes.md)
 
 [Redact sensitive data](./docs/redact-sensitive-data.md)
 
