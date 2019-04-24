@@ -15,4 +15,6 @@
 
 -(bool) cobrowseShouldCaptureWindow: (UIWindow*) window;
 
+-(void) cobrowseHandleSessionRequest: (CBIOSession*) session;
+
 @end
