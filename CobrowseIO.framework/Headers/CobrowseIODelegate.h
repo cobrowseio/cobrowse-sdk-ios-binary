@@ -17,4 +17,6 @@
 
 -(void) cobrowseHandleSessionRequest: (CBIOSession*) session;
 
+-(UIView*) cobrowseControlsForSession: (CBIOSession*) session;
+
 @end
