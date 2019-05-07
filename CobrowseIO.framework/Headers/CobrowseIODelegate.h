@@ -19,4 +19,6 @@
 
 -(UIView*) cobrowseControlsForSession: (CBIOSession*) session;
 
+-(NSArray<UIView*>*) cobrowseRedactedViews;
+
 @end
