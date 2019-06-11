@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.14.3] - 2019-06-11
+- Fix reinitialisation of overlay on some devices caused by rotation event
+
 ## [1.14.2] - 2019-06-10
 - Fixed potential crash parsing resource from server
 
