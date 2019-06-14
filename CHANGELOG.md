@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.14.6] - 2019-06-14
+- Dynamically adjust render quality
+
 ## [1.14.5] - 2019-06-14
 - Optimisations to keep devices responsive during continuous gesture
 
