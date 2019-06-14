@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.14.5] - 2019-06-14
+- Optimisations to keep devices responsive during continuous gesture
+
 ## [1.14.4] - 2019-06-11
 - Fix reinitialisation of overlay on some devices caused by rotation event
 
