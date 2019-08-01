@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.14.7] - 2019-08-1
+- Dependency version bump
+
 ## [1.14.6] - 2019-06-14
 - Dynamically adjust render quality
 
