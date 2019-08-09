@@ -1,6 +1,9 @@
 # Changelog
 
-## [1.14.7] - 2019-08-1
+## [1.15.0] - 2019-08-09
+- Added plist setting for configuring render paths
+
+## [1.14.7] - 2019-08-01
 - Dependency version bump
 
 ## [1.14.6] - 2019-06-14
