@@ -8,8 +8,6 @@
 
 -(instancetype) loadSession: (NSString*) codeOrId;
 
--(IBAction) accceptSession:(id)sender;
--(IBAction) declineSession:(id)sender;
 -(IBAction) endSession:(id)sender;
 
 @end

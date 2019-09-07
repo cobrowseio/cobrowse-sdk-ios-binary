@@ -10,6 +10,7 @@ typedef void const (^CBErrorSessionBlock)(NSError* err, CBIOSession* session);
 @interface CBIOSession : CBIORESTResource
 
 -(bool) isPending;
+-(bool) isAuthorizing;
 -(bool) hasAgent;
 -(bool) isActive;
 -(bool) isEnded;

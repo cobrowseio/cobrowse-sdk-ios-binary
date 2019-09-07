@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.0.0-alpha.1] - 2019-09-07
+- BREAKING: A confirmation prompt is now shown to the user by default when a session is requested.
+            You can disable or change this using the Cobrowse delegate methods.
+- BREAKING: You must now call [CobrowseIO.instance start] once you have set your license key and are
+            for Cobrowse to start listening for session requests.
+
 ## [1.15.0] - 2019-08-09
 - Added plist setting for configuring render paths
 

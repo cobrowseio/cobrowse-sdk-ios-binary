@@ -5,11 +5,11 @@
 #import "CobrowseIODelegate.h"
 #import "CBIOResponderExtension.h"
 
-static NSString* kCBIOUserIdKey = @"user_id";
-static NSString* kCBIOUserEmailKey = @"user_email";
-static NSString* kCBIOUserNameKey = @"user_name";
-static NSString* kCBIODeviceIdKey = @"device_id";
-static NSString* kCBIODeviceNameKey = @"device_name";
+static NSString*const kCBIOUserIdKey = @"user_id";
+static NSString*const kCBIOUserEmailKey = @"user_email";
+static NSString*const kCBIOUserNameKey = @"user_name";
+static NSString*const kCBIODeviceIdKey = @"device_id";
+static NSString*const kCBIODeviceNameKey = @"device_name";
 
 typedef NSString CBLicense;
 
@@ -22,11 +22,7 @@ typedef NSString CBLicense;
 @property (readonly) NSString* deviceId;
 @property (readonly) CBIODevice* device;
 
-@property (nonatomic, copy) void (^onStatusTap)(void);
-
 +(instancetype) instance;
-+(BOOL) isCobrowseNotification: (NSDictionary*) userInfo;
-+(void) onPushNotification: (NSDictionary*) userInfo;
 
 -(instancetype) start;
 -(instancetype) stop;
@@ -39,4 +35,10 @@ typedef NSString CBLicense;
 
 +(void) experimental_v2_registerResponderExtension: (Class) klass withTarget: (id<CBIOResponderExtension>) target;
 
+@end
+
+
+@interface CobrowseIO (Push)
++(BOOL) isCobrowseNotification: (NSDictionary*) userInfo;
++(void) onPushNotification: (NSDictionary*) userInfo;
 @end
