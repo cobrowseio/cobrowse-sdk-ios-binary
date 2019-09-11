@@ -17,13 +17,14 @@ You can fully customize the interface for a Cobrowse session. The SDK provides h
     return YES;
 }
 
-- (UIView*) cobrowseControlsForSession:(CBIOSession*) session {
-    UILabel* label = [[UILabel alloc] initWithFrame:CGRectMake(50, 50, 100, 50)];
-    label.backgroundColor = UIColor.redColor;
-    label.textColor = UIColor.whiteColor;
-    label.text = @"STOP";
-    // also attach gesture recognizers etc...
-    return label;
+- (void)cobrowseShowSessionControls:(CBIOSession*) session {
+    // You can render controls however you like here. One option is to add a floating
+    // control visible over all other controls by adding it as a subview of the keyWindow
+    [UIApplication.sharedApplication.keyWindow addSubview: self.myCustomCobrowseView];
+}
+
+- (void)cobrowseHideSessionControls:(CBIOSession*) session {
+    [self.myCustomCobrowseView removeFromSuperview];
 }
 
 @end

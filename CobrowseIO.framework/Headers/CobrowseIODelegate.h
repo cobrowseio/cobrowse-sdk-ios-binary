@@ -17,7 +17,8 @@
 
 -(void) cobrowseHandleSessionRequest: (CBIOSession*) session;
 
--(UIView*) cobrowseControlsForSession: (CBIOSession*) session;
+-(void) cobrowseShowSessionControls: (CBIOSession*) session;
+-(void) cobrowseHideSessionControls: (CBIOSession*) session;
 
 -(NSArray<UIView*>*) cobrowseRedactedViews;
 
