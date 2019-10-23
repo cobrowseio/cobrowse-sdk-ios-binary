@@ -1,4 +1,5 @@
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @class CBIOTouch;
 @class CBIOTouchEvent;
@@ -8,11 +9,11 @@
 
 @optional
 
--(bool) cobrowseTouchesBegan:(NSSet<CBIOTouch*> *)touches withEvent:(CBIOTouchEvent*)event withResponder: (UIResponder*) responder;
--(bool) cobrowseTouchesMoved:(NSSet<CBIOTouch*> *)touches withEvent:(CBIOTouchEvent*)event withResponder: (UIResponder*) responder;
--(bool) cobrowseTouchesEnded:(NSSet<CBIOTouch*> *)touches withEvent:(CBIOTouchEvent*)event withResponder: (UIResponder*) responder;
--(bool) cobrowseTouchesCancelled:(NSSet<CBIOTouch*> *)touches withEvent:(CBIOTouchEvent*)event withResponder: (UIResponder*) responder;
+-(bool) cobrowseTouchesBegan:(nonnull NSSet<CBIOTouch*> *)touches withEvent:(nonnull CBIOTouchEvent*)event withResponder: (nonnull UIResponder*) responder;
+-(bool) cobrowseTouchesMoved:(nonnull NSSet<CBIOTouch*> *)touches withEvent:(nonnull CBIOTouchEvent*)event withResponder: (nonnull UIResponder*) responder;
+-(bool) cobrowseTouchesEnded:(nonnull NSSet<CBIOTouch*> *)touches withEvent:(nonnull CBIOTouchEvent*)event withResponder: (nonnull UIResponder*) responder;
+-(bool) cobrowseTouchesCancelled:(nonnull NSSet<CBIOTouch*> *)touches withEvent:(nonnull CBIOTouchEvent*)event withResponder: (nonnull UIResponder*) responder;
 
--(bool) cobrowseKeyDown:(CBIOKeyPress*)event withResponder: (UIResponder*) responder;
+-(bool) cobrowseKeyDown:(nonnull CBIOKeyPress*)event withResponder: (nonnull UIResponder*) responder;
 
 @end

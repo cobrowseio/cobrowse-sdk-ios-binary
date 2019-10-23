@@ -2,6 +2,6 @@
 
 @interface CBIORESTResource : NSObject
 
--(NSString*) id;
+-(NSString* _Nullable) id;
 
 @end

@@ -4,6 +4,6 @@
 @interface CBIOTouchEvent : NSObject
 
 @property (readonly) CGPoint position;
-@property (readonly) NSDate* timestamp;
+@property (readonly, nonnull) NSDate* timestamp;
 
 @end

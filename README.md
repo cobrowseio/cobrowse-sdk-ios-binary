@@ -6,7 +6,7 @@ Cobrowse.io is 100% free and easy to try out in your own apps. Please see full d
 
 Try our **online demo** at the bottom of our homepage at <https://cobrowse.io/#tryit>.
 
-*Clients may access and integrate full source code for our SDKs directly upon request.*
+*Enterprise customers may access full source code and self-host upon request.*
 
 ## Installation
 

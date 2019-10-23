@@ -3,6 +3,8 @@
 
 @interface CBIODevice : CBIORESTResource
 
-@property NSData* token;
+@property (nullable) NSData* token;
+
+-(NSString* _Nonnull) id;
 
 @end

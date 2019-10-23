@@ -1,0 +1,2 @@
+github "daltoniam/Starscream" >= 3.0.2
+github 'myfreeweb/SwiftCBOR' ~> 0.4.3

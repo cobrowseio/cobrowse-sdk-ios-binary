@@ -1,6 +1,11 @@
 framework module CobrowseIO {
-  umbrella header "CobrowseIO-umbrella.h"
+  umbrella header "CobrowseIO.h"
 
   export *
   module * { export * }
+}
+
+module CobrowseIO.Swift {
+    header "CobrowseIO-Swift.h"
+    requires objc
 }

@@ -2,9 +2,9 @@
 
 @interface CBIOAgent : NSObject
 
-@property NSString* name;
-@property NSString* id;
+@property (nonnull) NSString* name;
+@property (nonnull) NSString* id;
 
-+(instancetype) from: (NSDictionary*) dict;
++(nullable instancetype) from: (nonnull NSDictionary*) dict;
 
 @end

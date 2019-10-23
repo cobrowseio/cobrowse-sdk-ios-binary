@@ -9,12 +9,12 @@
 @optional
 
 // touch events
--(void) cobrowseTouchesBegan:(NSSet<CBIOTouch*> *)touches withEvent:(CBIOTouchEvent*)event;
--(void) cobrowseTouchesMoved:(NSSet<CBIOTouch*> *)touches withEvent:(CBIOTouchEvent*)event;
--(void) cobrowseTouchesEnded:(NSSet<CBIOTouch*> *)touches withEvent:(CBIOTouchEvent*)event;
--(void) cobrowseTouchesCancelled:(NSSet<CBIOTouch*> *)touches withEvent:(CBIOTouchEvent*)event;
+-(void) cobrowseTouchesBegan:(nonnull NSSet<CBIOTouch*> *)touches withEvent:(nonnull CBIOTouchEvent*)event;
+-(void) cobrowseTouchesMoved:(nonnull NSSet<CBIOTouch*> *)touches withEvent:(nonnull CBIOTouchEvent*)event;
+-(void) cobrowseTouchesEnded:(nonnull NSSet<CBIOTouch*> *)touches withEvent:(nonnull CBIOTouchEvent*)event;
+-(void) cobrowseTouchesCancelled:(nonnull NSSet<CBIOTouch*> *)touches withEvent:(nonnull CBIOTouchEvent*)event;
 
 // keyboard events
--(void) cobrowseKeyDown:(CBIOKeyPress*)event;
+-(void) cobrowseKeyDown:(nonnull CBIOKeyPress*)event;
 
 @end

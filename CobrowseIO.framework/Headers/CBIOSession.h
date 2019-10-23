@@ -5,7 +5,7 @@
 @class CBIOSession;
 @class CBIOAgent;
 
-typedef void const (^CBErrorSessionBlock)(NSError* err, CBIOSession* session);
+typedef void const (^CBErrorSessionBlock)(NSError* _Nullable err, CBIOSession* _Nullable session);
 
 @interface CBIOSession : CBIORESTResource
 
@@ -15,12 +15,12 @@ typedef void const (^CBErrorSessionBlock)(NSError* err, CBIOSession* session);
 -(bool) isActive;
 -(bool) isEnded;
 
--(void) fetch: (CBErrorSessionBlock) callback;
--(void) activate: (CBErrorSessionBlock) callback;
--(void) end: (CBErrorSessionBlock) callback;
+-(void) fetch: (CBErrorSessionBlock _Nullable) callback;
+-(void) activate: (CBErrorSessionBlock _Nullable) callback;
+-(void) end: (CBErrorSessionBlock _Nullable) callback;
 
--(NSString*) code;
--(NSString*) state;
--(CBIOAgent*) agent;
+-(NSString* _Nullable) code;
+-(NSString* _Nonnull) state;
+-(CBIOAgent* _Nullable) agent;
 
 @end

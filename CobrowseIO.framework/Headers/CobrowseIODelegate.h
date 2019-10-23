@@ -1,3 +1,5 @@
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @class CBIOSession;
 @class CBIOTouchEvent;
@@ -5,21 +7,21 @@
 
 @protocol CobrowseIODelegate <NSObject>
 
--(void) cobrowseSessionDidUpdate: (CBIOSession*) session;
--(void) cobrowseSessionDidEnd: (CBIOSession*) session;
+-(void) cobrowseSessionDidUpdate: (nonnull CBIOSession*) session;
+-(void) cobrowseSessionDidEnd: (nonnull CBIOSession*) session;
 
 @optional
 
--(bool) cobrowseShouldAllowTouchEvent: (CBIOTouchEvent*) touchEvent forSession: (CBIOSession*) session;
--(bool) cobrowseShouldAllowKeyEvent: (CBIOKeyPress*) keyEvent forSession: (CBIOSession*) session;
+-(bool) cobrowseShouldAllowTouchEvent: (nonnull CBIOTouchEvent*) touchEvent forSession: (nonnull CBIOSession*) session;
+-(bool) cobrowseShouldAllowKeyEvent: (nonnull CBIOKeyPress*) keyEvent forSession: (nonnull CBIOSession*) session;
 
--(bool) cobrowseShouldCaptureWindow: (UIWindow*) window;
+-(bool) cobrowseShouldCaptureWindow: (nonnull UIWindow*) window;
 
--(void) cobrowseHandleSessionRequest: (CBIOSession*) session;
+-(void) cobrowseHandleSessionRequest: (nonnull CBIOSession*) session;
 
--(void) cobrowseShowSessionControls: (CBIOSession*) session;
--(void) cobrowseHideSessionControls: (CBIOSession*) session;
+-(void) cobrowseShowSessionControls: (nonnull CBIOSession*) session;
+-(void) cobrowseHideSessionControls: (nonnull CBIOSession*) session;
 
--(NSArray<UIView*>*) cobrowseRedactedViews;
+-(NSArray<UIView*>* _Nonnull) cobrowseRedactedViews;
 
 @end
