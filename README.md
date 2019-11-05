@@ -6,8 +6,6 @@ Cobrowse.io is 100% free and easy to try out in your own apps. Please see full d
 
 Try our **online demo** at the bottom of our homepage at <https://cobrowse.io/#tryit>.
 
-*Enterprise customers may access full source code and self-host upon request.*
-
 ## Installation
 
 We recommend installing the Cobrowse.io SDK using Cocoapods. Add this to your Podfile:

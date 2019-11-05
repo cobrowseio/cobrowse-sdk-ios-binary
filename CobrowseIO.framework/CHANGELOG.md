@@ -1,6 +1,6 @@
 # Changelog
 
-## [2.0.0] - 2019-10-23
+## [2.0.0] - 2019-11-05
 - BREAKING: A confirmation prompt is now shown to the user by default when a session is requested.
             You can disable or change this using the Cobrowse delegate methods.
 - BREAKING: You must now call [CobrowseIO.instance start] once you have set your license key and are
