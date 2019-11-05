@@ -8,6 +8,7 @@
 - BREAKING: The API for overriding session control has changed. It is now two methods `cobrowseShowSessionControls` and `cobrowseHideSessionControls`
 - BREAKING: Added many nullability specifiers which will affect the Swift API
 - BREAKING: Dropped SocketIO dependency in favour of using websockets directly
+- BREAKING: Removed `onStatusTap` from API
 
 ## [1.15.0] - 2019-08-09
 - Added plist setting for configuring render paths
