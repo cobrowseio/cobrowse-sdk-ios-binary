@@ -1,5 +1,8 @@
 # Changelog
 
+## [2.1.0] - 2019-11-30
+- Added support for full device capture
+
 ## [2.0.0] - 2019-11-05
 - BREAKING: A confirmation prompt is now shown to the user by default when a session is requested.
             You can disable or change this using the Cobrowse delegate methods.

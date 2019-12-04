@@ -1,18 +1,19 @@
 #import <Foundation/Foundation.h>
 
-#import "CBIODevice.h"
+// expose core lib headers
 #import "CBIOSession.h"
-#import "CobrowseIODelegate.h"
-#import "CBIOResponderExtension.h"
-#import "CobrowseIORedacted.h"
+#import "CBIODevice.h"
 #import "CBIOAgent.h"
 #import "CBIORESTResource.h"
-#import "CBIOViewController.h"
-#import "CBIOTouch.h"
 #import "CBIOTouchEvent.h"
+#import "CBIOTouch.h"
 #import "CBIOKeyPress.h"
 #import "CBIOResponder.h"
-#import "CBIOResponderExtension.h"
+
+// and headers specific to this framework
+#import "CobrowseIODelegate.h"
+#import "CobrowseIORedacted.h"
+#import "CBIOViewController.h"
 
 static NSString* _Nonnull const kCBIOUserIdKey = @"user_id";
 static NSString* _Nonnull const kCBIOUserEmailKey = @"user_email";
@@ -31,18 +32,15 @@ typedef NSString CBLicense;
 @property (readonly, nonnull) NSString* deviceId;
 @property (readonly, nonnull) CBIODevice* device;
 
-+(instancetype _Nonnull) instance;
++(nonnull instancetype) instance;
 
--(instancetype _Nonnull) start;
--(instancetype _Nonnull) stop;
--(instancetype _Nonnull) stop: (void (^_Nonnull)(NSError* _Nullable err)) callback;
+-(nonnull instancetype) start;
+-(nonnull instancetype) stop;
+-(nonnull instancetype) stop: (void (^_Nonnull)(NSError* _Nullable err)) callback;
 
--(instancetype _Nonnull) createSession: (nullable CBErrorSessionBlock) callback;
--(instancetype _Nonnull) getSession: (nonnull NSString*) idOrCode callback: (nullable CBErrorSessionBlock)callback;
-
--(CBIOSession* _Nullable) currentSession;
-
-+(void) experimental_v2_registerResponderExtension: (nonnull Class) klass withTarget: (nonnull id<CBIOResponderExtension>) target;
+-(nonnull instancetype) createSession: (nullable CBErrorSessionBlock) callback;
+-(nonnull instancetype) getSession: (nonnull NSString*) idOrCode callback: (nullable CBErrorSessionBlock)callback;
+-(nullable CBIOSession*) currentSession;
 
 @end
 

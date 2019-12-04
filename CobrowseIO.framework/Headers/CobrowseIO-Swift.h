@@ -212,6 +212,7 @@ SWIFT_CLASS("_TtC10CobrowseIO10CBORSocket")
 - (void)onMessage:(NSString * _Nonnull)event listener:(void (^ _Nonnull)(NSDictionary * _Nonnull))listener;
 - (void)onConnect:(void (^ _Nonnull)(void))listener;
 - (void)onDisconnect:(void (^ _Nonnull)(void))listener;
+- (uint64_t)messageLag SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)isConneced SWIFT_WARN_UNUSED_RESULT;
 - (void)disconnect;
 - (void)send:(NSString * _Nonnull)event data:(NSDictionary<NSString *, id> * _Nonnull)data completion:(void (^ _Nullable)(void))completion;
@@ -438,6 +439,7 @@ SWIFT_CLASS("_TtC10CobrowseIO10CBORSocket")
 - (void)onMessage:(NSString * _Nonnull)event listener:(void (^ _Nonnull)(NSDictionary * _Nonnull))listener;
 - (void)onConnect:(void (^ _Nonnull)(void))listener;
 - (void)onDisconnect:(void (^ _Nonnull)(void))listener;
+- (uint64_t)messageLag SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)isConneced SWIFT_WARN_UNUSED_RESULT;
 - (void)disconnect;
 - (void)send:(NSString * _Nonnull)event data:(NSDictionary<NSString *, id> * _Nonnull)data completion:(void (^ _Nullable)(void))completion;
@@ -664,6 +666,7 @@ SWIFT_CLASS("_TtC10CobrowseIO10CBORSocket")
 - (void)onMessage:(NSString * _Nonnull)event listener:(void (^ _Nonnull)(NSDictionary * _Nonnull))listener;
 - (void)onConnect:(void (^ _Nonnull)(void))listener;
 - (void)onDisconnect:(void (^ _Nonnull)(void))listener;
+- (uint64_t)messageLag SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)isConneced SWIFT_WARN_UNUSED_RESULT;
 - (void)disconnect;
 - (void)send:(NSString * _Nonnull)event data:(NSDictionary<NSString *, id> * _Nonnull)data completion:(void (^ _Nullable)(void))completion;

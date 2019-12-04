@@ -5,6 +5,6 @@
 
 @property (nullable) NSData* token;
 
--(NSString* _Nonnull) id;
+-(nonnull NSString*) id;
 
 @end

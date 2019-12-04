@@ -22,6 +22,6 @@
 -(void) cobrowseShowSessionControls: (nonnull CBIOSession*) session;
 -(void) cobrowseHideSessionControls: (nonnull CBIOSession*) session;
 
--(NSArray<UIView*>* _Nonnull) cobrowseRedactedViews;
+-(nonnull NSArray<UIView*>*) cobrowseRedactedViewsForViewController: (nonnull UIViewController*) vc;
 
 @end

@@ -3,6 +3,6 @@
 
 @protocol CobrowseIORedacted <NSObject>
 
--(NSArray<UIView*>*) redactedViews;
+-(nonnull NSArray<UIView*>*) redactedViews;
 
 @end

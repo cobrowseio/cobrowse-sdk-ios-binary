@@ -6,8 +6,8 @@
 
 @interface CBIOViewController : UIViewController
 
--(instancetype) loadSession: (NSString*) codeOrId;
+-(nonnull instancetype) loadSession: (nonnull NSString*) codeOrId;
 
--(IBAction) endSession:(id)sender;
+-(IBAction) endSession:(nonnull id)sender;
 
 @end

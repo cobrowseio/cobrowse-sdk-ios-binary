@@ -1,5 +1,4 @@
 #import <Foundation/Foundation.h>
-
 #import "CBIORESTResource.h"
 
 @class CBIOSession;

@@ -10,7 +10,7 @@ Try our **online demo** at the bottom of our homepage at <https://cobrowse.io/#t
 
 We recommend installing the Cobrowse.io SDK using Cocoapods. Add this to your Podfile:
 
-```
+```ruby
 pod 'CobrowseIO'
 ```
 
@@ -112,6 +112,8 @@ Once you have your app running in the iOS Simulator or on a physical device, nav
 [Requiring acceptance from the user](./docs/require-user-consent.md)
 
 [Customizing the interface](./docs/customizing-the-interface.md)
+
+[Full device screenshare](./docs/full-device-screenshare.md)
 
 ## Questions?
 Any questions at all? Please email us directly at [hello@cobrowse.io](mailto:hello@cobrowse.io).
