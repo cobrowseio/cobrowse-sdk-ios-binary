@@ -76,7 +76,11 @@ Xcode will have added `SampleHandler.m` and `SampleHandler.h` (or `SampleHander.
 Or, if you're using Swift:
 
 ```swift
-TODO: add swift example
+import CobrowseIOAppExtension
+
+class SampleHandler: CobrowseIOReplayKitExtension {
+
+}
 ```
 
 **Build and run your app**
