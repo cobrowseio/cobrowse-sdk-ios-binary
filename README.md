@@ -35,7 +35,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 - (BOOL)application:(UIApplication*) application didFinishLaunchingWithOptions:(NSDictionary*) launchOptions
 {
     CobrowseIO.instance.license = @"<your license key here>";
-    [CobrowseIO.instance start]
+    [CobrowseIO.instance start];
     return YES;
 }
 ```
