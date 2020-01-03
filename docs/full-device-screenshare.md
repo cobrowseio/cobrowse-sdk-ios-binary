@@ -1,6 +1,11 @@
-# Full Device Screenshare
+# Full device screenshare (optional)
 
 Please see full documentation at [https://cobrowse.io/docs](https://cobrowse.io/docs).
+
+Try our **online demo** at the bottom of our homepage at <https://cobrowse.io/#tryit>.
+
+
+## Overview
 
 By default, the Cobrowse.io SDKs for iOS will capture the user activity inside your app only. You can enable the capture of the full device, i.e. screens outside your app, including home screen, device settings, and everything else. Follow this guide to add the required App Extension required for capturing full device frames.   
 

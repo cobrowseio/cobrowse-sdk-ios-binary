@@ -115,6 +115,8 @@ Once you have your app running in the iOS Simulator or on a physical device, nav
 
 [Full device screenshare](./docs/full-device-screenshare.md)
 
+[Alternate render method](./docs/alternate-render-method.md)
+
 ## Questions?
 Any questions at all? Please email us directly at [hello@cobrowse.io](mailto:hello@cobrowse.io).
 
