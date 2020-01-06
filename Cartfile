@@ -1,2 +1,2 @@
 github "daltoniam/Starscream" ~> 3.1
-github "myfreeweb/SwiftCBOR" ~> 0.4
+github "cobrowseio/SwiftCBOR" "master"
