@@ -47,7 +47,7 @@ The app extension needs a dependency on the CobrowseIO app extension framework. 
 
 ```ruby
 target 'YourExtensionTargetName' do
-    pod 'CobrowseIO/Extension'
+    pod 'CobrowseIO/Extension', '~>2'
 end
 ```
 

@@ -1,5 +1,8 @@
 # Changelog
 
+## [2.2.0] - 2020-01-15
+- Added support for remote control of WKWebViews
+
 ## [2.1.0] - 2019-11-30
 - Added support for full device capture
 

@@ -11,10 +11,10 @@ Try our **online demo** at the bottom of our homepage at <https://cobrowse.io/#t
 We recommend installing the Cobrowse.io SDK using Cocoapods. Add this to your Podfile:
 
 ```ruby
-pod 'CobrowseIO'
+pod 'CobrowseIO', '~>2'
 ```
 
-*Don't forget to run `pod install` after you've edited your Podfile.*
+*Don't forget to run `pod repo update` then `pod install` after you've edited your Podfile.*
 
 #### Swift
 ```swift
