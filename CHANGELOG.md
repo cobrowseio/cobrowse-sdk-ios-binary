@@ -1,5 +1,8 @@
 # Changelog
 
+## [2.3.0] - 2020-01-21
+- Switch to a faster rendering method
+
 ## [2.2.0] - 2020-01-15
 - Added support for remote control of WKWebViews
 
