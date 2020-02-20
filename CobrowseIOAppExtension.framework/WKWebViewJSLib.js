@@ -1,7 +1,7 @@
 ((function() {
 
 function trigger(el, EventType, event, params={}) {
-    el.dispatchEvent(new EventType(event, { bubbles: true, cancelable: true, view: window, ...params }));
+    el.dispatchEvent(new EventType(event, Object.assign({ bubbles: true, cancelable: true, view: window}, params)));
     if (typeof el[`on${event}`] === 'function') el[`on${event}`]();
 }
 

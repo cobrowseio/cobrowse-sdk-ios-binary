@@ -1,5 +1,8 @@
 # Changelog
 
+## [2.4.0] - 2020-02-19
+- Added support for pan gesture recognition
+
 ## [2.3.0] - 2020-01-21
 - Switch to a faster rendering method
 
