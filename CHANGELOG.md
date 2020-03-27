@@ -1,5 +1,8 @@
 # Changelog
 
+## [2.5.0] - 2020-03-27
+- Swift 5.2
+
 ## [2.4.0] - 2020-02-19
 - Added support for pan gesture recognition
 
