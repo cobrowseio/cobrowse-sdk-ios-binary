@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		mXIYCcAcSKAUAeFBA0n4/L7KchA=
+		sAaA4N29C9C0vNYMTRy8zEkf9sI=
 		</data>
 		<key>Modules/CobrowseIOAppExtension.swiftmodule/Project/i386-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/CobrowseIOAppExtension.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		LicuZhAzVr0py/7h6AyMewLfkiI=
+		F9PWjgv/8jFsXtl5JgTYBJpgSx0=
 		</data>
 		<key>Modules/CobrowseIOAppExtension.swiftmodule/i386.swiftdoc</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/CobrowseIOAppExtension.swiftmodule/i386.swiftmodule</key>
 		<data>
-		LicuZhAzVr0py/7h6AyMewLfkiI=
+		F9PWjgv/8jFsXtl5JgTYBJpgSx0=
 		</data>
 		<key>Modules/CobrowseIOAppExtension.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Modules/CobrowseIOAppExtension.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		MjslrpZuMo7POFVAEqGSIIOGqcM=
+		Nxf3b/WU2zx8tkT1TyeAtWKw4yU=
 		</data>
 		<key>Modules/CobrowseIOAppExtension.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Modules/CobrowseIOAppExtension.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		MjslrpZuMo7POFVAEqGSIIOGqcM=
+		Nxf3b/WU2zx8tkT1TyeAtWKw4yU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -194,11 +194,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LicuZhAzVr0py/7h6AyMewLfkiI=
+			F9PWjgv/8jFsXtl5JgTYBJpgSx0=
 			</data>
 			<key>hash2</key>
 			<data>
-			9GJ7IdtgVgeR1G8m3n2/OUYhi8UngeewDdcq7Z4S0Ts=
+			ggd8PGMpeYW+WzX8vSIaB8c9iJ9IzC2x/8HoyG+jRyY=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIOAppExtension.swiftmodule/i386.swiftdoc</key>
@@ -227,11 +227,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LicuZhAzVr0py/7h6AyMewLfkiI=
+			F9PWjgv/8jFsXtl5JgTYBJpgSx0=
 			</data>
 			<key>hash2</key>
 			<data>
-			9GJ7IdtgVgeR1G8m3n2/OUYhi8UngeewDdcq7Z4S0Ts=
+			ggd8PGMpeYW+WzX8vSIaB8c9iJ9IzC2x/8HoyG+jRyY=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIOAppExtension.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -260,11 +260,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MjslrpZuMo7POFVAEqGSIIOGqcM=
+			Nxf3b/WU2zx8tkT1TyeAtWKw4yU=
 			</data>
 			<key>hash2</key>
 			<data>
-			BS37/AxjDK0DqegNKIiJFS9C/RevJ4L9ttUlbTePRnE=
+			5Lf8CMRbgS/jkho+xPq2yzLmG0wfqMRhelO3aPWfN7w=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIOAppExtension.swiftmodule/x86_64.swiftdoc</key>
@@ -293,11 +293,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MjslrpZuMo7POFVAEqGSIIOGqcM=
+			Nxf3b/WU2zx8tkT1TyeAtWKw4yU=
 			</data>
 			<key>hash2</key>
 			<data>
-			BS37/AxjDK0DqegNKIiJFS9C/RevJ4L9ttUlbTePRnE=
+			5Lf8CMRbgS/jkho+xPq2yzLmG0wfqMRhelO3aPWfN7w=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
