@@ -1,5 +1,8 @@
 # Changelog
 
+## [2.6.0] - 2020-04-23
+- Enable swift module compatibilty
+
 ## [2.5.0] - 2020-03-27
 - Swift 5.2
 

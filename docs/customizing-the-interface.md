@@ -4,7 +4,7 @@ Please see full documentation at [https://cobrowse.io/docs](https://cobrowse.io/
 
 Try our **online demo** at the bottom of our homepage at <https://cobrowse.io/#tryit>.
 
-## Implementation
+## Customizing the Session Indicator
 
 You can fully customize the interface for a Cobrowse session. The SDK provides hooks via `CobrowseIODelegate` for you to render your own interface:
 
@@ -88,6 +88,35 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CobrowseIODelegate {
 }
 
 @end
+```
+
+## Customizing the 6 Digit Code screen
+
+You can build your own UI to completely replace the default UI we provide for generating 6 digit codes. You can generate a code for your UI by using the `createSession` API:
+
+```objective-c
+[CobrowseIO.instance createSession:^(NSError * _Nullable err, CBIOSession * _Nullable session) {
+    if (err) NSLog(@"Error creating code %@", err);
+    else NSLog(@"Created session code: %@", session.code);
+}];
+```
+
+**Note:** the codes expire shortly after creation (codes last less than 10 minutes), so wait until your user is ready to share the code with an agent before generating it:
+
+You can monitor changes in the state of the session you create using the Cobrowse delegate methods:
+
+```objective-c
+-(void) cobrowseSessionDidUpdate: (nonnull CBIOSession*) session;
+-(void) cobrowseSessionDidEnd: (nonnull CBIOSession*) session;
+```
+
+You can get information about the state of the session using the following methods, which may adjust the UI you are showing:
+
+```objective-c
+[session isPending] // session has been created but is waiting for agent or user
+[session isAuthorizing] // waiting for the user to confirm the session
+[session isAcitve] // session running, frames are streaming to the agent
+[session isEnded] // session is over and can no longer be used or edited
 ```
 
 ## Questions?

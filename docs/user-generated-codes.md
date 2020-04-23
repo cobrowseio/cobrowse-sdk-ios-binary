@@ -10,6 +10,8 @@ These are the native-side requirements on iOS to initiate sessions using 6-digit
 
 You may expose a small UI in your app for users to generate a 6-digit code that they pass to an agent over the phone or chat to initiate a session.
 
+**Note:** this guide will use our default UI to display the code. To build your own 6 digit code UI see [customizing the interface](./customizing-the-interface.md).
+
 To setup user-initiated sessions:
 
 1. Add the appropriate code below into a view controller in your app.
