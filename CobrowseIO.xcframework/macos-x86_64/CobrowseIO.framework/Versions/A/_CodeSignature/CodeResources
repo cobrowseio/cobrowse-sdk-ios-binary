@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		9k+U+YJsrbMRR6RN+USW5ROKQKg=
+		2t75NVWZVLuzoc1IKzcKiFrN8yo=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -15,7 +15,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			U1kwlp2V0KJhcHNe/Z+BgHsgLYc=
+			kUCxS/kzREawRea9GBUhiZeXfMU=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.vluxe.Starscream" and anchor apple generic and certificate leaf[subject.CN] = "Apple Development: andypritchard@cantab.net (9X995D2CFS)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -24,7 +24,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			WDv9+9j4BWeVSeTQV4d8xTsV6gE=
+			wLj79br0LZWJICm3+P76Gm0FBHw=
 			</data>
 			<key>requirement</key>
 			<string>identifier SwiftCBOR and anchor apple generic and certificate leaf[subject.CN] = "Apple Development: andypritchard@cantab.net (9X995D2CFS)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -99,11 +99,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SX2lLRwjMBkCKIUKM0hO+9cIupk=
+			AZBlUB5R4Lc+4dhGuWU5TIZKGPU=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZULenaVe2/tlErd/MSVJpAcPx3PdssyoR+yvwQB2S9s=
+			SXq2Moq/AEgKeKPAS0lcfWSpHy4y6rlUJXI5AJzr4Gs=
 			</data>
 		</dict>
 		<key>Headers/CobrowseIO.h</key>
@@ -143,88 +143,88 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QzOVPRayXD0ORe8+z4fpP8MSDqM=
+			xUN3eUOYiSZTJN5Y3carxy9pfJE=
 			</data>
 			<key>hash2</key>
 			<data>
-			I3nQqn55ivUoFwxw74GS1RwpF9taDcgF6F9d3/u4oKU=
+			IqTv3dAkqY1aEVkn/yj0NczEQKywrGGjNOBaXIM1qTY=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QzOVPRayXD0ORe8+z4fpP8MSDqM=
+			xUN3eUOYiSZTJN5Y3carxy9pfJE=
 			</data>
 			<key>hash2</key>
 			<data>
-			I3nQqn55ivUoFwxw74GS1RwpF9taDcgF6F9d3/u4oKU=
+			IqTv3dAkqY1aEVkn/yj0NczEQKywrGGjNOBaXIM1qTY=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/x86_64-apple-macos.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4ZslOzl8baUNDxiSGsYTLa7iGcQ=
+			94z4VX/H8SGlbtqJEY4LVeqcDPM=
 			</data>
 			<key>hash2</key>
 			<data>
-			qEsy9ueowh0syuTRR/xTbM7ciaD8oVQC9h5aHZ3zDGE=
+			A/IiRXELg2zSs07LsmZIn4p0t4v9+ckHtkLACPurT90=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/x86_64-apple-macos.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Dd3Y2++f6uj7616f1PtcFPQaRaA=
+			6hQf6fD+tiNnCXY3ZnG3NGOjDF0=
 			</data>
 			<key>hash2</key>
 			<data>
-			JQ6FhiXmUH0GtcpeMBRA167yLhupKJHFHtZVGDpyL/c=
+			LgVW1lzHgQPwvj4f3eBcG5+r07AZZ9/0f+SiT1nXg78=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/x86_64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rERZfv8kRGLOd/hVkJbvD7GvwEg=
+			Nw1kLMX/jraeVGk4Zwm7d4KTRvY=
 			</data>
 			<key>hash2</key>
 			<data>
-			5cziKYW2gF7kM23Css5aMDwsKbB+rpMF+D8s64++V70=
+			7X9khjR+ecI3Ir1GVaY+Ztsxa6a4P5Z17WqxmHdQq/0=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4ZslOzl8baUNDxiSGsYTLa7iGcQ=
+			94z4VX/H8SGlbtqJEY4LVeqcDPM=
 			</data>
 			<key>hash2</key>
 			<data>
-			qEsy9ueowh0syuTRR/xTbM7ciaD8oVQC9h5aHZ3zDGE=
+			A/IiRXELg2zSs07LsmZIn4p0t4v9+ckHtkLACPurT90=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Dd3Y2++f6uj7616f1PtcFPQaRaA=
+			6hQf6fD+tiNnCXY3ZnG3NGOjDF0=
 			</data>
 			<key>hash2</key>
 			<data>
-			JQ6FhiXmUH0GtcpeMBRA167yLhupKJHFHtZVGDpyL/c=
+			LgVW1lzHgQPwvj4f3eBcG5+r07AZZ9/0f+SiT1nXg78=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rERZfv8kRGLOd/hVkJbvD7GvwEg=
+			Nw1kLMX/jraeVGk4Zwm7d4KTRvY=
 			</data>
 			<key>hash2</key>
 			<data>
-			5cziKYW2gF7kM23Css5aMDwsKbB+rpMF+D8s64++V70=
+			7X9khjR+ecI3Ir1GVaY+Ztsxa6a4P5Z17WqxmHdQq/0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -242,11 +242,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9k+U+YJsrbMRR6RN+USW5ROKQKg=
+			2t75NVWZVLuzoc1IKzcKiFrN8yo=
 			</data>
 			<key>hash2</key>
 			<data>
-			Lszxl942Qclgu2cuHgF4a6ponY032+wzSZWxQhh/gt8=
+			20YHCDSpE+rlqwwu26y2NMJUd0yWpIPDb+WvzcN5hdA=
 			</data>
 		</dict>
 	</dict>
