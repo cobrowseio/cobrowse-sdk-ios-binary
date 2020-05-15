@@ -12,7 +12,7 @@ You may test this alternate render method by adding a plist entry to your Info.p
 
 ```xml
 <key>CBIORenderMethod</key>
-<integer>1</integer>
+<integer>2</integer>
 ```
 
 If you've been able to test this alternate render method in your iOS app, we would love to hear your feedback. Please drop us an email using the link below!

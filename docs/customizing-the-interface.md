@@ -115,7 +115,7 @@ You can get information about the state of the session using the following metho
 ```objective-c
 [session isPending] // session has been created but is waiting for agent or user
 [session isAuthorizing] // waiting for the user to confirm the session
-[session isAcitve] // session running, frames are streaming to the agent
+[session isActive] // session running, frames are streaming to the agent
 [session isEnded] // session is over and can no longer be used or edited
 ```
 
