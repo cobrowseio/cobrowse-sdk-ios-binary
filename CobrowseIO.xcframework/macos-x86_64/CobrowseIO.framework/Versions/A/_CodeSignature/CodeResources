@@ -6,29 +6,11 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		aUSA3gbz/u7E83RiMSIgFH/Zox4=
+		+gODbMRsoAhhMXODoh0ZCYx1Pt8=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/Starscream.framework</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			3EhTYRjqLDY0jECl1ty4EayFRXU=
-			</data>
-			<key>requirement</key>
-			<string>identifier "com.vluxe.Starscream" and anchor apple generic and certificate leaf[subject.CN] = "Apple Development: Andy Pritchard (D7Q3SQHS9S)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
-		</dict>
-		<key>Frameworks/SwiftCBOR.framework</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			ww/tZXngbFKtsJGerfRzJIZWTG0=
-			</data>
-			<key>requirement</key>
-			<string>identifier SwiftCBOR and anchor apple generic and certificate leaf[subject.CN] = "Apple Development: Andy Pritchard (D7Q3SQHS9S)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
-		</dict>
 		<key>Headers/CBIOAgent.h</key>
 		<dict>
 			<key>hash</key>
@@ -187,11 +169,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uhJ0PdldY/z/N2EGihOM+diHhBI=
+			gcN2JJh/Hu7Uw+ja30dZYHi9BPA=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZTt+M+YRRS3lDRmLtD3JxQSm9L9CIW1ieTavIvHzvco=
+			5Bb7SBDixsJ+gAuIKyp4zI2j/c6Sts0sfX+sw1ILqz0=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/x86_64.swiftdoc</key>
@@ -220,11 +202,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uhJ0PdldY/z/N2EGihOM+diHhBI=
+			gcN2JJh/Hu7Uw+ja30dZYHi9BPA=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZTt+M+YRRS3lDRmLtD3JxQSm9L9CIW1ieTavIvHzvco=
+			5Bb7SBDixsJ+gAuIKyp4zI2j/c6Sts0sfX+sw1ILqz0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -242,11 +224,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aUSA3gbz/u7E83RiMSIgFH/Zox4=
+			+gODbMRsoAhhMXODoh0ZCYx1Pt8=
 			</data>
 			<key>hash2</key>
 			<data>
-			kq7Sjqo3GGZJqi5nI/oOkKPds9d9/wwM3dDw/SgmKLI=
+			01InR49/9ERoOKmfRj7MZ7/JxRVkjXPI+L2kCF/5ZQE=
 			</data>
 		</dict>
 	</dict>
