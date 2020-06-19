@@ -29,6 +29,8 @@ Frameworks are available for manual integration into your Xcode projects from:
 https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases
 ```
 
+## Initialization
+
 #### Swift
 ```swift
 import CobrowseIO
