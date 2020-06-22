@@ -1,7 +1,9 @@
 # Changelog
 
-## [2.6.0] - 2020-04-23
+## [2.6.0] - 2020-06-21
 - Enable swift module compatibilty
+- Adds support for MacOS
+- Add XCFramework build
 
 ## [2.5.0] - 2020-03-27
 - Swift 5.2
