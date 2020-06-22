@@ -1,8 +1,6 @@
 # Cobrowse.io - iOS Native SDK
 
-Cobrowse.io for iOS supports iOS 9.0+.
-
-Cobrowse.io is 100% free and easy to try out in your own apps. Please see full documentation at [https://cobrowse.io/docs](https://cobrowse.io/docs).
+Cobrowse.io is 100% free and easy to try out in your own apps. Please see full documentation at [https://docs.cobrowse.io](https://docs.cobrowse.io).
 
 Try our **online demo** at the bottom of our homepage at <https://cobrowse.io/#tryit>.
 
@@ -47,75 +45,25 @@ Please register an account and generate your free License Key at <https://cobrow
 
 This will associate sessions from your mobile app with your Cobrowse account.
 
-### Add device metadata
-
-To help you identify, search, and filter devices in your Cobrowse dashboard, it's helpful to specify any meaningful metadata. We recommend specifying the end-user's email if available.
-
-You may add any custom key/value pairs you'd like, and they will all be searchable and filterable in your online dashboard. We've added a few placeholders for convenience only - all fields are optional.
-
-#### Swift
-```swift
-import CobrowseIO
-
-func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool
-{
-    CobrowseIO.instance().license = "<your license key here>"
-
-    print("Cobrowse device id:  \(CobrowseIO.instance().deviceId)")
-
-    CobrowseIO.instance().customData = [
-        kCBIOUserIdKey: "<your_user_id>" as NSObject,
-        kCBIOUserNameKey: "<your_user_name>" as NSObject,
-        kCBIOUserEmailKey: "<your_user_email>" as NSObject,
-        kCBIODeviceIdKey: "<your_device_id>" as NSObject,
-        kCBIODeviceNameKey: "<your_device_name>" as NSObject
-    ]
-
-    return true
-}
-```
-
-#### Objective C
-```objective-c
-@import CobrowseIO;
-
-- (BOOL)application:(UIApplication*) application didFinishLaunchingWithOptions:(NSDictionary*) launchOptions
-{
-    CobrowseIO.instance.license = @"<your license key here>";
-
-    NSLog(@"Cobrowse device id: %@", CobrowseIO.instance.deviceId);
-
-    CobrowseIO.instance.customData = @{
-        kCBIOUserIdKey: @"<your_user_id>",
-        kCBIOUserNameKey: @"<your_user_name>",
-        kCBIOUserEmailKey: @"<your_user_email>",
-        kCBIODeviceIdKey: @"<your_device_id>",
-        kCBIODeviceNameKey: @"<your_device_name>"
-    };
-
-    return YES;
-}
-```
-
 ## Try it out
 
 Once you have your app running in the iOS Simulator or on a physical device, navigate to <https://cobrowse.io/dashboard> to see your device listed. You can click the "Connect" button to initiate a Cobrowse session!
 
 ## Optional features
 
-[Initiate sessions with push](./docs/initiate-with-push.md)
+[Identify your devices](https://docs.cobrowse.io/sdk-features/identify-your-devices)
 
-[Use 6-digit codes](./docs/user-generated-codes.md)
+[Use 6-digit codes](https://docs.cobrowse.io/sdk-features/6-digit-codes)
 
-[Redact sensitive data](./docs/redact-sensitive-data.md)
+[Redact sensitive data](https://docs.cobrowse.io/sdk-features/redact-sensitive-data)
 
-[Requiring acceptance from the user](./docs/require-user-consent.md)
+[Customize the interface](https://docs.cobrowse.io/sdk-features/customize-the-interface)
 
-[Customizing the interface](./docs/customizing-the-interface.md)
+[Initiate sessions with push](https://docs.cobrowse.io/sdk-features/initiate-sessions-with-push)
 
-[Full device screenshare](./docs/full-device-screenshare.md)
+[Full device capabilities](https://docs.cobrowse.io/sdk-features/full-device-capabilities)
 
-[Alternate render method](./docs/alternate-render-method.md)
+[Advanced features](https://docs.cobrowse.io/sdk-features/advanced-features)
 
 ## Questions?
 Any questions at all? Please email us directly at [hello@cobrowse.io](mailto:hello@cobrowse.io).
