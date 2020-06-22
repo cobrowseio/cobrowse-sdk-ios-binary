@@ -6,30 +6,13 @@ Try our **online demo** at the bottom of our homepage at <https://cobrowse.io/#t
 
 ## Installation
 
-The Cobrowse SDK for iOS is available for installation via several dependency managers, or as frameworks to integrate directly into your project:
+We recommend installing the Cobrowse.io SDK using Cocoapods. Add this to your Podfile:
 
-#### Pods
 ```ruby
 pod 'CobrowseIO', '~>2'
 ```
 
-_Don't forget to run `pod repo update` then `pod install` after you've edited your Podfile._
-
-#### Carthage
-```
-github "cobrowseio/cobrowse-sdk-ios-binary" ~> 2.0
-```
-
-_Don't forget to run `carthage update`  after you've edited your Cartfile._
-
-#### Manual
-Frameworks are available for manual integration into your Xcode projects from:
-
-```
-https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases
-```
-
-### Initialization
+*Don't forget to run `pod repo update` then `pod install` after you've edited your Podfile.*
 
 #### Swift
 ```swift
@@ -43,8 +26,8 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 }
 ```
 
-#### Objective-C
-```objectivec
+#### Objective C
+```objective-c
 @import CobrowseIO;
 
 - (BOOL)application:(UIApplication*) application didFinishLaunchingWithOptions:(NSDictionary*) launchOptions
@@ -54,30 +37,19 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
     return YES;
 }
 ```
-
-_Important: Do this in your `application:didFinishLaunchingWithOptions:` implementation to make sure your device shows up in your dashboard right away._
+*Important: Do this in your `application:didFinishLaunchingWithOptions:` implementation to make sure your device shows up in your dashboard right away.*
 
 ### Add your License Key
 
-Please register an account and generate your free License Key at [https://cobrowse.io/dashboard/settings](https://cobrowse.io/dashboard/settings).
+Please register an account and generate your free License Key at <https://cobrowse.io/dashboard/settings>.
 
 This will associate sessions from your mobile app with your Cobrowse account.
 
 ## Try it out
 
-Once you have your app running in the iOS Simulator or on a physical device, navigate to [https://cobrowse.io/dashboard](https://cobrowse.io/dashboard) to see your device listed. You can click the "Connect" button to initiate a Cobrowse session!
+Once you have your app running in the iOS Simulator or on a physical device, navigate to <https://cobrowse.io/dashboard> to see your device listed. You can click the "Connect" button to initiate a Cobrowse session!
 
-## Full device capabilities
-
-Cobrowse.io optionally supports full device screen sharing on iOS. 
-
-[Full device capabilities](https://docs.cobrowse.io/sdk-features/advanced-features/ios/full-device-screenshare)
-
-## Requirements
-
-* iOS 9.0 or later
-
-## SDK features
+## Optional features
 
 [Identify your devices](https://docs.cobrowse.io/sdk-features/identify-your-devices)
 
@@ -87,7 +59,15 @@ Cobrowse.io optionally supports full device screen sharing on iOS.
 
 [Customize the interface](https://docs.cobrowse.io/sdk-features/customize-the-interface)
 
+[Initiate sessions with push](https://docs.cobrowse.io/sdk-features/initiate-sessions-with-push)
+
+[Full device capabilities](https://docs.cobrowse.io/sdk-features/full-device-capabilities)
+
 [Advanced features](https://docs.cobrowse.io/sdk-features/advanced-features)
 
 ## Questions?
 Any questions at all? Please email us directly at [hello@cobrowse.io](mailto:hello@cobrowse.io).
+
+## Requirements
+
+* iOS 9.0 or later
