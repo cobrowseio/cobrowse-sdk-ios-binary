@@ -1,5 +1,8 @@
 # Changelog
 
+## [2.6.1] - 2020-06-25
+- Multi-monitor support for MacOS
+
 ## [2.6.0] - 2020-06-21
 - Enable swift module compatibilty
 - Adds support for MacOS
