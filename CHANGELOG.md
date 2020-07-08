@@ -1,5 +1,8 @@
 # Changelog
 
+## [2.6.3] - 2020-07-08
+- Fixed memory leak on macOS
+
 ## [2.6.2] - 2020-07-07
 - More suppport for Open GL based views on iOS
 - Fixed tap gesture recognizer edge case
