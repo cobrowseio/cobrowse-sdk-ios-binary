@@ -1,5 +1,9 @@
 # Changelog
 
+## [2.6.2] - 2020-07-07
+- More suppport for Open GL based views on iOS
+- Fixed tap gesture recognizer edge case
+
 ## [2.6.1] - 2020-06-25
 - Multi-monitor support for MacOS
 
