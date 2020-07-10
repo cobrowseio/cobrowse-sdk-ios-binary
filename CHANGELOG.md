@@ -1,5 +1,8 @@
 # Changelog
 
+## [2.6.4] - 2020-07-10
+- Fix for Open GL based layers with default iOS rendering method
+
 ## [2.6.3] - 2020-07-08
 - Fixed memory leak on macOS
 

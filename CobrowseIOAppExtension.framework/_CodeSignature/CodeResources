@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		btbvtC7zQAv0URf1surpg485Oyc=
+		D0XmwnkmI2U3+esHmADIIz+nfzM=
 		</data>
 		<key>Modules/CobrowseIOAppExtension.swiftmodule/Project/arm.swiftsourceinfo</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/CobrowseIOAppExtension.swiftmodule/arm.swiftmodule</key>
 		<data>
-		4COop9zuSBIMgbgR3ZOn6KkMgKw=
+		Udck11vqwyzIAh6ioYVu3alV8F0=
 		</data>
 		<key>Modules/CobrowseIOAppExtension.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/CobrowseIOAppExtension.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		yu6wXcd0BF9mvsf9PELpJmYkGS8=
+		7JHjWsg0TGEeKRJUNbKvvDev+/s=
 		</data>
 		<key>Modules/CobrowseIOAppExtension.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Modules/CobrowseIOAppExtension.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		yu6wXcd0BF9mvsf9PELpJmYkGS8=
+		7JHjWsg0TGEeKRJUNbKvvDev+/s=
 		</data>
 		<key>Modules/CobrowseIOAppExtension.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>Modules/CobrowseIOAppExtension.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<data>
-		4COop9zuSBIMgbgR3ZOn6KkMgKw=
+		Udck11vqwyzIAh6ioYVu3alV8F0=
 		</data>
 		<key>Modules/CobrowseIOAppExtension.swiftmodule/armv7.swiftdoc</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>Modules/CobrowseIOAppExtension.swiftmodule/armv7.swiftmodule</key>
 		<data>
-		4COop9zuSBIMgbgR3ZOn6KkMgKw=
+		Udck11vqwyzIAh6ioYVu3alV8F0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -221,11 +221,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4COop9zuSBIMgbgR3ZOn6KkMgKw=
+			Udck11vqwyzIAh6ioYVu3alV8F0=
 			</data>
 			<key>hash2</key>
 			<data>
-			D3m10mFtdBVyF5aSBiYncxeOt5T1EB2sdCADjit2w/0=
+			3JIJgeevS/z+oOmmP1oxhEALGvyXM6r6fE4jLCR4Li4=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIOAppExtension.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -254,11 +254,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yu6wXcd0BF9mvsf9PELpJmYkGS8=
+			7JHjWsg0TGEeKRJUNbKvvDev+/s=
 			</data>
 			<key>hash2</key>
 			<data>
-			IULkDKRzeuoBH/xG7Yy362KV/Aq2m1azcLAfWXSeuH4=
+			lJTigEdfzfEQzrL0aeBLoZ/U0cZqqQ2XrxUNT6Oe31I=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIOAppExtension.swiftmodule/arm64.swiftdoc</key>
@@ -287,11 +287,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yu6wXcd0BF9mvsf9PELpJmYkGS8=
+			7JHjWsg0TGEeKRJUNbKvvDev+/s=
 			</data>
 			<key>hash2</key>
 			<data>
-			IULkDKRzeuoBH/xG7Yy362KV/Aq2m1azcLAfWXSeuH4=
+			lJTigEdfzfEQzrL0aeBLoZ/U0cZqqQ2XrxUNT6Oe31I=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIOAppExtension.swiftmodule/armv7-apple-ios.swiftdoc</key>
@@ -320,11 +320,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4COop9zuSBIMgbgR3ZOn6KkMgKw=
+			Udck11vqwyzIAh6ioYVu3alV8F0=
 			</data>
 			<key>hash2</key>
 			<data>
-			D3m10mFtdBVyF5aSBiYncxeOt5T1EB2sdCADjit2w/0=
+			3JIJgeevS/z+oOmmP1oxhEALGvyXM6r6fE4jLCR4Li4=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIOAppExtension.swiftmodule/armv7.swiftdoc</key>
@@ -353,11 +353,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4COop9zuSBIMgbgR3ZOn6KkMgKw=
+			Udck11vqwyzIAh6ioYVu3alV8F0=
 			</data>
 			<key>hash2</key>
 			<data>
-			D3m10mFtdBVyF5aSBiYncxeOt5T1EB2sdCADjit2w/0=
+			3JIJgeevS/z+oOmmP1oxhEALGvyXM6r6fE4jLCR4Li4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
