@@ -1,5 +1,8 @@
 # Changelog
 
+## [2.6.5] - 2020-07-11
+- Add support for realtime updates of session custom data
+
 ## [2.6.4] - 2020-07-10
 - Fix for Open GL based layers with default iOS rendering method
 
