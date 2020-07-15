@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		brF2vq63XsAN2OTa2A6DBXSNov8=
+		oHxz2+AD099gst6BrIZx7pbZZ50=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -103,11 +103,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			z8zELD7HaNBL7jWVOOZovx+a0gU=
+			xA1d0TbmUhOPZ3ODpsBZPDpn4Ao=
 			</data>
 			<key>hash2</key>
 			<data>
-			vnq+pQe9jcyovq7EA9rsq+pl6QkTLEtiRUjQrUcAFMs=
+			U45H3p2iWi4Ifle6r19KasCuPwPEzuorKpe1+NHBTZ0=
 			</data>
 		</dict>
 		<key>Headers/CobrowseIORedacted.h</key>
@@ -169,11 +169,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bks1U6qjBpqpiqZl39NeQan4iHs=
+			cJUKLsQgx2vMwrpOogTCftqZQB4=
 			</data>
 			<key>hash2</key>
 			<data>
-			nWP3pTCDkGvi7e7KaTOrFqUsKEIjbLTTWnRxOA/32T0=
+			MRfsgV0ND1+rovqG1Q6OE0kywFZVneRxr0rb/9ep2GU=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/x86_64.swiftdoc</key>
@@ -202,11 +202,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bks1U6qjBpqpiqZl39NeQan4iHs=
+			cJUKLsQgx2vMwrpOogTCftqZQB4=
 			</data>
 			<key>hash2</key>
 			<data>
-			nWP3pTCDkGvi7e7KaTOrFqUsKEIjbLTTWnRxOA/32T0=
+			MRfsgV0ND1+rovqG1Q6OE0kywFZVneRxr0rb/9ep2GU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -224,11 +224,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			brF2vq63XsAN2OTa2A6DBXSNov8=
+			oHxz2+AD099gst6BrIZx7pbZZ50=
 			</data>
 			<key>hash2</key>
 			<data>
-			zNvTE1Aq88h55eT946Y8CmSKeSX+SvLTKgS0AXxrF1g=
+			MWqvsGYR6FnVrgOjZUTHBm5yyJ5v/vTWBVuNsDzg98w=
 			</data>
 		</dict>
 	</dict>

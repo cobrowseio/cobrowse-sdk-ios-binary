@@ -1,5 +1,9 @@
 # Changelog
 
+## [2.7.0] - 2020-07-15
+- Add delegate method for handling screen capture permissions errors on MacOS
+- Fixed an issue that could cause high CPU usage when redaction was active on iOS
+
 ## [2.6.5] - 2020-07-11
 - Add support for realtime updates of session custom data
 

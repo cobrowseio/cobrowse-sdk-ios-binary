@@ -20,6 +20,12 @@
 
 @optional
 
+/// Implement this method to handle cases where screen capture fails. On MacOS this is likely due
+/// to missing system permissions required for capturing the screen.
+/// @param session The session the failure occurred in
+/// @param err The reason for the failure
+-(void) cobrowseScreenCaptureDidFailForSession: (nonnull CBIOSession*) session withError: (nonnull NSError*) err API_AVAILABLE(macos(10.10));
+
 /// Implement this method to filter the touch events that come from the agent. This allows
 /// you to conditionally apply touch events to certain views. For instance if you had a view
 /// that support agents should never be able to remotely control, you can filter event related
