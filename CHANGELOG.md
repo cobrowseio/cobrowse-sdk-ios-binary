@@ -1,5 +1,10 @@
 # Changelog
 
+## [2.8.0] - 2020-08-24
+- Imrpoves streaming quality and responsiveness
+- Provides access to agent email when accoutn settings allow
+- Add support for requesting consent before using remote control tools
+
 ## [2.7.0] - 2020-07-15
 - Add delegate method for handling screen capture permissions errors on MacOS
 - Fixed an issue that could cause high CPU usage when redaction was active on iOS

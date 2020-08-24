@@ -6,6 +6,10 @@
 /// The display name of the support agent
 @property (nonnull) NSString* name;
 
+/// The email of the support agent, may be nil if account privacy settings
+/// restrict access to the agent email
+@property (nullable) NSString* email;
+
 /// The id of the support agent
 @property (nonnull) NSString* id;
 
