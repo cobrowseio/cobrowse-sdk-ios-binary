@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name = 'CobrowseIO'
-    s.version = '2.8.1'
+    s.version = '2.8.2'
     s.summary = 'CobrowseIO SDK'
     s.description = 'CobrowseIO SDK. See cobrowse.io for more information.'
     s.license = 'Apache-2.0'
@@ -17,9 +17,12 @@ Pod::Spec.new do |s|
     s.subspec 'Extension' do |sp|
         sp.ios.vendored_frameworks = 'CobrowseIOAppExtension.framework'
     end
-    s.subspec 'Framework' do |sp|
+    s.subspec 'XCFramework' do |sp|
         sp.vendored_frameworks = 'CobrowseIO.xcframework'
     end
-    s.default_subspec = 'Framework'
+    s.subspec 'Framework' do |sp|
+        sp.vendored_frameworks = 'CobrowseIO.framework'
+    end
+    s.default_subspec = 'XCFramework'
 
 end

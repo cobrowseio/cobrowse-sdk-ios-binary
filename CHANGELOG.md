@@ -1,8 +1,8 @@
 # Changelog
 
 ## [2.8.0] - 2020-08-24
-- Imrpoves streaming quality and responsiveness
-- Provides access to agent email when accoutn settings allow
+- Improves streaming quality and responsiveness
+- Provides access to agent email when account settings allow
 - Add support for requesting consent before using remote control tools
 
 ## [2.7.0] - 2020-07-15
