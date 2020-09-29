@@ -6,43 +6,43 @@
 	<dict>
 		<key>CBIOCodeDisplayView.nib/objects-11.0+.nib</key>
 		<data>
-		p16j2UwLRY3nevMaqhndncAppEI=
+		oe4PoDoFSPIAV2ha952taVxe3W8=
 		</data>
 		<key>CBIOCodeDisplayView.nib/runtime.nib</key>
 		<data>
-		9289O3aN4MaPHuKofz6eb6MGwf0=
+		kuK+zaI0b2wJ3o2Vp8qRIWBn4r8=
 		</data>
 		<key>CBIOErrorDisplayView.nib/objects-11.0+.nib</key>
 		<data>
-		dWBhUAydCNCFpmSp6PG4Oxpd9yU=
+		lOKpd1EjW7mom885hy8rzathLHo=
 		</data>
 		<key>CBIOErrorDisplayView.nib/runtime.nib</key>
 		<data>
-		Y5FdnzDvAB0529S/AQk7+xlSs2U=
+		gwpdQiGUJ7BQ6Au/8v+pwBGG28M=
 		</data>
 		<key>CBIOFullDevicePromptView.nib/objects-11.0+.nib</key>
 		<data>
-		AkMAUwk0ikc5HzjtTGG2BsQQMTg=
+		X+HxZBMM3NQBm3o+82HOcyb0j/4=
 		</data>
 		<key>CBIOFullDevicePromptView.nib/runtime.nib</key>
 		<data>
-		WgQjR/0oGFuWMDRWbkyzSRfdxrY=
+		VA+lRUlOK1uGheTmQ4C+BONr8b4=
 		</data>
 		<key>CBIOManageSessionView.nib/objects-11.0+.nib</key>
 		<data>
-		qvM3gLvOHOzAdJrbyZnXI1xvD48=
+		8KJUzJ3qKSNxHDmGmjito55h5OA=
 		</data>
 		<key>CBIOManageSessionView.nib/runtime.nib</key>
 		<data>
-		nDtJSk27bovB+E8QjI97JP7BPkQ=
+		nvZAsGVruHoTfGIMu3Il1TVOWeU=
 		</data>
 		<key>CBIOView.nib/objects-11.0+.nib</key>
 		<data>
-		MVSSMa1iZ7oszfyBFklEJiAhezg=
+		CUzjg/IMnHZIWNbUaYc1kysjAS0=
 		</data>
 		<key>CBIOView.nib/runtime.nib</key>
 		<data>
-		B2ir3S3JNIvtT4YLEQXLmCIZ0/4=
+		Zm2lfSatiFKZwtRfo4O49dELvGo=
 		</data>
 		<key>Headers/CBIOAgent.h</key>
 		<data>
@@ -183,110 +183,110 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			p16j2UwLRY3nevMaqhndncAppEI=
+			oe4PoDoFSPIAV2ha952taVxe3W8=
 			</data>
 			<key>hash2</key>
 			<data>
-			aMbeHWgEA3eG5oBXmZynDVSWkNwTWU/pSKBhE7bJ/U0=
+			XRGDp7+G3hYbVmjATWMUOYiszjYv+aprYcmwWSH1Apc=
 			</data>
 		</dict>
 		<key>CBIOCodeDisplayView.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9289O3aN4MaPHuKofz6eb6MGwf0=
+			kuK+zaI0b2wJ3o2Vp8qRIWBn4r8=
 			</data>
 			<key>hash2</key>
 			<data>
-			yLczmaJomY7vIxpj3B1umTxwik4x2NMm+weasOKiSH0=
+			+0eViqD4nmsCoiyHugcGh5nDyyEzJrxjCB0YjMavLLA=
 			</data>
 		</dict>
 		<key>CBIOErrorDisplayView.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dWBhUAydCNCFpmSp6PG4Oxpd9yU=
+			lOKpd1EjW7mom885hy8rzathLHo=
 			</data>
 			<key>hash2</key>
 			<data>
-			QORcXhhrvlVwLrIzZyWE/pFry/9LJfyxbU0KnbVRp0k=
+			S8bxGMhTE+b0+EFR8Q6zWzT0jZaXrjcFu3Clx8Zme5U=
 			</data>
 		</dict>
 		<key>CBIOErrorDisplayView.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Y5FdnzDvAB0529S/AQk7+xlSs2U=
+			gwpdQiGUJ7BQ6Au/8v+pwBGG28M=
 			</data>
 			<key>hash2</key>
 			<data>
-			Timy+ktoUo4fjehwL95KBOnzpvVykhWKF5CjeSkNpLM=
+			r82nG50HEKYOitOGgJRdpxkjnNB01+Z2bJozOfB2bBg=
 			</data>
 		</dict>
 		<key>CBIOFullDevicePromptView.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			AkMAUwk0ikc5HzjtTGG2BsQQMTg=
+			X+HxZBMM3NQBm3o+82HOcyb0j/4=
 			</data>
 			<key>hash2</key>
 			<data>
-			ayeVaqAQVzWYNMRaOmK0L3Q1Fue2boEVnFip4Y2GOg4=
+			sERZJVAs4xqmaoBJWUbmgy6klwJ4P72Ujq88qj6g4mo=
 			</data>
 		</dict>
 		<key>CBIOFullDevicePromptView.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WgQjR/0oGFuWMDRWbkyzSRfdxrY=
+			VA+lRUlOK1uGheTmQ4C+BONr8b4=
 			</data>
 			<key>hash2</key>
 			<data>
-			5BLiPVcCU35cT0wmKwJVWNPSkNpqWxovbTLKAclJyxw=
+			fuucHWFZ6w2ALWJrwXox0tZRxXmkzwjBqOrnmkwFE14=
 			</data>
 		</dict>
 		<key>CBIOManageSessionView.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qvM3gLvOHOzAdJrbyZnXI1xvD48=
+			8KJUzJ3qKSNxHDmGmjito55h5OA=
 			</data>
 			<key>hash2</key>
 			<data>
-			EBgnbxFSS5OyA1LkIv4jMGFVkeGHdqVk57MRQ32/B8E=
+			JXCTI3g0Nb3/ND8foxRrUU1yXtpq+rg5o9zptpnHeB8=
 			</data>
 		</dict>
 		<key>CBIOManageSessionView.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nDtJSk27bovB+E8QjI97JP7BPkQ=
+			nvZAsGVruHoTfGIMu3Il1TVOWeU=
 			</data>
 			<key>hash2</key>
 			<data>
-			80KeraTIlADuOHykYRHNwex3f/tDVEL/KyqBwjMLt7M=
+			/e8uWGSKbTOStZPuGkBCHvjcW7fUVS99A2HXstaHo1Q=
 			</data>
 		</dict>
 		<key>CBIOView.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MVSSMa1iZ7oszfyBFklEJiAhezg=
+			CUzjg/IMnHZIWNbUaYc1kysjAS0=
 			</data>
 			<key>hash2</key>
 			<data>
-			NBNWXsrjfAiAXHVkaAK29YhLIg+ttymy8GtO+GOkD/c=
+			DEYUzJHr92lBw7IH5rkZEJMoF5pGo8wKEjvBhSA7ICM=
 			</data>
 		</dict>
 		<key>CBIOView.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			B2ir3S3JNIvtT4YLEQXLmCIZ0/4=
+			Zm2lfSatiFKZwtRfo4O49dELvGo=
 			</data>
 			<key>hash2</key>
 			<data>
-			XqpI7P/+x6hw1qcr+E6LVNv/XQIbpfyYN/ccwu6+JCA=
+			1TQz7NCLrpB8qOZRV/E+MR5uaVYRVIQX6V1uD3/E+eg=
 			</data>
 		</dict>
 		<key>Headers/CBIOAgent.h</key>
