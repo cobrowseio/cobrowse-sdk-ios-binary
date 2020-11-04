@@ -11,7 +11,7 @@ import SwiftCBOR
   @objc public init(request: @escaping (() -> Foundation.URLRequest))
   @objc public func onMessage(_ event: Swift.String, listener: @escaping (Foundation.NSDictionary) -> ())
   @objc public func onConnect(_ listener: @escaping (() -> ()))
-  @objc public func onDisconnect(_ listener: @escaping (() -> ()))
+  @objc public func onDisconnect(_ listener: @escaping ((Swift.Error?) -> ()))
   @objc public func messageLag() -> Swift.UInt64
   @objc public func isConneced() -> Swift.Bool
   @objc public func disconnect()

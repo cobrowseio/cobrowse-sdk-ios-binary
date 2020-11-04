@@ -6,43 +6,43 @@
 	<dict>
 		<key>CBIOCodeDisplayView.nib/objects-11.0+.nib</key>
 		<data>
-		Lr0LJYR3RjrJC1gidlYtStvJb+8=
+		grm4h+T7etyK9aCe5e4w9AaVfy8=
 		</data>
 		<key>CBIOCodeDisplayView.nib/runtime.nib</key>
 		<data>
-		jfZqryQHyQM9FoL4VqOHex0FoU8=
+		5Bz27HtgLJo5/+Y20vnOJdKQoAE=
 		</data>
 		<key>CBIOErrorDisplayView.nib/objects-11.0+.nib</key>
 		<data>
-		X8D7+wz90tTF7oa6FGv4ozANhW8=
+		Aaqf6vV1Mn22TBRLcmTog16Uno0=
 		</data>
 		<key>CBIOErrorDisplayView.nib/runtime.nib</key>
 		<data>
-		ivGFBwJMcg+2jK1uLZUAcjcoric=
+		8o1C3+KxgGRNzAFN6PCjkYYMrIM=
 		</data>
 		<key>CBIOFullDevicePromptView.nib/objects-11.0+.nib</key>
 		<data>
-		rkVcdRZHCRk6qfdj66tb0nnJXRw=
+		jJz6DXzPzqzHvB6mTWhk8NnAFI8=
 		</data>
 		<key>CBIOFullDevicePromptView.nib/runtime.nib</key>
 		<data>
-		NaUBI5nuIbSmMwwcLatmYYZ/j+0=
+		3HUfxXtlR/Rj17wQI6Dn4W45grI=
 		</data>
 		<key>CBIOManageSessionView.nib/objects-11.0+.nib</key>
 		<data>
-		l9ziIJXgS7R/AeP2AefyBtqyBng=
+		VgeunW4QxSTzExDzWAEYyh7O6oc=
 		</data>
 		<key>CBIOManageSessionView.nib/runtime.nib</key>
 		<data>
-		NbYx9GgmmEJzezZtiJFxgZbup24=
+		50FzMST9oYBtz6lv6/1icdpdnSc=
 		</data>
 		<key>CBIOView.nib/objects-11.0+.nib</key>
 		<data>
-		3pHjjWFsBOEXMGUfnFUjJGP0h0k=
+		cKP005klUBvgMuCLrkR5KTkr3yE=
 		</data>
 		<key>CBIOView.nib/runtime.nib</key>
 		<data>
-		Mg3xDtGG8sZ7V8GfVuYRPwRC4hQ=
+		aXFmhbPun8GUKwM4oEZFyZp0xWI=
 		</data>
 		<key>Headers/CBIOAgent.h</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Headers/CobrowseIO-Swift.h</key>
 		<data>
-		+Fl4dsfavoD/RL8yRw5xIye3TEk=
+		hu+wDjxoSnDaREcUFPOCEfeHX9I=
 		</data>
 		<key>Headers/CobrowseIO.h</key>
 		<data>
@@ -98,23 +98,23 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ptjmBl8rWZEiOU2hRe5mQUJOllY=
+		t93QXn4IYMuaS948wfcGItyVyRo=
 		</data>
 		<key>Modules/CobrowseIO.swiftmodule/Project/i386-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		jt9g3OBOxNmxL0MdRDjKWm2UIdY=
+		UyVliiB1PmoCC+DBFOiq3hNGlb4=
 		</data>
 		<key>Modules/CobrowseIO.swiftmodule/Project/i386.swiftsourceinfo</key>
 		<data>
-		jt9g3OBOxNmxL0MdRDjKWm2UIdY=
+		UyVliiB1PmoCC+DBFOiq3hNGlb4=
 		</data>
 		<key>Modules/CobrowseIO.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		bHRnehtYvuUT5/wySpYeM1XSUxE=
+		NAZHmPRB5SyLiA/FoKPV+shhQg4=
 		</data>
 		<key>Modules/CobrowseIO.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<data>
-		bHRnehtYvuUT5/wySpYeM1XSUxE=
+		NAZHmPRB5SyLiA/FoKPV+shhQg4=
 		</data>
 		<key>Modules/CobrowseIO.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -122,11 +122,11 @@
 		</data>
 		<key>Modules/CobrowseIO.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ILt0I5KMr/oS1F31cLqqtfou+o4=
+		F1XTNrDQHOU19O588bLkCGLYxgI=
 		</data>
 		<key>Modules/CobrowseIO.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		E0jxwR4eGNNw5lUlUoPBpT7mqXs=
+		rk6A0YLIxD5YduqJ8aHQmPcOgQg=
 		</data>
 		<key>Modules/CobrowseIO.swiftmodule/i386.swiftdoc</key>
 		<data>
@@ -134,11 +134,11 @@
 		</data>
 		<key>Modules/CobrowseIO.swiftmodule/i386.swiftinterface</key>
 		<data>
-		ILt0I5KMr/oS1F31cLqqtfou+o4=
+		F1XTNrDQHOU19O588bLkCGLYxgI=
 		</data>
 		<key>Modules/CobrowseIO.swiftmodule/i386.swiftmodule</key>
 		<data>
-		E0jxwR4eGNNw5lUlUoPBpT7mqXs=
+		rk6A0YLIxD5YduqJ8aHQmPcOgQg=
 		</data>
 		<key>Modules/CobrowseIO.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -146,11 +146,11 @@
 		</data>
 		<key>Modules/CobrowseIO.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		slwFUiRqlC5lzf913WwuLVvZpjI=
+		U1ma2PxMWQbcBDwKjbFgp2p9HUQ=
 		</data>
 		<key>Modules/CobrowseIO.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Fr1fbBoGa20N+Oq8DJ76pcP6zh8=
+		QcsZsSilxzwahw0scyKfRVd5EVM=
 		</data>
 		<key>Modules/CobrowseIO.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -158,11 +158,11 @@
 		</data>
 		<key>Modules/CobrowseIO.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		slwFUiRqlC5lzf913WwuLVvZpjI=
+		U1ma2PxMWQbcBDwKjbFgp2p9HUQ=
 		</data>
 		<key>Modules/CobrowseIO.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		Fr1fbBoGa20N+Oq8DJ76pcP6zh8=
+		QcsZsSilxzwahw0scyKfRVd5EVM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -183,110 +183,110 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Lr0LJYR3RjrJC1gidlYtStvJb+8=
+			grm4h+T7etyK9aCe5e4w9AaVfy8=
 			</data>
 			<key>hash2</key>
 			<data>
-			JNVSYv8cV9LmGV6YdhMahIAp5cyc1PT4J7b2EkM7T3s=
+			IMcyWsdHWiNgzlTv3/v8RXsc+BuA39pcWXlB+3Md43I=
 			</data>
 		</dict>
 		<key>CBIOCodeDisplayView.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jfZqryQHyQM9FoL4VqOHex0FoU8=
+			5Bz27HtgLJo5/+Y20vnOJdKQoAE=
 			</data>
 			<key>hash2</key>
 			<data>
-			ljuJbO6JPep+rznDibz0T0BqCSiQkdHG9PI41I/Xykg=
+			shovaCNQXYRSH4xCdcFX27+X+2slhgNwRzS0zfw4bUc=
 			</data>
 		</dict>
 		<key>CBIOErrorDisplayView.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			X8D7+wz90tTF7oa6FGv4ozANhW8=
+			Aaqf6vV1Mn22TBRLcmTog16Uno0=
 			</data>
 			<key>hash2</key>
 			<data>
-			5SD7Ub0cKsDOwaXaFJExPMZ8JeHTDErk4DHs/sYsBuU=
+			Atf13LKJJmN+OJXencqqxkPPlmrRtYkSgDKCyXEPvuI=
 			</data>
 		</dict>
 		<key>CBIOErrorDisplayView.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ivGFBwJMcg+2jK1uLZUAcjcoric=
+			8o1C3+KxgGRNzAFN6PCjkYYMrIM=
 			</data>
 			<key>hash2</key>
 			<data>
-			WfANjAAAEEn8wQ6yEoJ/AWcu2zf2M/sBNUmOVKmm5co=
+			icPOvJ4rolD6djuzV7Tff0fLkp3FhSvFSCIq+zf1zvI=
 			</data>
 		</dict>
 		<key>CBIOFullDevicePromptView.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rkVcdRZHCRk6qfdj66tb0nnJXRw=
+			jJz6DXzPzqzHvB6mTWhk8NnAFI8=
 			</data>
 			<key>hash2</key>
 			<data>
-			6aK+POarldHrSqxE5Xw13piur+S+NrvXDeOYO/XAbN4=
+			yvIb21VVMYh9fQpxhqWBaG8clqYuhqzjD68LXz9oxFI=
 			</data>
 		</dict>
 		<key>CBIOFullDevicePromptView.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NaUBI5nuIbSmMwwcLatmYYZ/j+0=
+			3HUfxXtlR/Rj17wQI6Dn4W45grI=
 			</data>
 			<key>hash2</key>
 			<data>
-			WCT3Eb6jc6wVRyHuWj4QYVXZBvgjnl42GcK5peQgl/A=
+			XJ+pgVXUmwWLqJRMonuTFAMzTzJB+mliYjkzJGUHm4c=
 			</data>
 		</dict>
 		<key>CBIOManageSessionView.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			l9ziIJXgS7R/AeP2AefyBtqyBng=
+			VgeunW4QxSTzExDzWAEYyh7O6oc=
 			</data>
 			<key>hash2</key>
 			<data>
-			2FUkQntZTugS5n3v1GLN8oiAzmhEqMDFJ/VbGXPUP6E=
+			1rr6WMm1diujuEl3HJcC+2SO7CpYn/tl2VqDV9Cu4Po=
 			</data>
 		</dict>
 		<key>CBIOManageSessionView.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NbYx9GgmmEJzezZtiJFxgZbup24=
+			50FzMST9oYBtz6lv6/1icdpdnSc=
 			</data>
 			<key>hash2</key>
 			<data>
-			kWM1f2cTA+LVg6gb2Xmq/L2DSFGJIDjK2dFUtxA7ghw=
+			T9bJoIumno31s5PzZfp7J0JLOZPeCAiRy8rbxd49L6A=
 			</data>
 		</dict>
 		<key>CBIOView.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3pHjjWFsBOEXMGUfnFUjJGP0h0k=
+			cKP005klUBvgMuCLrkR5KTkr3yE=
 			</data>
 			<key>hash2</key>
 			<data>
-			h9DYyI4uy9Y7wmvAWJGCB9xGSf/YW3WD/EdvNfxQVT0=
+			5GDIfGLn0yZ5UeZN0ruDpVBJvCT6b2pTfnlsZdqO/3M=
 			</data>
 		</dict>
 		<key>CBIOView.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Mg3xDtGG8sZ7V8GfVuYRPwRC4hQ=
+			aXFmhbPun8GUKwM4oEZFyZp0xWI=
 			</data>
 			<key>hash2</key>
 			<data>
-			UfWQkRU36w+9p8v7yDHgoJSD433pbUnr6ZSLLxSOng8=
+			UWSRKbV4e50fmhOf6k5gBAguO+ae1wlSHTcW3mu4o0A=
 			</data>
 		</dict>
 		<key>Headers/CBIOAgent.h</key>
@@ -392,11 +392,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+Fl4dsfavoD/RL8yRw5xIye3TEk=
+			hu+wDjxoSnDaREcUFPOCEfeHX9I=
 			</data>
 			<key>hash2</key>
 			<data>
-			mGbCzofrpg9rdBDYdxa0IHb6Q4e2PsjQz9SljlXg/UA=
+			pwbkjMlkaS1AeHgFotnXyXLrwmex0ZFubx1wwyMJ3nQ=
 			</data>
 		</dict>
 		<key>Headers/CobrowseIO.h</key>
@@ -436,44 +436,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jt9g3OBOxNmxL0MdRDjKWm2UIdY=
+			UyVliiB1PmoCC+DBFOiq3hNGlb4=
 			</data>
 			<key>hash2</key>
 			<data>
-			gVIHjM8FQBG1GsFpHNA7oEtKwBxTrb1iHRpiDsNCQ48=
+			REs9XlbQA5nZh9OxP4b86BPykl+vyi8aUxFuzboL3u4=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/Project/i386.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jt9g3OBOxNmxL0MdRDjKWm2UIdY=
+			UyVliiB1PmoCC+DBFOiq3hNGlb4=
 			</data>
 			<key>hash2</key>
 			<data>
-			gVIHjM8FQBG1GsFpHNA7oEtKwBxTrb1iHRpiDsNCQ48=
+			REs9XlbQA5nZh9OxP4b86BPykl+vyi8aUxFuzboL3u4=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bHRnehtYvuUT5/wySpYeM1XSUxE=
+			NAZHmPRB5SyLiA/FoKPV+shhQg4=
 			</data>
 			<key>hash2</key>
 			<data>
-			LPNXEZTkh3KChulQuQwuCosmBzUdcIHRQU/AqZDsKCs=
+			aUw8A1xnFkbsXKBa4T8OrnVEclsQ42ftoc5U+UJ+SN0=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bHRnehtYvuUT5/wySpYeM1XSUxE=
+			NAZHmPRB5SyLiA/FoKPV+shhQg4=
 			</data>
 			<key>hash2</key>
 			<data>
-			LPNXEZTkh3KChulQuQwuCosmBzUdcIHRQU/AqZDsKCs=
+			aUw8A1xnFkbsXKBa4T8OrnVEclsQ42ftoc5U+UJ+SN0=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
@@ -491,22 +491,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ILt0I5KMr/oS1F31cLqqtfou+o4=
+			F1XTNrDQHOU19O588bLkCGLYxgI=
 			</data>
 			<key>hash2</key>
 			<data>
-			74PJqf3RiGMSheM6uyjNfe3l1ZiHNCMWNaJkYmq21SQ=
+			l19/OTjfAV4YpNjaAv2thhw6atW/2PYggPtadqqLtnM=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			E0jxwR4eGNNw5lUlUoPBpT7mqXs=
+			rk6A0YLIxD5YduqJ8aHQmPcOgQg=
 			</data>
 			<key>hash2</key>
 			<data>
-			5N6PNFSGFAKVxFIRhSvHyR46dJ1VIJounI+6D+pOTlA=
+			aGfhdnrR1kqsvL/drvr9vBeux9XqddzJqFsYZaiZoqM=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/i386.swiftdoc</key>
@@ -524,22 +524,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ILt0I5KMr/oS1F31cLqqtfou+o4=
+			F1XTNrDQHOU19O588bLkCGLYxgI=
 			</data>
 			<key>hash2</key>
 			<data>
-			74PJqf3RiGMSheM6uyjNfe3l1ZiHNCMWNaJkYmq21SQ=
+			l19/OTjfAV4YpNjaAv2thhw6atW/2PYggPtadqqLtnM=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			E0jxwR4eGNNw5lUlUoPBpT7mqXs=
+			rk6A0YLIxD5YduqJ8aHQmPcOgQg=
 			</data>
 			<key>hash2</key>
 			<data>
-			5N6PNFSGFAKVxFIRhSvHyR46dJ1VIJounI+6D+pOTlA=
+			aGfhdnrR1kqsvL/drvr9vBeux9XqddzJqFsYZaiZoqM=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -557,22 +557,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			slwFUiRqlC5lzf913WwuLVvZpjI=
+			U1ma2PxMWQbcBDwKjbFgp2p9HUQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			yc7Tf/HPACbcz2oFw415NqvK6WZf1aNqt2o+2oTDieo=
+			IlCriItasT3GMvJflyeQhhgxVg8KjbZ4HcFzvId6NFs=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Fr1fbBoGa20N+Oq8DJ76pcP6zh8=
+			QcsZsSilxzwahw0scyKfRVd5EVM=
 			</data>
 			<key>hash2</key>
 			<data>
-			Tsae/bIL83oafxFeLr6o7L7rtSzzm8Z8QeOfU3IKtLA=
+			cAXjg+ufHsavLRoVio/bJeIC6kTfMlZcpH2qlK+q1/o=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/x86_64.swiftdoc</key>
@@ -590,22 +590,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			slwFUiRqlC5lzf913WwuLVvZpjI=
+			U1ma2PxMWQbcBDwKjbFgp2p9HUQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			yc7Tf/HPACbcz2oFw415NqvK6WZf1aNqt2o+2oTDieo=
+			IlCriItasT3GMvJflyeQhhgxVg8KjbZ4HcFzvId6NFs=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Fr1fbBoGa20N+Oq8DJ76pcP6zh8=
+			QcsZsSilxzwahw0scyKfRVd5EVM=
 			</data>
 			<key>hash2</key>
 			<data>
-			Tsae/bIL83oafxFeLr6o7L7rtSzzm8Z8QeOfU3IKtLA=
+			cAXjg+ufHsavLRoVio/bJeIC6kTfMlZcpH2qlK+q1/o=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

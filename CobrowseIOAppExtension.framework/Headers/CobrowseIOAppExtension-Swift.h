@@ -218,7 +218,7 @@ SWIFT_CLASS("_TtC22CobrowseIOAppExtension10CBORSocket")
 - (nonnull instancetype)initWithRequest:(NSURLRequest * _Nonnull (^ _Nonnull)(void))request OBJC_DESIGNATED_INITIALIZER;
 - (void)onMessage:(NSString * _Nonnull)event listener:(void (^ _Nonnull)(NSDictionary * _Nonnull))listener;
 - (void)onConnect:(void (^ _Nonnull)(void))listener;
-- (void)onDisconnect:(void (^ _Nonnull)(void))listener;
+- (void)onDisconnect:(void (^ _Nonnull)(NSError * _Nullable))listener;
 - (uint64_t)messageLag SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)isConneced SWIFT_WARN_UNUSED_RESULT;
 - (void)disconnect;
@@ -455,7 +455,7 @@ SWIFT_CLASS("_TtC22CobrowseIOAppExtension10CBORSocket")
 - (nonnull instancetype)initWithRequest:(NSURLRequest * _Nonnull (^ _Nonnull)(void))request OBJC_DESIGNATED_INITIALIZER;
 - (void)onMessage:(NSString * _Nonnull)event listener:(void (^ _Nonnull)(NSDictionary * _Nonnull))listener;
 - (void)onConnect:(void (^ _Nonnull)(void))listener;
-- (void)onDisconnect:(void (^ _Nonnull)(void))listener;
+- (void)onDisconnect:(void (^ _Nonnull)(NSError * _Nullable))listener;
 - (uint64_t)messageLag SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)isConneced SWIFT_WARN_UNUSED_RESULT;
 - (void)disconnect;
