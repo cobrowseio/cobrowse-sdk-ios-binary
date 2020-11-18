@@ -1,5 +1,8 @@
 # Changelog
 
+## [2.9.0] - 2020-11-14
+- Added support for arm64 to macOS and iOS simulator builds
+
 ## [2.8.0] - 2020-08-24
 - Improves streaming quality and responsiveness
 - Provides access to agent email when account settings allow
