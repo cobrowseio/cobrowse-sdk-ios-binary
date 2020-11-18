@@ -10,7 +10,7 @@ let package = Package(
         .library(name: "CobrowseIO", targets: ["CobrowseIO"])
     ],
     dependencies: [
-        .package(url: "https://github.com/cobrowseio/SwiftCBOR", branch: "master"),
+        .package(url: "https://github.com/cobrowseio/SwiftCBOR", .branch("master")),
         .package(url: "https://github.com/daltoniam/Starscream", from: "3.0.0")
     ],
     targets: [
