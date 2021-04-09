@@ -62,4 +62,8 @@ typedef void const (^CBErrorSessionBlock)(NSError* _Nullable err, CBIOSession* _
 /// @return The agent information or null
 -(nullable CBIOAgent*) agent;
 
+/// Tests if the session is configured for full device access (e.g. ReplayKit). This can be
+/// changed dynamically by the server.
+-(bool) fullDevice;
+
 @end
