@@ -4,6 +4,14 @@
 @class CBIOSession;
 @class CBIOAgent;
 
+/// Describes the state of the remote control featgure in a Session
+typedef enum : NSUInteger {
+    kCBIORemoteControlStateOff = 0,
+    kCBIORemoteControlStateRequested,
+    kCBIORemoteControlStateRejected,
+    kCBIORemoteControlStateOn
+} CBIORemoteControlState;
+
 typedef void const (^CBErrorSessionBlock)(NSError* _Nullable err, CBIOSession* _Nullable session);
 
 /// A CBIOSession tracks the state of a single screen share session through the
@@ -65,5 +73,12 @@ typedef void const (^CBErrorSessionBlock)(NSError* _Nullable err, CBIOSession* _
 /// Tests if the session is configured for full device access (e.g. ReplayKit). This can be
 /// changed dynamically by the server.
 -(bool) fullDevice;
+
+/// The state of remote control
+-(CBIORemoteControlState) remoteControl;
+
+/// Set the state of remote control
+-(void) setRemoteControl: (CBIORemoteControlState) state callback: (nullable CBErrorSessionBlock) callback;
+
 
 @end
