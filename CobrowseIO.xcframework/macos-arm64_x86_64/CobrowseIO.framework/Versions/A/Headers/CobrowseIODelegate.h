@@ -43,11 +43,18 @@
 -(bool) cobrowseShouldAllowKeyEvent: (nonnull CBIOKeyPress*) keyEvent forSession: (nonnull CBIOSession*) session API_AVAILABLE(ios(9));
 
 /// Implement this method to override the default session acceptance prompt. The session
-/// passed to this mmethod will be in the `authorizing` state, when you have gained
+/// passed to this method will be in the `authorizing` state, when you have gained
 /// confirmation from the user, you should call either `CBIOSession -activate` or
 /// `CBIOSession -end` to approve or reject the session.
 /// @param session The incoming session to approve or reject
 -(void) cobrowseHandleSessionRequest: (nonnull CBIOSession*) session;
+
+/// Implement this method to override the default remote control acceptance prompt.
+/// When you have gained confirmation from the user, you should call  `CBIOSession -setRemoteControl`
+/// and pass either `kCBIORemoteControlStateOn` or `kCBIORemoteControlStateRejected`
+/// to approve or reject the remote control request.
+/// @param session The incoming session that has been requested to activate remote control
+-(void) cobrowseHandleRemoteControlRequest: (nonnull CBIOSession*) session;
 
 /// Implement this method to override the default session indicator. This method may be
 /// called several times as the session progresses through its lifecycle, so you may need

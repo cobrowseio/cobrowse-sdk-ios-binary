@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.13.0] - 2021-05-21
+- Added support for overriding the default remote control consent prompt
+
+## [2.12.0] - 2021-04-28
+- Added API for setting full device state
+
+## [2.11.0] - 2021-04-09
+- Added API for getting full device state
+
 ## [2.9.0] - 2020-11-14
 - Added support for arm64 to macOS and iOS simulator builds
 
