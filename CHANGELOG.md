@@ -1,5 +1,8 @@
 # Changelog
 
+## [2.13.1] - 2021-05-25
+- Swift 5.4
+
 ## [2.13.0] - 2021-05-21
 - Added support for overriding the default remote control consent prompt
 
