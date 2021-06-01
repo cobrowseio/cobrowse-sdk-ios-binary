@@ -15,7 +15,7 @@ let package = Package(
         .package(
             name: "SwiftCBOR",
             url: "https://github.com/cobrowseio/SwiftCBOR",
-            .revision("311b3375c51039ec737afcfe8f05426a087951bb")),
+            from: "0.4.4"),
         .package(
             name: "Starscream",
             url: "https://github.com/daltoniam/Starscream",
