@@ -7,13 +7,35 @@ let package = Package(
         .macOS(.v10_10), .iOS(.v9)
     ],
     products: [
-        .library(name: "CobrowseIO", targets: ["CobrowseIO"])
+        .library(
+            name: "CobrowseIO",
+            targets: ["CobrowseIOTarget"])
     ],
     dependencies: [
-        .package(url: "https://github.com/cobrowseio/SwiftCBOR", .branch("master")),
-        .package(url: "https://github.com/daltoniam/Starscream", from: "3.0.0")
+        .package(
+            name: "SwiftCBOR",
+            url: "https://github.com/cobrowseio/SwiftCBOR",
+            from: "0.4.4"),
+        .package(
+            name: "Starscream",
+            url: "https://github.com/daltoniam/Starscream",
+            from: "3.0.0")
     ],
     targets: [
-        .binaryTarget(name: "CobrowseIO", path: "CobrowseIO.xcframework")
+        .target(
+            name: "CobrowseIOTarget",
+            dependencies: [.target(name: "CobrowseIOWrapper")],
+            path: "CobrowseIOTarget"),
+        .target(
+            name: "CobrowseIOWrapper",
+            dependencies: [
+                .target(name: "CobrowseIO"),
+                .product(name: "SwiftCBOR", package: "SwiftCBOR"),
+                .product(name: "Starscream", package: "Starscream"),
+            ],
+            path: "CobrowseIOWrapper"),
+        .binaryTarget(
+            name: "CobrowseIO",
+            path: "CobrowseIO.xcframework"),
     ]
 )
