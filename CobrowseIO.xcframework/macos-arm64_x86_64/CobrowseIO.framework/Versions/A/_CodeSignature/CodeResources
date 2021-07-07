@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		HiZsrMmhnUcS2OZBLVPEPA8M5sM=
+		r6PAPtjYx1rla8xb2QRbVCkqgN8=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -81,11 +81,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HtAcbCYfaQuqzynTKD5akYCVubw=
+			8FKO9QEK1nYT837L2s61BS/cAsc=
 			</data>
 			<key>hash2</key>
 			<data>
-			8zwhKk6K2+l7PJ7zi046mA9rqjnmpPtezdjCHG47NJs=
+			/XPRPenTwK6vcO46sTLIP9iJB5Fa7DXCHrLa2CF3LAo=
 			</data>
 		</dict>
 		<key>Headers/CobrowseIO.h</key>
@@ -125,176 +125,176 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			R7qbxtw6CsxtVINmB6rCLC64Tzc=
+			qE5L1hrLtV34lY2Jg97DE4hhQBY=
 			</data>
 			<key>hash2</key>
 			<data>
-			fNNVPnUaWXTA7Dz3K/kcRgfKxlSf41AUil8N04GrBVE=
+			zWNB0p2/nadOKHNMvx/LtjrUVVAE5qsidomn6eYKp9o=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			R7qbxtw6CsxtVINmB6rCLC64Tzc=
+			qE5L1hrLtV34lY2Jg97DE4hhQBY=
 			</data>
 			<key>hash2</key>
 			<data>
-			fNNVPnUaWXTA7Dz3K/kcRgfKxlSf41AUil8N04GrBVE=
+			zWNB0p2/nadOKHNMvx/LtjrUVVAE5qsidomn6eYKp9o=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/Project/x86_64-apple-macos.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			f0EqkWljdtYx7Ga6StbVngti/lU=
+			93d++QFxkHKdvOy630Z9ycaVqpo=
 			</data>
 			<key>hash2</key>
 			<data>
-			HYefkSZtVc6E4qS96nccuPpcxVedExe28muYBXZF6Ss=
+			LHwtjM7mtmWQ2Ki6phKFJSFTKh/0CIZZpUjH2M8eodg=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			f0EqkWljdtYx7Ga6StbVngti/lU=
+			93d++QFxkHKdvOy630Z9ycaVqpo=
 			</data>
 			<key>hash2</key>
 			<data>
-			HYefkSZtVc6E4qS96nccuPpcxVedExe28muYBXZF6Ss=
+			LHwtjM7mtmWQ2Ki6phKFJSFTKh/0CIZZpUjH2M8eodg=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/arm64-apple-macos.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GgRfXmg5K4j29f7trKd96JPnwbo=
+			2CjnPxAye3Vr2eRvVVQHHihvaOs=
 			</data>
 			<key>hash2</key>
 			<data>
-			V9cNxrkg/eDnIvAP97t4wZ2p0wsaz1Lpd9NoIISG8KM=
+			Ac7s6j5Kb8FScxSCI154GSNaochTyXcIssEOn3jELqw=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/arm64-apple-macos.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XGxh5u6FLarzwBsKreNjhW5v5wE=
+			OfNUg7usSzxyZtJjVfqEyW4ITtI=
 			</data>
 			<key>hash2</key>
 			<data>
-			NAtP/+MczBU2YsD1GWXZe2xfN9Qk2TYjTZdn0NgHjs8=
+			dWo8QQlRK0vochvk7mVnKFr59brW013YnT0k356UQtk=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/arm64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SyeBDX3StV2jfvrm5sJ7ydsY6W0=
+			1/T9+7cfyNVZI/PjjlSDig6Zncc=
 			</data>
 			<key>hash2</key>
 			<data>
-			Iz0bArbw9RHbAdbTQxUP3TkbANXa+bRGn34tnJie/Ww=
+			XEWssHwrsZMP0M2w9dLeriMWoWN2gj/Q8/ELbm0QuRc=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GgRfXmg5K4j29f7trKd96JPnwbo=
+			2CjnPxAye3Vr2eRvVVQHHihvaOs=
 			</data>
 			<key>hash2</key>
 			<data>
-			V9cNxrkg/eDnIvAP97t4wZ2p0wsaz1Lpd9NoIISG8KM=
+			Ac7s6j5Kb8FScxSCI154GSNaochTyXcIssEOn3jELqw=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XGxh5u6FLarzwBsKreNjhW5v5wE=
+			OfNUg7usSzxyZtJjVfqEyW4ITtI=
 			</data>
 			<key>hash2</key>
 			<data>
-			NAtP/+MczBU2YsD1GWXZe2xfN9Qk2TYjTZdn0NgHjs8=
+			dWo8QQlRK0vochvk7mVnKFr59brW013YnT0k356UQtk=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SyeBDX3StV2jfvrm5sJ7ydsY6W0=
+			1/T9+7cfyNVZI/PjjlSDig6Zncc=
 			</data>
 			<key>hash2</key>
 			<data>
-			Iz0bArbw9RHbAdbTQxUP3TkbANXa+bRGn34tnJie/Ww=
+			XEWssHwrsZMP0M2w9dLeriMWoWN2gj/Q8/ELbm0QuRc=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/x86_64-apple-macos.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zPPb6WF/k51SDMOb9515HApDb9Y=
+			NK8shXq0C8cNkDZyh145zKut+ug=
 			</data>
 			<key>hash2</key>
 			<data>
-			cXWky6iGHb9lyAV48iHooslvU7B6ocP4+UB+eCavwF8=
+			3U4JYzRck9b36mJ7mp1I4I7y8nyvCJy25TQbT0tlCME=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/x86_64-apple-macos.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HMsDgVKUEm7ZIZV3+5833U0tDlM=
+			NUa68xhP3G2X6Kpf13f7QR5uiv0=
 			</data>
 			<key>hash2</key>
 			<data>
-			8CWrgIlHhloFxMfPu/aZ0R/nPYfhsMVJkrJgmXm0+Yc=
+			G213N70uMtiZHMhjC4rDQYfNO3m0FW+Ro77YP0Y9qLw=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/x86_64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			878e973ayGbTm/uzg6MWtxdNmI8=
+			BFEyFbEsLKsLpz9tJqhwdEZbf00=
 			</data>
 			<key>hash2</key>
 			<data>
-			Za09aum8DfjIk/G73kFUZogy1WJ0nhEsOGEwQ5vDnM0=
+			CvDViVJwbVsRmifKEi5NeN4yd+SkbegG1M1Jaa/oJd0=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zPPb6WF/k51SDMOb9515HApDb9Y=
+			NK8shXq0C8cNkDZyh145zKut+ug=
 			</data>
 			<key>hash2</key>
 			<data>
-			cXWky6iGHb9lyAV48iHooslvU7B6ocP4+UB+eCavwF8=
+			3U4JYzRck9b36mJ7mp1I4I7y8nyvCJy25TQbT0tlCME=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HMsDgVKUEm7ZIZV3+5833U0tDlM=
+			NUa68xhP3G2X6Kpf13f7QR5uiv0=
 			</data>
 			<key>hash2</key>
 			<data>
-			8CWrgIlHhloFxMfPu/aZ0R/nPYfhsMVJkrJgmXm0+Yc=
+			G213N70uMtiZHMhjC4rDQYfNO3m0FW+Ro77YP0Y9qLw=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			878e973ayGbTm/uzg6MWtxdNmI8=
+			BFEyFbEsLKsLpz9tJqhwdEZbf00=
 			</data>
 			<key>hash2</key>
 			<data>
-			Za09aum8DfjIk/G73kFUZogy1WJ0nhEsOGEwQ5vDnM0=
+			CvDViVJwbVsRmifKEi5NeN4yd+SkbegG1M1Jaa/oJd0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -312,11 +312,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HiZsrMmhnUcS2OZBLVPEPA8M5sM=
+			r6PAPtjYx1rla8xb2QRbVCkqgN8=
 			</data>
 			<key>hash2</key>
 			<data>
-			bDmBU0/QlzH4iiXU1W6johIwghkbIQfQ+AcL98BMAsw=
+			ZLxks0qR3UzIMDCwu9drIsc+DdXXotcbLOAVikQxJBQ=
 			</data>
 		</dict>
 	</dict>

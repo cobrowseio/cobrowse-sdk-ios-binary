@@ -1,10 +1,8 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
+// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
 // swift-module-flags: -target arm64-apple-ios9.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name CobrowseIO
 @_exported import CobrowseIO
-import Starscream
 import Swift
-import SwiftCBOR
 @objc public class CBORSocket : ObjectiveC.NSObject {
   @objc public var maxReconnectDelay: Swift.Double
   @objc public var minReconnectDelay: Swift.Double
@@ -19,10 +17,4 @@ import SwiftCBOR
   @objc public func sendPing()
   @objc override dynamic public init()
   @objc deinit
-}
-extension CBORSocket : Starscream.WebSocketDelegate {
-  public func websocketDidConnect(socket: Starscream.WebSocketClient)
-  public func websocketDidDisconnect(socket: Starscream.WebSocketClient, error: Swift.Error?)
-  public func websocketDidReceiveMessage(socket: Starscream.WebSocketClient, text: Swift.String)
-  public func websocketDidReceiveData(socket: Starscream.WebSocketClient, data: Foundation.Data)
 }
