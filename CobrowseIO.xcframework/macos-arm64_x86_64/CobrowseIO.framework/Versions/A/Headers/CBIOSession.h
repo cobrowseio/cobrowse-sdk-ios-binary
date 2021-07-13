@@ -74,10 +74,18 @@ typedef void const (^CBErrorSessionBlock)(NSError* _Nullable err, CBIOSession* _
 /// changed dynamically by the server.
 -(bool) fullDevice;
 
+/// Set the state of the full device mode. Setting this to false when the session is capturing in full device
+/// mode will end any active full device capturing mechanisms (e.g. ReplayKit).
+/// @param value Full device mode
+/// @param callback Called when the request completes or fails
+-(void) setFullDevice: (BOOL) value callback: (nullable CBErrorSessionBlock) callback;
+
 /// The state of remote control
 -(CBIORemoteControlState) remoteControl;
 
 /// Set the state of remote control
+/// @param state Desired remote control state
+/// @param callback Called when the request completes or fails
 -(void) setRemoteControl: (CBIORemoteControlState) state callback: (nullable CBErrorSessionBlock) callback;
 
 
