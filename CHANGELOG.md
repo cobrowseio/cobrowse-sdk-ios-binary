@@ -1,5 +1,14 @@
 # Changelog
 
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [2.14.1](#) (2021-07-28)
+
+
+### Bug Fixes
+
+* replace redaction layers that are no longer valid ([a6b0d76](#))
+
 ### [2.14.0] - 2021-07-13
 - Added `Session.setFullDevice:callback:` API for setting desired full device state
 
