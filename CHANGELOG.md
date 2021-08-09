@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.14.2](#) (2021-08-09)
+
+
+### Bug Fixes
+
+* ensure redacted views are cleaned up if no longer specified as redacted by the delegate ([1fd899c](#))
+
 ### [2.14.1](#) (2021-07-28)
 
 
