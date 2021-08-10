@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.14.3](#) (2021-08-10)
+
+
+### Bug Fixes
+
+* optimise lazy removal of redaction on next activation when possible ([649ab04](#))
+
 ### [2.14.2](#) (2021-08-09)
 
 
