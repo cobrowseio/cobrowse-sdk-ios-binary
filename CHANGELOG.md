@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.15.0](#) (2021-09-08)
+
+
+### Features
+
+* add XCFramework of the broadcast extension ([8743ad8](#))
+
 ### [2.14.4](#) (2021-09-02)
 
 
