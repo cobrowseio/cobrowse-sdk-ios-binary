@@ -9,7 +9,11 @@ let package = Package(
     products: [
         .library(
             name: "CobrowseIO",
-            targets: ["CBIOWrapper"])
+            targets: ["CBIOWrapper"]),
+        .library(
+            name: "CobrowseIOAppExtension",
+            targets: ["CBIOAppExtensionWrapper"]
+        )
     ],
     dependencies: [
         .package(
@@ -30,8 +34,19 @@ let package = Package(
                 .product(name: "Starscream", package: "Starscream"),
             ],
             path: "wrapper"),
+        .target(
+            name: "CBIOAppExtensionWrapper",
+            dependencies: [
+                .target(name: "CobrowseIOAppExtension"),
+                .product(name: "SwiftCBOR", package: "SwiftCBOR"),
+                .product(name: "Starscream", package: "Starscream"),
+            ],
+            path: "wrapper-app-extension"),
         .binaryTarget(
             name: "CobrowseIO",
             path: "CobrowseIO.xcframework"),
+        .binaryTarget(
+            name: "CobrowseIOAppExtension",
+            path: "CobrowseIOAppExtension.xcframework"),
     ]
 )
