@@ -1,8 +1,9 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
+// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
 // swift-module-flags: -target arm64-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name CobrowseIOAppExtension
 @_exported import CobrowseIOAppExtension
 import Swift
+import _Concurrency
 @objc public class CBORSocket : ObjectiveC.NSObject {
   @objc public var maxReconnectDelay: Swift.Double
   @objc public var minReconnectDelay: Swift.Double
@@ -15,6 +16,5 @@ import Swift
   @objc public func disconnect()
   @objc public func send(_ event: Swift.String, data: Swift.Dictionary<Swift.String, Any>, completion: (() -> ())?)
   @objc public func sendPing()
-  @objc override dynamic public init()
   @objc deinit
 }

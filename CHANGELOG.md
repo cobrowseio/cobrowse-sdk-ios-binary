@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.15.1](#) (2021-10-12)
+
+
+### Bug Fixes
+
+* restore macos build ([0542b74](#))
+
 ## [2.15.0](#) (2021-09-08)
 
 
