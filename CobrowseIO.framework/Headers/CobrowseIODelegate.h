@@ -56,6 +56,16 @@
 /// @param session The incoming session that has been requested to activate remote control
 -(void) cobrowseHandleRemoteControlRequest: (nonnull CBIOSession*) session;
 
+/// WARNING: This API is experimental and not covered by semantic versioning yet!
+/// Implement this method to override the default full device request prompt.
+/// Your are responsible for displaying a `RPSystemBroadcastPickerView` to the user.
+/// @param session The incoming session that has requested full device mode
+-(void) cobrowseShowFullDevicePrompt: (nonnull CBIOSession*) session API_AVAILABLE(ios(9));
+
+/// WARNING: This API is experimental and not covered by semantic versioning yet!
+/// Implement this method to hide the default full device request prompt.
+-(void) cobrowseHideFullDevicePrompt: (nonnull CBIOSession*) session API_AVAILABLE(ios(9));
+
 /// Implement this method to override the default session indicator. This method may be
 /// called several times as the session progresses through its lifecycle, so you may need
 /// to adjust your UI accordingly. See the available sesssion methods to inspect session state.

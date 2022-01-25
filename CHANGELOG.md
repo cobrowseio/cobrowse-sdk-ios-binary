@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.16.2](#) (2022-01-25)
+
+
+### Bug Fixes
+
+* fix full device mode when session are initiated with full_device already set to true ([37951ba](#))
+
 ### [2.16.1](#) (2021-12-08)
 
 ## [2.16.0](#) (2021-11-15)
