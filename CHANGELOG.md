@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.16.3](#) (2022-01-28)
+
+
+### Bug Fixes
+
+* skip custom data updates that match the cached version ([f0408ff](#))
+
 ### [2.16.2](#) (2022-01-25)
 
 
