@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.16.4](#) (2022-01-29)
+
+
+### Bug Fixes
+
+* use XCFramework for broadcast extension via Pods ([94b6ee1](#))
+
 ### [2.16.3](#) (2022-01-28)
 
 
