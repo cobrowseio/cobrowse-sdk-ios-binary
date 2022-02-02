@@ -20,6 +20,11 @@
 
 @optional
 
+/// Called when a session is first loaded from the server, either via 6 digit code or connection
+/// from an agent.
+/// @param session The session that ended
+-(void) cobrowseSessionDidLoad: (nonnull CBIOSession*) session;
+
 /// Implement this method to handle cases where screen capture fails. On MacOS this is likely due
 /// to missing system permissions required for capturing the screen.
 /// @param session The session the failure occurred in

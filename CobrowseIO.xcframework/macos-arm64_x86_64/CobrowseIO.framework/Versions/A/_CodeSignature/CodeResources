@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		G1ECkwYk6WB3jTB/9V4T4mA2VQA=
+		rmxyD8WYKwLxC260zLPSU1mW4rM=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -103,11 +103,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bfKFTMnS7mXpbpWYQ6TxYy1lTiw=
+			h4FjMhla0WeinI8WR5a33ftOqmA=
 			</data>
 			<key>hash2</key>
 			<data>
-			MQQlmIICRQMKy+rDxku6jaI/uSKVekevQrKUmitmAGE=
+			tU4LGE/vz8ygnbbW5Vg4IFMRlHhI8urzskHha8QtG9c=
 			</data>
 		</dict>
 		<key>Headers/CobrowseIORedacted.h</key>
@@ -191,11 +191,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SSOJUA9eVvOjpsaJg5jKdlZcgo4=
+			gaiDtdOpkLutyWceODsHcZiZfhA=
 			</data>
 			<key>hash2</key>
 			<data>
-			AX583YmLIhigPZir9n+LnrnIVtoVXH8wBWVfKcNBKFQ=
+			O3eRwSQBdKzTu9hqnV20+fGSDAD/RQEdUGKP+mgymr8=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/arm64.swiftdoc</key>
@@ -224,11 +224,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SSOJUA9eVvOjpsaJg5jKdlZcgo4=
+			gaiDtdOpkLutyWceODsHcZiZfhA=
 			</data>
 			<key>hash2</key>
 			<data>
-			AX583YmLIhigPZir9n+LnrnIVtoVXH8wBWVfKcNBKFQ=
+			O3eRwSQBdKzTu9hqnV20+fGSDAD/RQEdUGKP+mgymr8=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/x86_64-apple-macos.swiftdoc</key>
@@ -257,11 +257,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			urTNE8C9J0h7SwWH9cChU39FuPg=
+			muE7ZqAiTtUKdNp/C89pp+OOA+M=
 			</data>
 			<key>hash2</key>
 			<data>
-			WZPmOchV/ajMyDKfIIONraaTf7HMHP8jGguOFUeGCf8=
+			53efUdDM8QgJRtpmCNWDCXf4/KUrpcC1HbOK8mn3F2Y=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/x86_64.swiftdoc</key>
@@ -290,11 +290,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			urTNE8C9J0h7SwWH9cChU39FuPg=
+			muE7ZqAiTtUKdNp/C89pp+OOA+M=
 			</data>
 			<key>hash2</key>
 			<data>
-			WZPmOchV/ajMyDKfIIONraaTf7HMHP8jGguOFUeGCf8=
+			53efUdDM8QgJRtpmCNWDCXf4/KUrpcC1HbOK8mn3F2Y=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -312,11 +312,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			G1ECkwYk6WB3jTB/9V4T4mA2VQA=
+			rmxyD8WYKwLxC260zLPSU1mW4rM=
 			</data>
 			<key>hash2</key>
 			<data>
-			71f4tcduKG4qpq8qVChg/jjy2/LvSXdW2g1SX1GjtCU=
+			kS8J5KduOlpCSQV04fS/yiaFZjzf/OOzPdvP0OJqLfQ=
 			</data>
 		</dict>
 	</dict>
