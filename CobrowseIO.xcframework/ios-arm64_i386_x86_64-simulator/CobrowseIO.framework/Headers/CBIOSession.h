@@ -4,13 +4,21 @@
 @class CBIOSession;
 @class CBIOAgent;
 
-/// Describes the state of the remote control featgure in a Session
+/// Describes the state of the remote control feature in a Session
 typedef enum : NSUInteger {
     kCBIORemoteControlStateOff = 0,
     kCBIORemoteControlStateRequested,
     kCBIORemoteControlStateRejected,
     kCBIORemoteControlStateOn
 } CBIORemoteControlState;
+
+/// Describes the state of the full device feature in a Session
+typedef enum : NSUInteger {
+    kCBIOFullDeviceStateOff = 0,
+    kCBIOFullDeviceStateRequested,
+    kCBIOFullDeviceStateRejected,
+    kCBIOFullDeviceStateOn
+} CBIOFullDeviceState;
 
 typedef void const (^CBErrorSessionBlock)(NSError* _Nullable err, CBIOSession* _Nullable session);
 
@@ -72,12 +80,14 @@ typedef void const (^CBErrorSessionBlock)(NSError* _Nullable err, CBIOSession* _
 
 /// Tests if the session is configured for full device access (e.g. ReplayKit). This can be
 /// changed dynamically by the server.
+-(CBIOFullDeviceState) fullDeviceState;
 -(bool) fullDevice;
 
 /// Set the state of the full device mode. Setting this to false when the session is capturing in full device
 /// mode will end any active full device capturing mechanisms (e.g. ReplayKit).
-/// @param value Full device mode
+/// @param state Full device mode
 /// @param callback Called when the request completes or fails
+-(void) setFullDeviceState: (CBIOFullDeviceState) state callback: (nullable CBErrorSessionBlock) callback;
 -(void) setFullDevice: (BOOL) value callback: (nullable CBErrorSessionBlock) callback;
 
 /// The state of remote control
