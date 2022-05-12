@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.19.0](#) (2022-05-12)
+
+
+### Features
+
+* lock sessions to devices ([3d8c4d8](#))
+
+
+### Bug Fixes
+
+* deadlock in the ReplayKit frame source. ([4be0c4a](#))
+* EXC_BAD_ACCESS when working with CVImageBufferRef. ([279d974](#))
+* full-device gets disabled when the ReplayKit suspends broadcasting. ([7767443](#))
+
 ## [2.18.0](#) (2022-04-19)
 
 
