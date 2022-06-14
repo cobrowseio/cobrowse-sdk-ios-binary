@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.20.0](#) (2022-06-14)
+
+
+### Features
+
+* add API and License configuration to the sample app. ([c756afe](#))
+
 ## [2.19.0](#) (2022-05-12)
 
 
