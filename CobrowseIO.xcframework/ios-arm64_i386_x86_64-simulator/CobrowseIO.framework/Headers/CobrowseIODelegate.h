@@ -6,6 +6,7 @@
 
 @class CBIOSession;
 @class CBIOTouchEvent;
+@class CBIOMouseEvent;
 @class CBIOKeyPress;
 
 /// Implement this deletgate protocol to customise the behaviour of Cobrowse.
@@ -37,7 +38,15 @@
 /// to that view.
 /// @param touchEvent The touch event
 /// @param session The session the touch event originated from
--(bool) cobrowseShouldAllowTouchEvent: (nonnull CBIOTouchEvent*) touchEvent forSession: (nonnull CBIOSession*) session API_AVAILABLE(ios(9));
+-(bool) cobrowseShouldAllowTouchEvent: (nonnull CBIOTouchEvent*) touchEvent forSession: (nonnull CBIOSession*) session;
+
+/// Implement this method to filter the mouse events that come from the agent. This allows
+/// you to conditionally apply mouse events to certain views. For instance if you had a view
+/// that support agents should never be able to remotely control, you can filter event related
+/// to that view.
+/// @param mouseEvent The mouse event
+/// @param session The session the mouse event originated from
+-(bool) cobrowseShouldAllowMouseEvent: (nonnull CBIOMouseEvent*) mouseEvent forSession: (nonnull CBIOSession*) session API_AVAILABLE(macos(10.10));
 
 /// Implement this method to filter key events that come from the agent. This allows
 /// you to conditionally apply key events to certain inputs. For instance if you had a view
@@ -45,7 +54,7 @@
 /// to that view.
 /// @param keyEvent The key event
 /// @param session The session the touch event originated from
--(bool) cobrowseShouldAllowKeyEvent: (nonnull CBIOKeyPress*) keyEvent forSession: (nonnull CBIOSession*) session API_AVAILABLE(ios(9));
+-(bool) cobrowseShouldAllowKeyEvent: (nonnull CBIOKeyPress*) keyEvent forSession: (nonnull CBIOSession*) session;
 
 /// Implement this method to override the default session acceptance prompt. The session
 /// passed to this method will be in the `authorizing` state, when you have gained
@@ -63,9 +72,11 @@
 
 /// WARNING: This API is experimental and not covered by semantic versioning yet!
 /// Implement this method to override the default full device request prompt.
-/// Your are responsible for displaying a `RPSystemBroadcastPickerView` to the user.
+/// On iOS you are responsible for displaying a `RPSystemBroadcastPickerView` to the user.
+/// On macOS you are responsible to set the session full device state to either
+/// `kCBIORemoteControlStateOn` or `kCBIORemoteControlStateRejected`.
 /// @param session The session that has requested full device mode
--(void) cobrowseHandleFullDeviceRequest: (nonnull CBIOSession*) session API_AVAILABLE(ios(9));
+-(void) cobrowseHandleFullDeviceRequest: (nonnull CBIOSession*) session;
 
 /// Implement this method to override the default session indicator. This method may be
 /// called several times as the session progresses through its lifecycle, so you may need

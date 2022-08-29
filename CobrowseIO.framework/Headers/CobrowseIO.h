@@ -5,6 +5,7 @@
 #import "CBIOAgent.h"
 #import "CBIORESTResource.h"
 #import "CBIOTouchEvent.h"
+#import "CBIOMouseEvent.h"
 #import "CBIOKeyPress.h"
 
 #import "CobrowseIODelegate.h"
@@ -36,7 +37,7 @@ static NSString* _Nonnull const kCBIODeviceNameKey = @"device_name";
 @property (nonnull) NSString* api;
 
 /// Sets metadata attached to this device that will be displayed and filterable in the web
-/// dashbaord. This allows you to find and identify your users devices quickly. We recommend
+/// dashboard. This allows you to find and identify your users devices quickly. We recommend
 /// adding information such as your logged in users email addresses or user IDs here.
 @property (nonnull) NSDictionary<NSString*, NSObject*>* customData;
 

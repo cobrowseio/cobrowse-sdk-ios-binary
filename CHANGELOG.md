@@ -2,6 +2,47 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.21.1](#) (2022-08-29)
+
+## [2.21.0](#) (2022-08-29)
+
+
+### Features
+
+* add ability to switch between window and full-device capturing mechanisms on macOS. ([8432c5e](#))
+* add new cobrowseShouldAllowTouchEvent and cobrowseShouldAllowKeyEvent callbacks on macOS. ([0e176ca](#))
+* capture macOS windows from a background thread. ([d993d53](#))
+* capture mouse clicks when using window capturing mechanism on macOS. ([7a2f67f](#))
+* capture the correct wallpaper in a multi-display environment. ([d732097](#))
+* capture the wallpaper when using the in-app capturing mechanism on macOS. ([129f217](#))
+* choose the window frame source or the full-device one when new session starts. ([cab6f4f](#))
+* get rid of redundant downscaling operations on macOS. ([a6a1b54](#))
+* implement a full-device confirmation prompt on macOS. ([524880f](#))
+* implement basic double-click simulation. ([2a9a0e9](#))
+* implement basic remote keyboard shortcut support. ([a4d9d3e](#))
+* implement basic remote mouse events support in a multi-display environment. ([db4ebfb](#))
+* implement basic remote mouse events support. ([ae449fc](#))
+* implement localizable strings on macOS. ([90c9c82](#))
+* implement mouse double and triple clicks. ([0ce9835](#))
+* implement remote keyboard shortcut support. ([ad0e965](#))
+* implement remote keyboard Unicode support on macOS. ([02ba525](#))
+* make all strings in the broadcast extension framework localized. ([4a94148](#))
+* make mouse click circles similar to what QuickTime does on macOS. ([d3b66ea](#))
+* show the mouse cursor when using window capturing mechanism on macOS. ([253fc32](#))
+* start in-app capturing mechanism on macOS. ([2a29e45](#))
+* start remote keyboard support on macOS. ([c8e96b2](#))
+* use kCGEventSourceStatePrivate as an event source. ([ef3a57c](#))
+* use kCGImageAlphaNoneSkipFirst instead of kCGImageAlphaNoneSkipLast. ([5bfabe9](#))
+
+
+### Bug Fixes
+
+* don't trigger double or triple clicks if the remote cursor has been moved. ([a9f6645](#))
+* fix translation key name ([ed8c79f](#))
+* hide the annotations automatically when there's a different app in focus. ([2c4935a](#))
+* iOS extension build error. ([394d81c](#))
+* unpress mouse and keyboard buttons when disposing the remote control. ([f18466e](#))
+
 ### [2.20.1](#) (2022-06-14)
 
 
