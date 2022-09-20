@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name = 'CobrowseIO'
-    s.version = '2.21.2'
+    s.version = '2.22.0'
     s.summary = 'CobrowseIO SDK'
     s.description = 'CobrowseIO SDK. See cobrowse.io for more information.'
     s.license = 'Apache-2.0'
@@ -8,8 +8,8 @@ Pod::Spec.new do |s|
     s.author = { 'Andy' => 'andy@cobrowse.io' }
     s.frameworks = 'Foundation', 'Security'
     s.ios.frameworks = 'CoreLocation', 'ReplayKit'
-    s.ios.deployment_target = '9.0'
-    s.osx.deployment_target = '10.10'
+    s.ios.deployment_target = '11.0'
+    s.osx.deployment_target = '10.13'
     s.dependency 'Starscream', '~> 3.1.1'
     s.dependency 'SwiftCBOR', '~> 0.4.3'
     s.swift_version = '5'

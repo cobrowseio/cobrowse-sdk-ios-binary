@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.22.0](#) (2022-09-20)
+
+
+### Features
+
+* Xcode 14 has dropped support for iOS versions below iOS 11, and macOS versions below 10.13, as well as the armv7 and i386 architectures. As such we have also dropped support for those platforms. ([7d05756](#))
+* Xcode 14 support ([11779e5](#))
+
+
+### Bug Fixes
+
+* remote redaction not applying to UITextField in UIAlertController. ([0b10e3f](#))
+
 ### [2.21.2](#) (2022-08-29)
 
 ### [2.21.1](#) (2022-08-29)
@@ -11,116 +24,87 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### Features
 
-* add ability to switch between window and full-device capturing mechanisms on macOS. ([8432c5e](#))
-* add new cobrowseShouldAllowTouchEvent and cobrowseShouldAllowKeyEvent callbacks on macOS. ([0e176ca](#))
-* capture macOS windows from a background thread. ([d993d53](#))
-* capture mouse clicks when using window capturing mechanism on macOS. ([7a2f67f](#))
-* capture the correct wallpaper in a multi-display environment. ([d732097](#))
-* capture the wallpaper when using the in-app capturing mechanism on macOS. ([129f217](#))
-* choose the window frame source or the full-device one when new session starts. ([cab6f4f](#))
-* get rid of redundant downscaling operations on macOS. ([a6a1b54](#))
-* implement a full-device confirmation prompt on macOS. ([524880f](#))
-* implement basic double-click simulation. ([2a9a0e9](#))
-* implement basic remote keyboard shortcut support. ([a4d9d3e](#))
-* implement basic remote mouse events support in a multi-display environment. ([db4ebfb](#))
-* implement basic remote mouse events support. ([ae449fc](#))
-* implement localizable strings on macOS. ([90c9c82](#))
-* implement mouse double and triple clicks. ([0ce9835](#))
-* implement remote keyboard shortcut support. ([ad0e965](#))
-* implement remote keyboard Unicode support on macOS. ([02ba525](#))
-* make all strings in the broadcast extension framework localized. ([4a94148](#))
-* make mouse click circles similar to what QuickTime does on macOS. ([d3b66ea](#))
-* show the mouse cursor when using window capturing mechanism on macOS. ([253fc32](#))
-* start in-app capturing mechanism on macOS. ([2a29e45](#))
-* start remote keyboard support on macOS. ([c8e96b2](#))
-* use kCGEventSourceStatePrivate as an event source. ([ef3a57c](#))
-* use kCGImageAlphaNoneSkipFirst instead of kCGImageAlphaNoneSkipLast. ([5bfabe9](#))
-
-
-### Bug Fixes
-
-* don't trigger double or triple clicks if the remote cursor has been moved. ([a9f6645](#))
-* fix translation key name ([ed8c79f](#))
-* hide the annotations automatically when there's a different app in focus. ([2c4935a](#))
-* iOS extension build error. ([394d81c](#))
-* unpress mouse and keyboard buttons when disposing the remote control. ([f18466e](#))
+* add ability to switch between window and full-device capturing mechanisms on macOS.
+* add new cobrowseShouldAllowTouchEvent and cobrowseShouldAllowKeyEvent callbacks on macOS.
+* implement a full-device confirmation prompt on macOS.
+* implement localizable strings on macOS.
 
 ### [2.20.1](#) (2022-06-14)
 
 
 ### Bug Fixes
 
-* make render method more aware of what's redacted to optimise render strategy ([0219759](#))
+* make render method more aware of what's redacted to optimise render strategy
 
 ## [2.20.0](#) (2022-06-14)
 
 
 ### Features
 
-* add API and License configuration to the sample app. ([c756afe](#))
+* add API and License configuration to the sample app.
 
 ## [2.19.0](#) (2022-05-12)
 
 
 ### Features
 
-* lock sessions to devices ([3d8c4d8](#))
+* lock sessions to devices
 
 
 ### Bug Fixes
 
-* deadlock in the ReplayKit frame source. ([4be0c4a](#))
-* EXC_BAD_ACCESS when working with CVImageBufferRef. ([279d974](#))
-* full-device gets disabled when the ReplayKit suspends broadcasting. ([7767443](#))
+* deadlock in the ReplayKit frame source.
+* EXC_BAD_ACCESS when working with CVImageBufferRef.
+* full-device gets disabled when the ReplayKit suspends broadcasting.
 
 ## [2.18.0](#) (2022-04-19)
 
 
 ### Features
 
-* expose new full device APIs ([9df0114](#))
-* set full_device state as enum properties ([7a5bb82](#))
+* expose new full device APIs
+* set full_device state as enum properties
 
 
 ### Bug Fixes
 
-* fix duplicate requests, update delegate api ([838e1a8](#))
-* simplify broadcast extension check ([e8905a3](#))
+* fix duplicate requests, update delegate api
+* simplify broadcast extension check
 
 ### [2.17.1](#) (2022-02-07)
 
 
 ### Bug Fixes
 
-* only call loaded event after call completes ([82d2cb3](#))
+* only call loaded event after call completes
 
 ## [2.17.0](#) (2022-02-02)
 
 
 ### Features
 
-* add delegate method that's called the first time a session is fetched from the server ([323b672](#))
+* add delegate method that's called the first time a session is fetched from the server
 
 ### [2.16.4](#) (2022-01-29)
 
 
 ### Bug Fixes
 
-* use XCFramework for broadcast extension via Pods ([94b6ee1](#))
+* use XCFramework for broadcast extension via Pods
 
 ### [2.16.3](#) (2022-01-28)
 
 
 ### Bug Fixes
 
-* skip custom data updates that match the cached version ([f0408ff](#))
+* skip custom data updates that match the cached version
 
 ### [2.16.2](#) (2022-01-25)
 
 
 ### Bug Fixes
 
-* fix full device mode when session are initiated with full_device already set to true ([37951ba](#))
+* fix full device mode when session are initiated with full_device already set to true
 
 ### [2.16.1](#) (2021-12-08)
 
@@ -129,49 +113,49 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### Features
 
-* send device and custom data on session creation ([bc19cf5](#))
+* send device and custom data on session creation
 
 ### [2.15.1](#) (2021-10-12)
 
 
 ### Bug Fixes
 
-* restore macos build ([0542b74](#))
+* restore macos build
 
 ## [2.15.0](#) (2021-09-08)
 
 
 ### Features
 
-* add XCFramework of the broadcast extension ([8743ad8](#))
+* add XCFramework of the broadcast extension
 
 ### [2.14.4](#) (2021-09-02)
 
 
 ### Bug Fixes
 
-* the delegate can now be dynamically updates during an active session ([14206e8](#))
+* the delegate can now be dynamically updates during an active session
 
 ### [2.14.3](#) (2021-08-10)
 
 
 ### Bug Fixes
 
-* optimise lazy removal of redaction on next activation when possible ([649ab04](#))
+* optimise lazy removal of redaction on next activation when possible
 
 ### [2.14.2](#) (2021-08-09)
 
 
 ### Bug Fixes
 
-* ensure redacted views are cleaned up if no longer specified as redacted by the delegate ([1fd899c](#))
+* ensure redacted views are cleaned up if no longer specified as redacted by the delegate
 
 ### [2.14.1](#) (2021-07-28)
 
 
 ### Bug Fixes
 
-* replace redaction layers that are no longer valid ([a6b0d76](#))
+* replace redaction layers that are no longer valid
 
 ### [2.14.0] - 2021-07-13
 - Added `Session.setFullDevice:callback:` API for setting desired full device state
