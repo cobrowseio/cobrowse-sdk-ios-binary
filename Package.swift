@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "CobrowseIO",
     platforms: [
-        .macOS(.v10_10), .iOS(.v9)
+        .macOS(.v10_13), .iOS(.v11)
     ],
     products: [
         .library(
