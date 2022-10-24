@@ -1,49 +1,16 @@
 # Cobrowse.io - iOS Native SDK
 
-Cobrowse.io is 100% free and easy to try out in your own apps. Please see full documentation at [https://docs.cobrowse.io](https://docs.cobrowse.io).
+Cobrowse.io is 100% free and easy to try out in your own apps.
 
-Try our **online demo** at the bottom of our homepage at <https://cobrowse.io/#tryit>.
+Register an account at [https://cobrowse.io/register](https://cobrowse.io/register).
+
+Please see **full documentation** at [https://docs.cobrowse.io](https://docs.cobrowse.io).
+
+Try our **online demo** at <https://cobrowse.io/demo>.
 
 ## Installation
 
-We recommend installing the Cobrowse.io SDK using Cocoapods. Add this to your Podfile:
-
-```ruby
-pod 'CobrowseIO', '~>2'
-```
-
-*Don't forget to run `pod repo update` then `pod install` after you've edited your Podfile.*
-
-#### Swift
-```swift
-import CobrowseIO
-
-func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool
-{
-    CobrowseIO.instance().license = "put your license key here"
-    CobrowseIO.instance().start()
-    return true
-}
-```
-
-#### Objective C
-```objective-c
-@import CobrowseIO;
-
-- (BOOL)application:(UIApplication*) application didFinishLaunchingWithOptions:(NSDictionary*) launchOptions
-{
-    CobrowseIO.instance.license = @"put your license key here";
-    [CobrowseIO.instance start];
-    return YES;
-}
-```
-*Important: Do this in your `application:didFinishLaunchingWithOptions:` implementation to make sure your device shows up in your dashboard right away.*
-
-### Add your License Key
-
-Please register an account and generate your free License Key at <https://cobrowse.io/dashboard/settings>.
-
-This will associate sessions from your mobile app with your Cobrowse account.
+See the [installation documentation](https://docs.cobrowse.io/sdk-installation/ios) to get started.
 
 ## Try it out
 
@@ -70,4 +37,4 @@ Any questions at all? Please email us directly at [hello@cobrowse.io](mailto:hel
 
 ## Requirements
 
-* iOS 9.0 or later
+* iOS 11.0 or later
