@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.23.0](#) (2022-12-13)
+
+
+### Features
+
+* Remove all dependencies from the SDK ([#45](#)) ([7fd94bb](#))
+
+
+### Bug Fixes
+
+* remove `kCGBitmapByteOrder32Little` CGBitmap option ([#44](#)) ([36be8e0](#))
+* Try to fix excessive memory usage in the extension ([#46](#)) ([d86cf43](#))
+
 ### [2.22.4](#) (2022-11-08)
 
 ### [2.22.3](#) (2022-11-08)
