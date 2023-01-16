@@ -2,20 +2,32 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [2.23.1](#) (2022-12-13)
-
-## [2.23.0](#) (2022-12-13)
-
-
-### Features
-
-* Remove all dependencies from the SDK ([#45](#)) ([7fd94bb](#))
+### [2.23.3](#) (2023-01-16)
 
 
 ### Bug Fixes
 
-* remove `kCGBitmapByteOrder32Little` CGBitmap option ([#44](#)) ([36be8e0](#))
-* Try to fix excessive memory usage in the extension ([#46](#)) ([d86cf43](#))
+* must push before linting as linting fetches from repo ([1298735](#))
+
+### [2.23.2](#) (2023-01-16)
+
+
+### Bug Fixes
+
+* improve Carthage binary support ([#48](#)) ([6231952](#))
+
+### [2.23.1](#) (2022-12-13)
+
+
+### Features
+
+* Remove all dependencies from the SDK. *Note*: if you are importing our Framework / XCFramework directly and not via a package manager, you can safely remove the previously required dependencies. If you are using a package manager this should be done automatically on upgrade to this version.
+
+
+### Bug Fixes
+
+* remove `kCGBitmapByteOrder32Little` CGBitmap option
+* Try to fix excessive memory usage in the extension
 
 ### [2.22.4](#) (2022-11-08)
 
@@ -30,13 +42,13 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### Features
 
-* Xcode 14 has dropped support for iOS versions below iOS 11, and macOS versions below 10.13, as well as the armv7 and i386 architectures. As such we have also dropped support for those platforms. ([7d05756](#))
-* Xcode 14 support ([11779e5](#))
+* Xcode 14 has dropped support for iOS versions below iOS 11, and macOS versions below 10.13, as well as the armv7 and i386 architectures. As such we have also dropped support for those platforms.
+* Xcode 14 support
 
 
 ### Bug Fixes
 
-* remote redaction not applying to UITextField in UIAlertController. ([0b10e3f](#))
+* remote redaction not applying to UITextField in UIAlertController.
 
 ### [2.21.2](#) (2022-08-29)
 

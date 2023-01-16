@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		t9RdcST9iBuXmMzT9J/ECvj0MrQ=
+		4805QlNtWnR8Wq3mCfOA98cRS/0=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -92,28 +92,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CzZAjuaH2Jgv0/8F0paT+hyr0RYSvlavwjzneNDt2qE=
+			cPJvqCndQXHH/w3QDzy4SaqvWke+PRXBDd9I2hyRu8A=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CzZAjuaH2Jgv0/8F0paT+hyr0RYSvlavwjzneNDt2qE=
+			cPJvqCndQXHH/w3QDzy4SaqvWke+PRXBDd9I2hyRu8A=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/Project/x86_64-apple-macos.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VRsjxFu5wUOv6EOS2E9n4rjuYhpShOrGarh+YZPI0lg=
+			GAKXd5R6OCD4oqDLlbVNXUNaJevQzepyUpiUf3VUkys=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VRsjxFu5wUOv6EOS2E9n4rjuYhpShOrGarh+YZPI0lg=
+			GAKXd5R6OCD4oqDLlbVNXUNaJevQzepyUpiUf3VUkys=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/arm64-apple-macos.swiftdoc</key>
@@ -134,7 +134,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Cv9q/PAKCQnV+0p6To2iR1SqHQ68HtpnNE1qxWxHYqs=
+			XbMU49sZjQ/xtVZ6WALLN6s5Ox5w2/n4Xt6nspqoLU0=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/arm64.swiftdoc</key>
@@ -155,7 +155,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Cv9q/PAKCQnV+0p6To2iR1SqHQ68HtpnNE1qxWxHYqs=
+			XbMU49sZjQ/xtVZ6WALLN6s5Ox5w2/n4Xt6nspqoLU0=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/x86_64-apple-macos.swiftdoc</key>
@@ -176,7 +176,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0YrcA3ND6DWcGtGdMq6gYiRGaGP4u8zHaYtVuX8r5aI=
+			U3KCMmyC0EdcekbofyHmx5dAKI61l1cYeD08bt8Li1M=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/x86_64.swiftdoc</key>
@@ -197,7 +197,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0YrcA3ND6DWcGtGdMq6gYiRGaGP4u8zHaYtVuX8r5aI=
+			U3KCMmyC0EdcekbofyHmx5dAKI61l1cYeD08bt8Li1M=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -211,7 +211,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jteWCHBXpBofJzpFkOGdmhXUPwEaXzi6l/ZmRyVyeVs=
+			mD1i8xzmrPJC5hPzGGOx2ohaV4iw5hq4KwpQJ8z57Jc=
 			</data>
 		</dict>
 	</dict>
