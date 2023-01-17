@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.23.4](#) (2023-01-17)
+
+
+### Bug Fixes
+
+* Fix/UI text field redaction ([#47](#)) ([9ecfe89](#))
+
 ### [2.23.3](#) (2023-01-16)
 
 
