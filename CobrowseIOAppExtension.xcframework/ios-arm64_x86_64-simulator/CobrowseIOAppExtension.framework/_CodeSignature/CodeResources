@@ -18,23 +18,23 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		eye29rTNxs67a6HiFzwTvCD/vC4=
+		c79RRUtiz+jUBZwU2yx1XArbz68=
 		</data>
 		<key>Modules/CobrowseIOAppExtension.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		/PabfzNBDdWtkt55cZBnkvX0oxA=
+		GbVbbX3kYOWwg8gKDqlo+C5tvns=
 		</data>
 		<key>Modules/CobrowseIOAppExtension.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		/PabfzNBDdWtkt55cZBnkvX0oxA=
+		GbVbbX3kYOWwg8gKDqlo+C5tvns=
 		</data>
 		<key>Modules/CobrowseIOAppExtension.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		Zxv2kKA89+FyL86W5lkD3Wd35Ho=
+		qvNs/O6MQSpoxYUjeGg8rCkmAL0=
 		</data>
 		<key>Modules/CobrowseIOAppExtension.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<data>
-		Zxv2kKA89+FyL86W5lkD3Wd35Ho=
+		qvNs/O6MQSpoxYUjeGg8rCkmAL0=
 		</data>
 		<key>Modules/CobrowseIOAppExtension.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/CobrowseIOAppExtension.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		nGpfxTJiXKicUncc2WzpMmLvkp0=
+		/8cqgEGUcgeAOFW/+XsAgcI9JVQ=
 		</data>
 		<key>Modules/CobrowseIOAppExtension.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/CobrowseIOAppExtension.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		nGpfxTJiXKicUncc2WzpMmLvkp0=
+		/8cqgEGUcgeAOFW/+XsAgcI9JVQ=
 		</data>
 		<key>Modules/CobrowseIOAppExtension.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Modules/CobrowseIOAppExtension.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		jlxDpUl0mmGn6zFVM3/aT/cRr8Y=
+		ACXR5o3MXUbUYxqo17pRpQqPpbo=
 		</data>
 		<key>Modules/CobrowseIOAppExtension.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Modules/CobrowseIOAppExtension.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		jlxDpUl0mmGn6zFVM3/aT/cRr8Y=
+		ACXR5o3MXUbUYxqo17pRpQqPpbo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -116,28 +116,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pA/cNdX8R9lh2w8+jgAqdkk3h10v+KVupoaBsU1a5hc=
+			5m/88H8YGe8xPHCdafAgS/IlXnaGWc6yVxef81IZRO8=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIOAppExtension.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pA/cNdX8R9lh2w8+jgAqdkk3h10v+KVupoaBsU1a5hc=
+			5m/88H8YGe8xPHCdafAgS/IlXnaGWc6yVxef81IZRO8=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIOAppExtension.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KJvTZ+f/3ZKnZ1tMlbpx6NZvol9cnv3XP150u4X8/BQ=
+			x7PjUU4bWEjV7MTiIhmh7qOmnIw9vvM9S0fCspZk0Nk=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIOAppExtension.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KJvTZ+f/3ZKnZ1tMlbpx6NZvol9cnv3XP150u4X8/BQ=
+			x7PjUU4bWEjV7MTiIhmh7qOmnIw9vvM9S0fCspZk0Nk=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIOAppExtension.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -158,7 +158,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+PqiIo3JybYu56RlRd+5HKcN7uWheq8bhIcEgD17j1s=
+			KuGNRRGEfmNzaFmBKtx5HuepVht2CQReCABEvRdP84Y=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIOAppExtension.swiftmodule/arm64.swiftdoc</key>
@@ -179,7 +179,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+PqiIo3JybYu56RlRd+5HKcN7uWheq8bhIcEgD17j1s=
+			KuGNRRGEfmNzaFmBKtx5HuepVht2CQReCABEvRdP84Y=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIOAppExtension.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -200,7 +200,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mZD1gCf74na9kqBUDfrcmi0w+j61S6NvCiPTs2zCRvQ=
+			pFvez+kuXvem4i6Ht47r0t78ZzdSBY7HPRk9YqL9Y68=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIOAppExtension.swiftmodule/x86_64.swiftdoc</key>
@@ -221,7 +221,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mZD1gCf74na9kqBUDfrcmi0w+j61S6NvCiPTs2zCRvQ=
+			pFvez+kuXvem4i6Ht47r0t78ZzdSBY7HPRk9YqL9Y68=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

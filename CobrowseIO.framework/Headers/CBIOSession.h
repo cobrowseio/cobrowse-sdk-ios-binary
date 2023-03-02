@@ -98,5 +98,4 @@ typedef void const (^CBErrorSessionBlock)(NSError* _Nullable err, CBIOSession* _
 /// @param callback Called when the request completes or fails
 -(void) setRemoteControl: (CBIORemoteControlState) state callback: (nullable CBErrorSessionBlock) callback;
 
-
 @end

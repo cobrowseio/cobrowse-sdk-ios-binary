@@ -41,6 +41,10 @@ static NSString* _Nonnull const kCBIODeviceNameKey = @"device_name";
 /// adding information such as your logged in users email addresses or user IDs here.
 @property (nonnull) NSDictionary<NSString*, NSObject*>* customData;
 
+/// The capabilities available to sessions. It defaults to all the capabilities allowed by the
+/// device.
+@property (nonnull) NSArray<NSString*>* capabilities;
+
 /// Implement the CobrowseIO delegate protocol to customise advanced behaviours of Cobrowse.
 /// It is *not* required to implement the delegate to use Cobrowse.
 /// @see CobrowseIODelegate

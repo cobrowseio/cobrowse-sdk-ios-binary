@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		OuydGS256WJCV2Nu/gyIUNJNuKs=
+		a9APBFUcyrBUTuuqbzbAxyw2hfQ=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -50,7 +50,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			o16KGSYaFDzbzmvlMyIdq3gQl1dOj02b0wP8k8+oNsk=
+			XZH8xZse8b5sLxBBIC4inbtU5lJTsOdjZJm5/Wff1PM=
 			</data>
 		</dict>
 		<key>Headers/CBIOTouchEvent.h</key>
@@ -71,7 +71,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Cgm2dbbnsGVxztKKy5m2+cgovCd84fuFK+i88f44810=
+			Q9ns+niAZClO0pUoSlEcIh/O9MmOeq9hs08Gbgg9RcY=
 			</data>
 		</dict>
 		<key>Headers/CobrowseIODelegate.h</key>
@@ -92,28 +92,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/DbImhdiXNKerFOTcF+bQE4ujeUD/5xaLJ1lK8lCqkM=
+			aNSNSuz/IW5KVWAsTbdWs3i2ndZWWV+FNj1wmz6VYXg=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/DbImhdiXNKerFOTcF+bQE4ujeUD/5xaLJ1lK8lCqkM=
+			aNSNSuz/IW5KVWAsTbdWs3i2ndZWWV+FNj1wmz6VYXg=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/Project/x86_64-apple-macos.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ARsXi17+tC0FFS7jQgW+Ugdi8xXk99T8/iGrWh5zndI=
+			qtZHiIWTFvJW0rTT3KdxXtfuHOxV0gxoQoGHVG5TDdc=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ARsXi17+tC0FFS7jQgW+Ugdi8xXk99T8/iGrWh5zndI=
+			qtZHiIWTFvJW0rTT3KdxXtfuHOxV0gxoQoGHVG5TDdc=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/arm64-apple-macos.swiftdoc</key>
@@ -134,7 +134,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HRIa++LB+mjh9xb/MPvIj24YpxamzYuw90u4+74FI6M=
+			mH0nE0qLfL5PwmnoccBbkVCx9QMARwocqcTexDJG8WQ=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/arm64.swiftdoc</key>
@@ -155,7 +155,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HRIa++LB+mjh9xb/MPvIj24YpxamzYuw90u4+74FI6M=
+			mH0nE0qLfL5PwmnoccBbkVCx9QMARwocqcTexDJG8WQ=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/x86_64-apple-macos.swiftdoc</key>
@@ -176,7 +176,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oIXJiD7Ip3hknPzhhgeZ7RJFPw5xSbjp5LcaVqOs3SA=
+			6PoNyNjPzbPNfns6oIxXghn0zgxMrj4GLa32n7zO20I=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/x86_64.swiftdoc</key>
@@ -197,7 +197,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oIXJiD7Ip3hknPzhhgeZ7RJFPw5xSbjp5LcaVqOs3SA=
+			6PoNyNjPzbPNfns6oIxXghn0zgxMrj4GLa32n7zO20I=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -211,7 +211,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7tbIKyw5Q6tr8DTNiiIzsaH4weRSt8s2D3bnifHf3pM=
+			pWQi+W5/ShD/NWagEInn8px2TKiLu9L8h3DPVwXSYYs=
 			</data>
 		</dict>
 	</dict>

@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.24.0](#) (2023-03-02)
+
+
+### Features
+
+* allow new sessions to preempt existing ones ([f064dc8](#))
+* Capabilities support ([#49](#)) ([6cc45e5](#))
+* **capabilities:** add dynamic capabilities functionality ([#55](#)) ([b5f49ea](#))
+* support non-FQDN socket URLs ([afa43e4](#))
+
+
+### Bug Fixes
+
+* encoding glitches on iPad with iOS 15 when in the split-screen mode ([#52](#)) ([567a4ba](#))
+* redacted content is displayed after a full device session is ended ([#56](#)) ([ba06718](#))
+
 ### [2.23.4](#) (2023-01-17)
 
 
