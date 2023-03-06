@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.24.1](#) (2023-03-06)
+
+
+### Bug Fixes
+
+* Fix creation of invalid context ([#59](#)) ([8fd489c](#))
+
 ## [2.24.0](#) (2023-03-02)
 
 
