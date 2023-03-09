@@ -10,6 +10,7 @@
 
 #import "CobrowseIODelegate.h"
 #import "CobrowseIORedacted.h"
+#import "CobrowseIOUnredacted.h"
 
 #if TARGET_OS_IOS
 #import "CBIOTouch.h"

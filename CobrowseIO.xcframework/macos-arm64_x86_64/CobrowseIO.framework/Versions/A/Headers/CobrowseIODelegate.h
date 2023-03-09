@@ -103,4 +103,12 @@
 /// @see CobrowseIORedacted
 -(nonnull NSArray<UIView*>*) cobrowseRedactedViewsForViewController: (nonnull UIViewController*) vc API_AVAILABLE(ios(9));
 
+/// Implement this method to provide a list of views for the given view controller
+/// that should always be visible in the agent view.
+/// Note: you can also implement the `CobrowseIOUnredacted` protocol on your view controller
+/// to provide the views to unredact there instead.
+/// @param vc The UIViewController subclass to redact
+/// @see CobrowseIOUnredacted
+-(nonnull NSArray<UIView*>*) cobrowseUnredactedViewsForViewController: (nonnull UIViewController*) vc API_AVAILABLE(ios(9));
+
 @end

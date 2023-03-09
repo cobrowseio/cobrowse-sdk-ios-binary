@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.25.0](#) (2023-03-09)
+
+
+### Features
+
+* Support unredaction as a first class SDK feature ([68e7339](#))
+
+
+### Bug Fixes
+
+* Fix macOS SDK crash: `-[__NSPlaceholderDictionary initWithObjects:forKeys:count:]: attempt to insert nil object from objects[4]`` ([#60](#)) ([c972f51](#))
+
 ### [2.24.1](#) (2023-03-06)
 
 
