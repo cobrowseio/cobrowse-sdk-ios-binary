@@ -6,6 +6,6 @@ framework module CobrowseIOAppExtension {
 }
 
 module CobrowseIOAppExtension.Swift {
-    header "CobrowseIOAppExtension-Swift.h"
-    requires objc
+  header "CobrowseIOAppExtension-Swift.h"
+  requires objc
 }

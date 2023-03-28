@@ -6,6 +6,6 @@ framework module CobrowseIO {
 }
 
 module CobrowseIO.Swift {
-    header "CobrowseIO-Swift.h"
-    requires objc
+  header "CobrowseIO-Swift.h"
+  requires objc
 }

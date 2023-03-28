@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.26.0](#) (2023-03-28)
+
+
+### Features
+
+* use Xcode 14.1 ([#53](#)) ([d140090](#))
+
 ## [2.25.0](#) (2023-03-09)
 
 
