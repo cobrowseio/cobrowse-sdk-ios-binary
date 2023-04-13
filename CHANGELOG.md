@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.26.1](#) (2023-04-13)
+
+
+### Bug Fixes
+
+* annotation and remote control capabilities are off in full-device mode on macOS ([#62](#)) ([6d78502](#))
+
 ## [2.26.0](#) (2023-03-28)
 
 
