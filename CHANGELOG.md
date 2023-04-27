@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.26.2](#) (2023-04-27)
+
+
+### Bug Fixes
+
+* Allow broadcast upload extension to initialise with capabilities ([#64](#)) ([03ba49a](#))
+
 ### [2.26.1](#) (2023-04-13)
 
 
