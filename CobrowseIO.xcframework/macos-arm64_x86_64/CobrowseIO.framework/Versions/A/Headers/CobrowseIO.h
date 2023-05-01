@@ -46,6 +46,15 @@ static NSString* _Nonnull const kCBIODeviceNameKey = @"device_name";
 /// device.
 @property (nonnull) NSArray<NSString*>* capabilities;
 
+/// By default, when the SDK starts it will register the device to your account and share its
+/// connectivity state. This provides the dashboard with a list of devices which are online
+/// and ready to connect.
+/// If you don't need to see a list of devices in your dashboard, e.g. your sessions start only
+/// using @c [CobrowseIO.instance @c createSession:] or via @c CBIOViewController ,
+/// then you can stop the SDK from registering the device and its status by setting
+/// the @c registration option with a value of @c false .
+@property BOOL registration;
+
 /// Implement the CobrowseIO delegate protocol to customise advanced behaviours of Cobrowse.
 /// It is *not* required to implement the delegate to use Cobrowse.
 /// @see CobrowseIODelegate
