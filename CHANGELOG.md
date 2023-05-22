@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.27.1](#) (2023-05-22)
+
+
+### Bug Fixes
+
+* redaction does not apply on modal ViewControllers in the full-device mode ([#65](#)) ([4cfcb07](#))
+* redaction does not apply when ViewController's layout changes in the full-device mode ([#66](#)) ([df3b237](#))
+
 ## [2.27.0](#) (2023-05-01)
 
 ### [2.26.4](#) (2023-04-27)
