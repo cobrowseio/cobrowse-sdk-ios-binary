@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.27.2](#) (2023-05-24)
+
+
+### Bug Fixes
+
+* remove exessive logging ([#67](#)) ([f39bd60](#))
+
 ### [2.27.1](#) (2023-05-22)
 
 
