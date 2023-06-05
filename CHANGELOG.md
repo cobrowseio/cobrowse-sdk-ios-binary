@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.27.3](#) (2023-06-05)
+
+
+### Bug Fixes
+
+* integration with the Intercom SDK v13 ([#68](#)) ([d26ab7c](#))
+
 ### [2.27.2](#) (2023-05-24)
 
 
