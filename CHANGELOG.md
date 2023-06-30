@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.27.4](#) (2023-06-30)
+
+
+### Bug Fixes
+
+* **push:** Wait for shared application to be available to swizzle token and notification delegate methods ([#69](#)) ([3423fc2](#))
+* trigger remote touches on WKWebViews via JavaScript code ([#71](#)) ([6ef985a](#))
+
 ### [2.27.3](#) (2023-06-05)
 
 
