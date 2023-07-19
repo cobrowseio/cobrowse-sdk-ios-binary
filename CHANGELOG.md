@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.28.0](#) (2023-07-19)
+
+
+### Features
+
+* Add redaction support to WKWebViews ([#70](#)) ([24806bb](#))
+
+
+### Bug Fixes
+
+* rendering issue on iOS 17 beta ([#72](#)) ([ed9c044](#))
+
 ### [2.27.4](#) (2023-06-30)
 
 

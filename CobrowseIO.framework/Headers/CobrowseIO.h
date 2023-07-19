@@ -46,6 +46,9 @@ static NSString* _Nonnull const kCBIODeviceNameKey = @"device_name";
 /// device.
 @property (nonnull) NSArray<NSString*>* capabilities;
 
+/// The CSS selectors which will be redacted within Webviews
+@property (nonnull) NSArray<NSString*>* webviewRedactedViews API_AVAILABLE(ios(11));
+
 /// By default, when the SDK starts it will register the device to your account and share its
 /// connectivity state. This provides the dashboard with a list of devices which are online
 /// and ready to connect.
