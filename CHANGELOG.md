@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.28.1](#) (2023-07-31)
+
+
+### Features
+
+* allow setting capabilities on launch ([#77](#)) ([cabef31](#))
+
+
+### Bug Fixes
+
+* improve socket liveness checking ([#76](#)) ([b8cc376](#))
+
 ## [2.28.0](#) (2023-07-19)
 
 
