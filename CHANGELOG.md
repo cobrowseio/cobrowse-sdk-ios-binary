@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.28.3](#) (2023-08-18)
+
+
+### Bug Fixes
+
+* avoid webview dealloc crash ([#80](#)) ([33232ac](#))
+* improve redaction support inside WKWebViews ([#78](#)) ([0517fc8](#))
+
 ### [2.28.2](#) (2023-08-07)
 
 
