@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.28.4](#) (2023-08-22)
+
+
+### Bug Fixes
+
+* ensure full redaction is removed when the keyboard animation is complete ([#81](#)) ([26db78b](#))
+
 ### [2.28.3](#) (2023-08-18)
 
 
