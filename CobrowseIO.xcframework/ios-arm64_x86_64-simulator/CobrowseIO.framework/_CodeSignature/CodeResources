@@ -86,15 +86,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		tRwhIK1qfdEh1s78YtiOGoN8Tl8=
+		hk6nfRZ7NjbOy1zSPkyfBRmG8VY=
 		</data>
 		<key>Modules/CobrowseIO.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		ctwSedpkPCrQL9lsNGOSE89qtrA=
+		2xoGdE+nAoT5/v7MP0nfU70DqC4=
 		</data>
 		<key>Modules/CobrowseIO.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		Qv2K7ePH08yvRL/f1HWNOhU7CCQ=
+		BfJSfs6H+7aMzBG1vmdaRRgS3OA=
 		</data>
 		<key>Modules/CobrowseIO.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -114,7 +114,7 @@
 		</data>
 		<key>Modules/CobrowseIO.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		5Gd9fs/oe/keKSO4g5OS5S9RjCU=
+		BTUugujGZb7jRAwNw0Y3IbWUGUY=
 		</data>
 		<key>Modules/CobrowseIO.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -134,7 +134,7 @@
 		</data>
 		<key>Modules/CobrowseIO.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		6t+kOrkuvYTxaekharI2kVQn/A4=
+		TX4IRG6NC7/hnfQvzUPJXV46GZU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -150,7 +150,7 @@
 		</data>
 		<key>webViewRedaction.js</key>
 		<data>
-		kXPWF4O0JjawUAd9Wc6iYbh6Gik=
+		2BpBDF+OpV46OmrC54TYY38tZ2A=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -299,14 +299,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dZrFKIwRzT1/slopr47vWg+AO1LxM8Nr6/CgWbNlAoU=
+			oaPgGisubd/FFnG7XNKkGiHpVfzRMsq5UsvvnG/2Dgo=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jhgIzOZAs5B5Efepfdv5RZflUqnUUF8u7E1kdMN84g4=
+			S0S82ToA+1GXgog9HxqE11s1JPUBimC08lgwSF8mcb8=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -341,7 +341,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tP3+qwqHr9V0Z1Nan+NzElVoQwoQ/aqbIEWzFEJmkE0=
+			L+rPh86cOSbDm1IjnhVMvLUJzyFYJJq2ji4A8cxkkYw=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -376,7 +376,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cm9MTGH9cdl1OXX9JeFKvRSctBkj3kESuI6rds+7PUQ=
+			0H+6XxxcZg9theJv0Th3qUpY0VdcvEWqxVYuXXQexB8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -404,7 +404,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FwoA/YgkqafJPdbz2rhoYTIRvM+xK41knXZdVC7SuRI=
+			7M3+VsGb8GOfauPJAWgFiTkgQ9dGDmoIi0MD91dqhek=
 			</data>
 		</dict>
 	</dict>

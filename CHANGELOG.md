@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.28.5](#) (2023-09-08)
+
+
+### Bug Fixes
+
+* ensure data from previous stream is discarded after switching ([#83](#)) ([63109c3](#))
+
 ### [2.28.4](#) (2023-08-22)
 
 
