@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.28.6](#) (2023-09-11)
+
+
+### Bug Fixes
+
+* return the device capabilities when the server doesn't support capabilities ([#84](#)) ([8006299](#))
+
 ### [2.28.5](#) (2023-09-08)
 
 
