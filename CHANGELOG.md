@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.29.0](#) (2023-09-29)
+
+
+### Features
+
+* Allow capabilities to be set on a session object ([#86](#)) ([a98823a](#))
+
+
+### Bug Fixes
+
+* Clear currentSession if error is retuned ([#85](#)) ([ee43e58](#))
+
 ### [2.28.6](#) (2023-09-11)
 
 
