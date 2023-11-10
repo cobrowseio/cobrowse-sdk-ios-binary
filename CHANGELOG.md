@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.29.1](#) (2023-11-10)
+
+
+### Bug Fixes
+
+* remove the usage of [@import](#) within the sdk code ([#89](#)) ([ace2866](#))
+
 ## [2.29.0](#) (2023-09-29)
 
 
