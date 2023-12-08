@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		jK9OJOnplRlVQWhjR1H8csvAlCI=
+		WLcW/98U/PfFS+TmY8SAV0aP+gA=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -99,14 +99,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BuV1q2lIAavEUwbNZbPIEWC0b/3sEpr30W26f6oBVaE=
+			itvz8xbK82flK4n1MD3iQz/dQ6Kzh5jnVgCX696cosw=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/Project/x86_64-apple-macos.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iNsIt3cbmlN5bBxuXbaGIuiSqOcEBh0nDsOnHICBnqg=
+			jUtx3kIJMnFrcZz1s0GRpTeSwwV/AiurmrR7Luy4iTs=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/arm64-apple-macos.abi.json</key>
@@ -141,7 +141,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zW9oAueZ5TxKEjjOi6kUv9xnCIO7DCZO0R2rfJq853s=
+			9HnIGR1cM9bZ506uj6+pQLxYRg6T5E5O9TMc0PTTWGo=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/x86_64-apple-macos.abi.json</key>
@@ -176,7 +176,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/axB+EzewHBTFPvrzeCclj0FZTfjZy44Tv6vZmwZ9J8=
+			K91Bx0cXLVeU3d1Hb+ViVtYVZgJ2hMISX3Uk5SBTJs0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -190,7 +190,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			i4OY/e7NZWVye/gcyjhTw09H/fckKhehCupF5c3Fft4=
+			tCw1BM2xXhv4I0rCJnxDwOIpKCdSSwIrAulSGv/dEq8=
 			</data>
 		</dict>
 	</dict>

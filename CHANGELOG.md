@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.29.3](#) (2023-12-08)
+
+
+### Bug Fixes
+
+* fix unredaction edge case when using multiple nested view controllers ([ab71819](#))
+
 ### [2.29.2](#) (2023-11-10)
 
 ### [2.29.1](#) (2023-11-10)
