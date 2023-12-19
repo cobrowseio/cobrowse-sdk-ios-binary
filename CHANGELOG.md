@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.29.4](#) (2023-12-19)
+
+
+### Bug Fixes
+
+* remove dependency on WKNavigationDelegate to prevent conflicts with error reporting sdks ([#94](#)) ([68009fd](#))
+
 ### [2.29.3](#) (2023-12-08)
 
 
