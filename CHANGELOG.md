@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.29.5](#) (2023-12-20)
+
+
+### Bug Fixes
+
+* ensure we don't query the dom when webview redaction isn't configured ([#95](#)) ([c954914](#))
+
 ### [2.29.4](#) (2023-12-19)
 
 
