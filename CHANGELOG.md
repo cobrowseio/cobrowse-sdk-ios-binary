@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.29.6](#) (2024-01-17)
+
+
+### Bug Fixes
+
+* make sure the SDK renders a new frame when the content of `UIImageView` changes ([#97](#)) ([560f739](#))
+
 ### [2.29.5](#) (2023-12-20)
 
 
