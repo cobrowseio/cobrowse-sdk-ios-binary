@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.29.7](#) (2024-04-15)
+
+
+### Bug Fixes
+
+* Add privacy manifest to iOS, macOS and Extension frameworks ([#102](#)) ([b19d53e](#))
+* fix unwanted green line in the screencasting stream ([#98](#)) ([b870b7b](#))
+
 ### [2.29.6](#) (2024-01-17)
 
 

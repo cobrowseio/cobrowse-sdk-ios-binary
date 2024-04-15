@@ -1,7 +1,7 @@
 framework module CobrowseIOAppExtension {
   umbrella header "CobrowseIOAppExtension.h"
-
   export *
+
   module * { export * }
 }
 
