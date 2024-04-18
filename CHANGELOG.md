@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.30.0](#) (2024-04-18)
+
+
+### Features
+
+* Add support for SwiftUI redaction ([#100](#)) ([7f6c2ff](#))
+
 ### [2.29.7](#) (2024-04-15)
 
 

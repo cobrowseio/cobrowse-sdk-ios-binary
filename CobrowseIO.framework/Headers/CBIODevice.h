@@ -7,7 +7,4 @@
 /// The APNS push notification token for this device
 @property (nullable) NSData* token;
 
-/// The Cobrowse generated id for this device
--(nonnull NSString*) id;
-
 @end

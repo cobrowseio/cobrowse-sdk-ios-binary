@@ -8,6 +8,8 @@ import CoreFoundation
 import Foundation
 import Security
 import Swift
+import SwiftUI
+import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
@@ -25,4 +27,19 @@ import zlib
   @objc public func send(_ event: Swift.String, data: Swift.Dictionary<Swift.String, Any>, completion: (() -> ())?)
   @objc public func sendPing()
   @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(CBIOSwiftUIRedaction) public class Redaction : ObjectiveC.NSObject {
+  @objc public static func getRedactedViews() -> [UIKit.UIView]
+  @objc override dynamic public init()
+  @objc deinit
+}
+@available(iOS 14.0, *)
+extension SwiftUI.View {
+  public func redacted() -> some SwiftUI.View
+  
+}
+@available(iOS 14.0, *)
+extension UIKit.UIView {
+  @discardableResult
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func cobrowseRedacted() -> UIKit.UIView
 }

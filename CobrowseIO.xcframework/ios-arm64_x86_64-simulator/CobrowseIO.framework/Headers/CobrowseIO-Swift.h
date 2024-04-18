@@ -279,6 +279,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 @import Foundation;
 @import ObjectiveC;
+@import UIKit;
 #endif
 
 #endif
@@ -320,6 +321,24 @@ SWIFT_CLASS("_TtC10CobrowseIO10CBORSocket")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+
+
+@class UIView;
+
+SWIFT_CLASS_NAMED("Redaction")
+@interface CBIOSwiftUIRedaction : NSObject
++ (NSArray<UIView *> * _Nonnull)getRedactedViews SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+
+SWIFT_AVAILABILITY(ios,introduced=14.0)
+@interface UIView (SWIFT_EXTENSION(CobrowseIO))
+/// Redact this view from being seen by the Cobrowse agent
+- (UIView * _Nonnull)cobrowseRedacted;
+@end
 
 #endif
 #if __has_attribute(external_source_symbol)
@@ -610,6 +629,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 @import Foundation;
 @import ObjectiveC;
+@import UIKit;
 #endif
 
 #endif
@@ -651,6 +671,24 @@ SWIFT_CLASS("_TtC10CobrowseIO10CBORSocket")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+
+
+@class UIView;
+
+SWIFT_CLASS_NAMED("Redaction")
+@interface CBIOSwiftUIRedaction : NSObject
++ (NSArray<UIView *> * _Nonnull)getRedactedViews SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+
+SWIFT_AVAILABILITY(ios,introduced=14.0)
+@interface UIView (SWIFT_EXTENSION(CobrowseIO))
+/// Redact this view from being seen by the Cobrowse agent
+- (UIView * _Nonnull)cobrowseRedacted;
+@end
 
 #endif
 #if __has_attribute(external_source_symbol)
