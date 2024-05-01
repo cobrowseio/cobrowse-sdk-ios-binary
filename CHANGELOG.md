@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.30.1](#) (2024-05-01)
+
+
+### Bug Fixes
+
+* Remove empty item in PrivacyInfo.xcprivacy ([#103](#)) ([50ff57f](#))
+
 ## [2.30.0](#) (2024-04-18)
 
 

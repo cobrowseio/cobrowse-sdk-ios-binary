@@ -86,15 +86,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		KY4znuQAZ/mv61OkxaJFW/ObzEQ=
+		vwqdgCKWeFSKMp8cWq/A/x8SeVc=
 		</data>
 		<key>Modules/CobrowseIO.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		O9d8Dxxy/l9tsWGWOGhoJ49Sm4g=
+		QIiLsMCj6tLdZLSpbeK+B4KRYFQ=
 		</data>
 		<key>Modules/CobrowseIO.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		ANSCni01RKXd9CjQJSAdwJG2w48=
+		Cig5uz+6O6GEdww9NW6AxavWP44=
 		</data>
 		<key>Modules/CobrowseIO.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -114,7 +114,7 @@
 		</data>
 		<key>Modules/CobrowseIO.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		jb+noMxpgTY9E7v9x5xptlYymLA=
+		mA1snAQ/1N4zhYDorojBfFcixW8=
 		</data>
 		<key>Modules/CobrowseIO.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -134,7 +134,7 @@
 		</data>
 		<key>Modules/CobrowseIO.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		EdtrOggUDTB2R/0YyiOSk94iBLY=
+		MW16aD31rB/6yj5zABy8e3f5+Fs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -142,7 +142,7 @@
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
-		Be7vAsYw6a0ihshfBvf10a/eA6I=
+		vlWr+MgEprvGjv6vSD/6IVRpwOg=
 		</data>
 		<key>WKWebViewJSLib.js</key>
 		<data>
@@ -154,7 +154,7 @@
 		</data>
 		<key>webViewRedaction.js</key>
 		<data>
-		Heht9NdmaqOZbrLmATp11qyFeUo=
+		ywWl+UD9NLWJUC4QiXRzq1/h6Yk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -303,14 +303,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wbNxzMkENsYhcy6Hy67Ks5nfF2y5GQ0qGOaR5csNCQI=
+			bsiKGdr+zdkLeJSQrLODlGAv8+d/oTfrPkjcssBVWeg=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9YcZSv9c1jcLVNm3JhAr2BJyA48fitnS4z3ygnfl9KI=
+			JaZTFIREf4q+c6UuwULRON33P83gyMzQe+xAecN5K/c=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -345,7 +345,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BpNKMDVajVT22sjeoeDy9KI3mq8gFzquhTyp/GBbM5I=
+			gkeTXNr8EhP3++qX7CtXii2QLdMXQeCwbKGmLP7YHxA=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -380,7 +380,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rNIuFufc4/lsjfXgruwiiCy2HdHisH2mY7aob8s0DzQ=
+			FNeCic14AmXtbwKRBSjS4KjIGUVHvJfmewRh3G1oS/A=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -394,7 +394,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zslIF0obinMzdOZ9Q+UwDtRSt/2WsRv+5zLDqp7A1fk=
+			A9mDGhXCQsj8ZXgXT6s+ZjeTBTvNTGGu8qzyESXJqfE=
 			</data>
 		</dict>
 		<key>WKWebViewJSLib.js</key>
@@ -415,7 +415,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QpuX4s1TzdM20LG96JURKDOHnJMD/znUTGyyALwGnvU=
+			pj1+UYCSBvyJBLOc8Oq9YKwERk5tN4DAmzr6UvVSFhw=
 			</data>
 		</dict>
 	</dict>
