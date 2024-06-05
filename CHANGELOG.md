@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.30.2](#) (2024-06-05)
+
+
+### Bug Fixes
+
+* always use the alternate rendering method with Flutter ([#104](#)) ([a512aa3](#))
+
 ### [2.30.1](#) (2024-05-01)
 
 
