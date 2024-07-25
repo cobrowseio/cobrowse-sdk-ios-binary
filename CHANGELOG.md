@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.31.0](#) (2024-07-25)
+
+
+### Features
+
+* Improvements for webview redaction ([#107](#)) ([e8f3c3a](#))
+
+
+### Bug Fixes
+
+* ensure we only skip frames when the zoom has been user initiated ([#110](#)) ([38877cf](#))
+
 ### [2.30.3](#) (2024-06-06)
 
 ### [2.30.2](#) (2024-06-05)
