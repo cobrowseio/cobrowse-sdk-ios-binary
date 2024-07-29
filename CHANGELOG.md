@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.31.1](#) (2024-07-29)
+
+
+### Bug Fixes
+
+* improve support for rendering Alert views ([#111](#)) ([9ec5c1b](#))
+
 ## [2.31.0](#) (2024-07-25)
 
 
