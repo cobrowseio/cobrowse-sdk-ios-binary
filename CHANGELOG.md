@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.31.2](#) (2024-08-26)
+
+
+### Bug Fixes
+
+* prevent zombie webviews from dropping frames ([#112](#)) ([dd1b728](#))
+
 ### [2.31.1](#) (2024-07-29)
 
 
