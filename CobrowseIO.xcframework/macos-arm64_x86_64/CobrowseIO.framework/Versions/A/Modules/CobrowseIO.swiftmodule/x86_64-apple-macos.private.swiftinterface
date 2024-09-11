@@ -12,6 +12,23 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 import zlib
+extension CobrowseIO.CobrowseIO {
+  @_hasMissingDesignatedInitializers @objc(CBIOSelector) final public class Selector : ObjectiveC.NSObject {
+    @objc(from:) public static func from(selector: [[Swift.String : Any]]) -> CobrowseIO.CobrowseIO.Selector?
+    @objc override final public var description: Swift.String {
+      @objc get
+    }
+    @objc override final public var debugDescription: Swift.String {
+      @objc get
+    }
+    @objc override final public func isEqual(_ object: Any?) -> Swift.Bool
+    public static func == (lhs: CobrowseIO.CobrowseIO.Selector, rhs: CobrowseIO.CobrowseIO.Selector) -> Swift.Bool
+    @objc override final public var hash: Swift.Int {
+      @objc get
+    }
+    @objc deinit
+  }
+}
 @objc public class CBORSocket : ObjectiveC.NSObject {
   @objc public var maxReconnectDelay: Swift.Double
   @objc public var minReconnectDelay: Swift.Double
@@ -25,4 +42,13 @@ import zlib
   @objc public func send(_ event: Swift.String, data: Swift.Dictionary<Swift.String, Any>, completion: (() -> ())?)
   @objc public func sendPing()
   @objc deinit
+}
+extension CobrowseIO.CobrowseIO.Selector {
+  @_inheritsConvenienceInitializers @objc(CBIOSelectorIndex) final public class Index : ObjectiveC.NSObject {
+    @objc public static let redacted: CobrowseIO.CobrowseIO.Selector.Index
+    @objc public static let unredacated: CobrowseIO.CobrowseIO.Selector.Index
+    @objc final public func set(_ selectors: Swift.Set<CobrowseIO.CobrowseIO.Selector>)
+    @objc override dynamic public init()
+    @objc deinit
+  }
 }

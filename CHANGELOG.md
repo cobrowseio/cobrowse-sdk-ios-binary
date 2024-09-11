@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.32.0](#) (2024-09-11)
+
+
+### Features
+
+* SwiftUI dashboard redaction support ([#115](#)) ([313ab0a](#))
+
+
+### Bug Fixes
+
+* remote scrolling in WKWebView on iOS 17.4+ ([#113](#)) ([2af1a0b](#))
+* remove kvo for webview progressing in favor of navigationDelegate for compliance with iOS 18 ([#116](#)) ([390cb7e](#))
+
 ### [2.31.2](#) (2024-08-26)
 
 

@@ -765,6 +765,649 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "CobrowseIO",
+        "printedName": "CobrowseIO",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Selector",
+            "printedName": "Selector",
+            "children": [
+              {
+                "kind": "Function",
+                "name": "from",
+                "printedName": "from(selector:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CobrowseIOAppExtension.CobrowseIO.Selector?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Selector",
+                        "printedName": "CobrowseIOAppExtension.CobrowseIO.Selector",
+                        "usr": "s:22CobrowseIOAppExtension0A2IOO8SelectorC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[[Swift.String : Any]]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:22CobrowseIOAppExtension0A2IOO8SelectorC4from8selectorAESgSaySDySSypGG_tFZ",
+                "mangledName": "$s22CobrowseIOAppExtension0A2IOO8SelectorC4from8selectorAESgSaySDySSypGG_tFZ",
+                "moduleName": "CobrowseIOAppExtension",
+                "static": true,
+                "objc_name": "from:",
+                "declAttributes": [
+                  "Final",
+                  "AccessControl",
+                  "ObjC"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "description",
+                "printedName": "description",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:22CobrowseIOAppExtension0A2IOO8SelectorC11descriptionSSvp",
+                "mangledName": "$s22CobrowseIOAppExtension0A2IOO8SelectorC11descriptionSSvp",
+                "moduleName": "CobrowseIOAppExtension",
+                "overriding": true,
+                "objc_name": "description",
+                "declAttributes": [
+                  "Final",
+                  "ObjC",
+                  "Override",
+                  "AccessControl"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:22CobrowseIOAppExtension0A2IOO8SelectorC11descriptionSSvg",
+                    "mangledName": "$s22CobrowseIOAppExtension0A2IOO8SelectorC11descriptionSSvg",
+                    "moduleName": "CobrowseIOAppExtension",
+                    "overriding": true,
+                    "objc_name": "description",
+                    "declAttributes": [
+                      "Final",
+                      "ObjC"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "debugDescription",
+                "printedName": "debugDescription",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:22CobrowseIOAppExtension0A2IOO8SelectorC16debugDescriptionSSvp",
+                "mangledName": "$s22CobrowseIOAppExtension0A2IOO8SelectorC16debugDescriptionSSvp",
+                "moduleName": "CobrowseIOAppExtension",
+                "overriding": true,
+                "objc_name": "debugDescription",
+                "declAttributes": [
+                  "Final",
+                  "ObjC",
+                  "Override",
+                  "AccessControl"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:22CobrowseIOAppExtension0A2IOO8SelectorC16debugDescriptionSSvg",
+                    "mangledName": "$s22CobrowseIOAppExtension0A2IOO8SelectorC16debugDescriptionSSvg",
+                    "moduleName": "CobrowseIOAppExtension",
+                    "overriding": true,
+                    "objc_name": "debugDescription",
+                    "declAttributes": [
+                      "Final",
+                      "ObjC"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "isEqual",
+                "printedName": "isEqual(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:22CobrowseIOAppExtension0A2IOO8SelectorC7isEqualySbypSgF",
+                "mangledName": "$s22CobrowseIOAppExtension0A2IOO8SelectorC7isEqualySbypSgF",
+                "moduleName": "CobrowseIOAppExtension",
+                "overriding": true,
+                "objc_name": "isEqual:",
+                "declAttributes": [
+                  "Final",
+                  "ObjC",
+                  "Override",
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Selector",
+                    "printedName": "CobrowseIOAppExtension.CobrowseIO.Selector",
+                    "usr": "s:22CobrowseIOAppExtension0A2IOO8SelectorC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Selector",
+                    "printedName": "CobrowseIOAppExtension.CobrowseIO.Selector",
+                    "usr": "s:22CobrowseIOAppExtension0A2IOO8SelectorC"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:22CobrowseIOAppExtension0A2IOO8SelectorC2eeoiySbAE_AEtFZ",
+                "mangledName": "$s22CobrowseIOAppExtension0A2IOO8SelectorC2eeoiySbAE_AEtFZ",
+                "moduleName": "CobrowseIOAppExtension",
+                "static": true,
+                "declAttributes": [
+                  "Final",
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hash",
+                "printedName": "hash",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:22CobrowseIOAppExtension0A2IOO8SelectorC4hashSivp",
+                "mangledName": "$s22CobrowseIOAppExtension0A2IOO8SelectorC4hashSivp",
+                "moduleName": "CobrowseIOAppExtension",
+                "overriding": true,
+                "objc_name": "hash",
+                "declAttributes": [
+                  "Final",
+                  "ObjC",
+                  "Override",
+                  "AccessControl"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:22CobrowseIOAppExtension0A2IOO8SelectorC4hashSivg",
+                    "mangledName": "$s22CobrowseIOAppExtension0A2IOO8SelectorC4hashSivg",
+                    "moduleName": "CobrowseIOAppExtension",
+                    "overriding": true,
+                    "objc_name": "hash",
+                    "declAttributes": [
+                      "Final",
+                      "ObjC"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Selector",
+                    "printedName": "CobrowseIOAppExtension.CobrowseIO.Selector",
+                    "usr": "s:22CobrowseIOAppExtension0A2IOO8SelectorC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:22CobrowseIOAppExtension0A2IOO8SelectorCAEycfc",
+                "mangledName": "$s22CobrowseIOAppExtension0A2IOO8SelectorCAEycfc",
+                "moduleName": "CobrowseIOAppExtension",
+                "overriding": true,
+                "implicit": true,
+                "objc_name": "init",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC",
+                  "Override"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "TypeDecl",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "Var",
+                    "name": "redacted",
+                    "printedName": "redacted",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Index",
+                        "printedName": "CobrowseIOAppExtension.CobrowseIO.Selector.Index",
+                        "usr": "s:22CobrowseIOAppExtension0A2IOO8SelectorC5IndexC"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:22CobrowseIOAppExtension0A2IOO8SelectorC5IndexC8redactedAGvpZ",
+                    "mangledName": "$s22CobrowseIOAppExtension0A2IOO8SelectorC5IndexC8redactedAGvpZ",
+                    "moduleName": "CobrowseIOAppExtension",
+                    "static": true,
+                    "declAttributes": [
+                      "HasInitialValue",
+                      "Final",
+                      "HasStorage",
+                      "AccessControl",
+                      "ObjC"
+                    ],
+                    "isLet": true,
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Index",
+                            "printedName": "CobrowseIOAppExtension.CobrowseIO.Selector.Index",
+                            "usr": "s:22CobrowseIOAppExtension0A2IOO8SelectorC5IndexC"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:22CobrowseIOAppExtension0A2IOO8SelectorC5IndexC8redactedAGvgZ",
+                        "mangledName": "$s22CobrowseIOAppExtension0A2IOO8SelectorC5IndexC8redactedAGvgZ",
+                        "moduleName": "CobrowseIOAppExtension",
+                        "static": true,
+                        "implicit": true,
+                        "declAttributes": [
+                          "Final",
+                          "ObjC"
+                        ],
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "unredacated",
+                    "printedName": "unredacated",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Index",
+                        "printedName": "CobrowseIOAppExtension.CobrowseIO.Selector.Index",
+                        "usr": "s:22CobrowseIOAppExtension0A2IOO8SelectorC5IndexC"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:22CobrowseIOAppExtension0A2IOO8SelectorC5IndexC11unredacatedAGvpZ",
+                    "mangledName": "$s22CobrowseIOAppExtension0A2IOO8SelectorC5IndexC11unredacatedAGvpZ",
+                    "moduleName": "CobrowseIOAppExtension",
+                    "static": true,
+                    "declAttributes": [
+                      "HasInitialValue",
+                      "Final",
+                      "HasStorage",
+                      "AccessControl",
+                      "ObjC"
+                    ],
+                    "isLet": true,
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Index",
+                            "printedName": "CobrowseIOAppExtension.CobrowseIO.Selector.Index",
+                            "usr": "s:22CobrowseIOAppExtension0A2IOO8SelectorC5IndexC"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:22CobrowseIOAppExtension0A2IOO8SelectorC5IndexC11unredacatedAGvgZ",
+                        "mangledName": "$s22CobrowseIOAppExtension0A2IOO8SelectorC5IndexC11unredacatedAGvgZ",
+                        "moduleName": "CobrowseIOAppExtension",
+                        "static": true,
+                        "implicit": true,
+                        "declAttributes": [
+                          "Final",
+                          "ObjC"
+                        ],
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Function",
+                    "name": "set",
+                    "printedName": "set(_:)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Set",
+                        "printedName": "Swift.Set<CobrowseIOAppExtension.CobrowseIO.Selector>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Selector",
+                            "printedName": "CobrowseIOAppExtension.CobrowseIO.Selector",
+                            "usr": "s:22CobrowseIOAppExtension0A2IOO8SelectorC"
+                          }
+                        ],
+                        "usr": "s:Sh"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:22CobrowseIOAppExtension0A2IOO8SelectorC5IndexC3setyyShyAEGF",
+                    "mangledName": "$s22CobrowseIOAppExtension0A2IOO8SelectorC5IndexC3setyyShyAEGF",
+                    "moduleName": "CobrowseIOAppExtension",
+                    "declAttributes": [
+                      "Final",
+                      "AccessControl",
+                      "ObjC"
+                    ],
+                    "funcSelfKind": "NonMutating"
+                  },
+                  {
+                    "kind": "Constructor",
+                    "name": "init",
+                    "printedName": "init()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Index",
+                        "printedName": "CobrowseIOAppExtension.CobrowseIO.Selector.Index",
+                        "usr": "s:22CobrowseIOAppExtension0A2IOO8SelectorC5IndexC"
+                      }
+                    ],
+                    "declKind": "Constructor",
+                    "usr": "s:22CobrowseIOAppExtension0A2IOO8SelectorC5IndexCAGycfc",
+                    "mangledName": "$s22CobrowseIOAppExtension0A2IOO8SelectorC5IndexCAGycfc",
+                    "moduleName": "CobrowseIOAppExtension",
+                    "overriding": true,
+                    "implicit": true,
+                    "objc_name": "init",
+                    "declAttributes": [
+                      "Dynamic",
+                      "ObjC",
+                      "Override"
+                    ],
+                    "init_kind": "Designated"
+                  }
+                ],
+                "declKind": "Class",
+                "usr": "s:22CobrowseIOAppExtension0A2IOO8SelectorC5IndexC",
+                "mangledName": "$s22CobrowseIOAppExtension0A2IOO8SelectorC5IndexC",
+                "moduleName": "CobrowseIOAppExtension",
+                "objc_name": "CBIOSelectorIndex",
+                "declAttributes": [
+                  "Final",
+                  "AccessControl",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "superclassUsr": "c:objc(cs)NSObject",
+                "inheritsConvenienceInitializers": true,
+                "superclassNames": [
+                  "ObjectiveC.NSObject"
+                ],
+                "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Equatable",
+                    "printedName": "Equatable",
+                    "usr": "s:SQ",
+                    "mangledName": "$sSQ"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Hashable",
+                    "printedName": "Hashable",
+                    "usr": "s:SH",
+                    "mangledName": "$sSH"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "CVarArg",
+                    "printedName": "CVarArg",
+                    "usr": "s:s7CVarArgP",
+                    "mangledName": "$ss7CVarArgP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "_KeyValueCodingAndObservingPublishing",
+                    "printedName": "_KeyValueCodingAndObservingPublishing",
+                    "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+                    "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "_KeyValueCodingAndObserving",
+                    "printedName": "_KeyValueCodingAndObserving",
+                    "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+                    "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "CustomStringConvertible",
+                    "printedName": "CustomStringConvertible",
+                    "usr": "s:s23CustomStringConvertibleP",
+                    "mangledName": "$ss23CustomStringConvertibleP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "CustomDebugStringConvertible",
+                    "printedName": "CustomDebugStringConvertible",
+                    "usr": "s:s28CustomDebugStringConvertibleP",
+                    "mangledName": "$ss28CustomDebugStringConvertibleP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:22CobrowseIOAppExtension0A2IOO8SelectorC",
+            "mangledName": "$s22CobrowseIOAppExtension0A2IOO8SelectorC",
+            "moduleName": "CobrowseIOAppExtension",
+            "objc_name": "CBIOSelector",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "superclassUsr": "c:objc(cs)NSObject",
+            "hasMissingDesignatedInitializers": true,
+            "superclassNames": [
+              "ObjectiveC.NSObject"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CVarArg",
+                "printedName": "CVarArg",
+                "usr": "s:s7CVarArgP",
+                "mangledName": "$ss7CVarArgP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObservingPublishing",
+                "printedName": "_KeyValueCodingAndObservingPublishing",
+                "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+                "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObserving",
+                "printedName": "_KeyValueCodingAndObserving",
+                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:22CobrowseIOAppExtension0A2IOO",
+        "mangledName": "$s22CobrowseIOAppExtension0A2IOO",
+        "moduleName": "CobrowseIOAppExtension",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "String",
         "printedName": "String",
         "declKind": "Struct",
@@ -13260,6 +13903,335 @@
       "offset": 2340,
       "length": 3,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ViewProperties.swift",
+      "kind": "Dictionary",
+      "offset": 283,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ViewProperties.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1375,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/HasViewProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 413,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/HasViewProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 533,
+      "length": 8,
+      "value": "\"#\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/HasViewProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 540,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/HasViewProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 641,
+      "length": 19,
+      "value": "\"[\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/HasViewProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 649,
+      "length": 1,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/HasViewProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 658,
+      "length": 1,
+      "value": "\"]\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Selector.swift",
+      "kind": "Array",
+      "offset": 359,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Selector.swift",
+      "kind": "StringLiteral",
+      "offset": 505,
+      "length": 5,
+      "value": "\"tag\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Selector.swift",
+      "kind": "StringLiteral",
+      "offset": 628,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Selector.swift",
+      "kind": "StringLiteral",
+      "offset": 666,
+      "length": 7,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Selector.swift",
+      "kind": "StringLiteral",
+      "offset": 672,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Selector.swift",
+      "kind": "StringLiteral",
+      "offset": 750,
+      "length": 7,
+      "value": "\"attrs\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Selector.swift",
+      "kind": "StringLiteral",
+      "offset": 1273,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Selector.swift",
+      "kind": "Array",
+      "offset": 1411,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Selector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1521,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Selector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2004,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Selector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2169,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Selector.swift",
+      "kind": "StringLiteral",
+      "offset": 2554,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Selector.swift",
+      "kind": "StringLiteral",
+      "offset": 2692,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Selector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2871,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Selector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3252,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Selector.swift",
+      "kind": "StringLiteral",
+      "offset": 76,
+      "length": 8,
+      "value": "\"CobrowseIOAppExtension.Selector\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Index.swift",
+      "kind": "Array",
+      "offset": 344,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Index.swift",
+      "kind": "Array",
+      "offset": 412,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Index.swift",
+      "kind": "Array",
+      "offset": 1117,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Index.swift",
+      "kind": "Array",
+      "offset": 1372,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Index.swift",
+      "kind": "Array",
+      "offset": 1610,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Index.swift",
+      "kind": "StringLiteral",
+      "offset": 2061,
+      "length": 17,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Index.swift",
+      "kind": "StringLiteral",
+      "offset": 2068,
+      "length": 1,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Index.swift",
+      "kind": "StringLiteral",
+      "offset": 2077,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Index.swift",
+      "kind": "Array",
+      "offset": 2160,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Index.swift",
+      "kind": "Array",
+      "offset": 2964,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Index.swift",
+      "kind": "Array",
+      "offset": 3016,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Index.swift",
+      "kind": "Array",
+      "offset": 3075,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Index.swift",
+      "kind": "StringLiteral",
+      "offset": 3440,
+      "length": 23,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Index.swift",
+      "kind": "StringLiteral",
+      "offset": 3450,
+      "length": 1,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Index.swift",
+      "kind": "StringLiteral",
+      "offset": 3462,
+      "length": 3,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Index.swift",
+      "kind": "StringLiteral",
+      "offset": 4288,
+      "length": 24,
+      "value": "\"cbioSelectorsDidUpdate\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Part.swift",
+      "kind": "Dictionary",
+      "offset": 273,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Part.swift",
+      "kind": "BooleanLiteral",
+      "offset": 701,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Part.swift",
+      "kind": "BooleanLiteral",
+      "offset": 805,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Part.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1078,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Part.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1158,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Part.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1228,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Part.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1535,
+      "length": 5,
+      "value": "false"
     }
   ]
 }
