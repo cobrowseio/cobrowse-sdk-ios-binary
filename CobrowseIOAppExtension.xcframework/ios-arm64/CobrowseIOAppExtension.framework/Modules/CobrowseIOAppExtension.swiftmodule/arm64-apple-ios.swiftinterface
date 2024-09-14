@@ -47,6 +47,7 @@ extension CobrowseIOAppExtension.CobrowseIO.Selector {
   @_inheritsConvenienceInitializers @objc(CBIOSelectorIndex) final public class Index : ObjectiveC.NSObject {
     @objc public static let redacted: CobrowseIOAppExtension.CobrowseIO.Selector.Index
     @objc public static let unredacated: CobrowseIOAppExtension.CobrowseIO.Selector.Index
+    @objc final public func isEmpty() -> Swift.Bool
     @objc final public func set(_ selectors: Swift.Set<CobrowseIOAppExtension.CobrowseIO.Selector>)
     @objc override dynamic public init()
     @objc deinit

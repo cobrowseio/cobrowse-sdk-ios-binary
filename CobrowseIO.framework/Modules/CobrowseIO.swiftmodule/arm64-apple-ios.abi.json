@@ -1248,6 +1248,29 @@
                   },
                   {
                     "kind": "Function",
+                    "name": "isEmpty",
+                    "printedName": "isEmpty()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:So10CobrowseIOCAAE8SelectorC5IndexC7isEmptySbyF",
+                    "mangledName": "$sSo10CobrowseIOCAAE8SelectorC5IndexC7isEmptySbyF",
+                    "moduleName": "CobrowseIO",
+                    "declAttributes": [
+                      "Final",
+                      "AccessControl",
+                      "ObjC"
+                    ],
+                    "funcSelfKind": "NonMutating"
+                  },
+                  {
+                    "kind": "Function",
                     "name": "set",
                     "printedName": "set(_:)",
                     "children": [
@@ -1307,6 +1330,36 @@
                       "Override"
                     ],
                     "init_kind": "Designated"
+                  },
+                  {
+                    "kind": "Function",
+                    "name": "matches",
+                    "printedName": "matches(_:)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIView",
+                        "printedName": "UIKit.UIView",
+                        "usr": "c:objc(cs)UIView"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:So10CobrowseIOCAAE8SelectorC5IndexC7matchesySbSo6UIViewCF",
+                    "mangledName": "$sSo10CobrowseIOCAAE8SelectorC5IndexC7matchesySbSo6UIViewCF",
+                    "moduleName": "CobrowseIO",
+                    "declAttributes": [
+                      "Final",
+                      "AccessControl",
+                      "ObjC"
+                    ],
+                    "isFromExtension": true,
+                    "funcSelfKind": "NonMutating"
                   }
                 ],
                 "declKind": "Class",
@@ -8192,131 +8245,6 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "UIViewController",
-        "printedName": "UIViewController",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "viewsMatchingSelectors",
-            "printedName": "viewsMatchingSelectors(in:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Set",
-                "printedName": "Swift.Set<UIKit.UIView>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIView",
-                    "printedName": "UIKit.UIView",
-                    "usr": "c:objc(cs)UIView"
-                  }
-                ],
-                "usr": "s:Sh"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Index",
-                "printedName": "CobrowseIO.CobrowseIO.Selector.Index",
-                "usr": "s:So10CobrowseIOCAAE8SelectorC5IndexC"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@CobrowseIO@@objc(cs)UIViewController(im)viewsMatchingSelectorsIn:",
-            "mangledName": "$sSo16UIViewControllerC10CobrowseIOE22viewsMatchingSelectors2inShySo0A0CGSoACCACE8SelectorC5IndexC_tF",
-            "moduleName": "CobrowseIO",
-            "objc_name": "viewsMatchingSelectorsIn:",
-            "declAttributes": [
-              "Dynamic",
-              "Custom",
-              "AccessControl",
-              "ObjC"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:objc(cs)UIViewController",
-        "moduleName": "UIKit",
-        "isOpen": true,
-        "intro_iOS": "2.0",
-        "objc_name": "UIViewController",
-        "declAttributes": [
-          "Available",
-          "ObjC",
-          "NonSendable",
-          "Custom",
-          "Dynamic"
-        ],
-        "superclassUsr": "c:objc(cs)UIResponder",
-        "isExternal": true,
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "UIKit.UIResponder",
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
         "name": "UIView",
         "printedName": "UIView",
         "children": [
@@ -8455,63 +8383,49 @@
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Index.swift",
       "kind": "Array",
-      "offset": 1117,
+      "offset": 1228,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Index.swift",
       "kind": "Array",
-      "offset": 1372,
+      "offset": 1483,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Index.swift",
       "kind": "Array",
-      "offset": 1610,
+      "offset": 1721,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Index.swift",
       "kind": "StringLiteral",
-      "offset": 2061,
+      "offset": 2172,
       "length": 17,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Index.swift",
       "kind": "StringLiteral",
-      "offset": 2068,
+      "offset": 2179,
       "length": 1,
       "value": "\"=\""
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Index.swift",
       "kind": "StringLiteral",
-      "offset": 2077,
+      "offset": 2188,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Index.swift",
       "kind": "Array",
-      "offset": 2160,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Index.swift",
-      "kind": "Array",
-      "offset": 2964,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Index.swift",
-      "kind": "Array",
-      "offset": 3016,
+      "offset": 2271,
       "length": 2,
       "value": "[]"
     },
@@ -8524,29 +8438,43 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Index.swift",
+      "kind": "Array",
+      "offset": 3127,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Index.swift",
+      "kind": "Array",
+      "offset": 3186,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Index.swift",
       "kind": "StringLiteral",
-      "offset": 3440,
+      "offset": 3551,
       "length": 23,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Index.swift",
       "kind": "StringLiteral",
-      "offset": 3450,
+      "offset": 3561,
       "length": 1,
       "value": "\"=\""
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Index.swift",
       "kind": "StringLiteral",
-      "offset": 3462,
+      "offset": 3573,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Index.swift",
       "kind": "StringLiteral",
-      "offset": 4288,
+      "offset": 4399,
       "length": 24,
       "value": "\"cbioSelectorsDidUpdate\""
     },
@@ -15356,50 +15284,43 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/UIKit.swift",
-      "kind": "Array",
-      "offset": 208,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/UIKit.swift",
       "kind": "Dictionary",
-      "offset": 679,
+      "offset": 294,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/UIKit.swift",
       "kind": "Array",
-      "offset": 1661,
+      "offset": 940,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/UIKit.swift",
       "kind": "IntegerLiteral",
-      "offset": 1827,
+      "offset": 1106,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/UIKit.swift",
       "kind": "IntegerLiteral",
-      "offset": 2037,
+      "offset": 1307,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/UIKit.swift",
       "kind": "BooleanLiteral",
-      "offset": 2229,
+      "offset": 1505,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/UIKit.swift",
       "kind": "BooleanLiteral",
-      "offset": 2282,
+      "offset": 1558,
       "length": 5,
       "value": "false"
     },

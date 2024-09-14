@@ -324,22 +324,6 @@ SWIFT_CLASS("_TtC10CobrowseIO10CBORSocket")
 @end
 
 
-
-SWIFT_AVAILABILITY(ios,introduced=14.0)
-@interface CobrowseIO (SWIFT_EXTENSION(CobrowseIO))
-@end
-
-@class UIView;
-
-SWIFT_CLASS_NAMED("RedactedViewStore")
-@interface CBIOSwiftUIRedaction : NSObject
-+ (NSArray<UIView *> * _Nonnull)getRedactedViews SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-
-
 @interface CobrowseIO (SWIFT_EXTENSION(CobrowseIO))
 @end
 
@@ -358,11 +342,18 @@ SWIFT_CLASS_NAMED("Selector")
 
 
 
-
-
-
-@interface CBIOSelector (SWIFT_EXTENSION(CobrowseIO))
+SWIFT_AVAILABILITY(ios,introduced=14.0)
+@interface CobrowseIO (SWIFT_EXTENSION(CobrowseIO))
 @end
+
+@class UIView;
+
+SWIFT_CLASS_NAMED("RedactedViewStore")
+@interface CBIOSwiftUIRedaction : NSObject
++ (NSArray<UIView *> * _Nonnull)getRedactedViews SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 
 SWIFT_CLASS_NAMED("Index")
@@ -371,9 +362,25 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) CBIOSelector
 + (CBIOSelectorIndex * _Nonnull)redacted SWIFT_WARN_UNUSED_RESULT;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) CBIOSelectorIndex * _Nonnull unredacated;)
 + (CBIOSelectorIndex * _Nonnull)unredacated SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)isEmpty SWIFT_WARN_UNUSED_RESULT;
 - (void)set:(NSSet<CBIOSelector *> * _Nonnull)selectors;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
+@interface CBIOSelectorIndex (SWIFT_EXTENSION(CobrowseIO))
+- (BOOL)matches:(UIView * _Nonnull)view SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+
+
+
+
+
+@interface CBIOSelector (SWIFT_EXTENSION(CobrowseIO))
+@end
+
 
 
 SWIFT_AVAILABILITY(ios,introduced=14.0)
@@ -382,11 +389,6 @@ SWIFT_AVAILABILITY(ios,introduced=14.0)
 - (UIView * _Nonnull)cobrowseRedacted;
 @end
 
-
-
-@interface UIViewController (SWIFT_EXTENSION(CobrowseIO))
-- (NSSet<UIView *> * _Nonnull)viewsMatchingSelectorsIn:(CBIOSelectorIndex * _Nonnull)index SWIFT_WARN_UNUSED_RESULT;
-@end
 
 #endif
 #if __has_attribute(external_source_symbol)
@@ -722,22 +724,6 @@ SWIFT_CLASS("_TtC10CobrowseIO10CBORSocket")
 @end
 
 
-
-SWIFT_AVAILABILITY(ios,introduced=14.0)
-@interface CobrowseIO (SWIFT_EXTENSION(CobrowseIO))
-@end
-
-@class UIView;
-
-SWIFT_CLASS_NAMED("RedactedViewStore")
-@interface CBIOSwiftUIRedaction : NSObject
-+ (NSArray<UIView *> * _Nonnull)getRedactedViews SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-
-
 @interface CobrowseIO (SWIFT_EXTENSION(CobrowseIO))
 @end
 
@@ -756,11 +742,18 @@ SWIFT_CLASS_NAMED("Selector")
 
 
 
-
-
-
-@interface CBIOSelector (SWIFT_EXTENSION(CobrowseIO))
+SWIFT_AVAILABILITY(ios,introduced=14.0)
+@interface CobrowseIO (SWIFT_EXTENSION(CobrowseIO))
 @end
+
+@class UIView;
+
+SWIFT_CLASS_NAMED("RedactedViewStore")
+@interface CBIOSwiftUIRedaction : NSObject
++ (NSArray<UIView *> * _Nonnull)getRedactedViews SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 
 SWIFT_CLASS_NAMED("Index")
@@ -769,9 +762,25 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) CBIOSelector
 + (CBIOSelectorIndex * _Nonnull)redacted SWIFT_WARN_UNUSED_RESULT;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) CBIOSelectorIndex * _Nonnull unredacated;)
 + (CBIOSelectorIndex * _Nonnull)unredacated SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)isEmpty SWIFT_WARN_UNUSED_RESULT;
 - (void)set:(NSSet<CBIOSelector *> * _Nonnull)selectors;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
+@interface CBIOSelectorIndex (SWIFT_EXTENSION(CobrowseIO))
+- (BOOL)matches:(UIView * _Nonnull)view SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+
+
+
+
+
+@interface CBIOSelector (SWIFT_EXTENSION(CobrowseIO))
+@end
+
 
 
 SWIFT_AVAILABILITY(ios,introduced=14.0)
@@ -780,11 +789,6 @@ SWIFT_AVAILABILITY(ios,introduced=14.0)
 - (UIView * _Nonnull)cobrowseRedacted;
 @end
 
-
-
-@interface UIViewController (SWIFT_EXTENSION(CobrowseIO))
-- (NSSet<UIView *> * _Nonnull)viewsMatchingSelectorsIn:(CBIOSelectorIndex * _Nonnull)index SWIFT_WARN_UNUSED_RESULT;
-@end
 
 #endif
 #if __has_attribute(external_source_symbol)

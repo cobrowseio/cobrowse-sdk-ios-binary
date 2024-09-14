@@ -352,6 +352,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) CBIOSelector
 + (CBIOSelectorIndex * _Nonnull)redacted SWIFT_WARN_UNUSED_RESULT;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) CBIOSelectorIndex * _Nonnull unredacated;)
 + (CBIOSelectorIndex * _Nonnull)unredacated SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)isEmpty SWIFT_WARN_UNUSED_RESULT;
 - (void)set:(NSSet<CBIOSelector *> * _Nonnull)selectors;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -718,6 +719,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) CBIOSelector
 + (CBIOSelectorIndex * _Nonnull)redacted SWIFT_WARN_UNUSED_RESULT;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) CBIOSelectorIndex * _Nonnull unredacated;)
 + (CBIOSelectorIndex * _Nonnull)unredacated SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)isEmpty SWIFT_WARN_UNUSED_RESULT;
 - (void)set:(NSSet<CBIOSelector *> * _Nonnull)selectors;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end

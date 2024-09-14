@@ -18,6 +18,7 @@ extension CobrowseIO.CobrowseIO.Selector {
   @_inheritsConvenienceInitializers @objc(CBIOSelectorIndex) final public class Index : ObjectiveC.NSObject {
     @objc public static let redacted: CobrowseIO.CobrowseIO.Selector.Index
     @objc public static let unredacated: CobrowseIO.CobrowseIO.Selector.Index
+    @objc final public func isEmpty() -> Swift.Bool
     @objc final public func set(_ selectors: Swift.Set<CobrowseIO.CobrowseIO.Selector>)
     @objc override dynamic public init()
     @objc deinit
@@ -59,8 +60,8 @@ extension SwiftUI.View {
   public func cobrowseSelector(tag: Swift.String? = nil, id: Swift.String? = nil, classes: [Swift.String] = [], attributes: [Swift.String : Swift.String] = [:]) -> some SwiftUI.View
   
 }
-extension UIKit.UIViewController {
-  @objc @_Concurrency.MainActor(unsafe) dynamic public func viewsMatchingSelectors(in index: CobrowseIO.CobrowseIO.Selector.Index) -> Swift.Set<UIKit.UIView>
+extension CobrowseIO.CobrowseIO.Selector.Index {
+  @objc final public func matches(_ view: UIKit.UIView) -> Swift.Bool
 }
 @available(iOS 14.0, *)
 extension CobrowseIO.CobrowseIO {

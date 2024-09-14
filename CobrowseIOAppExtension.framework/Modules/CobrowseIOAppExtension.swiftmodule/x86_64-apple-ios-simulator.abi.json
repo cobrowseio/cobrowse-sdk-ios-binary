@@ -1199,6 +1199,29 @@
                   },
                   {
                     "kind": "Function",
+                    "name": "isEmpty",
+                    "printedName": "isEmpty()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:22CobrowseIOAppExtension0A2IOO8SelectorC5IndexC7isEmptySbyF",
+                    "mangledName": "$s22CobrowseIOAppExtension0A2IOO8SelectorC5IndexC7isEmptySbyF",
+                    "moduleName": "CobrowseIOAppExtension",
+                    "declAttributes": [
+                      "Final",
+                      "AccessControl",
+                      "ObjC"
+                    ],
+                    "funcSelfKind": "NonMutating"
+                  },
+                  {
+                    "kind": "Function",
                     "name": "set",
                     "printedName": "set(_:)",
                     "children": [
@@ -14089,63 +14112,49 @@
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Index.swift",
       "kind": "Array",
-      "offset": 1117,
+      "offset": 1228,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Index.swift",
       "kind": "Array",
-      "offset": 1372,
+      "offset": 1483,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Index.swift",
       "kind": "Array",
-      "offset": 1610,
+      "offset": 1721,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Index.swift",
       "kind": "StringLiteral",
-      "offset": 2061,
+      "offset": 2172,
       "length": 17,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Index.swift",
       "kind": "StringLiteral",
-      "offset": 2068,
+      "offset": 2179,
       "length": 1,
       "value": "\"=\""
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Index.swift",
       "kind": "StringLiteral",
-      "offset": 2077,
+      "offset": 2188,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Index.swift",
       "kind": "Array",
-      "offset": 2160,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Index.swift",
-      "kind": "Array",
-      "offset": 2964,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Index.swift",
-      "kind": "Array",
-      "offset": 3016,
+      "offset": 2271,
       "length": 2,
       "value": "[]"
     },
@@ -14158,29 +14167,43 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Index.swift",
+      "kind": "Array",
+      "offset": 3127,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Index.swift",
+      "kind": "Array",
+      "offset": 3186,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Index.swift",
       "kind": "StringLiteral",
-      "offset": 3440,
+      "offset": 3551,
       "length": 23,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Index.swift",
       "kind": "StringLiteral",
-      "offset": 3450,
+      "offset": 3561,
       "length": 1,
       "value": "\"=\""
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Index.swift",
       "kind": "StringLiteral",
-      "offset": 3462,
+      "offset": 3573,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Index.swift",
       "kind": "StringLiteral",
-      "offset": 4288,
+      "offset": 4399,
       "length": 24,
       "value": "\"cbioSelectorsDidUpdate\""
     },
