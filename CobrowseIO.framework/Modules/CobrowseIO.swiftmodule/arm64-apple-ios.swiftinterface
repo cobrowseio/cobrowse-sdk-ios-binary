@@ -14,33 +14,6 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 import zlib
-extension CobrowseIO.CobrowseIO.Selector {
-  @_inheritsConvenienceInitializers @objc(CBIOSelectorIndex) final public class Index : ObjectiveC.NSObject {
-    @objc public static let redacted: CobrowseIO.CobrowseIO.Selector.Index
-    @objc public static let unredacated: CobrowseIO.CobrowseIO.Selector.Index
-    @objc final public func isEmpty() -> Swift.Bool
-    @objc final public func set(_ selectors: Swift.Set<CobrowseIO.CobrowseIO.Selector>)
-    @objc override dynamic public init()
-    @objc deinit
-  }
-}
-extension CobrowseIO.CobrowseIO {
-  @_hasMissingDesignatedInitializers @objc(CBIOSelector) final public class Selector : ObjectiveC.NSObject {
-    @objc(from:) public static func from(selector: [[Swift.String : Any]]) -> CobrowseIO.CobrowseIO.Selector?
-    @objc override final public var description: Swift.String {
-      @objc get
-    }
-    @objc override final public var debugDescription: Swift.String {
-      @objc get
-    }
-    @objc override final public func isEqual(_ object: Any?) -> Swift.Bool
-    public static func == (lhs: CobrowseIO.CobrowseIO.Selector, rhs: CobrowseIO.CobrowseIO.Selector) -> Swift.Bool
-    @objc override final public var hash: Swift.Int {
-      @objc get
-    }
-    @objc deinit
-  }
-}
 @objc public class CBORSocket : ObjectiveC.NSObject {
   @objc public var maxReconnectDelay: Swift.Double
   @objc public var minReconnectDelay: Swift.Double
@@ -57,25 +30,19 @@ extension CobrowseIO.CobrowseIO {
 }
 @available(iOS 14.0, *)
 extension SwiftUI.View {
-  public func cobrowseSelector(tag: Swift.String? = nil, id: Swift.String? = nil, classes: [Swift.String] = [], attributes: [Swift.String : Swift.String] = [:]) -> some SwiftUI.View
+  public func cobrowseSelector(tag: Swift.String? = nil, id: Swift.String? = nil, classes: [Swift.String] = [], attributes: [Swift.String : Any] = [:]) -> some SwiftUI.View
   
 }
-extension CobrowseIO.CobrowseIO.Selector.Index {
-  @objc final public func matches(_ view: UIKit.UIView) -> Swift.Bool
-}
-@available(iOS 14.0, *)
-extension CobrowseIO.CobrowseIO {
-  @_inheritsConvenienceInitializers @objc(CBIOSwiftUIRedaction) public class RedactedViewStore : ObjectiveC.NSObject {
-    @objc public static func getRedactedViews() -> [UIKit.UIView]
-    @objc override dynamic public init()
-    @objc deinit
-  }
+public func descendant<T>(for object: Any, descendants: Swift.String..., log: Swift.Bool = false) -> T?
+@_inheritsConvenienceInitializers @available(iOS 14.0, *)
+@objc public class CBIOSwiftUIRedaction : ObjectiveC.NSObject {
+  @objc public static func getRedactedViews() -> [UIKit.UIView]
+  @objc override dynamic public init()
+  @objc deinit
 }
 @available(iOS 14.0, *)
 extension SwiftUI.View {
   public func redacted(if condition: Swift.Bool = true) -> some SwiftUI.View
-  
-  public func cobrowseRedacted(if condition: Swift.Bool = true) -> some SwiftUI.View
   
 }
 @available(iOS 14.0, *)

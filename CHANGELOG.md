@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.32.2](#) (2024-09-20)
+
+
+### Bug Fixes
+
+* fix binary compatibility with newer Swift versions ([715d41f](#))
+
 ### [2.32.1](#) (2024-09-14)
 
 

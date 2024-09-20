@@ -282,8 +282,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import UIKit;
 #endif
 
-#import <CobrowseIO/CobrowseIO.h>
-
 #endif
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
@@ -302,6 +300,14 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+@class UIView;
+
+SWIFT_CLASS("_TtC10CobrowseIO20CBIOSwiftUIRedaction") SWIFT_AVAILABILITY(ios,introduced=14.0)
+@interface CBIOSwiftUIRedaction : NSObject
++ (NSArray<UIView *> * _Nonnull)getRedactedViews SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class NSURLRequest;
 @class NSString;
 @class NSDictionary;
@@ -324,71 +330,12 @@ SWIFT_CLASS("_TtC10CobrowseIO10CBORSocket")
 @end
 
 
-@interface CobrowseIO (SWIFT_EXTENSION(CobrowseIO))
-@end
-
-
-SWIFT_CLASS_NAMED("Selector")
-@interface CBIOSelector : NSObject
-+ (CBIOSelector * _Nullable)from:(NSArray<NSDictionary<NSString *, id> *> * _Nonnull)selector SWIFT_WARN_UNUSED_RESULT;
-@property (nonatomic, readonly, copy) NSString * _Nonnull description;
-@property (nonatomic, readonly, copy) NSString * _Nonnull debugDescription;
-- (BOOL)isEqual:(id _Nullable)object SWIFT_WARN_UNUSED_RESULT;
-@property (nonatomic, readonly) NSUInteger hash;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-
-
-SWIFT_AVAILABILITY(ios,introduced=14.0)
-@interface CobrowseIO (SWIFT_EXTENSION(CobrowseIO))
-@end
-
-@class UIView;
-
-SWIFT_CLASS_NAMED("RedactedViewStore")
-@interface CBIOSwiftUIRedaction : NSObject
-+ (NSArray<UIView *> * _Nonnull)getRedactedViews SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-
-SWIFT_CLASS_NAMED("Index")
-@interface CBIOSelectorIndex : NSObject
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) CBIOSelectorIndex * _Nonnull redacted;)
-+ (CBIOSelectorIndex * _Nonnull)redacted SWIFT_WARN_UNUSED_RESULT;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) CBIOSelectorIndex * _Nonnull unredacated;)
-+ (CBIOSelectorIndex * _Nonnull)unredacated SWIFT_WARN_UNUSED_RESULT;
-- (BOOL)isEmpty SWIFT_WARN_UNUSED_RESULT;
-- (void)set:(NSSet<CBIOSelector *> * _Nonnull)selectors;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-@interface CBIOSelectorIndex (SWIFT_EXTENSION(CobrowseIO))
-- (BOOL)matches:(UIView * _Nonnull)view SWIFT_WARN_UNUSED_RESULT;
-@end
-
-
-
-
-
-
-
-@interface CBIOSelector (SWIFT_EXTENSION(CobrowseIO))
-@end
-
-
 
 SWIFT_AVAILABILITY(ios,introduced=14.0)
 @interface UIView (SWIFT_EXTENSION(CobrowseIO))
 /// Redact this view from being seen by the Cobrowse agent
 - (UIView * _Nonnull)cobrowseRedacted;
 @end
-
 
 #endif
 #if __has_attribute(external_source_symbol)

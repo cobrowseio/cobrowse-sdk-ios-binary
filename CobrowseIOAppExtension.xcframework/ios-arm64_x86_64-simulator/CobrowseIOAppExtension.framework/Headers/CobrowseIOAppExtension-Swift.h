@@ -331,36 +331,6 @@ SWIFT_CLASS("_TtC22CobrowseIOAppExtension16FoundationStream")
 
 
 
-
-
-SWIFT_CLASS_NAMED("Selector")
-@interface CBIOSelector : NSObject
-+ (CBIOSelector * _Nullable)from:(NSArray<NSDictionary<NSString *, id> *> * _Nonnull)selector SWIFT_WARN_UNUSED_RESULT;
-@property (nonatomic, readonly, copy) NSString * _Nonnull description;
-@property (nonatomic, readonly, copy) NSString * _Nonnull debugDescription;
-- (BOOL)isEqual:(id _Nullable)object SWIFT_WARN_UNUSED_RESULT;
-@property (nonatomic, readonly) NSUInteger hash;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-@interface CBIOSelector (SWIFT_EXTENSION(CobrowseIOAppExtension))
-@end
-
-
-SWIFT_CLASS_NAMED("Index")
-@interface CBIOSelectorIndex : NSObject
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) CBIOSelectorIndex * _Nonnull redacted;)
-+ (CBIOSelectorIndex * _Nonnull)redacted SWIFT_WARN_UNUSED_RESULT;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) CBIOSelectorIndex * _Nonnull unredacated;)
-+ (CBIOSelectorIndex * _Nonnull)unredacated SWIFT_WARN_UNUSED_RESULT;
-- (BOOL)isEmpty SWIFT_WARN_UNUSED_RESULT;
-- (void)set:(NSSet<CBIOSelector *> * _Nonnull)selectors;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
 SWIFT_CLASS("_TtC22CobrowseIOAppExtension9WebSocket")
 @interface WebSocket : NSObject <NSStreamDelegate>
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -706,36 +676,6 @@ SWIFT_CLASS("_TtC22CobrowseIOAppExtension16FoundationStream")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-
-
-
-
-SWIFT_CLASS_NAMED("Selector")
-@interface CBIOSelector : NSObject
-+ (CBIOSelector * _Nullable)from:(NSArray<NSDictionary<NSString *, id> *> * _Nonnull)selector SWIFT_WARN_UNUSED_RESULT;
-@property (nonatomic, readonly, copy) NSString * _Nonnull description;
-@property (nonatomic, readonly, copy) NSString * _Nonnull debugDescription;
-- (BOOL)isEqual:(id _Nullable)object SWIFT_WARN_UNUSED_RESULT;
-@property (nonatomic, readonly) NSUInteger hash;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-@interface CBIOSelector (SWIFT_EXTENSION(CobrowseIOAppExtension))
-@end
-
-
-SWIFT_CLASS_NAMED("Index")
-@interface CBIOSelectorIndex : NSObject
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) CBIOSelectorIndex * _Nonnull redacted;)
-+ (CBIOSelectorIndex * _Nonnull)redacted SWIFT_WARN_UNUSED_RESULT;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) CBIOSelectorIndex * _Nonnull unredacated;)
-+ (CBIOSelectorIndex * _Nonnull)unredacated SWIFT_WARN_UNUSED_RESULT;
-- (BOOL)isEmpty SWIFT_WARN_UNUSED_RESULT;
-- (void)set:(NSSet<CBIOSelector *> * _Nonnull)selectors;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
 
 
 SWIFT_CLASS("_TtC22CobrowseIOAppExtension9WebSocket")
