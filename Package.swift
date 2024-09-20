@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.7
 import PackageDescription
 
 let package = Package(
@@ -13,13 +13,17 @@ let package = Package(
         .library(
             name: "CobrowseIOAppExtension",
             targets: ["CBIOAppExtensionWrapper"]
-        )
+        ),
+        .executable(name: "cbio",
+                    targets: ["cbio-cli"]),
+        .plugin(name: "CobrowseSelectorsPlugin",
+                targets: ["GenerateCobrowseSelectors"])
     ],
     targets: [
         .target(
             name: "CBIOWrapper",
             dependencies: [
-                .target(name: "CobrowseIO"),
+                "CobrowseIO"
             ],
             path: "wrapper"),
         .target(
@@ -34,5 +38,20 @@ let package = Package(
         .binaryTarget(
             name: "CobrowseIOAppExtension",
             path: "CobrowseIOAppExtension.xcframework"),
+        .plugin(
+            name: "GenerateCobrowseSelectors",
+            capability: .command(
+                intent: .custom(
+                    verb: "generate-cobrowse-selectors",
+                    description: "Generate Cobrowse.io selectors"),
+            permissions: [
+                .writeToPackageDirectory(reason: "We need to modify your source to add the Cobrowse.io selectors.")
+            ]),
+            dependencies: [ "cbio-cli" ]
+        ),
+        .binaryTarget(
+            name: "cbio-cli",
+            path: "./cbio.artifactbundle"
+        ),
     ]
 )
