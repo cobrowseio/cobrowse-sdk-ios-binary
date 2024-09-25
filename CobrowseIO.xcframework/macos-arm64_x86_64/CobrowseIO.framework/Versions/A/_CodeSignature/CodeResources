@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		NzPT1fgdY784p3IRYgs6bZEJ7Ps=
+		VJUYCJQusx/Z3siFTuvALNuAuYI=
 		</data>
 		<key>Resources/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -138,14 +138,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fS2yLajBhRyw957JeeP72YSWogXtHKQGsJsmdzcZqdA=
+			C1sd9F/Wct/x/jfzOAMUO4GmF2EkE7nvI5M6QJ9T+EU=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/Project/x86_64-apple-macos.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/U9nP4Ic8kBVD4P8A/cwW9OKHSlVkK+KAL4Izdqun/o=
+			FLuV/TIpQBbTNoij36RtVGBoB7KpuwOrlniDzYp0WPg=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/arm64-apple-macos.abi.json</key>
@@ -180,7 +180,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			s0FHUL3iWc7zaHJeO7Af1VaueqRyAs6X3dLxozOLU7g=
+			uTtDY9vRmJZVnN/uaoQAWhAkzOABkHACoNAk6zO80ac=
 			</data>
 		</dict>
 		<key>Modules/CobrowseIO.swiftmodule/x86_64-apple-macos.abi.json</key>
@@ -215,7 +215,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iQpwq2pMA5OUsSRkeKouP9LzeSWgjUDQCBI9qgdPar8=
+			z0SYvrMJloXeWa//pY+wEkCSr3n7+wZdqkJO39PTjHA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -229,7 +229,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aqS5PDqgBNkQhI7IaZIw6XoWVQKyjuwqYRgAexjLL4U=
+			dZHiRysQEdWETl7fmAqmEpJleoQLNNt0UGWM+cfq6+s=
 			</data>
 		</dict>
 		<key>Resources/PrivacyInfo.xcprivacy</key>

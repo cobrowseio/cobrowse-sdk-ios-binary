@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.32.3](#) (2024-09-25)
+
+
+### Bug Fixes
+
+* catch invalid selectors ([284681d](#))
+
 ### [2.32.2](#) (2024-09-20)
 
 
