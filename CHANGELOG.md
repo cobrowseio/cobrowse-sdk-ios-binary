@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.33.0](#) (2024-10-04)
+
+
+### Features
+
+* add redactedViews and unredactedViews APIs for setting selectors ([#121](#)) ([3e030f5](#))
+* use os_log based logging ([#120](#)) ([159edf2](#))
+
 ### [2.32.3](#) (2024-09-25)
 
 

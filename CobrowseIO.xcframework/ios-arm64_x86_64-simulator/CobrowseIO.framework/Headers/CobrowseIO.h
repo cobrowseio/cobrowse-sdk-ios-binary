@@ -49,6 +49,12 @@ static NSString* _Nonnull const kCBIODeviceNameKey = @"device_name";
 /// device.
 @property (nonnull) NSArray<NSString*>* capabilities;
 
+/// The CSS-like selectors that define view to be redacted
+@property (nonnull) NSArray<NSString*>* redactedViews API_AVAILABLE(ios(11));
+
+/// The CSS-like selectors that define view to be unredacted
+@property (nonnull) NSArray<NSString*>* unredactedViews API_AVAILABLE(ios(11));
+
 /// The CSS selectors which will be redacted within Webviews
 @property (nonnull) NSArray<NSString*>* webviewRedactedViews API_AVAILABLE(ios(11));
 
