@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.33.2](#) (2024-11-13)
+
+
+### Bug Fixes
+
+* don't specify default port numbers (443 or 80) in the `Host` header ([#133](#)) ([a5b32c3](#))
+
 ### [2.33.1](#) (2024-10-09)
 
 ## [2.33.0](#) (2024-10-04)
