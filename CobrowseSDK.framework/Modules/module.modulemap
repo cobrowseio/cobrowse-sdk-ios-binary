@@ -1,0 +1,11 @@
+framework module CobrowseSDK {
+  umbrella header "CobrowseSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module CobrowseSDK.Swift {
+  header "CobrowseSDK-Swift.h"
+  requires objc
+}

@@ -2,6 +2,54 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.0](#) (2025-01-27)
+
+
+### ⚠ BREAKING CHANGES
+
+* We have merged the Broadcast Extension framework into the main CobrowseSDK framework. You may need to update your project if you are using the Cobrowse full device mode for iOS.
+* remove touch filtering delegate methods
+* Removes the default 6 digit code UI and view controller from the SDK
+* Removes the boolean versions of the fullDevice setter / getters. You should now use the more descriptive enum versions instead.
+* The built Frameworks have been renamed to `CobrowseSDK` from `CobrowseIO` so that the main SDK class and the Framework names are different. This previously caused issues with Swift usage (which doesn't really allow for target naming that share exported symbol names). This will require updating your imports or build steps that use the CobrowseIO naming.
+* Updated the minimum support Cobrowse API version to 1.21.0
+* The built-in intercom integration support has been removed. To continue to support cobrowse Intercom integrations in your apps please set an Intercom user property called `CobrowseID` to the `CobrowseIO.instance.deviceId` value.
+* `customData` is now restricted to string values only
+
+- No need to annotate dictionary as `[String : Object]
+- removed `k` prefix as it is an older Obj-C convention
+
+**Before**
+```swift
+cobrowse.customData = [
+    kCBIOUserEmailKey: "ios@example.com",
+    kCBIODeviceNameKey: "iOS Demo"
+] as [String : NSObject]
+```
+
+**After**
+```swift
+cobrowse.customData = [
+    CBIOUserEmailKey: "ios@example.com",
+    CBIODeviceNameKey: "iOS Demo"
+]
+```
+* SwiftUI support: the `redacted()` view modifier for SwiftUI was renamed to `cobrowseRedacted()` to prevent namespace clashes with other libraries 
+
+### Features
+
+* invoke SDK callbacks on the main thread ([#139](#)) ([4af7ce0](#))
+* Make cobrowseShouldAllow methods private ([8525fd0](#))
+* Merge extension framework into one CobrowseSDK framework ([dd138cd](#))
+* only allow strings as customData ([a71c9ec](#))
+* Remove automatic intercom integration ([#123](#)) ([fddceb6](#))
+* Remove bool versions of full device ([5a122f3](#))
+* Remove default code and session UI ([1376d36](#))
+* Rename Frameworks to CobrowseSDK ([cc7401d](#))
+* Rename redacted view modifier to cobrowseRedacted ([e3aded1](#))
+* Update minimum API version to 1.21.0 ([#128](#)) ([ef27eb0](#))
+* Use URLSession for iOS 13 & macOS 10.15 or above ([#135](#)) ([9af99fa](#))
+
 ### [2.33.2](#) (2024-11-13)
 
 
