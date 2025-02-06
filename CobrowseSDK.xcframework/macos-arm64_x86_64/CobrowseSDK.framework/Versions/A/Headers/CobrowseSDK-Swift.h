@@ -299,6 +299,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+@class NSURLSession;
 @class NSURLRequest;
 @class NSString;
 @class NSDictionary;
@@ -307,7 +308,7 @@ SWIFT_CLASS("_TtC11CobrowseSDK10CBORSocket")
 @interface CBORSocket : NSObject
 @property (nonatomic) double maxReconnectDelay;
 @property (nonatomic) double minReconnectDelay;
-- (nonnull instancetype)initWithRequest:(NSURLRequest * _Nonnull (^ _Nonnull)(void))request OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithSession:(NSURLSession * _Nonnull)session request:(NSURLRequest * _Nonnull (^ _Nonnull)(void))request OBJC_DESIGNATED_INITIALIZER;
 - (void)onMessage:(NSString * _Nonnull)event listener:(void (^ _Nonnull)(NSDictionary * _Nonnull))listener;
 - (void)onConnect:(void (^ _Nonnull)(void))listener;
 - (void)onDisconnect:(void (^ _Nonnull)(NSError * _Nullable))listener;
@@ -319,6 +320,7 @@ SWIFT_CLASS("_TtC11CobrowseSDK10CBORSocket")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
 
 
 #endif
@@ -630,6 +632,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+@class NSURLSession;
 @class NSURLRequest;
 @class NSString;
 @class NSDictionary;
@@ -638,7 +641,7 @@ SWIFT_CLASS("_TtC11CobrowseSDK10CBORSocket")
 @interface CBORSocket : NSObject
 @property (nonatomic) double maxReconnectDelay;
 @property (nonatomic) double minReconnectDelay;
-- (nonnull instancetype)initWithRequest:(NSURLRequest * _Nonnull (^ _Nonnull)(void))request OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithSession:(NSURLSession * _Nonnull)session request:(NSURLRequest * _Nonnull (^ _Nonnull)(void))request OBJC_DESIGNATED_INITIALIZER;
 - (void)onMessage:(NSString * _Nonnull)event listener:(void (^ _Nonnull)(NSDictionary * _Nonnull))listener;
 - (void)onConnect:(void (^ _Nonnull)(void))listener;
 - (void)onDisconnect:(void (^ _Nonnull)(NSError * _Nullable))listener;
@@ -650,6 +653,7 @@ SWIFT_CLASS("_TtC11CobrowseSDK10CBORSocket")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
 
 
 #endif

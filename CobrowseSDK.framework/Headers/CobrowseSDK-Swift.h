@@ -308,6 +308,7 @@ SWIFT_CLASS("_TtC11CobrowseSDK20CBIOSwiftUIRedaction") SWIFT_AVAILABILITY(ios,in
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class NSURLSession;
 @class NSURLRequest;
 @class NSString;
 @class NSDictionary;
@@ -316,7 +317,7 @@ SWIFT_CLASS("_TtC11CobrowseSDK10CBORSocket")
 @interface CBORSocket : NSObject
 @property (nonatomic) double maxReconnectDelay;
 @property (nonatomic) double minReconnectDelay;
-- (nonnull instancetype)initWithRequest:(NSURLRequest * _Nonnull (^ _Nonnull)(void))request OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithSession:(NSURLSession * _Nonnull)session request:(NSURLRequest * _Nonnull (^ _Nonnull)(void))request OBJC_DESIGNATED_INITIALIZER;
 - (void)onMessage:(NSString * _Nonnull)event listener:(void (^ _Nonnull)(NSDictionary * _Nonnull))listener;
 - (void)onConnect:(void (^ _Nonnull)(void))listener;
 - (void)onDisconnect:(void (^ _Nonnull)(NSError * _Nullable))listener;
@@ -336,6 +337,7 @@ SWIFT_AVAILABILITY(ios,introduced=14.0)
 /// Redact this view from being seen by the Cobrowse agent
 - (UIView * _Nonnull)cobrowseRedacted;
 @end
+
 
 #endif
 #if __has_attribute(external_source_symbol)

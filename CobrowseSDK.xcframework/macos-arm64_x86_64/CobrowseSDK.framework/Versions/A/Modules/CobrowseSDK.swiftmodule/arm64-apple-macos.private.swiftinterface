@@ -15,7 +15,7 @@ import zlib
 @objc public class CBORSocket : ObjectiveC.NSObject {
   @objc public var maxReconnectDelay: Swift.Double
   @objc public var minReconnectDelay: Swift.Double
-  @objc public init(request: @escaping (() -> Foundation.URLRequest))
+  @objc(initWithSession:request:) public init(with session: Foundation.URLSession, request: @escaping (() -> Foundation.URLRequest))
   @objc public func onMessage(_ event: Swift.String, listener: @escaping (Foundation.NSDictionary) -> ())
   @objc public func onConnect(_ listener: @escaping (() -> ()))
   @objc public func onDisconnect(_ listener: @escaping (((any Swift.Error)?) -> ()))

@@ -284,13 +284,19 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(request:)",
+            "printedName": "init(with:request:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "CBORSocket",
                 "printedName": "CobrowseSDK.CBORSocket",
                 "usr": "c:@M@CobrowseSDK@objc(cs)CBORSocket"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLSession",
+                "printedName": "Foundation.URLSession",
+                "usr": "c:objc(cs)NSURLSession"
               },
               {
                 "kind": "TypeFunc",
@@ -312,10 +318,10 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@CobrowseSDK@objc(cs)CBORSocket(im)initWithRequest:",
-            "mangledName": "$s11CobrowseSDK10CBORSocketC7requestAC10Foundation10URLRequestVyc_tcfc",
+            "usr": "c:@M@CobrowseSDK@objc(cs)CBORSocket(im)initWithSession:request:",
+            "mangledName": "$s11CobrowseSDK10CBORSocketC4with7requestACSo12NSURLSessionC_10Foundation10URLRequestVyctcfc",
             "moduleName": "CobrowseSDK",
-            "objc_name": "initWithRequest:",
+            "objc_name": "initWithSession:request:",
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -10192,64 +10198,57 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
+      "kind": "StringLiteral",
+      "offset": 419,
+      "length": 12,
+      "value": "\"CBORSocket\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
       "kind": "IntegerLiteral",
-      "offset": 195,
+      "offset": 933,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
       "kind": "StringLiteral",
-      "offset": 452,
-      "length": 12,
-      "value": "\"CBORSocket\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
-      "kind": "StringLiteral",
-      "offset": 1148,
+      "offset": 1157,
       "length": 5,
       "value": "\"ack\""
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
       "kind": "StringLiteral",
-      "offset": 1196,
+      "offset": 1205,
       "length": 5,
       "value": "\"ack\""
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
       "kind": "StringLiteral",
-      "offset": 1325,
+      "offset": 1334,
       "length": 7,
       "value": "\"event\""
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
       "kind": "StringLiteral",
-      "offset": 1380,
+      "offset": 1389,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
       "kind": "IntegerLiteral",
-      "offset": 2612,
+      "offset": 2664,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
       "kind": "IntegerLiteral",
-      "offset": 2837,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2884,
+      "offset": 2889,
       "length": 1,
       "value": "0"
     },
@@ -10257,146 +10256,153 @@
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
       "kind": "IntegerLiteral",
       "offset": 2936,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2988,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
       "kind": "FloatLiteral",
-      "offset": 2988,
+      "offset": 3040,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
       "kind": "FloatLiteral",
-      "offset": 3633,
+      "offset": 3772,
       "length": 4,
       "value": "60.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
       "kind": "BooleanLiteral",
-      "offset": 3708,
+      "offset": 3847,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
       "kind": "IntegerLiteral",
-      "offset": 3796,
+      "offset": 3935,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
       "kind": "IntegerLiteral",
-      "offset": 3827,
+      "offset": 3966,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
       "kind": "IntegerLiteral",
-      "offset": 5009,
+      "offset": 5166,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
       "kind": "IntegerLiteral",
-      "offset": 5021,
+      "offset": 5178,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
       "kind": "BooleanLiteral",
-      "offset": 5161,
+      "offset": 5318,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
       "kind": "IntegerLiteral",
-      "offset": 5693,
+      "offset": 5850,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
       "kind": "StringLiteral",
-      "offset": 5731,
+      "offset": 5888,
       "length": 7,
       "value": "\"event\""
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
       "kind": "StringLiteral",
-      "offset": 5759,
+      "offset": 5916,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
       "kind": "StringLiteral",
-      "offset": 5785,
+      "offset": 5942,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
       "kind": "StringLiteral",
-      "offset": 6166,
+      "offset": 6323,
       "length": 56,
       "value": "\"CobrowseIO: Socket tried to reconnect after disconnect\""
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
       "kind": "IntegerLiteral",
-      "offset": 6463,
+      "offset": 6620,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
       "kind": "IntegerLiteral",
-      "offset": 6631,
+      "offset": 6788,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
       "kind": "FloatLiteral",
-      "offset": 6636,
+      "offset": 6793,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
       "kind": "FloatLiteral",
-      "offset": 6676,
+      "offset": 6833,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
       "kind": "FloatLiteral",
-      "offset": 6699,
+      "offset": 6856,
       "length": 3,
       "value": "1.2"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
       "kind": "FloatLiteral",
-      "offset": 7101,
+      "offset": 7258,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
       "kind": "StringLiteral",
-      "offset": 2459,
+      "offset": 2468,
       "length": 10,
       "value": "\"CobrowseSDK.CBORSocket\""
     },
@@ -14232,28 +14238,42 @@
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/web-socket\/URLSession\/URLSessionSocket.swift",
       "kind": "BooleanLiteral",
-      "offset": 288,
+      "offset": 348,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/web-socket\/URLSession\/URLSessionSocket.swift",
       "kind": "BooleanLiteral",
-      "offset": 829,
+      "offset": 901,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/web-socket\/URLSession\/URLSessionSocket.swift",
+      "kind": "StringLiteral",
+      "offset": 1784,
+      "length": 25,
+      "value": "\"URLSessionWebSocketTask\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/web-socket\/URLSession\/URLSessionSocket.swift",
+      "kind": "Dictionary",
+      "offset": 1971,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/web-socket\/URLSession\/URLSessionSocket.swift",
       "kind": "BooleanLiteral",
-      "offset": 1245,
+      "offset": 2581,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/web-socket\/URLSession\/URLSessionSocket.swift",
       "kind": "StringLiteral",
-      "offset": 77,
+      "offset": 63,
       "length": 16,
       "value": "\"CobrowseSDK.URLSessionSocket\""
     },

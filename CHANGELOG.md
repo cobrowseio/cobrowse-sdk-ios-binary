@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.1.0](#) (2025-02-06)
+
+
+### Features
+
+* Add support for custom URLSession ([#143](#)) ([70df37a](#))
+
+
+### Bug Fixes
+
+* use shared URLSession to allow request filtering via NSURLProtocol ([#142](#)) ([b889fea](#))
+
 ## [3.0.0](#) (2025-01-27)
 
 
