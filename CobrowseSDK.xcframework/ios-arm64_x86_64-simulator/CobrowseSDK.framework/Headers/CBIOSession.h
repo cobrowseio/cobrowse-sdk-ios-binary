@@ -5,20 +5,20 @@
 @class CBIOAgent;
 
 /// Describes the state of the remote control feature in a Session
-typedef enum : NSUInteger {
-    kCBIORemoteControlStateOff = 0,
-    kCBIORemoteControlStateRequested,
-    kCBIORemoteControlStateRejected,
-    kCBIORemoteControlStateOn
-} CBIORemoteControlState;
+typedef NS_ENUM(NSInteger, CBIORemoteControlState) {
+    CBIORemoteControlStateOff = 0,
+    CBIORemoteControlStateRequested,
+    CBIORemoteControlStateRejected,
+    CBIORemoteControlStateOn
+};
 
 /// Describes the state of the full device feature in a Session
-typedef enum : NSUInteger {
-    kCBIOFullDeviceStateOff = 0,
-    kCBIOFullDeviceStateRequested,
-    kCBIOFullDeviceStateRejected,
-    kCBIOFullDeviceStateOn
-} CBIOFullDeviceState;
+typedef NS_ENUM(NSInteger, CBIOFullDeviceState) {
+    CBIOFullDeviceStateOff = 0,
+    CBIOFullDeviceStateRequested,
+    CBIOFullDeviceStateRejected,
+    CBIOFullDeviceStateOn
+};
 
 typedef void const (^CBErrorSessionBlock)(NSError* _Nullable err, CBIOSession* _Nullable session);
 
