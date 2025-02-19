@@ -6,6 +6,6 @@
 @protocol CobrowseIORedacted <NSObject>
 
 /// Return the list of UIView subclasses to redact
--(nonnull NSArray*) redactedViews;
+-(nonnull NSArray<UIView *>*) redactedViews;
 
 @end

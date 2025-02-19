@@ -6,6 +6,6 @@
 @protocol CobrowseIOUnredacted <NSObject>
 
 /// Return the list of UIView subclasses to unredact
--(nonnull NSArray*) unredactedViews;
+-(nonnull NSArray<UIView *>*) unredactedViews;
 
 @end

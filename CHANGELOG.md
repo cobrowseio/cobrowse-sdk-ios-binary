@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.2.0](#) (2025-02-19)
+
+
+### Features
+
+* Add setDeviceToken to `CobrowseIO` to register an APNS token with a device. ([#147](#)) ([79f6774](#))
+* add support to arrows and rectangles drawings ([#146](#)) ([68e94c1](#))
+
 ### [3.1.2](#) (2025-02-11)
 
 ### [3.1.1](#) (2025-02-11)
@@ -31,6 +39,8 @@ All notable changes to this project will be documented in this file. See [standa
 * Updated the minimum support Cobrowse API version to 1.21.0
 * The built-in intercom integration support has been removed. To continue to support cobrowse Intercom integrations in your apps please set an Intercom user property called `CobrowseID` to the `CobrowseIO.instance.deviceId` value.
 * `customData` is now restricted to string values only
+* `CobrowseIORedacted` and `CobrowseIOUnredacted` now use `UIView` generic constraint for the array of views passed.
+* No longer automatically register device push notification token. New `CobrowseIO.setDeiviceToken` that can be used to associate a device within the cobrowse dashboard with a push token.
 
 - No need to annotate dictionary as `[String : Object]
 - removed `k` prefix as it is an older Obj-C convention

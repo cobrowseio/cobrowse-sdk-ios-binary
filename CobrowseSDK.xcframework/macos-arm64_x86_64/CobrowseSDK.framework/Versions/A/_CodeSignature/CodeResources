@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		65onpvJCC3c2vbl+iQDLFfqK9jQ=
+		31OKkWzxOMdNVPfv5lVOw3Jugbg=
 		</data>
 		<key>Resources/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -103,7 +103,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gtHpz1YOw8yRhjgS/kYjfWT/Wig2QEIGMRbwgLZIkqo=
+			0doU9vCFu5Gm4oJGqKRKiSFeyWgz4qpR+NiDrpNB454=
 			</data>
 		</dict>
 		<key>Headers/CobrowseIODelegate.h</key>
@@ -117,14 +117,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jooDPd8mqYHHB/1wd2GfsdzTN4O942Uj0kyxzmVnY2E=
+			agZ5klFpt2emQ3BdGidni7Gl9+a0AFLuUnjnHYAHxY0=
 			</data>
 		</dict>
 		<key>Headers/CobrowseIOUnredacted.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PPzl+zXfJNheJJg18N+T7QrP+RBJQEQqWMelyyG2cMg=
+			tx0m2PCsjSMAVX2QZ/ie9YOQsZegRc5R60LNQIhmeSA=
 			</data>
 		</dict>
 		<key>Headers/CobrowseSDK-Swift.h</key>
@@ -145,14 +145,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			p5/vfMua0sJwwk82Qd6KGZXb0L7HztOFxWwnLQZcSTw=
+			aDDanYjQFXMlF6mDEPMCf1qWfBXCrU9Kl/vZT4GFeZk=
 			</data>
 		</dict>
 		<key>Modules/CobrowseSDK.swiftmodule/Project/x86_64-apple-macos.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5TXbeVES9J7XA29kOOBYEw4TMjhzxF8zfUKE8OhRAqI=
+			PaxHOS7UkBvOZSfmemtklsCP+xOxiSFrOjm2bYBai7U=
 			</data>
 		</dict>
 		<key>Modules/CobrowseSDK.swiftmodule/arm64-apple-macos.abi.json</key>
@@ -187,7 +187,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			d5DVnYiZZUchRXJwcuZfUgHDFs5y6E/m1yDuBUucHLU=
+			Tx7dK/2SP8vGH74PWq9auZyiKHTjLht71szVbyqGqFM=
 			</data>
 		</dict>
 		<key>Modules/CobrowseSDK.swiftmodule/x86_64-apple-macos.abi.json</key>
@@ -222,7 +222,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zosSqYCrXaLEbcaNerJuW/cuiFh59YmCTgO0Hz4MD6g=
+			DpJebZI2LRYe5Bjuw+dVA0MvI2051qNjl5I5qBKT5cw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -236,7 +236,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WzWYGowDVXb7SRhannlAgSYEDoWs1ozmILwI7stV+Qw=
+			Ww69LMtwBkATIidp7rk0ATLdHDEkbzSJW5+ocwVe0EQ=
 			</data>
 		</dict>
 		<key>Resources/PrivacyInfo.xcprivacy</key>
