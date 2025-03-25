@@ -3,8 +3,6 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-extern NSNotificationName const CBIOSelectorsDidUpdateNotification;
-
 typedef NSMutableDictionary<NSString *, NSMutableSet<CBIOSelector *> *> *CBIOSelectorStore;
 
 @interface CBIOSelectorIndex : NSObject
@@ -16,12 +14,10 @@ typedef NSMutableDictionary<NSString *, NSMutableSet<CBIOSelector *> *> *CBIOSel
 @property (nonatomic, strong, nullable) NSSet<CBIOSelector *> *selectors;
 
 @property (nonatomic, strong, readonly) CBIOSelectorStore byTag;
-@property (nonatomic, strong, readonly) CBIOSelectorStore byID;
 @property (nonatomic, strong, readonly) CBIOSelectorStore byAttribute;
 
-- (NSSet<CBIOSelector *> *)possibleMatchesForView:(id<CBIOHasViewProperties>)view NS_SWIFT_NAME(possibleMatches(for:));
+- (NSSet<CBIOSelector *> *)possibleMatchesForView:(CBIOViewProperties *)view NS_SWIFT_NAME(possibleMatches(for:));
 - (NSSet<CBIOSelector *> *)possibleMatchesForTag:(nullable NSString *)tag
-                                              id:(nullable NSString *)id
                                        attributes:(nullable NSDictionary<NSString *, id> *)attributes;
 - (BOOL) isEmpty;
 
