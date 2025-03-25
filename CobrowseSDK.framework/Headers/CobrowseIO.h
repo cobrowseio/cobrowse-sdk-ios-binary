@@ -16,6 +16,7 @@
 #import "CobrowseIOUnredacted.h"
 
 #if TARGET_OS_IOS
+#import "CBIOURLSession.h"
 #import "CBIOTouch.h"
 #import "CBIOResponder.h"
 #import "CobrowseIOReplayKitExtension.h"

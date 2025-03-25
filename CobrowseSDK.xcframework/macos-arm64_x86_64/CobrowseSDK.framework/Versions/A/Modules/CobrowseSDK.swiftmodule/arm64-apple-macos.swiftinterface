@@ -3,6 +3,7 @@
 // swift-module-flags: -target arm64-apple-macos10.13 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name CobrowseSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 @_exported import CobrowseSDK
+import Combine
 import CommonCrypto
 import CoreFoundation
 import Foundation
@@ -12,6 +13,12 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 import zlib
+@objc @_inheritsConvenienceInitializers @available(iOS 14.0, macOS 10.15, *)
+public class SelectorObserver : ObjectiveC.NSObject {
+  @objc public static func notifyObservers()
+  @objc override dynamic public init()
+  @objc deinit
+}
 @objc public class CBORSocket : ObjectiveC.NSObject {
   @objc public var maxReconnectDelay: Swift.Double
   @objc public var minReconnectDelay: Swift.Double
@@ -25,4 +32,23 @@ import zlib
   @objc public func send(_ event: Swift.String, data: Swift.Dictionary<Swift.String, Any>, completion: (() -> ())?)
   @objc public func sendPing()
   @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc public class CBIOViewPropertiesTreeNode : ObjectiveC.NSObject {
+  @objc public var childIDs: [Swift.String] {
+    @objc get
+  }
+  @objc public var viewProperties: CobrowseSDK.CBIOViewProperties
+  @objc override dynamic public var description: Swift.String {
+    @objc get
+  }
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class CBIOViewPropertiesTree : ObjectiveC.NSObject {
+  @objc @_Concurrency.MainActor public static let shared: CobrowseSDK.CBIOViewPropertiesTree
+  @objc final public let root: CobrowseSDK.CBIOViewPropertiesTreeNode
+  @objc public func depthFirst(visit: ((CobrowseSDK.CBIOViewPropertiesTreeNode) -> (Swift.Void)), node: CobrowseSDK.CBIOViewPropertiesTreeNode)
+  @objc deinit
+}
+extension Swift.Dictionary where Key == Swift.String, Value == CobrowseSDK.CBIOViewPropertiesTreeNode {
+  public func prettyPrint()
 }

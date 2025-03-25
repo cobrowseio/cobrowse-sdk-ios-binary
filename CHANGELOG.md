@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.3.0](#) (2025-03-25)
+
+
+### Features
+
+* Add support for iOS 14 using URLSession ([#151](#)) ([bcb89be](#))
+* add support for redaction playground ([406aa8e](#))
+* support unredaction for Swift UI ([#150](#)) ([6d9ce55](#))
+
 ## [3.2.0](#) (2025-02-19)
 
 

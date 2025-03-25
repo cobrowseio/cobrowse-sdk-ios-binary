@@ -299,9 +299,32 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+@class CBIOViewPropertiesTreeNode;
+
+SWIFT_CLASS("_TtC11CobrowseSDK22CBIOViewPropertiesTree")
+@interface CBIOViewPropertiesTree : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) CBIOViewPropertiesTree * _Nonnull shared;)
++ (CBIOViewPropertiesTree * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+@property (nonatomic, readonly, strong) CBIOViewPropertiesTreeNode * _Nonnull root;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (void)depthFirstWithVisit:(SWIFT_NOESCAPE void (^ _Nonnull)(CBIOViewPropertiesTreeNode * _Nonnull))visit node:(CBIOViewPropertiesTreeNode * _Nonnull)node;
+@end
+
+@class NSString;
+@class CBIOViewProperties;
+
+SWIFT_CLASS("_TtC11CobrowseSDK26CBIOViewPropertiesTreeNode")
+@interface CBIOViewPropertiesTreeNode : NSObject
+@property (nonatomic, readonly, copy) NSArray<NSString *> * _Nonnull childIDs;
+@property (nonatomic, strong) CBIOViewProperties * _Nonnull viewProperties;
+@property (nonatomic, readonly, copy) NSString * _Nonnull description;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 @class NSURLSession;
 @class NSURLRequest;
-@class NSString;
 @class NSDictionary;
 
 SWIFT_CLASS("_TtC11CobrowseSDK10CBORSocket")
@@ -321,6 +344,13 @@ SWIFT_CLASS("_TtC11CobrowseSDK10CBORSocket")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+
+
+SWIFT_CLASS("_TtC11CobrowseSDK16SelectorObserver") SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(ios,introduced=14.0)
+@interface SelectorObserver : NSObject
++ (void)notifyObservers;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
 
 
 #endif
@@ -632,9 +662,32 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+@class CBIOViewPropertiesTreeNode;
+
+SWIFT_CLASS("_TtC11CobrowseSDK22CBIOViewPropertiesTree")
+@interface CBIOViewPropertiesTree : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) CBIOViewPropertiesTree * _Nonnull shared;)
++ (CBIOViewPropertiesTree * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+@property (nonatomic, readonly, strong) CBIOViewPropertiesTreeNode * _Nonnull root;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (void)depthFirstWithVisit:(SWIFT_NOESCAPE void (^ _Nonnull)(CBIOViewPropertiesTreeNode * _Nonnull))visit node:(CBIOViewPropertiesTreeNode * _Nonnull)node;
+@end
+
+@class NSString;
+@class CBIOViewProperties;
+
+SWIFT_CLASS("_TtC11CobrowseSDK26CBIOViewPropertiesTreeNode")
+@interface CBIOViewPropertiesTreeNode : NSObject
+@property (nonatomic, readonly, copy) NSArray<NSString *> * _Nonnull childIDs;
+@property (nonatomic, strong) CBIOViewProperties * _Nonnull viewProperties;
+@property (nonatomic, readonly, copy) NSString * _Nonnull description;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 @class NSURLSession;
 @class NSURLRequest;
-@class NSString;
 @class NSDictionary;
 
 SWIFT_CLASS("_TtC11CobrowseSDK10CBORSocket")
@@ -654,6 +707,13 @@ SWIFT_CLASS("_TtC11CobrowseSDK10CBORSocket")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+
+
+SWIFT_CLASS("_TtC11CobrowseSDK16SelectorObserver") SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(ios,introduced=14.0)
+@interface SelectorObserver : NSObject
++ (void)notifyObservers;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
 
 
 #endif

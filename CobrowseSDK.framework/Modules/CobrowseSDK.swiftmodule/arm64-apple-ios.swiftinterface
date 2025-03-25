@@ -3,6 +3,7 @@
 // swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name CobrowseSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 @_exported import CobrowseSDK
+import Combine
 import CommonCrypto
 import CoreFoundation
 import Foundation
@@ -30,23 +31,54 @@ import zlib
 }
 @available(iOS 14.0, *)
 extension SwiftUI.View {
-  public func cobrowseSelector(tag: Swift.String? = nil, id: Swift.String? = nil, classes: [Swift.String] = [], attributes: [Swift.String : Any] = [:]) -> some SwiftUI.View
+  public func cobrowseUnredacted(if condition: Swift.Bool = true) -> some SwiftUI.View
   
-}
-public func descendant<T>(for object: Any, descendants: Swift.String..., log: Swift.Bool = false) -> T?
-@_inheritsConvenienceInitializers @available(iOS 14.0, *)
-@objc public class CBIOSwiftUIRedaction : ObjectiveC.NSObject {
-  @objc public static func getRedactedViews() -> [UIKit.UIView]
-  @objc override dynamic public init()
-  @objc deinit
 }
 @available(iOS 14.0, *)
 extension SwiftUI.View {
-  public func cobrowseRedacted(if condition: Swift.Bool = true) -> some SwiftUI.View
+  public func cobrowseSelector(tag: Swift.String? = nil, id: Swift.String? = nil, classes: [Swift.String] = [], attributes: [Swift.String : Any] = [:]) -> some SwiftUI.View
   
+}
+@_hasMissingDesignatedInitializers @objc public class CBIOViewPropertiesTreeNode : ObjectiveC.NSObject {
+  @objc public var childIDs: [Swift.String] {
+    @objc get
+  }
+  @objc public var viewProperties: CobrowseSDK.CBIOViewProperties
+  @objc override dynamic public var description: Swift.String {
+    @objc get
+  }
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class CBIOViewPropertiesTree : ObjectiveC.NSObject {
+  @objc @_Concurrency.MainActor public static let shared: CobrowseSDK.CBIOViewPropertiesTree
+  @objc final public let root: CobrowseSDK.CBIOViewPropertiesTreeNode
+  @objc public func depthFirst(visit: ((CobrowseSDK.CBIOViewPropertiesTreeNode) -> (Swift.Void)), node: CobrowseSDK.CBIOViewPropertiesTreeNode)
+  @objc deinit
+}
+extension Swift.Dictionary where Key == Swift.String, Value == CobrowseSDK.CBIOViewPropertiesTreeNode {
+  public func prettyPrint()
+}
+public func descendant<T>(for object: Any, descendants: Swift.String..., log: Swift.Bool = false) -> T?
+@objc @_inheritsConvenienceInitializers @available(iOS 14.0, macOS 10.15, *)
+public class SelectorObserver : ObjectiveC.NSObject {
+  @objc public static func notifyObservers()
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @available(iOS 14.0, *)
+@objc public class CBIOSwiftUIRedaction : ObjectiveC.NSObject {
+  @objc public static func getRedactedViews() -> [UIKit.UIView]
+  @objc public static func getUnredactedViews() -> [UIKit.UIView]
+  @objc override dynamic public init()
+  @objc deinit
 }
 @available(iOS 14.0, *)
 extension UIKit.UIView {
   @discardableResult
   @objc @_Concurrency.MainActor(unsafe) dynamic public func cobrowseRedacted() -> UIKit.UIView
+}
+@available(iOS 14.0, *)
+extension SwiftUI.View {
+  public func cobrowseRedacted(if condition: Swift.Bool = true) -> some SwiftUI.View
+  
 }
