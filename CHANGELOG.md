@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.4.0](#) (2025-04-07)
+
+
+### Features
+
+* allow custom colors for laser pointer ([#156](#)) ([4d7bac5](#))
+
+
+### Bug Fixes
+
+* ignore gestures for printer picker ([#157](#)) ([be276ac](#))
+
 ### [3.3.1](#) (2025-03-25)
 
 ## [3.3.0](#) (2025-03-25)
