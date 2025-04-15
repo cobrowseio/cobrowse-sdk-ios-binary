@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.6.1](#) (2025-04-15)
+
+
+### Bug Fixes
+
+* ignore safe area insets when calculating view hierarchy bounds ([6e26468](#))
+
 ## [3.6.0](#) (2025-04-15)
 
 
