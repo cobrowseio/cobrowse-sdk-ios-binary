@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.6.0](#) (2025-04-15)
+
+
+### Features
+
+* require Xcode 16.0 or newer ([#160](#)) ([6ed9627](#))
+
+
+### Bug Fixes
+
+* safely handle webview redaction json errors ([#162](#)) ([f6f6641](#))
+* use indexed tree structure for view tracking ([#163](#)) ([76300b3](#))
+
 ### [3.5.1](#) (2025-04-08)
 
 

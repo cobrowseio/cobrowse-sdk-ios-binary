@@ -6,13 +6,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CBIOViewProperties : NSObject <CBIOSelectableViewProperties>
 
-@property (copy, nonnull) NSString *viewId;
+@property unsigned long viewId;
 @property (copy, nullable) NSString *tag;
 @property (copy, nonnull) NSDictionary<NSString *, NSString *> *attributes;
 @property (assign) CGPoint origin;
 @property (assign) CGSize size;
 
-+(NSString*) nextId;
++(unsigned long) nextId;
 
 - (instancetype)initWithTag:(nullable NSString *)tag
                          id:(nullable NSString *)id
@@ -21,7 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (instancetype)initWithTag:(nullable NSString *)tag
                          id:(nullable NSString *)id
                  attributes:(NSDictionary<NSString *, id> *)attributes
-                     viewId: (NSString*) viewId NS_DESIGNATED_INITIALIZER;
+                     viewId: (unsigned long) viewId NS_DESIGNATED_INITIALIZER;
 
 @end
 
