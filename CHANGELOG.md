@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.6.2](#) (2025-04-22)
+
+
+### Bug Fixes
+
+* Allow any Hashable to be passed as the ID ([#169](#)) ([14c0dfa](#))
+
 ### [3.6.1](#) (2025-04-15)
 
 

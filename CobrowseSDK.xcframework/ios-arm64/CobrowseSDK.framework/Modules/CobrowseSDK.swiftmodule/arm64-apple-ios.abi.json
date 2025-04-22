@@ -2710,7 +2710,7 @@
           {
             "kind": "Function",
             "name": "cobrowseSelector",
-            "printedName": "cobrowseSelector(tag:id:classes:attributes:)",
+            "printedName": "cobrowseSelector(tag:id:attributes:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2743,32 +2743,17 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.String?",
+                "printedName": "(any Swift.Hashable)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Hashable",
+                    "printedName": "any Swift.Hashable",
+                    "usr": "s:SH"
                   }
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[Swift.String]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sa"
               },
               {
                 "kind": "TypeNominal",
@@ -2792,8 +2777,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7SwiftUI4ViewP11CobrowseSDKE16cobrowseSelector3tag2id7classes10attributesQrSSSg_AJSaySSGSDySSypGtF",
-            "mangledName": "$s7SwiftUI4ViewP11CobrowseSDKE16cobrowseSelector3tag2id7classes10attributesQrSSSg_AJSaySSGSDySSypGtF",
+            "usr": "s:7SwiftUI4ViewP11CobrowseSDKE16cobrowseSelector3tag2id10attributesQrSSSg_SH_pSgSDySSypGtF",
+            "mangledName": "$s7SwiftUI4ViewP11CobrowseSDKE16cobrowseSelector3tag2id10attributesQrSSSg_SH_pSgSDySSypGtF",
             "moduleName": "CobrowseSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Self where Self : SwiftUI.View>",
@@ -9457,22 +9442,15 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/CBIOSelectorViewModifier.swift",
-      "kind": "Array",
-      "offset": 2954,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/CBIOSelectorViewModifier.swift",
       "kind": "Dictionary",
-      "offset": 2987,
+      "offset": 2971,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/CBIOSelectorViewModifier.swift",
       "kind": "Array",
-      "offset": 3914,
+      "offset": 3906,
       "length": 2,
       "value": "[]"
     },
