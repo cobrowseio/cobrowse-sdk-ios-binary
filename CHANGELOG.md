@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.7.0](#) (2025-05-20)
+
+
+### Features
+
+* add support for disappearing ink and multi agent drawings ([#164](#)) ([9e01203](#))
+* relay screen capturable state to agent frontend ([909d6a2](#))
+* webview domain redaction config from sdk ([#165](#)) ([988209e](#))
+
+
+### Bug Fixes
+
+* fix a case where the SDK could fail to provide an initial frame after first connection ([a6a6687](#))
+* Floor overscroll to ignore sub-point differences ([#179](#)) ([a2d44c9](#))
+* optimise textfield redaction logic ([#177](#)) ([179812c](#))
+
 ### [3.6.2](#) (2025-04-22)
 
 

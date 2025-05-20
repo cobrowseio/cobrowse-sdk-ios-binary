@@ -59,8 +59,20 @@ static NSString* _Nonnull const CBIODeviceNameKey = @"device_name";
 /// The CSS selectors which will be redacted within Webviews
 @property (nonnull) NSArray<NSString*>* webviewRedactedViews API_AVAILABLE(ios(11));
 
+/// The CSS selectors which will be redacted within Webviews for a specific domain
+-(void) setWebviewRedactedViews:(nonnull NSArray<NSString*>*) webviewRedactedViews forDomain:(nonnull NSString*) domain API_AVAILABLE(ios(11));
+
+/// The CSS selectors which are being redacted within Webviews for a specific domain
+-(nonnull NSArray<NSString*>*) webviewRedactedViews: (nonnull NSString*) domain API_AVAILABLE(ios(11));
+
 /// The CSS selectors which will be unredacted within Webviews
 @property (nonnull) NSArray<NSString*>* webviewUnredactedViews API_AVAILABLE(ios(11));
+
+/// The CSS selectors which will be unredacted within Webviews for a specific domain
+-(void) setWebviewUnredactedViews:(nonnull NSArray<NSString*>*) webviewUnredactedViews forDomain:(nonnull NSString*) domain API_AVAILABLE(ios(11));
+
+/// The CSS selectors which are being unredacted within Webviews for a specific domain
+-(nonnull NSArray<NSString*>*) webviewUnredactedViews:(nonnull NSString*) domain API_AVAILABLE(ios(11));
 
 /// By default, when the SDK starts it will register the device to your account and share its
 /// connectivity state. This provides the dashboard with a list of devices which are online

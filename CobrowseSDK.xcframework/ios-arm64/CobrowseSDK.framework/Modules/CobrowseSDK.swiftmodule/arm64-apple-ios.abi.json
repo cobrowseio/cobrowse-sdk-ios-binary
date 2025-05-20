@@ -750,6 +750,13 @@
       },
       {
         "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1546,6 +1553,13 @@
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
         "declKind": "Import",
         "moduleName": "CobrowseSDK"
       },
@@ -2702,7 +2716,47 @@
             "declAttributes": [
               "Preconcurrency",
               "Custom",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cobrowseUnredacted",
+            "printedName": "cobrowseUnredacted(if:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP11CobrowseSDKE18cobrowseUnredacted2ifQrqd___t7Combine9PublisherRd__s5NeverO7FailureRtd__Sb6OutputRtd__lF",
+            "mangledName": "$s7SwiftUI4ViewP11CobrowseSDKE18cobrowseUnredacted2ifQrqd___t7Combine9PublisherRd__s5NeverO7FailureRtd__Sb6OutputRtd__lF",
+            "moduleName": "CobrowseSDK",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : SwiftUI.View, τ_1_0 : Combine.Publisher, τ_1_0.Failure == Swift.Never, τ_1_0.Output == Swift.Bool>",
+            "sugared_genericSig": "<Self, P where Self : SwiftUI.View, P : Combine.Publisher, P.Failure == Swift.Never, P.Output == Swift.Bool>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -2823,6 +2877,45 @@
             "moduleName": "CobrowseSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cobrowseRedacted",
+            "printedName": "cobrowseRedacted(if:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP11CobrowseSDKE16cobrowseRedacted2ifQrqd___t7Combine9PublisherRd__s5NeverO7FailureRtd__Sb6OutputRtd__lF",
+            "mangledName": "$s7SwiftUI4ViewP11CobrowseSDKE16cobrowseRedacted2ifQrqd___t7Combine9PublisherRd__s5NeverO7FailureRtd__Sb6OutputRtd__lF",
+            "moduleName": "CobrowseSDK",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : SwiftUI.View, τ_1_0 : Combine.Publisher, τ_1_0.Failure == Swift.Never, τ_1_0.Output == Swift.Bool>",
+            "sugared_genericSig": "<Self, P where Self : SwiftUI.View, P : Combine.Publisher, P.Failure == Swift.Never, P.Output == Swift.Bool>",
             "declAttributes": [
               "Preconcurrency",
               "Custom",
@@ -9303,7 +9396,14 @@
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/CobrowseUnredactedViewModifier.swift",
       "kind": "BooleanLiteral",
-      "offset": 995,
+      "offset": 259,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/CobrowseUnredactedViewModifier.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1210,
       "length": 4,
       "value": "true"
     },
@@ -9618,7 +9718,14 @@
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/CobrowseRedactedViewModifier.swift",
       "kind": "BooleanLiteral",
-      "offset": 863,
+      "offset": 257,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/CobrowseRedactedViewModifier.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1011,
       "length": 4,
       "value": "true"
     }

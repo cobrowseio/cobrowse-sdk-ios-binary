@@ -33,6 +33,8 @@ import zlib
 extension SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public func cobrowseUnredacted(if condition: Swift.Bool = true) -> some SwiftUICore.View
   
+  @_Concurrency.MainActor @preconcurrency public func cobrowseUnredacted<P>(if condition: P) -> some SwiftUICore.View where P : Combine.Publisher, P.Failure == Swift.Never, P.Output == Swift.Bool
+  
 }
 @available(iOS 14.0, *)
 extension SwiftUICore.View {
@@ -68,5 +70,7 @@ extension UIKit.UIView {
 @available(iOS 14.0, *)
 extension SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public func cobrowseRedacted(if condition: Swift.Bool = true) -> some SwiftUICore.View
+  
+  @_Concurrency.MainActor @preconcurrency public func cobrowseRedacted<P>(if condition: P) -> some SwiftUICore.View where P : Combine.Publisher, P.Failure == Swift.Never, P.Output == Swift.Bool
   
 }
