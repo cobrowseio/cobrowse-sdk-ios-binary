@@ -327,12 +327,14 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) CBIOViewProp
 - (void)depthFirstWithVisit:(SWIFT_NOESCAPE void (^ _Nonnull)(CBIOViewProperties * _Nonnull))visit node:(CBIOViewProperties * _Nonnull)node;
 @end
 
+@class CBORSocketMetrics;
 @class NSURLSession;
 @class NSURLRequest;
 @class NSDictionary;
 
 SWIFT_CLASS("_TtC11CobrowseSDK10CBORSocket")
 @interface CBORSocket : NSObject
+@property (nonatomic, readonly, strong) CBORSocketMetrics * _Nonnull metrics;
 @property (nonatomic) double maxReconnectDelay;
 @property (nonatomic) double minReconnectDelay;
 - (nonnull instancetype)initWithSession:(NSURLSession * _Nonnull)session request:(NSURLRequest * _Nonnull (^ _Nonnull)(void))request OBJC_DESIGNATED_INITIALIZER;
@@ -346,6 +348,14 @@ SWIFT_CLASS("_TtC11CobrowseSDK10CBORSocket")
 - (void)sendPing;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+/// Metrics of socket network performance.
+SWIFT_CLASS("_TtC11CobrowseSDK17CBORSocketMetrics")
+@interface CBORSocketMetrics : NSObject
+@property (nonatomic, readonly) NSTimeInterval latency;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
@@ -701,12 +711,14 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) CBIOViewProp
 - (void)depthFirstWithVisit:(SWIFT_NOESCAPE void (^ _Nonnull)(CBIOViewProperties * _Nonnull))visit node:(CBIOViewProperties * _Nonnull)node;
 @end
 
+@class CBORSocketMetrics;
 @class NSURLSession;
 @class NSURLRequest;
 @class NSDictionary;
 
 SWIFT_CLASS("_TtC11CobrowseSDK10CBORSocket")
 @interface CBORSocket : NSObject
+@property (nonatomic, readonly, strong) CBORSocketMetrics * _Nonnull metrics;
 @property (nonatomic) double maxReconnectDelay;
 @property (nonatomic) double minReconnectDelay;
 - (nonnull instancetype)initWithSession:(NSURLSession * _Nonnull)session request:(NSURLRequest * _Nonnull (^ _Nonnull)(void))request OBJC_DESIGNATED_INITIALIZER;
@@ -720,6 +732,14 @@ SWIFT_CLASS("_TtC11CobrowseSDK10CBORSocket")
 - (void)sendPing;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+/// Metrics of socket network performance.
+SWIFT_CLASS("_TtC11CobrowseSDK17CBORSocketMetrics")
+@interface CBORSocketMetrics : NSObject
+@property (nonatomic, readonly) NSTimeInterval latency;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 

@@ -18,6 +18,10 @@
 
 @optional
 
+/// Called when one or multiple metrics properties change.
+/// @param session The session which metrics changed
+-(void) cobrowseSessionMetricsDidUpdate: (nonnull CBIOSession*) session;
+
 /// Called when a session is first loaded from the server, either via 6 digit code or connection
 /// from an agent.
 /// @param session The session that ended

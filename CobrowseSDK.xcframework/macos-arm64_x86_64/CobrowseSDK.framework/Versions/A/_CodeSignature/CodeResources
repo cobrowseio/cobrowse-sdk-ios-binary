@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		vC4WImC1KAf6UlJMzyNSo+5EiqU=
+		9ZgPkQrOjLx86Ki35WgM7QSsqX8=
 		</data>
 		<key>Resources/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -82,7 +82,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7uLell0d5VT73jfMk94Wwpoqo/MUfrPprhLkcMSWnBU=
+			CbTmxqnpXqraULKCws7fvF5/xdbWe9me9l1MZo/YZ/I=
+			</data>
+		</dict>
+		<key>Headers/CBIOSessionMetrics.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Et2ZhZfhVyH8IaPt/uqfVL1Y7YeOJffk46D72aMWeuU=
 			</data>
 		</dict>
 		<key>Headers/CBIOTouchEvent.h</key>
@@ -110,7 +117,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/OVuePMWwaPusP/EXoi3SF3pqLGd+Li5jTBMEFm7NUA=
+			r7vK1vjRKGB0c/Yj5TPQR+ta8SZxFUsMHV4jjuyqRIE=
 			</data>
 		</dict>
 		<key>Headers/CobrowseIORedacted.h</key>
@@ -131,7 +138,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IjwdeNm9QiaBbBZ0FZC8IriPmr30OYzC134bnezlNQs=
+			oh/t5n8e+BXP+ZCOYV8YFhZ/egHYZnWJcSP3fg8+Zmc=
 			</data>
 		</dict>
 		<key>Headers/CobrowseSDK.h</key>
@@ -145,84 +152,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			n1XwxU/R945m4L4uFDqHZerBYBM0rWSeWTDjTnM1jOM=
+			m0RbKMRZA5Gn9hDGwgh2BNf19cvK+/Bx2WMd81+Y7H4=
 			</data>
 		</dict>
 		<key>Modules/CobrowseSDK.swiftmodule/Project/x86_64-apple-macos.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Msw/2LHluKg59a3TFj3PueVWMh1bnpi7yhTAp+UPVVo=
+			zsBNP+F53/JBkRIAl0elkynfdAqLqSlOdtNn3o4pyH4=
 			</data>
 		</dict>
 		<key>Modules/CobrowseSDK.swiftmodule/arm64-apple-macos.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			40M7UoywlFWPFVKt6PKGIrFnE40S/g57ZUkLGTgSIs0=
+			tDFoMnYg1i5fAW0HqsnJhZHyjiRthTU+DSa4yO/JSVU=
 			</data>
 		</dict>
 		<key>Modules/CobrowseSDK.swiftmodule/arm64-apple-macos.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			U5li2KGsghwqpNtWETK66HIX7XnAQ8LrzS05Bjk5f/U=
+			P3BDViyebUMBJhjEc8PIcNHo4vZ7P1r1IOM2km7m6MQ=
 			</data>
 		</dict>
 		<key>Modules/CobrowseSDK.swiftmodule/arm64-apple-macos.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9zUhsK+jt9FdAZLxfFYxXvfe7SLGCyEb/NefIivm++4=
+			wmwsaHz0sv55kHBmeYqhM3GwrezfwD+61OR1Dh10Bpc=
 			</data>
 		</dict>
 		<key>Modules/CobrowseSDK.swiftmodule/arm64-apple-macos.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			U5li2KGsghwqpNtWETK66HIX7XnAQ8LrzS05Bjk5f/U=
+			P3BDViyebUMBJhjEc8PIcNHo4vZ7P1r1IOM2km7m6MQ=
 			</data>
 		</dict>
 		<key>Modules/CobrowseSDK.swiftmodule/arm64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZhoqyuQq49XO3cExn7gb85hPlbhF7p9DRPdz8vnDeIU=
+			3IZ42FMU73J17N3sPD2+OJGbb60Yy3NiGsWNPaY20dA=
 			</data>
 		</dict>
 		<key>Modules/CobrowseSDK.swiftmodule/x86_64-apple-macos.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			40M7UoywlFWPFVKt6PKGIrFnE40S/g57ZUkLGTgSIs0=
+			tDFoMnYg1i5fAW0HqsnJhZHyjiRthTU+DSa4yO/JSVU=
 			</data>
 		</dict>
 		<key>Modules/CobrowseSDK.swiftmodule/x86_64-apple-macos.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gOdq5pWqofIowY7bDcYjGh76nKhDw57wBtujdASUPmg=
+			hgn4NSdNJRkliy6xI0ZY4+4MJoY+WnwILDfPmyknqJw=
 			</data>
 		</dict>
 		<key>Modules/CobrowseSDK.swiftmodule/x86_64-apple-macos.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			270pOs1rWZUDMlLq2O5XZvJ4mm6F8DYa7rqSTyUpz5k=
+			L46mQsRzzz8Oh5Q2pno0EUrECegyQ8I8cMYLIhA8rh0=
 			</data>
 		</dict>
 		<key>Modules/CobrowseSDK.swiftmodule/x86_64-apple-macos.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gOdq5pWqofIowY7bDcYjGh76nKhDw57wBtujdASUPmg=
+			hgn4NSdNJRkliy6xI0ZY4+4MJoY+WnwILDfPmyknqJw=
 			</data>
 		</dict>
 		<key>Modules/CobrowseSDK.swiftmodule/x86_64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VlTGDn5au95jOSroCujN5PFVOUe9YIFSMUegkRF+vWs=
+			/O9uxnS6uthqPUYmsJx1xersBNq+JorKNVDn94TYufY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -236,7 +243,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jLZcm8QgdYYwFxZeFINb6/LnkeH5MtF2pcyPb+ZEbnQ=
+			rfj1zcyR1wMO7gtqkjAzM87mw/CI+eT7hEeZnIvs68o=
 			</data>
 		</dict>
 		<key>Resources/PrivacyInfo.xcprivacy</key>

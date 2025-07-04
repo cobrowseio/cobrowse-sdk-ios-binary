@@ -16,6 +16,7 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 import zlib
 @objc public class CBORSocket : ObjectiveC.NSObject {
+  @objc final public let metrics: CobrowseSDK.CBORSocketMetrics
   @objc public var maxReconnectDelay: Swift.Double
   @objc public var minReconnectDelay: Swift.Double
   @objc(initWithSession:request:) public init(with session: Foundation.URLSession, request: @escaping (() -> Foundation.URLRequest))
@@ -46,6 +47,13 @@ extension SwiftUICore.View {
   @objc final public let root: CobrowseSDK.CBIOViewProperties
   @objc public func childIDs(_ view: CobrowseSDK.CBIOViewProperties) -> [Swift.String]
   @objc public func depthFirst(visit: ((CobrowseSDK.CBIOViewProperties) -> (Swift.Void)), node: CobrowseSDK.CBIOViewProperties)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc final public class CBORSocketMetrics : ObjectiveC.NSObject {
+  @objc dynamic final public var latency: Foundation.TimeInterval {
+    @objc get
+  }
+  @objc override dynamic public init()
   @objc deinit
 }
 public func descendant<T>(for object: Any, descendants: Swift.String..., log: Swift.Bool = false) -> T?

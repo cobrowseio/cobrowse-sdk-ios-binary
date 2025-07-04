@@ -1,5 +1,6 @@
 #import <Foundation/Foundation.h>
 #import "CBIORESTResource.h"
+#import "CBIOSessionMetrics.h"
 
 @class CBIOSession;
 @class CBIOAgent;
@@ -77,6 +78,10 @@ typedef void const (^CBErrorSessionBlock)(NSError* _Nullable err, CBIOSession* _
 /// joined yet
 /// @return The agent information or null
 -(nullable CBIOAgent*) agent;
+
+/// Returns the network metrics for the session.
+/// @return Collected session metrics.
+-(nonnull CBIOSessionMetrics*) metrics;
 
 /// Tests if the session is configured for full device access (e.g. ReplayKit). This can be
 /// changed dynamically by the server.
