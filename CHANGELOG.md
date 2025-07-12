@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.8.1](#) (2025-07-12)
+
+
+### Bug Fixes
+
+* Handle unknown method signatures ([#187](#)) ([4024422](#))
+* hide remote control consent when the agent cancels ([#188](#)) ([37ff702](#))
+
 ## [3.8.0](#) (2025-07-04)
 
 
