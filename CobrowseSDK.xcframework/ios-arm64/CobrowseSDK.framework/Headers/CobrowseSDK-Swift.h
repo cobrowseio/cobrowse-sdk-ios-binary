@@ -313,23 +313,11 @@ SWIFT_CLASS("_TtC11CobrowseSDK20CBIOSwiftUIRedaction") SWIFT_AVAILABILITY(ios,in
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class CBIOViewProperties;
-@class NSString;
-
-SWIFT_CLASS("_TtC11CobrowseSDK22CBIOViewPropertiesTree")
-@interface CBIOViewPropertiesTree : NSObject
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) CBIOViewPropertiesTree * _Nonnull shared;)
-+ (CBIOViewPropertiesTree * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
-@property (nonatomic, readonly, strong) CBIOViewProperties * _Nonnull root;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-- (NSArray<NSString *> * _Nonnull)childIDs:(CBIOViewProperties * _Nonnull)view SWIFT_WARN_UNUSED_RESULT;
-- (void)depthFirstWithVisit:(SWIFT_NOESCAPE void (^ _Nonnull)(CBIOViewProperties * _Nonnull))visit node:(CBIOViewProperties * _Nonnull)node;
-@end
 
 @class CBORSocketMetrics;
 @class NSURLSession;
 @class NSURLRequest;
+@class NSString;
 @class NSDictionary;
 
 SWIFT_CLASS("_TtC11CobrowseSDK10CBORSocket")
@@ -372,6 +360,7 @@ SWIFT_AVAILABILITY(ios,introduced=14.0)
 /// Redact this view from being seen by the Cobrowse agent
 - (UIView * _Nonnull)cobrowseRedacted;
 @end
+
 
 
 #endif

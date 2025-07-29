@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.9.0](#) (2025-07-29)
+
+
+### Features
+
+* UIKit depth first view hierarchy ([#192](#)) ([45d75a9](#))
+
+
+### Bug Fixes
+
+* Avoid doesNotRecognizeSelector by always providing a method signature that will be ignored ([#193](#)) ([81e1a62](#))
+* use `kCGWindowImageDefault` instead of `kCGWindowImageBoundsIgnoreFraming` as `CGWindowImageOption` when capturing app windows ([#191](#)) ([526c83f](#))
+
 ### [3.8.1](#) (2025-07-12)
 
 

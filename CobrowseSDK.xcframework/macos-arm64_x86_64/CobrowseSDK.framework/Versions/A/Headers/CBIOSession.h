@@ -24,10 +24,10 @@ typedef NS_ENUM(NSInteger, CBIOFullDeviceState) {
 typedef void const (^CBErrorSessionBlock)(NSError* _Nullable err, CBIOSession* _Nullable session);
 
 /// A CBIOSession tracks the state of a single screen share session through the
-/// initial request, authorization, activty and ending.
+/// initial request, authorization, activity and ending.
 @interface CBIOSession : CBIORESTResource
 
-/// Session has beenn created, but an agent or device has not yet joined
+/// Session has been created, but an agent or device has not yet joined
 -(bool) isPending;
 
 /// Confirmation prompt shown, waiting for the user to accept the session

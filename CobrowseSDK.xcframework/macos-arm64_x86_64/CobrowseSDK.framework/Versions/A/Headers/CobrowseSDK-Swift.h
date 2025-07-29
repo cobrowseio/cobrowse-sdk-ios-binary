@@ -303,23 +303,11 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-@class CBIOViewProperties;
-@class NSString;
-
-SWIFT_CLASS("_TtC11CobrowseSDK22CBIOViewPropertiesTree")
-@interface CBIOViewPropertiesTree : NSObject
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) CBIOViewPropertiesTree * _Nonnull shared;)
-+ (CBIOViewPropertiesTree * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
-@property (nonatomic, readonly, strong) CBIOViewProperties * _Nonnull root;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-- (NSArray<NSString *> * _Nonnull)childIDs:(CBIOViewProperties * _Nonnull)view SWIFT_WARN_UNUSED_RESULT;
-- (void)depthFirstWithVisit:(SWIFT_NOESCAPE void (^ _Nonnull)(CBIOViewProperties * _Nonnull))visit node:(CBIOViewProperties * _Nonnull)node;
-@end
 
 @class CBORSocketMetrics;
 @class NSURLSession;
 @class NSURLRequest;
+@class NSString;
 @class NSDictionary;
 
 SWIFT_CLASS("_TtC11CobrowseSDK10CBORSocket")
@@ -670,23 +658,11 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-@class CBIOViewProperties;
-@class NSString;
-
-SWIFT_CLASS("_TtC11CobrowseSDK22CBIOViewPropertiesTree")
-@interface CBIOViewPropertiesTree : NSObject
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) CBIOViewPropertiesTree * _Nonnull shared;)
-+ (CBIOViewPropertiesTree * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
-@property (nonatomic, readonly, strong) CBIOViewProperties * _Nonnull root;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-- (NSArray<NSString *> * _Nonnull)childIDs:(CBIOViewProperties * _Nonnull)view SWIFT_WARN_UNUSED_RESULT;
-- (void)depthFirstWithVisit:(SWIFT_NOESCAPE void (^ _Nonnull)(CBIOViewProperties * _Nonnull))visit node:(CBIOViewProperties * _Nonnull)node;
-@end
 
 @class CBORSocketMetrics;
 @class NSURLSession;
 @class NSURLRequest;
+@class NSString;
 @class NSDictionary;
 
 SWIFT_CLASS("_TtC11CobrowseSDK10CBORSocket")

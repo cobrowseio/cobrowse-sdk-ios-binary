@@ -1008,282 +1008,6 @@
         "moduleName": "CobrowseSDK"
       },
       {
-        "kind": "TypeDecl",
-        "name": "CBIOViewPropertiesTree",
-        "printedName": "CBIOViewPropertiesTree",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "shared",
-            "printedName": "shared",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CBIOViewPropertiesTree",
-                "printedName": "CobrowseSDK.CBIOViewPropertiesTree",
-                "usr": "c:@M@CobrowseSDK@objc(cs)CBIOViewPropertiesTree"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@CobrowseSDK@objc(cs)CBIOViewPropertiesTree(cpy)shared",
-            "mangledName": "$s11CobrowseSDK22CBIOViewPropertiesTreeC6sharedACvpZ",
-            "moduleName": "CobrowseSDK",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "Custom",
-              "ObjC"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CBIOViewPropertiesTree",
-                    "printedName": "CobrowseSDK.CBIOViewPropertiesTree",
-                    "usr": "c:@M@CobrowseSDK@objc(cs)CBIOViewPropertiesTree"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@CobrowseSDK@objc(cs)CBIOViewPropertiesTree(cm)shared",
-                "mangledName": "$s11CobrowseSDK22CBIOViewPropertiesTreeC6sharedACvgZ",
-                "moduleName": "CobrowseSDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "root",
-            "printedName": "root",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CBIOViewProperties",
-                "printedName": "CobrowseSDK.CBIOViewProperties",
-                "usr": "c:objc(cs)CBIOViewProperties"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@CobrowseSDK@objc(cs)CBIOViewPropertiesTree(py)root",
-            "mangledName": "$s11CobrowseSDK22CBIOViewPropertiesTreeC4rootSo0cD0Cvp",
-            "moduleName": "CobrowseSDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CBIOViewProperties",
-                    "printedName": "CobrowseSDK.CBIOViewProperties",
-                    "usr": "c:objc(cs)CBIOViewProperties"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@CobrowseSDK@objc(cs)CBIOViewPropertiesTree(im)root",
-                "mangledName": "$s11CobrowseSDK22CBIOViewPropertiesTreeC4rootSo0cD0Cvg",
-                "moduleName": "CobrowseSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "childIDs",
-            "printedName": "childIDs(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[Swift.String]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sa"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CBIOViewProperties",
-                "printedName": "CobrowseSDK.CBIOViewProperties",
-                "usr": "c:objc(cs)CBIOViewProperties"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@CobrowseSDK@objc(cs)CBIOViewPropertiesTree(im)childIDs:",
-            "mangledName": "$s11CobrowseSDK22CBIOViewPropertiesTreeC8childIDsySaySSGSo0cD0CF",
-            "moduleName": "CobrowseSDK",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "depthFirst",
-            "printedName": "depthFirst(visit:node:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(CobrowseSDK.CBIOViewProperties) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CBIOViewProperties",
-                    "printedName": "CobrowseSDK.CBIOViewProperties",
-                    "usr": "c:objc(cs)CBIOViewProperties"
-                  }
-                ],
-                "typeAttributes": [
-                  "noescape"
-                ]
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CBIOViewProperties",
-                "printedName": "CobrowseSDK.CBIOViewProperties",
-                "usr": "c:objc(cs)CBIOViewProperties"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@CobrowseSDK@objc(cs)CBIOViewPropertiesTree(im)depthFirstWithVisit:node:",
-            "mangledName": "$s11CobrowseSDK22CBIOViewPropertiesTreeC10depthFirst5visit4nodeyySo0cD0CXE_AHtF",
-            "moduleName": "CobrowseSDK",
-            "objc_name": "depthFirstWithVisit:node:",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@CobrowseSDK@objc(cs)CBIOViewPropertiesTree",
-        "mangledName": "$s11CobrowseSDK22CBIOViewPropertiesTreeC",
-        "moduleName": "CobrowseSDK",
-        "declAttributes": [
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "hasMissingDesignatedInitializers": true,
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
-      },
-      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -8748,6 +8472,27 @@
       "offset": 2433,
       "length": 3,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/CBIOViewPropertiesTree.swift",
+      "kind": "StringLiteral",
+      "offset": 493,
+      "length": 6,
+      "value": "\"Root\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/CBIOViewPropertiesTree.swift",
+      "kind": "StringLiteral",
+      "offset": 505,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/CBIOViewPropertiesTree.swift",
+      "kind": "IntegerLiteral",
+      "offset": 518,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
