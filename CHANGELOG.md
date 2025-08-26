@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.10.0](#) (2025-08-26)
+
+
+### Features
+
+* expose extra view attributes ([#194](#)) ([ec8fbce](#))
+
+
+### Bug Fixes
+
+* Add session indicators to all windows ([#199](#)) ([6f90234](#))
+* ensure js is injected if needed when the selectors change ([#205](#)) ([bcac772](#))
+* rendering issues on iPad in the split-screen mode ([#195](#)) ([223ece1](#))
+* Update xcode version to 16.3 ([#201](#)) ([63686c6](#))
+* use lower scaling ratio but prefer hardware accelerated H.264 encoder on macOS ([#190](#)) ([f259f71](#))
+
 ## [3.9.0](#) (2025-07-29)
 
 

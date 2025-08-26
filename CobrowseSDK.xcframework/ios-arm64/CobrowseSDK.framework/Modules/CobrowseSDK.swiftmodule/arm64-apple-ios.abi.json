@@ -9722,6 +9722,153 @@
       "value": "\"<\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/properties-tree\/UIView+ViewPropertyAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 364,
+      "length": 26,
+      "value": "\"isUserInteractionEnabled\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/properties-tree\/UIView+ViewPropertyAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 482,
+      "length": 19,
+      "value": "\"accessibilityHint\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/properties-tree\/UIView+ViewPropertyAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 554,
+      "length": 20,
+      "value": "\"accessibilityLabel\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/properties-tree\/UIView+ViewPropertyAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 632,
+      "length": 25,
+      "value": "\"accessibilityIdentifier\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/properties-tree\/UIView+ViewPropertyAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 732,
+      "length": 21,
+      "value": "\"accessibilityTraits\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/properties-tree\/UIView+ViewPropertyAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 1013,
+      "length": 14,
+      "value": "\"keyboardType\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/properties-tree\/UIView+ViewPropertyAttributes.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1131,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/properties-tree\/UIView+ViewPropertyAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 1165,
+      "length": 19,
+      "value": "\"isSecureTextEntry\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/properties-tree\/UIView+ViewPropertyAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 1493,
+      "length": 11,
+      "value": "\"isEnabled\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/properties-tree\/UIView+ViewPropertyAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 1795,
+      "length": 6,
+      "value": "\"text\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/properties-tree\/UIView+ViewPropertyAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 1857,
+      "length": 13,
+      "value": "\"placeholder\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/properties-tree\/UIView+ViewPropertyAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 2086,
+      "length": 6,
+      "value": "\"text\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/properties-tree\/UIView+ViewPropertyAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 2298,
+      "length": 6,
+      "value": "\"isOn\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/properties-tree\/UIView+ViewPropertyAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 2554,
+      "length": 14,
+      "value": "\"currentTitle\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/properties-tree\/UIView+ViewPropertyAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 2774,
+      "length": 7,
+      "value": "\"value\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/properties-tree\/UIView+ViewPropertyAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 3013,
+      "length": 13,
+      "value": "\"currentPage\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/properties-tree\/UIView+ViewPropertyAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 3081,
+      "length": 15,
+      "value": "\"numberOfPages\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/properties-tree\/UIView+ViewPropertyAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 3337,
+      "length": 10,
+      "value": "\"progress\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/properties-tree\/UIView+ViewPropertyAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 3587,
+      "length": 10,
+      "value": "\"segments\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/properties-tree\/UIView+ViewPropertyAttributes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3602,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/properties-tree\/UIView+ViewPropertyAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 3682,
+      "length": 17,
+      "value": "\"selectedSegment\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/Mirror.swift",
       "kind": "BooleanLiteral",
       "offset": 408,
