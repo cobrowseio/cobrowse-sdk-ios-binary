@@ -304,6 +304,10 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+
+
+
+
 @class UIView;
 
 SWIFT_CLASS("_TtC11CobrowseSDK20CBIOSwiftUIRedaction") SWIFT_AVAILABILITY(ios,introduced=14.0)
@@ -339,6 +343,8 @@ SWIFT_CLASS("_TtC11CobrowseSDK10CBORSocket")
 @end
 
 
+
+
 /// Metrics of socket network performance.
 SWIFT_CLASS("_TtC11CobrowseSDK17CBORSocketMetrics")
 @interface CBORSocketMetrics : NSObject
@@ -364,11 +370,15 @@ SWIFT_CLASS("_TtC11CobrowseSDK16SelectorObserver") SWIFT_AVAILABILITY(macos,intr
 
 
 
+
 SWIFT_AVAILABILITY(ios,introduced=14.0)
 @interface UIView (SWIFT_EXTENSION(CobrowseSDK))
 /// Redact this view from being seen by the Cobrowse agent
 - (UIView * _Nonnull)cobrowseRedacted;
 @end
+
+
+
 
 
 

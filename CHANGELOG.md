@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.11.0](#) (2025-09-18)
+
+
+### Features
+
+* Improved rendering method for iOS 26.0 ([#196](#)) ([7da4850](#))
+* Support multi window drawing overlay ([#200](#)) ([e4e361f](#))
+* Update the design of the default session indicators ([#207](#)) ([51c040d](#))
+
+
+### Bug Fixes
+
+* Allow websocket method to be chosen via `CBIOWebSocketMethod` ([#215](#)) ([c9a1f1f](#))
+* fix flicker with legacy redaction method ([#209](#)) ([341dbd7](#))
+* fix webview clipping redactions inside content inset area ([#213](#)) ([442d1ce](#))
+* Implement redaction fixes for special effect views ([#212](#)) ([4f2270c](#))
+
 ## [3.10.0](#) (2025-08-26)
 
 
@@ -15,7 +32,6 @@ All notable changes to this project will be documented in this file. See [standa
 * Add session indicators to all windows ([#199](#)) ([6f90234](#))
 * ensure js is injected if needed when the selectors change ([#205](#)) ([bcac772](#))
 * rendering issues on iPad in the split-screen mode ([#195](#)) ([223ece1](#))
-* Update xcode version to 16.3 ([#201](#)) ([63686c6](#))
 * use lower scaling ratio but prefer hardware accelerated H.264 encoder on macOS ([#190](#)) ([f259f71](#))
 
 ## [3.9.0](#) (2025-07-29)

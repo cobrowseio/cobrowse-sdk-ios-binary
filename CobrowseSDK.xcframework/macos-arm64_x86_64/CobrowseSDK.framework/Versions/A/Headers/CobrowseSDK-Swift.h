@@ -304,6 +304,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 
+
 @class CBORSocketMetrics;
 @class NSURLSession;
 @class NSURLRequest;
@@ -327,6 +328,8 @@ SWIFT_CLASS("_TtC11CobrowseSDK10CBORSocket")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
+
 
 
 /// Metrics of socket network performance.
@@ -659,6 +662,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 
+
 @class CBORSocketMetrics;
 @class NSURLSession;
 @class NSURLRequest;
@@ -682,6 +686,8 @@ SWIFT_CLASS("_TtC11CobrowseSDK10CBORSocket")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
+
 
 
 /// Metrics of socket network performance.
