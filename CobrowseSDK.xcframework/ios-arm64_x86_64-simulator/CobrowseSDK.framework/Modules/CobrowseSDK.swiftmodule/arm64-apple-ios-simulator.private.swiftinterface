@@ -42,11 +42,6 @@ extension SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public func cobrowseSelector(tag: Swift.String? = nil, id: (any Swift.Hashable)? = nil, attributes: [Swift.String : Any] = [:]) -> some SwiftUICore.View
   
 }
-extension UIKit.UIScreen {
-  @_Concurrency.MainActor @preconcurrency public var displayCornerRadius: CoreFoundation.CGFloat? {
-    get
-  }
-}
 @_inheritsConvenienceInitializers @objc final public class CBORSocketMetrics : ObjectiveC.NSObject {
   @objc dynamic final public var latency: Foundation.TimeInterval {
     @objc get

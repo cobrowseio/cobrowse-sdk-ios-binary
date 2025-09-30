@@ -7494,6 +7494,13 @@
       "value": "0"
     },
     {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/session-ui\/CBIOScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 246,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/swiftcbor\/CBOROptions.swift",
       "kind": "BooleanLiteral",
       "offset": 180,

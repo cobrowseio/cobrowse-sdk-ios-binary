@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.11.1](#) (2025-09-30)
+
+
+### Bug Fixes
+
+* fix cases where Webview redacted content could be exposed ([#221](#)) ([fbdf247](#))
+
 ## [3.11.0](#) (2025-09-18)
 
 
