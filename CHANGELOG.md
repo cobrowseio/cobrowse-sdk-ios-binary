@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.12.0](#) (2025-10-15)
+
+
+### Features
+
+* expose ended_reason on Session ([#224](#)) ([a39eba0](#))
+
+
+### Bug Fixes
+
+* crash when redacting controllers that haven't loaded their views ([#232](#)) ([606f325](#))
+* detect viewport misalignment in webviews ([#230](#)) ([d11bcc6](#))
+
 ### [3.11.1](#) (2025-09-30)
 
 
@@ -14,7 +27,7 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### Features
 
-* Improved rendering method for iOS 26.0 ([#196](#)) ([7da4850](#))
+* Improved rendering method for iOS 26.0 ([#196](#)) ([7da4850](#)) ([docs](https://docs.cobrowse.io/sdk-features/advanced-features/ios/alternate-render-method))
 * Support multi window drawing overlay ([#200](#)) ([e4e361f](#))
 * Update the design of the default session indicators ([#207](#)) ([51c040d](#))
 

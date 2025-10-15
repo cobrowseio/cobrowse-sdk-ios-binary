@@ -21,6 +21,17 @@ typedef NS_ENUM(NSInteger, CBIOFullDeviceState) {
     CBIOFullDeviceStateOn
 };
 
+/// Describes the reason a Session ended
+typedef NS_ENUM(NSInteger, CBIOSessionEndedReason) {
+    CBIOSessionEndedReasonUnknown = 0,
+    CBIOSessionEndedReasonDeviceEnded,
+    CBIOSessionEndedReasonAgentEnded,
+    CBIOSessionEndedReasonPendingTimeout,
+    CBIOSessionEndedReasonAuthorizingTimeout,
+    CBIOSessionEndedReasonActiveTimeout,
+    CBIOSessionEndedReasonLimitEnforcement
+};
+
 typedef void const (^CBErrorSessionBlock)(NSError* _Nullable err, CBIOSession* _Nullable session);
 
 /// A CBIOSession tracks the state of a single screen share session through the
@@ -105,5 +116,15 @@ typedef void const (^CBErrorSessionBlock)(NSError* _Nullable err, CBIOSession* _
 /// @param capabilities Array of capability keys to enable
 /// @param callback Called when the request completes or fails
 -(void) setCapabilities: ( NSArray<NSString*>* _Nonnull) capabilities callback: (nullable CBErrorSessionBlock) callback;
+
+// Returns an immutable NSDictionary representing custom data of the session instance.
+- (nonnull NSDictionary<NSString *, NSString *> *)customData;
+
+// Sets custom data on the session instance.
+- (void)setCustomData:(nonnull NSDictionary<NSString*, NSString*>*)customData
+             callback:(nullable CBErrorSessionBlock) callback;
+
+/// The reason the session ended
+-(CBIOSessionEndedReason) endedReason;
 
 @end
