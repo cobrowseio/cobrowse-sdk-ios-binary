@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.13.0](#) (2025-10-24)
+
+
+### Features
+
+* expose session timestamps ([#234](#)) ([0d285b1](#))
+* redact inside shadow roots ([#228](#)) ([168c7e4](#))
+
 ## [3.12.0](#) (2025-10-15)
 
 

@@ -127,4 +127,19 @@ typedef void const (^CBErrorSessionBlock)(NSError* _Nullable err, CBIOSession* _
 /// The reason the session ended
 -(CBIOSessionEndedReason) endedReason;
 
+/// When the session was created
+-(nonnull NSDate*) created;
+
+/// When the session will expire
+-(nullable NSDate*) expires;
+
+/// When the session was activated
+-(nullable NSDate*) activated;
+
+/// When the session was last updated
+-(nullable NSDate*) updated;
+
+/// When the session was ended
+-(nullable NSDate*) ended;
+
 @end
