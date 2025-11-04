@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.13.1](#) (2025-11-04)
+
+
+### Bug Fixes
+
+* Bug where webview cleanup scripts were running when not needed ([#237](#)) ([554dd45](#))
+
 ## [3.13.0](#) (2025-10-24)
 
 
