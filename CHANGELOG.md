@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.13.2](#) (2025-11-10)
+
+
+### Bug Fixes
+
+* Improve performance of new render method ([#235](#)) ([b74e8fb](#))
+* session prompt dismissed when remote control consent disabled ([#238](#)) ([79fb9d7](#))
+
 ### [3.13.1](#) (2025-11-04)
 
 

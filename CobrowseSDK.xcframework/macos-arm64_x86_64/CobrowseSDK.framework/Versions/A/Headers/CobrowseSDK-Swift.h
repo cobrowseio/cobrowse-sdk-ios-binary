@@ -305,6 +305,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if defined(__OBJC__)
 
 
+
 @class CBORSocketMetrics;
 @class NSURLSession;
 @class NSURLRequest;
@@ -661,6 +662,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+
 
 
 @class CBORSocketMetrics;

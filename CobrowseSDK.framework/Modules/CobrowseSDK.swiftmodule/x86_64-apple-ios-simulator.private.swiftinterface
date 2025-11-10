@@ -6,7 +6,9 @@
 import Combine
 import CommonCrypto
 import CoreFoundation
+import CoreMedia
 import Foundation
+import QuartzCore
 import Security
 import Swift
 import SwiftUI
@@ -14,6 +16,9 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+import os.log
+import os
+import os.signpost
 import zlib
 @objc public class CBORSocket : ObjectiveC.NSObject {
   @objc final public let metrics: CobrowseSDK.CBORSocketMetrics
