@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.13.3](#) (2025-11-11)
+
+
+### Bug Fixes
+
+* ensure that session overlays aren't covered by other windows ([#239](#)) ([4edc65d](#))
+* fix cases where input views would be redacted even when the first responder was not ([#241](#)) ([b06e29d](#))
+* switch default render method to be more accurate and performant ([#242](#)) ([fb29567](#))
+
 ### [3.13.2](#) (2025-11-10)
 
 
