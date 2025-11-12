@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.13.4](#) (2025-11-12)
+
+
+### Bug Fixes
+
+* fix regression in legacy render method ([a596b19](#))
+* fix rendering of lottie animations ([#244](#)) ([16f0472](#))
+
 ### [3.13.3](#) (2025-11-11)
 
 

@@ -309,6 +309,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 
+
+
 @class UIView;
 
 SWIFT_CLASS("_TtC11CobrowseSDK20CBIOSwiftUIRedaction") SWIFT_AVAILABILITY(ios,introduced=14.0)
@@ -360,6 +362,7 @@ SWIFT_CLASS("_TtC11CobrowseSDK16SelectorObserver") SWIFT_AVAILABILITY(macos,intr
 + (void)notifyObservers;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 
 

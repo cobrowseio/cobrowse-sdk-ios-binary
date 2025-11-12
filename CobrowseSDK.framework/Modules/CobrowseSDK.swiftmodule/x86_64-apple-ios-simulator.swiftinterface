@@ -8,6 +8,7 @@ import CommonCrypto
 import CoreFoundation
 import CoreMedia
 import Foundation
+import ObjectiveC
 import QuartzCore
 import Security
 import Swift
@@ -18,6 +19,7 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 import os.log
 import os
+import ObjectiveC.runtime
 import os.signpost
 import zlib
 @objc public class CBORSocket : ObjectiveC.NSObject {
