@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.13.5](#) (2026-01-07)
+
+
+### Bug Fixes
+
+* ensure content marked as unredacted is never redacted ([#248](#)) ([fe2ca50](#))
+* intermittent crash when calculating session metrics ([#253](#)) ([421f50e](#))
+
 ### [3.13.4](#) (2025-11-12)
 
 

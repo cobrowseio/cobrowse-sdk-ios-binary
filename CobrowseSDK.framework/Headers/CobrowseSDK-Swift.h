@@ -357,6 +357,7 @@ SWIFT_CLASS("_TtC11CobrowseSDK17CBORSocketMetrics")
 
 
 
+
 SWIFT_CLASS("_TtC11CobrowseSDK16SelectorObserver") SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(ios,introduced=14.0)
 @interface SelectorObserver : NSObject
 + (void)notifyObservers;

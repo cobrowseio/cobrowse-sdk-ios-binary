@@ -92,20 +92,6 @@
       },
       {
         "kind": "Import",
-        "name": "QuartzCore",
-        "printedName": "QuartzCore",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "QuartzCore",
-        "printedName": "QuartzCore",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1026,20 +1012,6 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1269,6 +1241,20 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "CobrowseSDK"
       },
@@ -1760,6 +1746,27 @@
         "declAttributes": [
           "ImplementationOnly"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "QuartzCore",
+        "printedName": "QuartzCore",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "QuartzCore",
+        "printedName": "QuartzCore",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
       },
       {
         "kind": "Import",
@@ -9619,49 +9626,49 @@
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
       "kind": "IntegerLiteral",
-      "offset": 2715,
+      "offset": 3256,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
       "kind": "IntegerLiteral",
-      "offset": 2940,
+      "offset": 3481,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
       "kind": "IntegerLiteral",
-      "offset": 3052,
+      "offset": 3593,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
       "kind": "IntegerLiteral",
-      "offset": 3160,
+      "offset": 3701,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
       "kind": "FloatLiteral",
-      "offset": 3212,
+      "offset": 3753,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
       "kind": "IntegerLiteral",
-      "offset": 7519,
+      "offset": 8194,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
       "kind": "IntegerLiteral",
-      "offset": 7522,
+      "offset": 8197,
       "length": 10,
       "value": "2"
     },

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		1NMjGcJwNIoRkLlpIW4QWZKz0qY=
+		aZXBA4TwhGk1vE4tEWNVPvcAHe8=
 		</data>
 		<key>Resources/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -138,7 +138,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kjxj3gGB3KVmF0RGCkQu75i+R3W7AO5nNYoQuzBRVvo=
+			T9q0TX3c5IDFW29zREyFn9HE6ULTdi8xMitzujfC5A0=
 			</data>
 		</dict>
 		<key>Headers/CobrowseSDK.h</key>
@@ -152,21 +152,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cEqKmkudaOVK0vCm6EIJu7xjOuFPA3apHOpjSvrmaAU=
+			I/CUJoofqwV2EpzQt4/7gqm7Nd+pSEPwAU0ZK03SjjY=
 			</data>
 		</dict>
 		<key>Modules/CobrowseSDK.swiftmodule/Project/x86_64-apple-macos.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			veOnRdBh5/wF8VaGx7DS9uoC6f3t1FRUVgyNCL5u/EA=
+			HQhzzKyu3LbAYlVVuPTzkWx2E3qSM0WeMTbxJvcdpg0=
 			</data>
 		</dict>
 		<key>Modules/CobrowseSDK.swiftmodule/arm64-apple-macos.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eWeJ5PPGwT7mGQKj89lLzDIgTuiTVFf/vbJgnvux2Fo=
+			K4j0Je9Dl2Ub5SV2PYQhemTLBkM/lhTSkvwMhtg5ebk=
 			</data>
 		</dict>
 		<key>Modules/CobrowseSDK.swiftmodule/arm64-apple-macos.private.swiftinterface</key>
@@ -194,14 +194,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DhHzngQsHaw/c5Gu1l4obtva8xngkn9DvhTalo0opf4=
+			9WLAzKRurha4xuLYSs0Mm8F4XDiigkX5RwOlyra043A=
 			</data>
 		</dict>
 		<key>Modules/CobrowseSDK.swiftmodule/x86_64-apple-macos.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eWeJ5PPGwT7mGQKj89lLzDIgTuiTVFf/vbJgnvux2Fo=
+			K4j0Je9Dl2Ub5SV2PYQhemTLBkM/lhTSkvwMhtg5ebk=
 			</data>
 		</dict>
 		<key>Modules/CobrowseSDK.swiftmodule/x86_64-apple-macos.private.swiftinterface</key>
@@ -229,7 +229,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HPO9G/w7Ds6x6JrZK/bI6iLtKAmY6WKoT6405E3Cosc=
+			mhklYH3/SWafw7eUwInmOEiUIqwSxhfKpVuLCifF4nU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -243,7 +243,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			45L4vgRbsYnovyjtkom8kcWeB2u54yWLWLr4yycjzHA=
+			5ma5LpIfdKNcRctuKCyYmyuc7o5/38IotKY8ae8PL6M=
 			</data>
 		</dict>
 		<key>Resources/PrivacyInfo.xcprivacy</key>
