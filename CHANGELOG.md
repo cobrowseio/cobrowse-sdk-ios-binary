@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.13.7](#) (2026-01-27)
+
+
+### Bug Fixes
+
+* restore Cartfile to project ([#264](#)) ([6ff0e8c](#))
+
+### [3.13.6](#) (2026-01-27)
+
+
+### Bug Fixes
+
+* fix redaction performance issue ([#257](#)) ([b5ba53d](#))
+* fix view attribute performance issues ([#258](#)) ([43212d6](#))
+* improve support for out-of-process rendered views (e.g. QLPreviewController) ([#262](#)) ([1bd0ecc](#))
+
 ### [3.13.5](#) (2026-01-07)
 
 

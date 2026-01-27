@@ -376,6 +376,7 @@ SWIFT_CLASS("_TtC11CobrowseSDK16SelectorObserver") SWIFT_AVAILABILITY(macos,intr
 
 
 
+
 SWIFT_AVAILABILITY(ios,introduced=14.0)
 @interface UIView (SWIFT_EXTENSION(CobrowseSDK))
 /// Redact this view from being seen by the Cobrowse agent
@@ -760,6 +761,7 @@ SWIFT_CLASS("_TtC11CobrowseSDK16SelectorObserver") SWIFT_AVAILABILITY(macos,intr
 + (void)notifyObservers;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 
 

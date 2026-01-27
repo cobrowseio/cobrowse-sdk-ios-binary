@@ -13,8 +13,8 @@
       },
       {
         "kind": "Import",
-        "name": "CobrowseSDK_Objc_Private",
-        "printedName": "CobrowseSDK_Objc_Private",
+        "name": "CobrowseSDKPrivate",
+        "printedName": "CobrowseSDKPrivate",
         "declKind": "Import",
         "moduleName": "CobrowseSDK",
         "declAttributes": [
@@ -30,8 +30,8 @@
       },
       {
         "kind": "Import",
-        "name": "CobrowseSDK_Objc_Private",
-        "printedName": "CobrowseSDK_Objc_Private",
+        "name": "CobrowseSDKPrivate",
+        "printedName": "CobrowseSDKPrivate",
         "declKind": "Import",
         "moduleName": "CobrowseSDK",
         "declAttributes": [
@@ -40,8 +40,53 @@
       },
       {
         "kind": "Import",
+        "name": "QuartzCore",
+        "printedName": "QuartzCore",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "QuartzCore",
+        "printedName": "QuartzCore",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CobrowseSDKPrivate",
+        "printedName": "CobrowseSDKPrivate",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "QuickLook",
+        "printedName": "QuickLook",
         "declKind": "Import",
         "moduleName": "CobrowseSDK"
       },
@@ -75,8 +120,8 @@
       },
       {
         "kind": "Import",
-        "name": "CobrowseSDK_Objc_Private",
-        "printedName": "CobrowseSDK_Objc_Private",
+        "name": "CobrowseSDKPrivate",
+        "printedName": "CobrowseSDKPrivate",
         "declKind": "Import",
         "moduleName": "CobrowseSDK",
         "declAttributes": [
@@ -929,8 +974,8 @@
       },
       {
         "kind": "Import",
-        "name": "CobrowseSDK_Objc_Private",
-        "printedName": "CobrowseSDK_Objc_Private",
+        "name": "CobrowseSDKPrivate",
+        "printedName": "CobrowseSDKPrivate",
         "declKind": "Import",
         "moduleName": "CobrowseSDK",
         "declAttributes": [
@@ -981,27 +1026,13 @@
       },
       {
         "kind": "Import",
-        "name": "CobrowseSDK_Objc_Private",
-        "printedName": "CobrowseSDK_Objc_Private",
+        "name": "CobrowseSDKPrivate",
+        "printedName": "CobrowseSDKPrivate",
         "declKind": "Import",
         "moduleName": "CobrowseSDK",
         "declAttributes": [
           "ImplementationOnly"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
       },
       {
         "kind": "Import",
@@ -1047,8 +1078,36 @@
       },
       {
         "kind": "Import",
-        "name": "CobrowseSDK_Objc_Private",
-        "printedName": "CobrowseSDK_Objc_Private",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CobrowseSDKPrivate",
+        "printedName": "CobrowseSDKPrivate",
         "declKind": "Import",
         "moduleName": "CobrowseSDK",
         "declAttributes": [
@@ -1253,20 +1312,6 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -1344,8 +1389,8 @@
       },
       {
         "kind": "Import",
-        "name": "CobrowseSDK_Objc_Private",
-        "printedName": "CobrowseSDK_Objc_Private",
+        "name": "CobrowseSDKPrivate",
+        "printedName": "CobrowseSDKPrivate",
         "declKind": "Import",
         "moduleName": "CobrowseSDK",
         "declAttributes": [
@@ -1739,34 +1784,13 @@
       },
       {
         "kind": "Import",
-        "name": "CobrowseSDK_Objc_Private",
-        "printedName": "CobrowseSDK_Objc_Private",
+        "name": "CobrowseSDKPrivate",
+        "printedName": "CobrowseSDKPrivate",
         "declKind": "Import",
         "moduleName": "CobrowseSDK",
         "declAttributes": [
           "ImplementationOnly"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "QuartzCore",
-        "printedName": "QuartzCore",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "QuartzCore",
-        "printedName": "QuartzCore",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
       },
       {
         "kind": "Import",
@@ -8940,42 +8964,42 @@
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/CBIOEffectRedaction.swift",
       "kind": "Dictionary",
-      "offset": 2285,
+      "offset": 2279,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/CBIOEffectRedaction.swift",
       "kind": "Dictionary",
-      "offset": 2351,
+      "offset": 2345,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/CBIOEffectRedaction.swift",
       "kind": "Dictionary",
-      "offset": 2635,
+      "offset": 2629,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/CBIOEffectRedaction.swift",
       "kind": "Dictionary",
-      "offset": 2786,
+      "offset": 2780,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/CBIOEffectRedaction.swift",
       "kind": "Dictionary",
-      "offset": 2917,
+      "offset": 2911,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/CBIOEffectRedaction.swift",
       "kind": "Dictionary",
-      "offset": 2994,
+      "offset": 2988,
       "length": 3,
       "value": "[]"
     },
@@ -8996,84 +9020,84 @@
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/session-ui\/ios\/SessionIndicatorOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 2030,
+      "offset": 2024,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/session-ui\/ios\/SessionIndicatorOverlay.swift",
       "kind": "BooleanLiteral",
-      "offset": 2565,
+      "offset": 2559,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/session-ui\/ios\/SessionIndicatorOverlay.swift",
       "kind": "FloatLiteral",
-      "offset": 2747,
+      "offset": 2741,
       "length": 3,
       "value": "4.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/session-ui\/ios\/SessionIndicatorOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 3030,
+      "offset": 3024,
       "length": 3,
       "value": "232"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/session-ui\/ios\/SessionIndicatorOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 3034,
+      "offset": 3028,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/session-ui\/ios\/SessionIndicatorOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 3046,
+      "offset": 3040,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/session-ui\/ios\/SessionIndicatorOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 3049,
+      "offset": 3043,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/session-ui\/ios\/SessionIndicatorOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 3060,
+      "offset": 3054,
       "length": 2,
       "value": "42"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/session-ui\/ios\/SessionIndicatorOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 3063,
+      "offset": 3057,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/session-ui\/ios\/SessionIndicatorOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 3075,
+      "offset": 3069,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/session-ui\/ios\/SessionIndicatorOverlay.swift",
       "kind": "BooleanLiteral",
-      "offset": 3359,
+      "offset": 3353,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/session-ui\/ios\/SessionIndicatorOverlay.swift",
       "kind": "BooleanLiteral",
-      "offset": 7526,
+      "offset": 7520,
       "length": 4,
       "value": "true"
     },
@@ -10004,28 +10028,28 @@
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/CBIOSelectorViewModifier.swift",
       "kind": "IntegerLiteral",
-      "offset": 401,
+      "offset": 395,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/CBIOSelectorViewModifier.swift",
       "kind": "BooleanLiteral",
-      "offset": 660,
+      "offset": 654,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/CBIOSelectorViewModifier.swift",
       "kind": "Dictionary",
-      "offset": 2830,
+      "offset": 2824,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/CBIOSelectorViewModifier.swift",
       "kind": "Array",
-      "offset": 3765,
+      "offset": 3759,
       "length": 2,
       "value": "[]"
     },
@@ -10074,7 +10098,7 @@
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/frameloop\/DisplayLinkFrameScheduler.swift",
       "kind": "IntegerLiteral",
-      "offset": 529,
+      "offset": 523,
       "length": 2,
       "value": "10"
     },
@@ -10186,21 +10210,21 @@
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/frameloop\/FrameSample.swift",
       "kind": "IntegerLiteral",
-      "offset": 203,
+      "offset": 197,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/frameloop\/FrameSample.swift",
       "kind": "IntegerLiteral",
-      "offset": 238,
+      "offset": 232,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/frameloop\/FrameSample.swift",
       "kind": "IntegerLiteral",
-      "offset": 622,
+      "offset": 616,
       "length": 1,
       "value": "5"
     },
@@ -10290,157 +10314,24 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/properties-tree\/UIView+ViewPropertyAttributes.swift",
+      "kind": "Dictionary",
+      "offset": 234,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/properties-tree\/UIView+ViewPropertyAttributes.swift",
       "kind": "StringLiteral",
-      "offset": 162,
+      "offset": 656,
+      "length": 3,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/properties-tree\/UIView+ViewPropertyAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 739,
       "length": 3,
       "value": "\"<\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/properties-tree\/UIView+ViewPropertyAttributes.swift",
-      "kind": "StringLiteral",
-      "offset": 364,
-      "length": 26,
-      "value": "\"isUserInteractionEnabled\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/properties-tree\/UIView+ViewPropertyAttributes.swift",
-      "kind": "StringLiteral",
-      "offset": 482,
-      "length": 19,
-      "value": "\"accessibilityHint\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/properties-tree\/UIView+ViewPropertyAttributes.swift",
-      "kind": "StringLiteral",
-      "offset": 554,
-      "length": 20,
-      "value": "\"accessibilityLabel\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/properties-tree\/UIView+ViewPropertyAttributes.swift",
-      "kind": "StringLiteral",
-      "offset": 632,
-      "length": 25,
-      "value": "\"accessibilityIdentifier\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/properties-tree\/UIView+ViewPropertyAttributes.swift",
-      "kind": "StringLiteral",
-      "offset": 732,
-      "length": 21,
-      "value": "\"accessibilityTraits\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/properties-tree\/UIView+ViewPropertyAttributes.swift",
-      "kind": "StringLiteral",
-      "offset": 1013,
-      "length": 14,
-      "value": "\"keyboardType\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/properties-tree\/UIView+ViewPropertyAttributes.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1131,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/properties-tree\/UIView+ViewPropertyAttributes.swift",
-      "kind": "StringLiteral",
-      "offset": 1165,
-      "length": 19,
-      "value": "\"isSecureTextEntry\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/properties-tree\/UIView+ViewPropertyAttributes.swift",
-      "kind": "StringLiteral",
-      "offset": 1493,
-      "length": 11,
-      "value": "\"isEnabled\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/properties-tree\/UIView+ViewPropertyAttributes.swift",
-      "kind": "StringLiteral",
-      "offset": 1795,
-      "length": 6,
-      "value": "\"text\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/properties-tree\/UIView+ViewPropertyAttributes.swift",
-      "kind": "StringLiteral",
-      "offset": 1857,
-      "length": 13,
-      "value": "\"placeholder\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/properties-tree\/UIView+ViewPropertyAttributes.swift",
-      "kind": "StringLiteral",
-      "offset": 2086,
-      "length": 6,
-      "value": "\"text\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/properties-tree\/UIView+ViewPropertyAttributes.swift",
-      "kind": "StringLiteral",
-      "offset": 2298,
-      "length": 6,
-      "value": "\"isOn\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/properties-tree\/UIView+ViewPropertyAttributes.swift",
-      "kind": "StringLiteral",
-      "offset": 2554,
-      "length": 14,
-      "value": "\"currentTitle\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/properties-tree\/UIView+ViewPropertyAttributes.swift",
-      "kind": "StringLiteral",
-      "offset": 2774,
-      "length": 7,
-      "value": "\"value\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/properties-tree\/UIView+ViewPropertyAttributes.swift",
-      "kind": "StringLiteral",
-      "offset": 3013,
-      "length": 13,
-      "value": "\"currentPage\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/properties-tree\/UIView+ViewPropertyAttributes.swift",
-      "kind": "StringLiteral",
-      "offset": 3081,
-      "length": 15,
-      "value": "\"numberOfPages\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/properties-tree\/UIView+ViewPropertyAttributes.swift",
-      "kind": "StringLiteral",
-      "offset": 3337,
-      "length": 10,
-      "value": "\"progress\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/properties-tree\/UIView+ViewPropertyAttributes.swift",
-      "kind": "StringLiteral",
-      "offset": 3587,
-      "length": 10,
-      "value": "\"segments\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/properties-tree\/UIView+ViewPropertyAttributes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3602,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/properties-tree\/UIView+ViewPropertyAttributes.swift",
-      "kind": "StringLiteral",
-      "offset": 3682,
-      "length": 17,
-      "value": "\"selectedSegment\""
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/Mirror.swift",
