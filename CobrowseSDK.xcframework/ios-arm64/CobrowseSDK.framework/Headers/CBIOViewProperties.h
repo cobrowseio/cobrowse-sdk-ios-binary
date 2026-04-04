@@ -8,11 +8,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property unsigned long viewId;
 @property (copy, nullable) NSString *tag;
-@property (copy, nonnull) NSDictionary<NSString *, NSString *> *attributes;
+@property (copy, nonnull) NSDictionary<NSString *, id> *attributes;
 @property (assign) CGPoint origin;
 @property (assign) CGSize size;
 
 +(unsigned long) nextId;
+
+- (BOOL)hasEqualAttributes:(nullable CBIOViewProperties *)other;
 
 - (instancetype)initWithTag:(nullable NSString *)tag
                          id:(nullable NSString *)id
@@ -23,7 +25,8 @@ NS_ASSUME_NONNULL_BEGIN
                  attributes:(NSDictionary<NSString *, id> *)attributes
                      viewId: (unsigned long) viewId NS_DESIGNATED_INITIALIZER;
 
+- (instancetype) copy;
+
 @end
 
 NS_ASSUME_NONNULL_END
-

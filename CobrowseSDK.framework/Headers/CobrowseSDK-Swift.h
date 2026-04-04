@@ -280,8 +280,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import Foundation;
-@import ObjectiveC;
 @import UIKit;
 #endif
 
@@ -311,58 +309,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 
-@class UIView;
-
-SWIFT_CLASS("_TtC11CobrowseSDK20CBIOSwiftUIRedaction") SWIFT_AVAILABILITY(ios,introduced=14.0)
-@interface CBIOSwiftUIRedaction : NSObject
-+ (NSArray<UIView *> * _Nonnull)getRedactedViews SWIFT_WARN_UNUSED_RESULT;
-+ (NSArray<UIView *> * _Nonnull)getUnredactedViews SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
 
 
-@class CBORSocketMetrics;
-@class NSURLSession;
-@class NSURLRequest;
-@class NSString;
-@class NSDictionary;
-
-SWIFT_CLASS("_TtC11CobrowseSDK10CBORSocket")
-@interface CBORSocket : NSObject
-@property (nonatomic, readonly, strong) CBORSocketMetrics * _Nonnull metrics;
-@property (nonatomic) double maxReconnectDelay;
-@property (nonatomic) double minReconnectDelay;
-- (nonnull instancetype)initWithSession:(NSURLSession * _Nonnull)session request:(NSURLRequest * _Nonnull (^ _Nonnull)(void))request OBJC_DESIGNATED_INITIALIZER;
-- (void)onMessage:(NSString * _Nonnull)event listener:(void (^ _Nonnull)(NSDictionary * _Nonnull))listener;
-- (void)onConnect:(void (^ _Nonnull)(void))listener;
-- (void)onDisconnect:(void (^ _Nonnull)(NSError * _Nullable))listener;
-- (uint64_t)messageLag SWIFT_WARN_UNUSED_RESULT;
-- (BOOL)isConneced SWIFT_WARN_UNUSED_RESULT;
-- (void)disconnect;
-- (void)send:(NSString * _Nonnull)event data:(NSDictionary<NSString *, id> * _Nonnull)data completion:(void (^ _Nullable)(void))completion;
-- (void)sendPing;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-
-
-/// Metrics of socket network performance.
-SWIFT_CLASS("_TtC11CobrowseSDK17CBORSocketMetrics")
-@interface CBORSocketMetrics : NSObject
-@property (nonatomic, readonly) NSTimeInterval latency;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-
-
-SWIFT_CLASS("_TtC11CobrowseSDK16SelectorObserver") SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(ios,introduced=14.0)
-@interface SelectorObserver : NSObject
-+ (void)notifyObservers;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
 
 
 

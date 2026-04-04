@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.13.8](#) (2026-04-04)
+
+
+### Bug Fixes
+
+* improve thread concurrency handling around ws acks ([#283](#)) ([122be30](#))
+* improve view tree diffing ([#263](#)) ([e029874](#))
+* update ordering of of message properties ([#266](#)) ([b855b94](#))
+
 ### [3.13.7](#) (2026-01-27)
 
 

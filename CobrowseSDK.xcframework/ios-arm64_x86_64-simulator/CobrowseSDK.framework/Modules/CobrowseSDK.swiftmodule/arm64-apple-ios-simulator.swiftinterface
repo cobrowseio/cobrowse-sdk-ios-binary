@@ -23,21 +23,6 @@ import os
 import ObjectiveC.runtime
 import os.signpost
 import zlib
-@objc public class CBORSocket : ObjectiveC.NSObject {
-  @objc final public let metrics: CobrowseSDK.CBORSocketMetrics
-  @objc public var maxReconnectDelay: Swift.Double
-  @objc public var minReconnectDelay: Swift.Double
-  @objc(initWithSession:request:) public init(with session: Foundation.URLSession, request: @escaping (() -> Foundation.URLRequest))
-  @objc public func onMessage(_ event: Swift.String, listener: @escaping (Foundation.NSDictionary) -> ())
-  @objc public func onConnect(_ listener: @escaping (() -> ()))
-  @objc public func onDisconnect(_ listener: @escaping (((any Swift.Error)?) -> ()))
-  @objc public func messageLag() -> Swift.UInt64
-  @objc public func isConneced() -> Swift.Bool
-  @objc public func disconnect()
-  @objc public func send(_ event: Swift.String, data: Swift.Dictionary<Swift.String, Any>, completion: (() -> ())?)
-  @objc public func sendPing()
-  @objc deinit
-}
 @available(iOS 14.0, *)
 extension SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public func cobrowseUnredacted(if condition: Swift.Bool = true) -> some SwiftUICore.View
@@ -50,27 +35,7 @@ extension SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public func cobrowseSelector(tag: Swift.String? = nil, id: (any Swift.Hashable)? = nil, attributes: [Swift.String : Any] = [:]) -> some SwiftUICore.View
   
 }
-@_inheritsConvenienceInitializers @objc final public class CBORSocketMetrics : ObjectiveC.NSObject {
-  @objc dynamic final public var latency: Foundation.TimeInterval {
-    @objc get
-  }
-  @objc override dynamic public init()
-  @objc deinit
-}
 public func descendant<T>(for object: Any, descendants: Swift.String..., log: Swift.Bool = false) -> T?
-@objc @_inheritsConvenienceInitializers @available(iOS 14.0, macOS 10.15, *)
-public class SelectorObserver : ObjectiveC.NSObject {
-  @objc public static func notifyObservers()
-  @objc override dynamic public init()
-  @objc deinit
-}
-@_inheritsConvenienceInitializers @available(iOS 14.0, *)
-@objc public class CBIOSwiftUIRedaction : ObjectiveC.NSObject {
-  @objc public static func getRedactedViews() -> [UIKit.UIView]
-  @objc public static func getUnredactedViews() -> [UIKit.UIView]
-  @objc override dynamic public init()
-  @objc deinit
-}
 @available(iOS 14.0, *)
 extension UIKit.UIView {
   @discardableResult

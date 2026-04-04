@@ -20,31 +20,3 @@ import os.log
 import os
 import os.signpost
 import zlib
-@objc @_inheritsConvenienceInitializers @available(iOS 14.0, macOS 10.15, *)
-public class SelectorObserver : ObjectiveC.NSObject {
-  @objc public static func notifyObservers()
-  @objc override dynamic public init()
-  @objc deinit
-}
-@objc public class CBORSocket : ObjectiveC.NSObject {
-  @objc final public let metrics: CobrowseSDK.CBORSocketMetrics
-  @objc public var maxReconnectDelay: Swift.Double
-  @objc public var minReconnectDelay: Swift.Double
-  @objc(initWithSession:request:) public init(with session: Foundation.URLSession, request: @escaping (() -> Foundation.URLRequest))
-  @objc public func onMessage(_ event: Swift.String, listener: @escaping (Foundation.NSDictionary) -> ())
-  @objc public func onConnect(_ listener: @escaping (() -> ()))
-  @objc public func onDisconnect(_ listener: @escaping (((any Swift.Error)?) -> ()))
-  @objc public func messageLag() -> Swift.UInt64
-  @objc public func isConneced() -> Swift.Bool
-  @objc public func disconnect()
-  @objc public func send(_ event: Swift.String, data: Swift.Dictionary<Swift.String, Any>, completion: (() -> ())?)
-  @objc public func sendPing()
-  @objc deinit
-}
-@_inheritsConvenienceInitializers @objc final public class CBORSocketMetrics : ObjectiveC.NSObject {
-  @objc dynamic final public var latency: Foundation.TimeInterval {
-    @objc get
-  }
-  @objc override dynamic public init()
-  @objc deinit
-}

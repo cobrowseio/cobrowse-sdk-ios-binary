@@ -40,27 +40,6 @@
       },
       {
         "kind": "Import",
-        "name": "QuartzCore",
-        "printedName": "QuartzCore",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "QuartzCore",
-        "printedName": "QuartzCore",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -208,687 +187,6 @@
         "moduleName": "CobrowseSDK"
       },
       {
-        "kind": "TypeDecl",
-        "name": "CBORSocket",
-        "printedName": "CBORSocket",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "metrics",
-            "printedName": "metrics",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CBORSocketMetrics",
-                "printedName": "CobrowseSDK.CBORSocketMetrics",
-                "usr": "c:@M@CobrowseSDK@objc(cs)CBORSocketMetrics"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@CobrowseSDK@objc(cs)CBORSocket(py)metrics",
-            "mangledName": "$s11CobrowseSDK10CBORSocketC7metricsAA0C7MetricsCvp",
-            "moduleName": "CobrowseSDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CBORSocketMetrics",
-                    "printedName": "CobrowseSDK.CBORSocketMetrics",
-                    "usr": "c:@M@CobrowseSDK@objc(cs)CBORSocketMetrics"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@CobrowseSDK@objc(cs)CBORSocket(im)metrics",
-                "mangledName": "$s11CobrowseSDK10CBORSocketC7metricsAA0C7MetricsCvg",
-                "moduleName": "CobrowseSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "maxReconnectDelay",
-            "printedName": "maxReconnectDelay",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@CobrowseSDK@objc(cs)CBORSocket(py)maxReconnectDelay",
-            "mangledName": "$s11CobrowseSDK10CBORSocketC17maxReconnectDelaySdvp",
-            "moduleName": "CobrowseSDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Double",
-                    "printedName": "Swift.Double",
-                    "usr": "s:Sd"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@CobrowseSDK@objc(cs)CBORSocket(im)maxReconnectDelay",
-                "mangledName": "$s11CobrowseSDK10CBORSocketC17maxReconnectDelaySdvg",
-                "moduleName": "CobrowseSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Double",
-                    "printedName": "Swift.Double",
-                    "usr": "s:Sd"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@CobrowseSDK@objc(cs)CBORSocket(im)setMaxReconnectDelay:",
-                "mangledName": "$s11CobrowseSDK10CBORSocketC17maxReconnectDelaySdvs",
-                "moduleName": "CobrowseSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11CobrowseSDK10CBORSocketC17maxReconnectDelaySdvM",
-                "mangledName": "$s11CobrowseSDK10CBORSocketC17maxReconnectDelaySdvM",
-                "moduleName": "CobrowseSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "minReconnectDelay",
-            "printedName": "minReconnectDelay",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@CobrowseSDK@objc(cs)CBORSocket(py)minReconnectDelay",
-            "mangledName": "$s11CobrowseSDK10CBORSocketC17minReconnectDelaySdvp",
-            "moduleName": "CobrowseSDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Double",
-                    "printedName": "Swift.Double",
-                    "usr": "s:Sd"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@CobrowseSDK@objc(cs)CBORSocket(im)minReconnectDelay",
-                "mangledName": "$s11CobrowseSDK10CBORSocketC17minReconnectDelaySdvg",
-                "moduleName": "CobrowseSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Double",
-                    "printedName": "Swift.Double",
-                    "usr": "s:Sd"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@CobrowseSDK@objc(cs)CBORSocket(im)setMinReconnectDelay:",
-                "mangledName": "$s11CobrowseSDK10CBORSocketC17minReconnectDelaySdvs",
-                "moduleName": "CobrowseSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11CobrowseSDK10CBORSocketC17minReconnectDelaySdvM",
-                "mangledName": "$s11CobrowseSDK10CBORSocketC17minReconnectDelaySdvM",
-                "moduleName": "CobrowseSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(with:request:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CBORSocket",
-                "printedName": "CobrowseSDK.CBORSocket",
-                "usr": "c:@M@CobrowseSDK@objc(cs)CBORSocket"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "URLSession",
-                "printedName": "Foundation.URLSession",
-                "usr": "c:objc(cs)NSURLSession"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "() -> Foundation.URLRequest",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "URLRequest",
-                    "printedName": "Foundation.URLRequest",
-                    "usr": "s:10Foundation10URLRequestV"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@CobrowseSDK@objc(cs)CBORSocket(im)initWithSession:request:",
-            "mangledName": "$s11CobrowseSDK10CBORSocketC4with7requestACSo12NSURLSessionC_10Foundation10URLRequestVyctcfc",
-            "moduleName": "CobrowseSDK",
-            "objc_name": "initWithSession:request:",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "onMessage",
-            "printedName": "onMessage(_:listener:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Foundation.NSDictionary) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NSDictionary",
-                    "printedName": "Foundation.NSDictionary",
-                    "usr": "c:objc(cs)NSDictionary"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@CobrowseSDK@objc(cs)CBORSocket(im)onMessage:listener:",
-            "mangledName": "$s11CobrowseSDK10CBORSocketC9onMessage_8listenerySS_ySo12NSDictionaryCctF",
-            "moduleName": "CobrowseSDK",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onConnect",
-            "printedName": "onConnect(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "() -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@CobrowseSDK@objc(cs)CBORSocket(im)onConnect:",
-            "mangledName": "$s11CobrowseSDK10CBORSocketC9onConnectyyyycF",
-            "moduleName": "CobrowseSDK",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onDisconnect",
-            "printedName": "onDisconnect(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "((any Swift.Error)?) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(any Swift.Error)?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Error",
-                        "printedName": "any Swift.Error",
-                        "usr": "s:s5ErrorP"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@CobrowseSDK@objc(cs)CBORSocket(im)onDisconnect:",
-            "mangledName": "$s11CobrowseSDK10CBORSocketC12onDisconnectyyys5Error_pSgcF",
-            "moduleName": "CobrowseSDK",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "messageLag",
-            "printedName": "messageLag()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UInt64",
-                "printedName": "Swift.UInt64",
-                "usr": "s:s6UInt64V"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@CobrowseSDK@objc(cs)CBORSocket(im)messageLag",
-            "mangledName": "$s11CobrowseSDK10CBORSocketC10messageLags6UInt64VyF",
-            "moduleName": "CobrowseSDK",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "isConneced",
-            "printedName": "isConneced()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@CobrowseSDK@objc(cs)CBORSocket(im)isConneced",
-            "mangledName": "$s11CobrowseSDK10CBORSocketC10isConnecedSbyF",
-            "moduleName": "CobrowseSDK",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "disconnect",
-            "printedName": "disconnect()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@CobrowseSDK@objc(cs)CBORSocket(im)disconnect",
-            "mangledName": "$s11CobrowseSDK10CBORSocketC10disconnectyyF",
-            "moduleName": "CobrowseSDK",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "send",
-            "printedName": "send(_:data:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Any]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:SD"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(() -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "() -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@CobrowseSDK@objc(cs)CBORSocket(im)send:data:completion:",
-            "mangledName": "$s11CobrowseSDK10CBORSocketC4send_4data10completionySS_SDySSypGyycSgtF",
-            "moduleName": "CobrowseSDK",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "sendPing",
-            "printedName": "sendPing()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@CobrowseSDK@objc(cs)CBORSocket(im)sendPing",
-            "mangledName": "$s11CobrowseSDK10CBORSocketC8sendPingyyF",
-            "moduleName": "CobrowseSDK",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CBORSocket",
-                "printedName": "CobrowseSDK.CBORSocket",
-                "usr": "c:@M@CobrowseSDK@objc(cs)CBORSocket"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@CobrowseSDK@objc(cs)CBORSocket(im)init",
-            "mangledName": "$s11CobrowseSDK10CBORSocketCACycfc",
-            "moduleName": "CobrowseSDK",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@CobrowseSDK@objc(cs)CBORSocket",
-        "mangledName": "$s11CobrowseSDK10CBORSocketC",
-        "moduleName": "CobrowseSDK",
-        "declAttributes": [
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
-      },
-      {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
@@ -929,6 +227,56 @@
         "printedName": "os.signpost",
         "declKind": "Import",
         "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CobrowseSDKPrivate",
+        "printedName": "CobrowseSDKPrivate",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CobrowseSDKPrivate",
+        "printedName": "CobrowseSDKPrivate",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CobrowseSDKPrivate",
+        "printedName": "CobrowseSDKPrivate",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CobrowseSDKPrivate",
+        "printedName": "CobrowseSDKPrivate",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CobrowseSDKPrivate",
+        "printedName": "CobrowseSDKPrivate",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -1071,17 +419,13 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "CobrowseSDKPrivate",
+        "printedName": "CobrowseSDKPrivate",
         "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
+        "moduleName": "CobrowseSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -1136,170 +480,23 @@
         "moduleName": "CobrowseSDK"
       },
       {
-        "kind": "TypeDecl",
-        "name": "CBORSocketMetrics",
-        "printedName": "CBORSocketMetrics",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "latency",
-            "printedName": "latency",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@CobrowseSDK@objc(cs)CBORSocketMetrics(py)latency",
-            "mangledName": "$s11CobrowseSDK17CBORSocketMetricsC7latencySdvp",
-            "moduleName": "CobrowseSDK",
-            "declAttributes": [
-              "Final",
-              "Dynamic",
-              "AccessControl",
-              "ObjC"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Double",
-                    "printedName": "Swift.Double",
-                    "usr": "s:Sd"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@CobrowseSDK@objc(cs)CBORSocketMetrics(im)latency",
-                "mangledName": "$s11CobrowseSDK17CBORSocketMetricsC7latencySdvg",
-                "moduleName": "CobrowseSDK",
-                "declAttributes": [
-                  "Final",
-                  "Dynamic",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CBORSocketMetrics",
-                "printedName": "CobrowseSDK.CBORSocketMetrics",
-                "usr": "c:@M@CobrowseSDK@objc(cs)CBORSocketMetrics"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@CobrowseSDK@objc(cs)CBORSocketMetrics(im)init",
-            "mangledName": "$s11CobrowseSDK17CBORSocketMetricsCACycfc",
-            "moduleName": "CobrowseSDK",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@CobrowseSDK@objc(cs)CBORSocketMetrics",
-        "mangledName": "$s11CobrowseSDK17CBORSocketMetricsC",
-        "moduleName": "CobrowseSDK",
-        "declAttributes": [
-          "Final",
-          "AccessControl",
-          "ObjC",
-          "RawDocComment"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
       },
       {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "CobrowseSDK"
       },
@@ -1323,6 +520,16 @@
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CobrowseSDKPrivate",
+        "printedName": "CobrowseSDKPrivate",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -1389,6 +596,34 @@
       },
       {
         "kind": "Import",
+        "name": "QuartzCore",
+        "printedName": "QuartzCore",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "QuartzCore",
+        "printedName": "QuartzCore",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
         "name": "CobrowseSDKPrivate",
         "printedName": "CobrowseSDKPrivate",
         "declKind": "Import",
@@ -1412,326 +647,11 @@
         "moduleName": "CobrowseSDK"
       },
       {
-        "kind": "TypeDecl",
-        "name": "SelectorObserver",
-        "printedName": "SelectorObserver",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "notifyObservers",
-            "printedName": "notifyObservers()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@CobrowseSDK@objc(cs)SelectorObserver(cm)notifyObservers",
-            "mangledName": "$s11CobrowseSDK16SelectorObserverC15notifyObserversyyFZ",
-            "moduleName": "CobrowseSDK",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "SelectorObserver",
-                "printedName": "CobrowseSDK.SelectorObserver",
-                "usr": "c:@M@CobrowseSDK@objc(cs)SelectorObserver"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@CobrowseSDK@objc(cs)SelectorObserver(im)init",
-            "mangledName": "$s11CobrowseSDK16SelectorObserverCACycfc",
-            "moduleName": "CobrowseSDK",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@CobrowseSDK@objc(cs)SelectorObserver",
-        "mangledName": "$s11CobrowseSDK16SelectorObserverC",
-        "moduleName": "CobrowseSDK",
-        "intro_Macosx": "10.15",
-        "intro_iOS": "14.0",
-        "declAttributes": [
-          "AccessControl",
-          "Available",
-          "Available",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
-      },
-      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "CBIOSwiftUIRedaction",
-        "printedName": "CBIOSwiftUIRedaction",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "getRedactedViews",
-            "printedName": "getRedactedViews()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[UIKit.UIView]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIView",
-                    "printedName": "UIKit.UIView",
-                    "usr": "c:objc(cs)UIView"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@CobrowseSDK@objc(cs)CBIOSwiftUIRedaction(cm)getRedactedViews",
-            "mangledName": "$s11CobrowseSDK20CBIOSwiftUIRedactionC16getRedactedViewsSaySo6UIViewCGyFZ",
-            "moduleName": "CobrowseSDK",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getUnredactedViews",
-            "printedName": "getUnredactedViews()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[UIKit.UIView]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIView",
-                    "printedName": "UIKit.UIView",
-                    "usr": "c:objc(cs)UIView"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@CobrowseSDK@objc(cs)CBIOSwiftUIRedaction(cm)getUnredactedViews",
-            "mangledName": "$s11CobrowseSDK20CBIOSwiftUIRedactionC18getUnredactedViewsSaySo6UIViewCGyFZ",
-            "moduleName": "CobrowseSDK",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CBIOSwiftUIRedaction",
-                "printedName": "CobrowseSDK.CBIOSwiftUIRedaction",
-                "usr": "c:@M@CobrowseSDK@objc(cs)CBIOSwiftUIRedaction"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@CobrowseSDK@objc(cs)CBIOSwiftUIRedaction(im)init",
-            "mangledName": "$s11CobrowseSDK20CBIOSwiftUIRedactionCACycfc",
-            "moduleName": "CobrowseSDK",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@CobrowseSDK@objc(cs)CBIOSwiftUIRedaction",
-        "mangledName": "$s11CobrowseSDK20CBIOSwiftUIRedactionC",
-        "moduleName": "CobrowseSDK",
-        "intro_iOS": "14.0",
-        "declAttributes": [
-          "AccessControl",
-          "ObjC",
-          "Available"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
       },
       {
         "kind": "Import",
@@ -9650,49 +8570,49 @@
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
       "kind": "IntegerLiteral",
-      "offset": 3256,
+      "offset": 3559,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
       "kind": "IntegerLiteral",
-      "offset": 3481,
+      "offset": 3784,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
       "kind": "IntegerLiteral",
-      "offset": 3593,
+      "offset": 3896,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
       "kind": "IntegerLiteral",
-      "offset": 3701,
+      "offset": 4022,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
       "kind": "FloatLiteral",
-      "offset": 3753,
+      "offset": 4095,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
       "kind": "IntegerLiteral",
-      "offset": 8194,
+      "offset": 9064,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
       "kind": "IntegerLiteral",
-      "offset": 8197,
+      "offset": 9067,
       "length": 10,
       "value": "2"
     },
@@ -9893,6 +8813,55 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/view-tree\/ios\/RootViewTreeBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 817,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/view-tree\/ios\/RootViewTreeBuilder.swift",
+      "kind": "Array",
+      "offset": 1048,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/view-tree\/ios\/SwiftUITreeBuilder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 472,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/view-tree\/ios\/UIKitTreeBuilder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 401,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/view-tree\/ViewPropertiesCache.swift",
+      "kind": "Dictionary",
+      "offset": 208,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/view-tree\/ViewPropertiesCache.swift",
+      "kind": "Dictionary",
+      "offset": 349,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/view-tree\/ViewPropertiesCache.swift",
+      "kind": "Dictionary",
+      "offset": 495,
+      "length": 3,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/CobrowseUnredactedViewModifier.swift",
       "kind": "BooleanLiteral",
       "offset": 259,
@@ -10042,14 +9011,14 @@
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/CBIOSelectorViewModifier.swift",
       "kind": "Dictionary",
-      "offset": 2824,
+      "offset": 3051,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/CBIOSelectorViewModifier.swift",
       "kind": "Array",
-      "offset": 3759,
+      "offset": 3986,
       "length": 2,
       "value": "[]"
     },
@@ -10098,7 +9067,7 @@
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/frameloop\/DisplayLinkFrameScheduler.swift",
       "kind": "IntegerLiteral",
-      "offset": 523,
+      "offset": 689,
       "length": 2,
       "value": "10"
     },
@@ -10168,21 +9137,21 @@
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/CBIOViewPropertiesTree.swift",
       "kind": "StringLiteral",
-      "offset": 493,
+      "offset": 530,
       "length": 6,
       "value": "\"Root\""
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/CBIOViewPropertiesTree.swift",
       "kind": "StringLiteral",
-      "offset": 505,
+      "offset": 542,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/CBIOViewPropertiesTree.swift",
       "kind": "IntegerLiteral",
-      "offset": 518,
+      "offset": 555,
       "length": 1,
       "value": "0"
     },
@@ -10231,70 +9200,70 @@
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
       "kind": "IntegerLiteral",
-      "offset": 228,
+      "offset": 240,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
       "kind": "IntegerLiteral",
-      "offset": 354,
+      "offset": 366,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
       "kind": "IntegerLiteral",
-      "offset": 481,
+      "offset": 493,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
       "kind": "IntegerLiteral",
-      "offset": 621,
+      "offset": 633,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
       "kind": "IntegerLiteral",
-      "offset": 754,
+      "offset": 766,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
       "kind": "FloatLiteral",
-      "offset": 938,
+      "offset": 950,
       "length": 5,
       "value": "0.125"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
       "kind": "StringLiteral",
-      "offset": 1029,
+      "offset": 1041,
       "length": 24,
       "value": "\"CBORSocketMetricsQueue\""
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
       "kind": "IntegerLiteral",
-      "offset": 1382,
+      "offset": 1396,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
       "kind": "IntegerLiteral",
-      "offset": 1467,
+      "offset": 1481,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
       "kind": "IntegerLiteral",
-      "offset": 1666,
+      "offset": 1680,
       "length": 1,
       "value": "0"
     },
@@ -10313,21 +9282,21 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/properties-tree\/UIView+ViewPropertyAttributes.swift",
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/UIView+ViewPropertyAttributes.swift",
       "kind": "Dictionary",
       "offset": 234,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/properties-tree\/UIView+ViewPropertyAttributes.swift",
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/UIView+ViewPropertyAttributes.swift",
       "kind": "StringLiteral",
       "offset": 656,
       "length": 3,
       "value": "\".\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/properties-tree\/UIView+ViewPropertyAttributes.swift",
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/UIView+ViewPropertyAttributes.swift",
       "kind": "StringLiteral",
       "offset": 739,
       "length": 3,
@@ -10336,35 +9305,35 @@
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/Mirror.swift",
       "kind": "BooleanLiteral",
-      "offset": 408,
+      "offset": 455,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/Mirror.swift",
       "kind": "BooleanLiteral",
-      "offset": 974,
+      "offset": 1021,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/SelectorObserver.swift",
       "kind": "IntegerLiteral",
-      "offset": 340,
+      "offset": 367,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/CBIOSwiftUIRedaction.swift",
       "kind": "Array",
-      "offset": 200,
+      "offset": 215,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/CBIOSwiftUIRedaction.swift",
       "kind": "Array",
-      "offset": 247,
+      "offset": 262,
       "length": 2,
       "value": "[]"
     },
