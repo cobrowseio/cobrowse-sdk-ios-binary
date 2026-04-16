@@ -74,7 +74,7 @@
         "declKind": "Import",
         "moduleName": "CobrowseSDK",
         "declAttributes": [
-          "ImplementationOnly"
+          "AccessControl"
         ]
       },
       {
@@ -219,7 +219,7 @@
         "declKind": "Import",
         "moduleName": "CobrowseSDK",
         "declAttributes": [
-          "ImplementationOnly"
+          "AccessControl"
         ]
       },
       {
@@ -250,7 +250,7 @@
         "declKind": "Import",
         "moduleName": "CobrowseSDK",
         "declAttributes": [
-          "ImplementationOnly"
+          "AccessControl"
         ]
       },
       {
@@ -302,7 +302,7 @@
         "declKind": "Import",
         "moduleName": "CobrowseSDK",
         "declAttributes": [
-          "ImplementationOnly"
+          "AccessControl"
         ]
       },
       {
@@ -333,7 +333,7 @@
         "declKind": "Import",
         "moduleName": "CobrowseSDK",
         "declAttributes": [
-          "ImplementationOnly"
+          "AccessControl"
         ]
       },
       {
@@ -371,7 +371,7 @@
         "declKind": "Import",
         "moduleName": "CobrowseSDK",
         "declAttributes": [
-          "ImplementationOnly"
+          "AccessControl"
         ]
       },
       {
@@ -7583,14 +7583,14 @@
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/frameloop\/CBIOCVDisplayLink.swift",
       "kind": "IntegerLiteral",
-      "offset": 330,
+      "offset": 318,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/frameloop\/CBIOCVDisplayLink.swift",
       "kind": "IntegerLiteral",
-      "offset": 380,
+      "offset": 368,
       "length": 1,
       "value": "0"
     },
@@ -7646,7 +7646,7 @@
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/frameloop\/DisplayLinkFrameScheduler.swift",
       "kind": "IntegerLiteral",
-      "offset": 689,
+      "offset": 677,
       "length": 2,
       "value": "10"
     },
@@ -7716,21 +7716,21 @@
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/frameloop\/FrameSample.swift",
       "kind": "IntegerLiteral",
-      "offset": 197,
+      "offset": 185,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/frameloop\/FrameSample.swift",
       "kind": "IntegerLiteral",
-      "offset": 232,
+      "offset": 220,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/frameloop\/FrameSample.swift",
       "kind": "IntegerLiteral",
-      "offset": 616,
+      "offset": 604,
       "length": 1,
       "value": "5"
     },
@@ -7891,21 +7891,21 @@
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/CBIOViewPropertiesTree.swift",
       "kind": "StringLiteral",
-      "offset": 530,
+      "offset": 518,
       "length": 6,
       "value": "\"Root\""
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/CBIOViewPropertiesTree.swift",
       "kind": "StringLiteral",
-      "offset": 542,
+      "offset": 530,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/CBIOViewPropertiesTree.swift",
       "kind": "IntegerLiteral",
-      "offset": 555,
+      "offset": 543,
       "length": 1,
       "value": "0"
     },

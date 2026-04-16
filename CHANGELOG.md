@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.14.0](#) (2026-04-16)
+
+
+### Features
+
+* Improved redaction for Flutter add-to-app ([#284](#)) ([10503f4](#))
+
+
+### Bug Fixes
+
+* replace `@_implementationOnly` with `internal` imports ([#287](#)) ([d5974a3](#))
+
 ### [3.13.10](#) (2026-04-11)
 
 
