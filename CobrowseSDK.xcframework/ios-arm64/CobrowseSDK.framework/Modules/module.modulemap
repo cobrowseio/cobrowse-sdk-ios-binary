@@ -4,8 +4,3 @@ framework module CobrowseSDK {
 
   module * { export * }
 }
-
-module CobrowseSDK.Swift {
-  header "CobrowseSDK-Swift.h"
-  requires objc
-}

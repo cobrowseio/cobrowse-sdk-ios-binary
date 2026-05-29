@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
 
-/// Represents a support agent viewing the cobrowsing session
+/// Represents a support agent viewing the Cobrowse session
 @interface CBIOAgent : NSObject
 
 /// The display name of the support agent
@@ -13,8 +13,8 @@
 /// The id of the support agent
 @property (nonnull) NSString* id;
 
-/// Creates a CBIOAgent object from the JSON representation
-/// @param dict JSON object representation as NSDictionary
+/// Creates a ``CBIOAgent`` object from the JSON representation
+/// - Parameter dict JSON object representation as NSDictionary
 +(nullable instancetype) from: (nonnull NSDictionary*) dict;
 
 @end

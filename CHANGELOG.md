@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.15.0](#) (2026-05-29)
+
+
+### Features
+
+* **cbor:** Cbor.SwiftEncodableEncoder ([#304](#)) ([630afb0](#))
+* highlight tool for swiftui and uikit ([#276](#)) ([43e2862](#))
+* Require Xcode 26.0.1 ([#271](#)) ([5bc27f1](#))
+* switch CBOR encoder / decoder ([#301](#)) ([9e668d9](#))
+
+
+### Bug Fixes
+
+* performance optimisations of CBOR encoder ([#289](#)) ([7ad3292](#))
+* resolve simulator OS version against iOS runtimes only ([#293](#)) ([d45c4ed](#))
+* skip `CBOR.encodeAny` for the view-tree hot path ([#290](#)) ([4a65093](#))
+
 ## [3.14.0](#) (2026-04-16)
 
 

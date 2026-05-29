@@ -55,69 +55,78 @@ typedef void const (^CBErrorSessionBlock)(NSError* _Nullable err, CBIOSession* _
 
 -(void) fetch: (nullable CBErrorSessionBlock) callback;
 
-/// Transitions a session from pending or authorizing to active, allowing frames to start
+/// Transitions a session from `pending` or `authorizing` to `active`, allowing frames to start
 /// streaming. In order to activate a session, some conditions must be met:
 ///
-/// 1. it must be in pending or authorizing state
+/// 1. it must be in `pending` or `authorizing` state
 /// 2. an agent must have joined
 ///
-/// @param callback Called when the session is activated, or an error occurs
+/// - Parameter callback Called when the session is activated, or an error occurs
 -(void) activate: (nullable CBErrorSessionBlock) callback;
 
-/// Ends a session. Once ended frames will stop streaming and it can no longer be used.
-/// @param callback Called when the end request completes, or there is an error.
+/// Ends a session. Once ended, frames will stop streaming and the session can no longer be used.
+///
+/// - Parameter callback Called when the end request completes, or there is an error.
 -(void) end: (nullable CBErrorSessionBlock) callback;
 
 /// The six digit code that can be shared with an agent to allow them to join the screen share.
-/// Note: this is only available for sessions in the "pending" state. Once an agent has joined
+///
+/// - Note: this is only available for sessions in the `pending` state. Once an agent has joined
 /// the code will be null as it is no longer valid.
-/// @return The six digit code
+///
+/// - Returns: The six digit code
 -(nullable NSString*) code;
 
-/// The state of the session. The session states transition as follows:
-/// pending ( -> authorizing ) -> active -> ended
-/// The authorizing step is optional as user consent may not always be required (configrable via
+/// The state of the session. Session states transition as follows:
+/// `pending` ( -> `authorizing` ) -> `active` -> `ended`
+///
+/// - Note: The `authorizing` step is optional as user consent may not always be required (configurable via
 /// the dashboard).
 ///
-/// @see `-isPending`
-/// @see `-isAuthorizing`
-/// @see `-isActive`
-/// @see `-isEnded`
+/// - See: ``CBIOSession/isPending``
+/// - See: ``CBIOSession/isAuthorizing``
+/// - See: ``CBIOSession/isActive``
+/// - See: ``CBIOSession/isEnded``
 -(nonnull NSString*) state;
 
 /// Gets the basic information about the support agent in the session, or null if no agent has
-/// joined yet
-/// @return The agent information or null
+/// joined.
+///
+/// - Returns: The agent information or null
 -(nullable CBIOAgent*) agent;
 
 /// Returns the network metrics for the session.
-/// @return Collected session metrics.
+///
+/// - Returns: Collected session metrics.
 -(nonnull CBIOSessionMetrics*) metrics;
 
 /// Tests if the session is configured for full device access (e.g. ReplayKit). This can be
 /// changed dynamically by the server.
 -(CBIOFullDeviceState) fullDevice;
 
-/// Set the state of the full device mode. Setting this to `kCBIOFullDeviceStateOff` when the session is capturing in full device
+/// Set the state of the full device mode. Setting this to ``CBIOFullDeviceState/off`` when the session is capturing in full device
 /// mode will end any active full device capturing mechanisms (e.g. ReplayKit).
-/// @param state Full device mode
-/// @param callback Called when the request completes or fails
+///
+/// - Parameter state Full device mode
+/// - Parameter callback Called when the request completes or fails
 -(void) setFullDevice: (CBIOFullDeviceState) state callback: (nullable CBErrorSessionBlock) callback;
 
 /// The state of remote control
 -(CBIORemoteControlState) remoteControl;
 
 /// Set the state of remote control
-/// @param state Desired remote control state
-/// @param callback Called when the request completes or fails
+///
+/// - Parameter state Desired remote control state
+/// - Parameter callback Called when the request completes or fails
 -(void) setRemoteControl: (CBIORemoteControlState) state callback: (nullable CBErrorSessionBlock) callback;
 
 /// Set the enabled capabilities for the session
-/// @param capabilities Array of capability keys to enable
-/// @param callback Called when the request completes or fails
+///
+/// - Parameter capabilities Array of capability keys to enable
+/// - Parameter callback Called when the request completes or fails
 -(void) setCapabilities: ( NSArray<NSString*>* _Nonnull) capabilities callback: (nullable CBErrorSessionBlock) callback;
 
-// Returns an immutable NSDictionary representing custom data of the session instance.
+// Returns an immutable NSDictionary representing the custom data of the session instance.
 - (nonnull NSDictionary<NSString *, NSString *> *)customData;
 
 // Sets custom data on the session instance.

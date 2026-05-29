@@ -7,7 +7,7 @@
 /// The position of the mouse event in relative coordinates
 @property (readonly) CGPoint position;
 
-// Timestamp the mouse event occurred in the agent dashbaord
+// Timestamp the mouse event occurred in the agent dashboard
 @property (readonly, nonnull) NSDate* timestamp;
 
 @end
