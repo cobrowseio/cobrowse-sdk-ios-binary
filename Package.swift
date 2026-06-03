@@ -1,10 +1,10 @@
-// swift-tools-version:5.5
+// swift-tools-version:5.7
 import PackageDescription
 
 let package = Package(
     name: "CobrowseSDK",
     platforms: [
-        .macOS(.v10_13), .iOS(.v15)
+        .macOS(.v13), .iOS(.v15)
     ],
     products: [
         .library(
