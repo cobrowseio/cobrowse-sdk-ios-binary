@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.15.1](#) (2026-06-03)
+
+
+### Bug Fixes
+
+* change minimum deployment target to iOS 15 ([#310](#)) ([d43b569](#))
+* use content worlds when executing js ([#311](#)) ([fe4e03c](#))
+
 ## [3.15.0](#) (2026-05-29)
 
 

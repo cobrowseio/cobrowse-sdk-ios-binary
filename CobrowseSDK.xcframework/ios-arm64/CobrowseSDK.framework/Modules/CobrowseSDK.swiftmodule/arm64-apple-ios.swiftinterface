@@ -1,18 +1,15 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
-// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name CobrowseSDK
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name CobrowseSDK
 // swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 @_exported import CobrowseSDK
 import Combine
-import CommonCrypto
-import CoreFoundation
 import CoreGraphics
 import CoreMedia
 import Foundation
 import ObjectiveC
 import QuartzCore
 import QuickLook
-import Security
 import Swift
 import SwiftUI
 import UIKit
@@ -23,7 +20,26 @@ import os.log
 import os
 import ObjectiveC.runtime
 import os.signpost
-import zlib
+@available(iOS 13.0, *)
+public struct CobrowseHighlightConfiguration {
+  public let content: SwiftUICore.AnyView
+  public let title: Swift.String?
+  @SwiftUICore.Binding @_projectedValueProperty($isPresented) public var isPresented: Swift.Bool {
+    get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    nonmutating set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    nonmutating _modify
+  }
+  public var $isPresented: SwiftUICore.Binding<Swift.Bool> {
+    get
+  }
+}
+@available(iOS 13.0, *)
+public protocol CobrowseHighlightStyle {
+  associatedtype Body : SwiftUICore.View
+  @SwiftUICore.ViewBuilder func makeBody(configuration: CobrowseSDK.CobrowseHighlightConfiguration) -> Self.Body
+}
 @available(iOS 14.0, *)
 extension SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public func cobrowseUnredacted(if condition: Swift.Bool = true) -> some SwiftUICore.View
@@ -55,26 +71,6 @@ extension SwiftUICore.View {
 #if compiler(>=5.3) && $NonescapableTypes
 public func descendant<T>(for object: Any, descendants: Swift.String..., log: Swift.Bool = false) -> T?
 #endif
-@available(iOS 13.0, *)
-public struct CobrowseHighlightConfiguration {
-  public let content: SwiftUICore.AnyView
-  public let title: Swift.String?
-  @SwiftUICore.Binding @_projectedValueProperty($isPresented) public var isPresented: Swift.Bool {
-    get
-    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-    nonmutating set
-    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-    nonmutating _modify
-  }
-  public var $isPresented: SwiftUICore.Binding<Swift.Bool> {
-    get
-  }
-}
-@available(iOS 13.0, *)
-public protocol CobrowseHighlightStyle {
-  associatedtype Body : SwiftUICore.View
-  @SwiftUICore.ViewBuilder func makeBody(configuration: CobrowseSDK.CobrowseHighlightConfiguration) -> Self.Body
-}
 @available(iOS 14.0, *)
 extension SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public func cobrowseRedacted(if condition: Swift.Bool = true) -> some SwiftUICore.View
