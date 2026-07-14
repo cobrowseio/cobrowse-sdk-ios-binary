@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.16.0](#) (2026-07-14)
+
+
+### Features
+
+* Add laser pointer ripples ([#325](#)) ([8012571](#))
+
+
+### Bug Fixes
+
+* Embedded flutter views not rendering correctly ([#326](#)) ([6c4c9de](#))
+* ensure that the calculated latency is returned when a message tracking is concluded ([#321](#)) ([efa21ec](#))
+
 ### [3.15.1](#) (2026-06-03)
 
 
