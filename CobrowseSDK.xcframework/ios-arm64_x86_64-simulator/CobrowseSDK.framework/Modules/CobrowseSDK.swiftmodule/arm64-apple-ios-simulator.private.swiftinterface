@@ -48,16 +48,6 @@ extension SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public func cobrowseHighlightStyle<S>(_ style: S) -> some SwiftUICore.View where S : CobrowseSDK.CobrowseHighlightStyle
   
 }
-#if compiler(>=5.3) && $NonescapableTypes
-public func descendant<T>(for object: Any, descendants: Swift.String..., log: Swift.Bool = false) -> T?
-#endif
-@available(iOS 14.0, *)
-extension SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public func cobrowseRedacted(if condition: Swift.Bool = true) -> some SwiftUICore.View
-  
-  @_Concurrency.MainActor @preconcurrency public func cobrowseRedacted<P>(if condition: P) -> some SwiftUICore.View where P : Combine.Publisher, P.Failure == Swift.Never, P.Output == Swift.Bool
-  
-}
 @available(iOS 13.0, *)
 public struct CobrowseHighlightConfiguration {
   public let content: SwiftUICore.AnyView
@@ -77,4 +67,14 @@ public struct CobrowseHighlightConfiguration {
 public protocol CobrowseHighlightStyle {
   associatedtype Body : SwiftUICore.View
   @SwiftUICore.ViewBuilder func makeBody(configuration: CobrowseSDK.CobrowseHighlightConfiguration) -> Self.Body
+}
+#if compiler(>=5.3) && $NonescapableTypes
+public func descendant<T>(for object: Any, descendants: Swift.String..., log: Swift.Bool = false) -> T?
+#endif
+@available(iOS 14.0, *)
+extension SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public func cobrowseRedacted(if condition: Swift.Bool = true) -> some SwiftUICore.View
+  
+  @_Concurrency.MainActor @preconcurrency public func cobrowseRedacted<P>(if condition: P) -> some SwiftUICore.View where P : Combine.Publisher, P.Failure == Swift.Never, P.Output == Swift.Bool
+  
 }

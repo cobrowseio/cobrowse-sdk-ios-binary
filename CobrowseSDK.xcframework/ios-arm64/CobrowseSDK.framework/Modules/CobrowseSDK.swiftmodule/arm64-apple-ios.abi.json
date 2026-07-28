@@ -6,6 +6,210 @@
     "children": [
       {
         "kind": "Import",
+        "name": "CobrowseSDKPrivate",
+        "printedName": "CobrowseSDKPrivate",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CobrowseSDKPrivate",
+        "printedName": "CobrowseSDKPrivate",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CobrowseSDKPrivate",
+        "printedName": "CobrowseSDKPrivate",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CobrowseSDKPrivate",
+        "printedName": "CobrowseSDKPrivate",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CobrowseSDKPrivate",
+        "printedName": "CobrowseSDKPrivate",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CobrowseSDKPrivate",
+        "printedName": "CobrowseSDKPrivate",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CobrowseSDKPrivate",
+        "printedName": "CobrowseSDKPrivate",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CobrowseSDKPrivate",
+        "printedName": "CobrowseSDKPrivate",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CobrowseSDKPrivate",
+        "printedName": "CobrowseSDKPrivate",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CobrowseSDKPrivate",
+        "printedName": "CobrowseSDKPrivate",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CobrowseSDKPrivate",
+        "printedName": "CobrowseSDKPrivate",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CobrowseSDKPrivate",
+        "printedName": "CobrowseSDKPrivate",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -74,20 +278,6 @@
         "kind": "Import",
         "name": "CoreGraphics",
         "printedName": "CoreGraphics",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "CobrowseSDK"
       },
@@ -277,92 +467,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "CobrowseSDKPrivate",
-        "printedName": "CobrowseSDKPrivate",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "CobrowseSDKPrivate",
-        "printedName": "CobrowseSDKPrivate",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "CobrowseSDKPrivate",
-        "printedName": "CobrowseSDKPrivate",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
         "name": "QuartzCore",
         "printedName": "QuartzCore",
         "declKind": "Import",
@@ -384,454 +488,6 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "CobrowseSDKPrivate",
-        "printedName": "CobrowseSDKPrivate",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "CobrowseSDKPrivate",
-        "printedName": "CobrowseSDKPrivate",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "CobrowseSDKPrivate",
-        "printedName": "CobrowseSDKPrivate",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "CobrowseSDKPrivate",
-        "printedName": "CobrowseSDKPrivate",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "CobrowseSDKPrivate",
-        "printedName": "CobrowseSDKPrivate",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "CobrowseSDKPrivate",
-        "printedName": "CobrowseSDKPrivate",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CobrowseSDKPrivate",
-        "printedName": "CobrowseSDKPrivate",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CobrowseSDKPrivate",
-        "printedName": "CobrowseSDKPrivate",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CobrowseSDKPrivate",
-        "printedName": "CobrowseSDKPrivate",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CobrowseSDKPrivate",
-        "printedName": "CobrowseSDKPrivate",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CobrowseSDKPrivate",
-        "printedName": "CobrowseSDKPrivate",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "CobrowseSDKPrivate",
-        "printedName": "CobrowseSDKPrivate",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "CobrowseSDKPrivate",
-        "printedName": "CobrowseSDKPrivate",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "CobrowseSDKPrivate",
-        "printedName": "CobrowseSDKPrivate",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "CobrowseSDKPrivate",
-        "printedName": "CobrowseSDKPrivate",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "CobrowseSDKPrivate",
-        "printedName": "CobrowseSDKPrivate",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "CobrowseSDKPrivate",
-        "printedName": "CobrowseSDKPrivate",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "CobrowseSDKPrivate",
-        "printedName": "CobrowseSDKPrivate",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "CobrowseSDKPrivate",
-        "printedName": "CobrowseSDKPrivate",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "CobrowseSDKPrivate",
-        "printedName": "CobrowseSDKPrivate",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Function",
-        "name": "descendant",
-        "printedName": "descendant(for:descendants:log:)",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "Optional",
-            "printedName": "τ_0_0?",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "GenericTypeParam",
-                "printedName": "τ_0_0"
-              }
-            ],
-            "usr": "s:Sq"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "ProtocolComposition",
-            "printedName": "Any"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "Array",
-            "printedName": "[Swift.String]",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "usr": "s:Sa"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "Bool",
-            "printedName": "Swift.Bool",
-            "hasDefaultArg": true,
-            "usr": "s:Sb"
-          }
-        ],
-        "declKind": "Func",
-        "usr": "s:11CobrowseSDK10descendant3for11descendants3logxSgyp_SSdSbtlF",
-        "mangledName": "$s11CobrowseSDK10descendant3for11descendants3logxSgyp_SSdSbtlF",
-        "moduleName": "CobrowseSDK",
-        "genericSig": "<τ_0_0>",
-        "sugared_genericSig": "<T>",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "funcSelfKind": "NonMutating"
-      },
-      {
-        "kind": "Import",
-        "name": "CobrowseSDKPrivate",
-        "printedName": "CobrowseSDKPrivate",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -853,29 +509,25 @@
       },
       {
         "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
+        "name": "CobrowseSDKPrivate",
+        "printedName": "CobrowseSDKPrivate",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "CobrowseSDK"
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "CoreMedia",
-        "printedName": "CoreMedia",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "CobrowseSDK"
       },
@@ -895,6 +547,71 @@
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CobrowseSDKPrivate",
+        "printedName": "CobrowseSDKPrivate",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CobrowseSDKPrivate",
+        "printedName": "CobrowseSDKPrivate",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CobrowseSDKPrivate",
+        "printedName": "CobrowseSDKPrivate",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -1317,6 +1034,91 @@
       },
       {
         "kind": "Import",
+        "name": "CobrowseSDKPrivate",
+        "printedName": "CobrowseSDKPrivate",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CobrowseSDKPrivate",
+        "printedName": "CobrowseSDKPrivate",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CobrowseSDKPrivate",
+        "printedName": "CobrowseSDKPrivate",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CobrowseSDKPrivate",
+        "printedName": "CobrowseSDKPrivate",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CobrowseSDKPrivate",
+        "printedName": "CobrowseSDKPrivate",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -1366,6 +1168,211 @@
         "declAttributes": [
           "AccessControl"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CobrowseSDKPrivate",
+        "printedName": "CobrowseSDKPrivate",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Function",
+        "name": "descendant",
+        "printedName": "descendant(for:descendants:log:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "τ_0_0?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "ProtocolComposition",
+            "printedName": "Any"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Array",
+            "printedName": "[Swift.String]",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "usr": "s:Sa"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "hasDefaultArg": true,
+            "usr": "s:Sb"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:11CobrowseSDK10descendant3for11descendants3logxSgyp_SSdSbtlF",
+        "mangledName": "$s11CobrowseSDK10descendant3for11descendants3logxSgyp_SSdSbtlF",
+        "moduleName": "CobrowseSDK",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<T>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "CobrowseSDKPrivate",
+        "printedName": "CobrowseSDKPrivate",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMedia",
+        "printedName": "CoreMedia",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CobrowseSDKPrivate",
+        "printedName": "CobrowseSDKPrivate",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
       },
       {
         "kind": "TypeDecl",
@@ -12978,6 +12985,111 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/view-tree\/ios\/RootViewTreeBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 838,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/view-tree\/ios\/RootViewTreeBuilder.swift",
+      "kind": "Array",
+      "offset": 1069,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/view-tree\/ios\/SwiftUITreeBuilder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 460,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/view-tree\/ios\/UIKitTreeBuilder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 389,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/view-tree\/ViewChanges.swift",
+      "kind": "StringLiteral",
+      "offset": 1667,
+      "length": 3,
+      "value": "\"x\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/view-tree\/ViewChanges.swift",
+      "kind": "StringLiteral",
+      "offset": 1723,
+      "length": 3,
+      "value": "\"y\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/view-tree\/ViewChanges.swift",
+      "kind": "StringLiteral",
+      "offset": 1779,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/view-tree\/ViewChanges.swift",
+      "kind": "StringLiteral",
+      "offset": 1836,
+      "length": 7,
+      "value": "\"width\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/view-tree\/ViewChanges.swift",
+      "kind": "StringLiteral",
+      "offset": 1896,
+      "length": 8,
+      "value": "\"height\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/view-tree\/ViewChanges.swift",
+      "kind": "StringLiteral",
+      "offset": 1957,
+      "length": 9,
+      "value": "\"tagName\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/view-tree\/ViewChanges.swift",
+      "kind": "StringLiteral",
+      "offset": 2019,
+      "length": 12,
+      "value": "\"attributes\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/view-tree\/ViewChanges.swift",
+      "kind": "StringLiteral",
+      "offset": 2084,
+      "length": 12,
+      "value": "\"childNodes\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/view-tree\/ViewPropertiesCache.swift",
+      "kind": "Dictionary",
+      "offset": 208,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/view-tree\/ViewPropertiesCache.swift",
+      "kind": "Dictionary",
+      "offset": 349,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/view-tree\/ViewPropertiesCache.swift",
+      "kind": "Dictionary",
+      "offset": 493,
+      "length": 3,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/CBIOEffectRedaction.swift",
       "kind": "Dictionary",
       "offset": 2267,
@@ -13018,6 +13130,62 @@
       "offset": 2976,
       "length": 3,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/session-ui\/CBIOScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 222,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/CBIORedactionFlags.swift",
+      "kind": "Array",
+      "offset": 114,
+      "length": 27,
+      "value": "[\"Mask\", \"Update\", \"disable\"]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/view-events\/input-actions\/InputActionManager.swift",
+      "kind": "Dictionary",
+      "offset": 228,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/view-events\/input-actions\/InputActionManager.swift",
+      "kind": "Dictionary",
+      "offset": 276,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/view-events\/input-actions\/InputActionManager.swift",
+      "kind": "Dictionary",
+      "offset": 324,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/view-events\/input-actions\/InputActionManager.swift",
+      "kind": "Array",
+      "offset": 361,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/view-events\/input-actions\/InputActionManager.swift",
+      "kind": "Dictionary",
+      "offset": 406,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/view-events\/input-actions\/InputActionManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 864,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/cbor\/Cbor.swift",
@@ -13237,20 +13405,6 @@
       "value": "0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/session-ui\/CBIOScreen.swift",
-      "kind": "IntegerLiteral",
-      "offset": 222,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/CBIORedactionFlags.swift",
-      "kind": "Array",
-      "offset": 114,
-      "length": 27,
-      "value": "[\"Mask\", \"Update\", \"disable\"]"
-    },
-    {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/annotation\/RippleLayer+Engine.swift",
       "kind": "FloatLiteral",
       "offset": 134,
@@ -13447,237 +13601,6 @@
       "value": "5"
     },
     {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/external-rendering\/ExternalRenderingManager.swift",
-      "kind": "Dictionary",
-      "offset": 1574,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
-      "kind": "IntegerLiteral",
-      "offset": 240,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
-      "kind": "IntegerLiteral",
-      "offset": 366,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
-      "kind": "IntegerLiteral",
-      "offset": 493,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
-      "kind": "IntegerLiteral",
-      "offset": 633,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
-      "kind": "IntegerLiteral",
-      "offset": 766,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
-      "kind": "FloatLiteral",
-      "offset": 950,
-      "length": 5,
-      "value": "0.125"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
-      "kind": "StringLiteral",
-      "offset": 1041,
-      "length": 24,
-      "value": "\"CBORSocketMetricsQueue\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1396,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1481,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1680,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/view-tree\/ios\/RootViewTreeBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 838,
-      "length": 3,
-      "value": "\"0\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/view-tree\/ios\/RootViewTreeBuilder.swift",
-      "kind": "Array",
-      "offset": 1069,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/view-tree\/ios\/SwiftUITreeBuilder.swift",
-      "kind": "BooleanLiteral",
-      "offset": 460,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/view-tree\/ios\/UIKitTreeBuilder.swift",
-      "kind": "BooleanLiteral",
-      "offset": 389,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/view-tree\/ViewChanges.swift",
-      "kind": "StringLiteral",
-      "offset": 1667,
-      "length": 3,
-      "value": "\"x\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/view-tree\/ViewChanges.swift",
-      "kind": "StringLiteral",
-      "offset": 1723,
-      "length": 3,
-      "value": "\"y\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/view-tree\/ViewChanges.swift",
-      "kind": "StringLiteral",
-      "offset": 1779,
-      "length": 4,
-      "value": "\"id\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/view-tree\/ViewChanges.swift",
-      "kind": "StringLiteral",
-      "offset": 1836,
-      "length": 7,
-      "value": "\"width\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/view-tree\/ViewChanges.swift",
-      "kind": "StringLiteral",
-      "offset": 1896,
-      "length": 8,
-      "value": "\"height\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/view-tree\/ViewChanges.swift",
-      "kind": "StringLiteral",
-      "offset": 1957,
-      "length": 9,
-      "value": "\"tagName\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/view-tree\/ViewChanges.swift",
-      "kind": "StringLiteral",
-      "offset": 2019,
-      "length": 12,
-      "value": "\"attributes\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/view-tree\/ViewChanges.swift",
-      "kind": "StringLiteral",
-      "offset": 2084,
-      "length": 12,
-      "value": "\"childNodes\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/view-tree\/ViewPropertiesCache.swift",
-      "kind": "Dictionary",
-      "offset": 208,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/view-tree\/ViewPropertiesCache.swift",
-      "kind": "Dictionary",
-      "offset": 349,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/view-tree\/ViewPropertiesCache.swift",
-      "kind": "Dictionary",
-      "offset": 493,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/web-socket\/URLSession\/URLSessionSocket.swift",
-      "kind": "BooleanLiteral",
-      "offset": 348,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/view-events\/input-actions\/InputActionManager.swift",
-      "kind": "Dictionary",
-      "offset": 228,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/view-events\/input-actions\/InputActionManager.swift",
-      "kind": "Dictionary",
-      "offset": 276,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/view-events\/input-actions\/InputActionManager.swift",
-      "kind": "Dictionary",
-      "offset": 324,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/view-events\/input-actions\/InputActionManager.swift",
-      "kind": "Array",
-      "offset": 361,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/view-events\/input-actions\/InputActionManager.swift",
-      "kind": "Dictionary",
-      "offset": 406,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/view-events\/input-actions\/InputActionManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 864,
-      "length": 5,
-      "value": "false"
-    },
-    {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/session-ui\/ios\/SceneTracker.swift",
       "kind": "Array",
       "offset": 260,
@@ -13783,88 +13706,81 @@
       "value": "[\"Radius\", \"Corner\", \"display\", \"_\"]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/CBIORedactionOverlay.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1085,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/UIView+ViewPropertyAttributes.swift",
-      "kind": "Dictionary",
-      "offset": 234,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/UIView+ViewPropertyAttributes.swift",
-      "kind": "StringLiteral",
-      "offset": 656,
-      "length": 3,
-      "value": "\".\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/UIView+ViewPropertyAttributes.swift",
-      "kind": "StringLiteral",
-      "offset": 739,
-      "length": 3,
-      "value": "\"<\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/UIView+ViewPropertyAttributes.swift",
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
       "kind": "IntegerLiteral",
-      "offset": 8463,
+      "offset": 240,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/Mirror.swift",
-      "kind": "BooleanLiteral",
-      "offset": 443,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/Mirror.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1009,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/SelectorObserver.swift",
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
       "kind": "IntegerLiteral",
-      "offset": 367,
+      "offset": 366,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/CBIOSwiftUIRedaction.swift",
-      "kind": "Array",
-      "offset": 215,
-      "length": 2,
-      "value": "[]"
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 493,
+      "length": 1,
+      "value": "0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/CBIOSwiftUIRedaction.swift",
-      "kind": "Array",
-      "offset": 262,
-      "length": 2,
-      "value": "[]"
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 633,
+      "length": 1,
+      "value": "0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/CobrowseRedactedViewModifier.swift",
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 766,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
+      "kind": "FloatLiteral",
+      "offset": 950,
+      "length": 5,
+      "value": "0.125"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 1041,
+      "length": 24,
+      "value": "\"CBORSocketMetricsQueue\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1396,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1481,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1680,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/web-socket\/URLSession\/URLSessionSocket.swift",
       "kind": "BooleanLiteral",
-      "offset": 257,
+      "offset": 348,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/CobrowseRedactedViewModifier.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1011,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/highlight\/ios\/HighlightEventHandler.swift",
@@ -13872,6 +13788,13 @@
       "offset": 469,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/external-rendering\/ExternalRenderingManager.swift",
+      "kind": "Dictionary",
+      "offset": 1574,
+      "length": 3,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/highlight\/ios\/HighlightPresenterLayout.swift",
@@ -14005,6 +13928,97 @@
       "offset": 271,
       "length": 8,
       "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/RateLimiter.swift",
+      "kind": "Array",
+      "offset": 653,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/CBIORedactionOverlay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1085,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/UIView+ViewPropertyAttributes.swift",
+      "kind": "Dictionary",
+      "offset": 234,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/UIView+ViewPropertyAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 656,
+      "length": 3,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/UIView+ViewPropertyAttributes.swift",
+      "kind": "StringLiteral",
+      "offset": 739,
+      "length": 3,
+      "value": "\"<\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/UIView+ViewPropertyAttributes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8463,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/Mirror.swift",
+      "kind": "BooleanLiteral",
+      "offset": 443,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/Mirror.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1009,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/SelectorObserver.swift",
+      "kind": "IntegerLiteral",
+      "offset": 367,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/CBIOSwiftUIRedaction.swift",
+      "kind": "Array",
+      "offset": 215,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/CBIOSwiftUIRedaction.swift",
+      "kind": "Array",
+      "offset": 262,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/CobrowseRedactedViewModifier.swift",
+      "kind": "BooleanLiteral",
+      "offset": 257,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/CobrowseRedactedViewModifier.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1011,
+      "length": 4,
+      "value": "true"
     }
   ]
 }
