@@ -21,6 +21,7 @@
 #import "CBIOResponder.h"
 #import "CobrowseIOReplayKitExtension.h"
 #import "UIView+CobrowseRedacted.h"
+#import "UIView+CobrowseUnredacted.h"
 #import "CBIOHighlight.h"
 #endif
 

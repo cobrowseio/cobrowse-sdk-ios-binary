@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.18.0](#) (2026-08-12)
+
+
+### Features
+
+* add `cobrowseUnredacted` to unredact individual UIKit views ([#344](#)) ([95605ac](#))
+
 ## [3.17.0](#) (2026-08-11)
 
 
