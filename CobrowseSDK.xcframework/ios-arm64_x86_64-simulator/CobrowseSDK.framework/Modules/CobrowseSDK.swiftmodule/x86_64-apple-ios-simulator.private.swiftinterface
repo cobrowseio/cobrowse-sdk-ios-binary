@@ -2,10 +2,12 @@
 // swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
 // swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name CobrowseSDK
 // swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
+import Accelerate
 @_exported import CobrowseSDK
 import Combine
 import CoreGraphics
 import CoreMedia
+import CoreVideo
 import Foundation
 import ObjectiveC
 import QuartzCore
@@ -20,7 +22,33 @@ import os.log
 import os
 import ObjectiveC.runtime
 import os.signpost
-@available(iOS 13.0, *)
+extension SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public func cobrowseUnredacted(if condition: Swift.Bool = true) -> some SwiftUICore.View
+  
+  @_Concurrency.MainActor @preconcurrency public func cobrowseUnredacted<P>(if condition: P) -> some SwiftUICore.View where P : Combine.Publisher, P.Failure == Swift.Never, P.Output == Swift.Bool
+  
+}
+extension SwiftUICore.View {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency public func cobrowseSelector(tag: Swift.String? = nil, id: (any Swift.Hashable)? = nil, attributes: [Swift.String : Any] = [:]) -> some SwiftUICore.View
+  
+  #endif
+}
+extension CobrowseSDK.CobrowseIO {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var highlightStyle: (any CobrowseSDK.CobrowseHighlightStyle)? {
+    get
+    set
+  }
+  #endif
+}
+extension SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public func cobrowseHighlightStyle<S>(_ style: S) -> some SwiftUICore.View where S : CobrowseSDK.CobrowseHighlightStyle
+  
+}
+#if compiler(>=5.3) && $NonescapableTypes
+public func descendant<T>(for object: Any, descendants: Swift.String..., log: Swift.Bool = false) -> T?
+#endif
 public struct CobrowseHighlightConfiguration {
   public let content: SwiftUICore.AnyView
   public let title: Swift.String?
@@ -35,43 +63,10 @@ public struct CobrowseHighlightConfiguration {
     get
   }
 }
-@available(iOS 13.0, *)
 public protocol CobrowseHighlightStyle {
   associatedtype Body : SwiftUICore.View
   @SwiftUICore.ViewBuilder func makeBody(configuration: CobrowseSDK.CobrowseHighlightConfiguration) -> Self.Body
 }
-@available(iOS 14.0, *)
-extension SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public func cobrowseUnredacted(if condition: Swift.Bool = true) -> some SwiftUICore.View
-  
-  @_Concurrency.MainActor @preconcurrency public func cobrowseUnredacted<P>(if condition: P) -> some SwiftUICore.View where P : Combine.Publisher, P.Failure == Swift.Never, P.Output == Swift.Bool
-  
-}
-@available(iOS 14.0, *)
-extension SwiftUICore.View {
-  #if compiler(>=5.3) && $NonescapableTypes
-  @_Concurrency.MainActor @preconcurrency public func cobrowseSelector(tag: Swift.String? = nil, id: (any Swift.Hashable)? = nil, attributes: [Swift.String : Any] = [:]) -> some SwiftUICore.View
-  
-  #endif
-}
-@available(iOS 13.0, *)
-extension CobrowseSDK.CobrowseIO {
-  #if compiler(>=5.3) && $NonescapableTypes
-  public var highlightStyle: (any CobrowseSDK.CobrowseHighlightStyle)? {
-    get
-    set
-  }
-  #endif
-}
-@available(iOS 13.0, *)
-extension SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public func cobrowseHighlightStyle<S>(_ style: S) -> some SwiftUICore.View where S : CobrowseSDK.CobrowseHighlightStyle
-  
-}
-#if compiler(>=5.3) && $NonescapableTypes
-public func descendant<T>(for object: Any, descendants: Swift.String..., log: Swift.Bool = false) -> T?
-#endif
-@available(iOS 14.0, *)
 extension SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public func cobrowseRedacted(if condition: Swift.Bool = true) -> some SwiftUICore.View
   

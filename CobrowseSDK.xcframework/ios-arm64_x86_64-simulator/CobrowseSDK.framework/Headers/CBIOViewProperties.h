@@ -11,6 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (copy, nonnull) NSDictionary<NSString *, id> *attributes;
 @property (assign) CGPoint origin;
 @property (assign) CGSize size;
+@property (assign) BOOL redacted;
 
 +(unsigned long) nextId;
 

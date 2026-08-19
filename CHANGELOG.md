@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.19.0](#) (2026-08-19)
+
+
+### Features
+
+* indicate redacted nodes in the view hierarchy ([#345](#)) ([17dcfb1](#))
+
+
+### Bug Fixes
+
+* better draw performance ([#343](#)) ([2835042](#))
+* don't send segment titles for a redacted `UISegmentedControl` ([#346](#)) ([17495a5](#))
+* never redact Cobrowse's own overlay windows ([#350](#)) ([0c073e2](#))
+* recognise every SwiftUI hosting controller, not just AnyView ([#347](#)) ([0f94ecc](#))
+
 ### [3.18.1](#) (2026-08-12)
 
 ## [3.18.0](#) (2026-08-12)
