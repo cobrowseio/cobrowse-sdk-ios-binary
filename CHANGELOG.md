@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.19.1](#) (2026-08-27)
+
+
+### Bug Fixes
+
+* better handling of redaction overlay lifetime ([#353](#)) ([d025e51](#))
+
 ## [3.19.0](#) (2026-08-19)
 
 
