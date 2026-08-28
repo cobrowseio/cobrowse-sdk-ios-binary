@@ -14144,7 +14144,7 @@
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ios\/CBIORedactionOverlay.swift",
       "kind": "BooleanLiteral",
-      "offset": 1013,
+      "offset": 999,
       "length": 4,
       "value": "true"
     },
