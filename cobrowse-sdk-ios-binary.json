@@ -1,4 +1,5 @@
 {
+  "3.19.2": "https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/download/v3.19.2/CobrowseSDK.framework.zip?alt=https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/download/v3.19.2/CobrowseSDK.xcframework.zip",
   "3.19.1": "https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/download/v3.19.1/CobrowseSDK.framework.zip?alt=https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/download/v3.19.1/CobrowseSDK.xcframework.zip",
   "3.19.0": "https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/download/v3.19.0/CobrowseSDK.framework.zip?alt=https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/download/v3.19.0/CobrowseSDK.xcframework.zip",
   "3.18.1": "https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/download/v3.18.1/CobrowseSDK.framework.zip?alt=https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/download/v3.18.1/CobrowseSDK.xcframework.zip",
