@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.19.4](#) (2026-09-23)
+
+
+### Bug Fixes
+
+* keep Cobrowse's own windows out of the view hierarchy ([#367](#)) ([20eff0d](#))
+* keep the highlight anchor out of the view tree ([#377](#)) ([861d57b](#))
+* keep the window scene reader out of the view tree ([#373](#)) ([c4c6087](#))
+* measure view frames with one transform per window ([#387](#)) ([f55ff8b](#))
+* remove internal selector types from the public headers ([#359](#)) ([320bbca](#))
+
 ### [3.19.3](#) (2026-09-07)
 
 

@@ -8,8 +8,6 @@
 #import "CBIOMouseEvent.h"
 #import "CBIOKeyPress.h"
 
-#import "CBIOSelector.h"
-#import "CBIOSelectorIndex.h"
 
 #import "CobrowseIODelegate.h"
 #import "CobrowseIORedacted.h"
