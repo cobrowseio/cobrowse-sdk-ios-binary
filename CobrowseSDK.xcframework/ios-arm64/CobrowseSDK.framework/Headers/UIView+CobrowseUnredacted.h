@@ -6,8 +6,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIView (CobrowseUnredacted)
 
-/// Unredact this view, allowing it and its parents to be seen by a support agent
-/// even when an ancestor is redacted. Other children of those parents stay redacted.
+/// Unredact this view, allowing it and its ancestors to be seen by a support agent
+/// even when an ancestor is redacted. Other children of those ancestors stay redacted.
 ///
 /// - Returns: this view, so the call can be chained.
 /// - You can also implement the ``CobrowseIOUnredacted`` protocol on your view

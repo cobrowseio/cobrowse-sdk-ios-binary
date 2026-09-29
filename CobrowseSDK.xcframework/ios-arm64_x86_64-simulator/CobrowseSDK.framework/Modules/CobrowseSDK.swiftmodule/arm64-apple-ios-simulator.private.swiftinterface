@@ -67,9 +67,6 @@ extension SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public func cobrowseHighlightStyle<S>(_ style: S) -> some SwiftUICore.View where S : CobrowseSDK.CobrowseHighlightStyle
   
 }
-#if compiler(>=5.3) && $NonescapableTypes
-public func descendant<T>(for object: Any, descendants: Swift.String..., log: Swift.Bool = false) -> T?
-#endif
 extension SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public func cobrowseRedacted(if condition: Swift.Bool = true) -> some SwiftUICore.View
   

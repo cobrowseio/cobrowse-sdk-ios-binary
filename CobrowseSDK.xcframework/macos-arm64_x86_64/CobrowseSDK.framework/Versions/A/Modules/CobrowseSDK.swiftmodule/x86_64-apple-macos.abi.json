@@ -20,6 +20,13 @@
       },
       {
         "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
         "name": "AppKit",
         "printedName": "AppKit",
         "declKind": "Import",
@@ -246,6 +253,13 @@
         "kind": "Import",
         "name": "QuartzCore",
         "printedName": "QuartzCore",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AppKit",
+        "printedName": "AppKit",
         "declKind": "Import",
         "moduleName": "CobrowseSDK"
       },
@@ -11755,7 +11769,7 @@
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Selector.swift",
       "kind": "StringLiteral",
-      "offset": 1864,
+      "offset": 1888,
       "length": 3,
       "value": "\" \""
     },
@@ -11902,84 +11916,84 @@
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ViewProperties.swift",
       "kind": "Dictionary",
-      "offset": 334,
+      "offset": 368,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ViewProperties.swift",
       "kind": "BooleanLiteral",
-      "offset": 438,
+      "offset": 472,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ViewProperties.swift",
       "kind": "IntegerLiteral",
-      "offset": 800,
+      "offset": 774,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ViewProperties.swift",
       "kind": "StringLiteral",
-      "offset": 3045,
+      "offset": 3282,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ViewProperties.swift",
       "kind": "StringLiteral",
-      "offset": 3057,
+      "offset": 3294,
       "length": 8,
       "value": "\"#\""
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ViewProperties.swift",
       "kind": "StringLiteral",
-      "offset": 3064,
+      "offset": 3301,
       "length": 8,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ViewProperties.swift",
       "kind": "StringLiteral",
-      "offset": 3071,
+      "offset": 3308,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ViewProperties.swift",
       "kind": "StringLiteral",
-      "offset": 3136,
+      "offset": 3373,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ViewProperties.swift",
       "kind": "StringLiteral",
-      "offset": 3202,
+      "offset": 3439,
       "length": 25,
       "value": "\"[\""
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ViewProperties.swift",
       "kind": "StringLiteral",
-      "offset": 3213,
+      "offset": 3450,
       "length": 1,
       "value": "\"=\""
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ViewProperties.swift",
       "kind": "StringLiteral",
-      "offset": 3225,
+      "offset": 3462,
       "length": 1,
       "value": "\"]\""
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ViewProperties.swift",
       "kind": "StringLiteral",
-      "offset": 3275,
+      "offset": 3512,
       "length": 2,
       "value": "\"\""
     },
@@ -12145,23 +12159,23 @@
       "value": "5"
     },
     {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/CBIOViewPropertiesTree.swift",
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ViewPropertiesTree.swift",
       "kind": "IntegerLiteral",
-      "offset": 463,
+      "offset": 309,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/CBIOViewPropertiesTree.swift",
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ViewPropertiesTree.swift",
       "kind": "StringLiteral",
-      "offset": 471,
+      "offset": 317,
       "length": 6,
       "value": "\"Root\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/CBIOViewPropertiesTree.swift",
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ViewPropertiesTree.swift",
       "kind": "StringLiteral",
-      "offset": 483,
+      "offset": 329,
       "length": 3,
       "value": "\"0\""
     },

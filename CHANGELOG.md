@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.19.6](#) (2026-09-29)
+
+
+### Bug Fixes
+
+* capture views whose layer contents change, such as Flutter's ([#393](#)) ([6bb890c](#))
+* don't highlight a redacted view ([#391](#)) ([b1c6b6f](#))
+
 ### [3.19.5](#) (2026-09-24)
 
 ### [3.19.4](#) (2026-09-23)
