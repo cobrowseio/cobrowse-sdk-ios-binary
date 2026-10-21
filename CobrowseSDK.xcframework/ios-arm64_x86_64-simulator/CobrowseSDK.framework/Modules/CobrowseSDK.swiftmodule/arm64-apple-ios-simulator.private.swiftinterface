@@ -10,9 +10,7 @@ import CoreImage
 import CoreMedia
 import CoreVideo
 import Foundation
-import ObjectiveC
 import QuartzCore
-import QuickLook
 import ReplayKit
 import Swift
 import SwiftUI
@@ -23,8 +21,13 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 import os.log
 import os
-import ObjectiveC.runtime
 import os.signpost
+extension SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public func cobrowseUnredacted(if condition: Swift.Bool = true) -> some SwiftUICore.View
+  
+  @_Concurrency.MainActor @preconcurrency public func cobrowseUnredacted<P>(if condition: P) -> some SwiftUICore.View where P : Combine.Publisher, P.Failure == Swift.Never, P.Output == Swift.Bool
+  
+}
 public struct CobrowseHighlightConfiguration {
   public let content: SwiftUICore.AnyView
   public let title: Swift.String?
@@ -42,12 +45,6 @@ public struct CobrowseHighlightConfiguration {
 public protocol CobrowseHighlightStyle {
   associatedtype Body : SwiftUICore.View
   @SwiftUICore.ViewBuilder func makeBody(configuration: CobrowseSDK.CobrowseHighlightConfiguration) -> Self.Body
-}
-extension SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public func cobrowseUnredacted(if condition: Swift.Bool = true) -> some SwiftUICore.View
-  
-  @_Concurrency.MainActor @preconcurrency public func cobrowseUnredacted<P>(if condition: P) -> some SwiftUICore.View where P : Combine.Publisher, P.Failure == Swift.Never, P.Output == Swift.Bool
-  
 }
 extension SwiftUICore.View {
   #if compiler(>=5.3) && $NonescapableTypes

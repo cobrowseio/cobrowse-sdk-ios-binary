@@ -27,6 +27,55 @@
       },
       {
         "kind": "Import",
+        "name": "QuartzCore",
+        "printedName": "QuartzCore",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "QuartzCore",
+        "printedName": "QuartzCore",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AppKit",
+        "printedName": "AppKit",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Accelerate",
+        "printedName": "Accelerate",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Accelerate",
+        "printedName": "Accelerate",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Accelerate",
+        "printedName": "Accelerate",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
         "name": "AppKit",
         "printedName": "AppKit",
         "declKind": "Import",
@@ -244,55 +293,6 @@
       },
       {
         "kind": "Import",
-        "name": "QuartzCore",
-        "printedName": "QuartzCore",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "QuartzCore",
-        "printedName": "QuartzCore",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "AppKit",
-        "printedName": "AppKit",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Accelerate",
-        "printedName": "Accelerate",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Accelerate",
-        "printedName": "Accelerate",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Accelerate",
-        "printedName": "Accelerate",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
         "name": "CobrowseSDKPrivate",
         "printedName": "CobrowseSDKPrivate",
         "declKind": "Import",
@@ -305,6 +305,13 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMedia",
+        "printedName": "CoreMedia",
         "declKind": "Import",
         "moduleName": "CobrowseSDK"
       },
@@ -361,6 +368,72 @@
         "kind": "Import",
         "name": "CoreGraphics",
         "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "VideoToolbox",
+        "printedName": "VideoToolbox",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CobrowseSDKPrivate",
+        "printedName": "CobrowseSDKPrivate",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "VideoToolbox",
+        "printedName": "VideoToolbox",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "CobrowseSDK"
       },
@@ -832,6 +905,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "BNNSScalar",
+            "printedName": "BNNSScalar",
+            "usr": "s:10Accelerate10BNNSScalarP",
+            "mangledName": "$s10Accelerate10BNNSScalarP"
+          },
+          {
+            "kind": "Conformance",
             "name": "AtomicRepresentable",
             "printedName": "AtomicRepresentable",
             "children": [
@@ -851,13 +931,6 @@
             ],
             "usr": "s:15Synchronization19AtomicRepresentableP",
             "mangledName": "$s15Synchronization19AtomicRepresentableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "BNNSScalar",
-            "printedName": "BNNSScalar",
-            "usr": "s:10Accelerate10BNNSScalarP",
-            "mangledName": "$s10Accelerate10BNNSScalarP"
           }
         ]
       },
@@ -1277,6 +1350,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "vDSP_IntegerConvertable",
+            "printedName": "vDSP_IntegerConvertable",
+            "usr": "s:10Accelerate23vDSP_IntegerConvertableP",
+            "mangledName": "$s10Accelerate23vDSP_IntegerConvertableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BNNSScalar",
+            "printedName": "BNNSScalar",
+            "usr": "s:10Accelerate10BNNSScalarP",
+            "mangledName": "$s10Accelerate10BNNSScalarP"
+          },
+          {
+            "kind": "Conformance",
             "name": "AtomicRepresentable",
             "printedName": "AtomicRepresentable",
             "children": [
@@ -1296,20 +1383,6 @@
             ],
             "usr": "s:15Synchronization19AtomicRepresentableP",
             "mangledName": "$s15Synchronization19AtomicRepresentableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "vDSP_IntegerConvertable",
-            "printedName": "vDSP_IntegerConvertable",
-            "usr": "s:10Accelerate23vDSP_IntegerConvertableP",
-            "mangledName": "$s10Accelerate23vDSP_IntegerConvertableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "BNNSScalar",
-            "printedName": "BNNSScalar",
-            "usr": "s:10Accelerate10BNNSScalarP",
-            "mangledName": "$s10Accelerate10BNNSScalarP"
           }
         ]
       },
@@ -1398,6 +1471,549 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Data",
+        "printedName": "Data",
+        "declKind": "Struct",
+        "usr": "s:10Foundation4DataV",
+        "mangledName": "$s10Foundation4DataV",
+        "moduleName": "Foundation",
+        "intro_Macosx": "10.10",
+        "intro_iOS": "8.0",
+        "intro_tvOS": "9.0",
+        "intro_watchOS": "2.0",
+        "declAttributes": [
+          "AddressableForDependencies",
+          "Frozen",
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RandomAccessCollection",
+            "printedName": "RandomAccessCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sk",
+            "mangledName": "$sSk"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MutableCollection",
+            "printedName": "MutableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SM",
+            "mangledName": "$sSM"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RangeReplaceableCollection",
+            "printedName": "RangeReplaceableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sm",
+            "mangledName": "$sSm"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MutableDataProtocol",
+            "printedName": "MutableDataProtocol",
+            "usr": "s:10Foundation19MutableDataProtocolP",
+            "mangledName": "$s10Foundation19MutableDataProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ContiguousBytes",
+            "printedName": "ContiguousBytes",
+            "usr": "s:10Foundation15ContiguousBytesP",
+            "mangledName": "$s10Foundation15ContiguousBytesP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BidirectionalCollection",
+            "printedName": "BidirectionalCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SK",
+            "mangledName": "$sSK"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Collection",
+            "printedName": "Collection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Iterator",
+                    "printedName": "Foundation.Data.Iterator",
+                    "usr": "s:10Foundation4DataV8IteratorV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sl",
+            "mangledName": "$sSl"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DataProtocol",
+            "printedName": "DataProtocol",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Regions",
+                "printedName": "Regions",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CollectionOfOne",
+                    "printedName": "Swift.CollectionOfOne<Foundation.Data>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:s15CollectionOfOneV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation12DataProtocolP",
+            "mangledName": "$s10Foundation12DataProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sequence",
+            "printedName": "Sequence",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Iterator",
+                    "printedName": "Foundation.Data.Iterator",
+                    "usr": "s:10Foundation4DataV8IteratorV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:ST",
+            "mangledName": "$sST"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ReferenceConvertible",
+            "printedName": "ReferenceConvertible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReferenceType",
+                "printedName": "ReferenceType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSData",
+                    "printedName": "Foundation.NSData",
+                    "usr": "c:objc(cs)NSData"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation20ReferenceConvertibleP",
+            "mangledName": "$s10Foundation20ReferenceConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSData",
+                    "printedName": "Foundation.NSData",
+                    "usr": "c:objc(cs)NSData"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Transferable",
+            "printedName": "Transferable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Representation",
+                "printedName": "Representation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some CoreTransferable.TransferRepresentation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferRepresentation",
+                        "printedName": "CoreTransferable.TransferRepresentation",
+                        "usr": "s:16CoreTransferable22TransferRepresentationP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:16CoreTransferable0B0P",
+            "mangledName": "$s16CoreTransferable0B0P"
           }
         ]
       },
@@ -1996,6 +2612,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "BNNSScalar",
+            "printedName": "BNNSScalar",
+            "usr": "s:10Accelerate10BNNSScalarP",
+            "mangledName": "$s10Accelerate10BNNSScalarP"
+          },
+          {
+            "kind": "Conformance",
             "name": "AtomicRepresentable",
             "printedName": "AtomicRepresentable",
             "children": [
@@ -2015,13 +2638,6 @@
             ],
             "usr": "s:15Synchronization19AtomicRepresentableP",
             "mangledName": "$s15Synchronization19AtomicRepresentableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "BNNSScalar",
-            "printedName": "BNNSScalar",
-            "usr": "s:10Accelerate10BNNSScalarP",
-            "mangledName": "$s10Accelerate10BNNSScalarP"
           }
         ]
       },
@@ -2434,6 +3050,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "vDSP_IntegerConvertable",
+            "printedName": "vDSP_IntegerConvertable",
+            "usr": "s:10Accelerate23vDSP_IntegerConvertableP",
+            "mangledName": "$s10Accelerate23vDSP_IntegerConvertableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BNNSScalar",
+            "printedName": "BNNSScalar",
+            "usr": "s:10Accelerate10BNNSScalarP",
+            "mangledName": "$s10Accelerate10BNNSScalarP"
+          },
+          {
+            "kind": "Conformance",
             "name": "AtomicRepresentable",
             "printedName": "AtomicRepresentable",
             "children": [
@@ -2453,20 +3083,6 @@
             ],
             "usr": "s:15Synchronization19AtomicRepresentableP",
             "mangledName": "$s15Synchronization19AtomicRepresentableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "vDSP_IntegerConvertable",
-            "printedName": "vDSP_IntegerConvertable",
-            "usr": "s:10Accelerate23vDSP_IntegerConvertableP",
-            "mangledName": "$s10Accelerate23vDSP_IntegerConvertableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "BNNSScalar",
-            "printedName": "BNNSScalar",
-            "usr": "s:10Accelerate10BNNSScalarP",
-            "mangledName": "$s10Accelerate10BNNSScalarP"
           }
         ]
       },
@@ -2886,6 +3502,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "vDSP_IntegerConvertable",
+            "printedName": "vDSP_IntegerConvertable",
+            "usr": "s:10Accelerate23vDSP_IntegerConvertableP",
+            "mangledName": "$s10Accelerate23vDSP_IntegerConvertableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BNNSScalar",
+            "printedName": "BNNSScalar",
+            "usr": "s:10Accelerate10BNNSScalarP",
+            "mangledName": "$s10Accelerate10BNNSScalarP"
+          },
+          {
+            "kind": "Conformance",
             "name": "AtomicRepresentable",
             "printedName": "AtomicRepresentable",
             "children": [
@@ -2905,20 +3535,6 @@
             ],
             "usr": "s:15Synchronization19AtomicRepresentableP",
             "mangledName": "$s15Synchronization19AtomicRepresentableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "vDSP_IntegerConvertable",
-            "printedName": "vDSP_IntegerConvertable",
-            "usr": "s:10Accelerate23vDSP_IntegerConvertableP",
-            "mangledName": "$s10Accelerate23vDSP_IntegerConvertableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "BNNSScalar",
-            "printedName": "BNNSScalar",
-            "usr": "s:10Accelerate10BNNSScalarP",
-            "mangledName": "$s10Accelerate10BNNSScalarP"
           }
         ]
       },
@@ -3338,6 +3954,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "vDSP_IntegerConvertable",
+            "printedName": "vDSP_IntegerConvertable",
+            "usr": "s:10Accelerate23vDSP_IntegerConvertableP",
+            "mangledName": "$s10Accelerate23vDSP_IntegerConvertableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BNNSScalar",
+            "printedName": "BNNSScalar",
+            "usr": "s:10Accelerate10BNNSScalarP",
+            "mangledName": "$s10Accelerate10BNNSScalarP"
+          },
+          {
+            "kind": "Conformance",
             "name": "AtomicRepresentable",
             "printedName": "AtomicRepresentable",
             "children": [
@@ -3357,20 +3987,6 @@
             ],
             "usr": "s:15Synchronization19AtomicRepresentableP",
             "mangledName": "$s15Synchronization19AtomicRepresentableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "vDSP_IntegerConvertable",
-            "printedName": "vDSP_IntegerConvertable",
-            "usr": "s:10Accelerate23vDSP_IntegerConvertableP",
-            "mangledName": "$s10Accelerate23vDSP_IntegerConvertableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "BNNSScalar",
-            "printedName": "BNNSScalar",
-            "usr": "s:10Accelerate10BNNSScalarP",
-            "mangledName": "$s10Accelerate10BNNSScalarP"
           }
         ]
       },
@@ -4221,6 +4837,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "vDSP_IntegerConvertable",
+            "printedName": "vDSP_IntegerConvertable",
+            "usr": "s:10Accelerate23vDSP_IntegerConvertableP",
+            "mangledName": "$s10Accelerate23vDSP_IntegerConvertableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BNNSScalar",
+            "printedName": "BNNSScalar",
+            "usr": "s:10Accelerate10BNNSScalarP",
+            "mangledName": "$s10Accelerate10BNNSScalarP"
+          },
+          {
+            "kind": "Conformance",
             "name": "AtomicRepresentable",
             "printedName": "AtomicRepresentable",
             "children": [
@@ -4240,20 +4870,6 @@
             ],
             "usr": "s:15Synchronization19AtomicRepresentableP",
             "mangledName": "$s15Synchronization19AtomicRepresentableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "vDSP_IntegerConvertable",
-            "printedName": "vDSP_IntegerConvertable",
-            "usr": "s:10Accelerate23vDSP_IntegerConvertableP",
-            "mangledName": "$s10Accelerate23vDSP_IntegerConvertableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "BNNSScalar",
-            "printedName": "BNNSScalar",
-            "usr": "s:10Accelerate10BNNSScalarP",
-            "mangledName": "$s10Accelerate10BNNSScalarP"
           }
         ]
       },
@@ -4673,6 +5289,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "vDSP_IntegerConvertable",
+            "printedName": "vDSP_IntegerConvertable",
+            "usr": "s:10Accelerate23vDSP_IntegerConvertableP",
+            "mangledName": "$s10Accelerate23vDSP_IntegerConvertableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BNNSScalar",
+            "printedName": "BNNSScalar",
+            "usr": "s:10Accelerate10BNNSScalarP",
+            "mangledName": "$s10Accelerate10BNNSScalarP"
+          },
+          {
+            "kind": "Conformance",
             "name": "AtomicRepresentable",
             "printedName": "AtomicRepresentable",
             "children": [
@@ -4692,20 +5322,6 @@
             ],
             "usr": "s:15Synchronization19AtomicRepresentableP",
             "mangledName": "$s15Synchronization19AtomicRepresentableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "vDSP_IntegerConvertable",
-            "printedName": "vDSP_IntegerConvertable",
-            "usr": "s:10Accelerate23vDSP_IntegerConvertableP",
-            "mangledName": "$s10Accelerate23vDSP_IntegerConvertableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "BNNSScalar",
-            "printedName": "BNNSScalar",
-            "usr": "s:10Accelerate10BNNSScalarP",
-            "mangledName": "$s10Accelerate10BNNSScalarP"
           }
         ]
       },
@@ -5139,6 +5755,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "SliceIndex",
+            "printedName": "SliceIndex",
+            "usr": "s:10Accelerate9BNNSGraphO7BuilderV10SliceIndexP",
+            "mangledName": "$s10Accelerate9BNNSGraphO7BuilderV10SliceIndexP"
+          },
+          {
+            "kind": "Conformance",
             "name": "AtomicRepresentable",
             "printedName": "AtomicRepresentable",
             "children": [
@@ -5158,13 +5781,6 @@
             ],
             "usr": "s:15Synchronization19AtomicRepresentableP",
             "mangledName": "$s15Synchronization19AtomicRepresentableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SliceIndex",
-            "printedName": "SliceIndex",
-            "usr": "s:10Accelerate9BNNSGraphO7BuilderV10SliceIndexP",
-            "mangledName": "$s10Accelerate9BNNSGraphO7BuilderV10SliceIndexP"
           }
         ]
       },
@@ -5332,6 +5948,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "BNNSScalar",
+            "printedName": "BNNSScalar",
+            "usr": "s:10Accelerate10BNNSScalarP",
+            "mangledName": "$s10Accelerate10BNNSScalarP"
+          },
+          {
+            "kind": "Conformance",
             "name": "AtomicRepresentable",
             "printedName": "AtomicRepresentable",
             "children": [
@@ -5351,13 +5974,6 @@
             ],
             "usr": "s:15Synchronization19AtomicRepresentableP",
             "mangledName": "$s15Synchronization19AtomicRepresentableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "BNNSScalar",
-            "printedName": "BNNSScalar",
-            "usr": "s:10Accelerate10BNNSScalarP",
-            "mangledName": "$s10Accelerate10BNNSScalarP"
           }
         ]
       },
@@ -5862,28 +6478,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "AtomicRepresentable",
-            "printedName": "AtomicRepresentable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "AtomicRepresentation",
-                "printedName": "AtomicRepresentation",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "_Atomic32BitStorage",
-                    "printedName": "Synchronization._Atomic32BitStorage",
-                    "usr": "s:15Synchronization19_Atomic32BitStorageV"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:15Synchronization19AtomicRepresentableP",
-            "mangledName": "$s15Synchronization19AtomicRepresentableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "vDSP_FloatingPointConvertable",
             "printedName": "vDSP_FloatingPointConvertable",
             "usr": "s:10Accelerate29vDSP_FloatingPointConvertableP",
@@ -5990,6 +6584,28 @@
             "printedName": "vDSP_FloatingPointGeneratable",
             "usr": "s:10Accelerate29vDSP_FloatingPointGeneratableP",
             "mangledName": "$s10Accelerate29vDSP_FloatingPointGeneratableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AtomicRepresentable",
+            "printedName": "AtomicRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AtomicRepresentation",
+                "printedName": "AtomicRepresentation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_Atomic32BitStorage",
+                    "printedName": "Synchronization._Atomic32BitStorage",
+                    "usr": "s:15Synchronization19_Atomic32BitStorageV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:15Synchronization19AtomicRepresentableP",
+            "mangledName": "$s15Synchronization19AtomicRepresentableP"
           }
         ]
       },
@@ -6516,28 +7132,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "AtomicRepresentable",
-            "printedName": "AtomicRepresentable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "AtomicRepresentation",
-                "printedName": "AtomicRepresentation",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "_Atomic64BitStorage",
-                    "printedName": "Synchronization._Atomic64BitStorage",
-                    "usr": "s:15Synchronization19_Atomic64BitStorageV"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:15Synchronization19AtomicRepresentableP",
-            "mangledName": "$s15Synchronization19AtomicRepresentableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "vDSP_FloatingPointConvertable",
             "printedName": "vDSP_FloatingPointConvertable",
             "usr": "s:10Accelerate29vDSP_FloatingPointConvertableP",
@@ -6615,6 +7209,28 @@
             "printedName": "vDSP_FloatingPointGeneratable",
             "usr": "s:10Accelerate29vDSP_FloatingPointGeneratableP",
             "mangledName": "$s10Accelerate29vDSP_FloatingPointGeneratableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AtomicRepresentable",
+            "printedName": "AtomicRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AtomicRepresentation",
+                "printedName": "AtomicRepresentation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_Atomic64BitStorage",
+                    "printedName": "Synchronization._Atomic64BitStorage",
+                    "usr": "s:15Synchronization19_Atomic64BitStorageV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:15Synchronization19AtomicRepresentableP",
+            "mangledName": "$s15Synchronization19AtomicRepresentableP"
           }
         ]
       },
@@ -8401,20 +9017,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Content",
-            "printedName": "Content",
-            "usr": "s:So17CMSampleBufferRefa9CoreMediaE7ContentP",
-            "mangledName": "$sSo17CMSampleBufferRefa9CoreMediaE7ContentP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ContentWithFormatDescription",
-            "printedName": "ContentWithFormatDescription",
-            "usr": "s:So17CMSampleBufferRefa9CoreMediaE28ContentWithFormatDescriptionP",
-            "mangledName": "$sSo17CMSampleBufferRefa9CoreMediaE28ContentWithFormatDescriptionP"
-          },
-          {
-            "kind": "Conformance",
             "name": "AccelerateMutableBuffer",
             "printedName": "AccelerateMutableBuffer",
             "usr": "s:10Accelerate0A13MutableBufferP",
@@ -8461,6 +9063,20 @@
             ],
             "usr": "s:10Accelerate9BNNSGraphO7BuilderV18OperationParameterP",
             "mangledName": "$s10Accelerate9BNNSGraphO7BuilderV18OperationParameterP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Content",
+            "printedName": "Content",
+            "usr": "s:So17CMSampleBufferRefa9CoreMediaE7ContentP",
+            "mangledName": "$sSo17CMSampleBufferRefa9CoreMediaE7ContentP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ContentWithFormatDescription",
+            "printedName": "ContentWithFormatDescription",
+            "usr": "s:So17CMSampleBufferRefa9CoreMediaE28ContentWithFormatDescriptionP",
+            "mangledName": "$sSo17CMSampleBufferRefa9CoreMediaE28ContentWithFormatDescriptionP"
           }
         ]
       },
@@ -8796,549 +9412,6 @@
             "printedName": "CVarArg",
             "usr": "s:s7CVarArgP",
             "mangledName": "$ss7CVarArgP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "Data",
-        "printedName": "Data",
-        "declKind": "Struct",
-        "usr": "s:10Foundation4DataV",
-        "mangledName": "$s10Foundation4DataV",
-        "moduleName": "Foundation",
-        "intro_Macosx": "10.10",
-        "intro_iOS": "8.0",
-        "intro_tvOS": "9.0",
-        "intro_watchOS": "2.0",
-        "declAttributes": [
-          "AddressableForDependencies",
-          "Frozen",
-          "Available",
-          "Available",
-          "Available",
-          "Available"
-        ],
-        "isExternal": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "RandomAccessCollection",
-            "printedName": "RandomAccessCollection",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Element",
-                "printedName": "Element",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UInt8",
-                    "printedName": "Swift.UInt8",
-                    "usr": "s:s5UInt8V"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "Index",
-                "printedName": "Index",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "SubSequence",
-                "printedName": "SubSequence",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Data",
-                    "printedName": "Foundation.Data",
-                    "usr": "s:10Foundation4DataV"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "Indices",
-                "printedName": "Indices",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Range",
-                    "printedName": "Swift.Range<Swift.Int>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "usr": "s:Sn"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:Sk",
-            "mangledName": "$sSk"
-          },
-          {
-            "kind": "Conformance",
-            "name": "MutableCollection",
-            "printedName": "MutableCollection",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Element",
-                "printedName": "Element",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UInt8",
-                    "printedName": "Swift.UInt8",
-                    "usr": "s:s5UInt8V"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "Index",
-                "printedName": "Index",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "SubSequence",
-                "printedName": "SubSequence",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Data",
-                    "printedName": "Foundation.Data",
-                    "usr": "s:10Foundation4DataV"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:SM",
-            "mangledName": "$sSM"
-          },
-          {
-            "kind": "Conformance",
-            "name": "RangeReplaceableCollection",
-            "printedName": "RangeReplaceableCollection",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "SubSequence",
-                "printedName": "SubSequence",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Data",
-                    "printedName": "Foundation.Data",
-                    "usr": "s:10Foundation4DataV"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:Sm",
-            "mangledName": "$sSm"
-          },
-          {
-            "kind": "Conformance",
-            "name": "MutableDataProtocol",
-            "printedName": "MutableDataProtocol",
-            "usr": "s:10Foundation19MutableDataProtocolP",
-            "mangledName": "$s10Foundation19MutableDataProtocolP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ContiguousBytes",
-            "printedName": "ContiguousBytes",
-            "usr": "s:10Foundation15ContiguousBytesP",
-            "mangledName": "$s10Foundation15ContiguousBytesP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "BidirectionalCollection",
-            "printedName": "BidirectionalCollection",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Element",
-                "printedName": "Element",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UInt8",
-                    "printedName": "Swift.UInt8",
-                    "usr": "s:s5UInt8V"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "Index",
-                "printedName": "Index",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "SubSequence",
-                "printedName": "SubSequence",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Data",
-                    "printedName": "Foundation.Data",
-                    "usr": "s:10Foundation4DataV"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "Indices",
-                "printedName": "Indices",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Range",
-                    "printedName": "Swift.Range<Swift.Int>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "usr": "s:Sn"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:SK",
-            "mangledName": "$sSK"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Collection",
-            "printedName": "Collection",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Element",
-                "printedName": "Element",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UInt8",
-                    "printedName": "Swift.UInt8",
-                    "usr": "s:s5UInt8V"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "Index",
-                "printedName": "Index",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "Iterator",
-                "printedName": "Iterator",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Iterator",
-                    "printedName": "Foundation.Data.Iterator",
-                    "usr": "s:10Foundation4DataV8IteratorV"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "SubSequence",
-                "printedName": "SubSequence",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Data",
-                    "printedName": "Foundation.Data",
-                    "usr": "s:10Foundation4DataV"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "Indices",
-                "printedName": "Indices",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Range",
-                    "printedName": "Swift.Range<Swift.Int>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "usr": "s:Sn"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:Sl",
-            "mangledName": "$sSl"
-          },
-          {
-            "kind": "Conformance",
-            "name": "DataProtocol",
-            "printedName": "DataProtocol",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Regions",
-                "printedName": "Regions",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CollectionOfOne",
-                    "printedName": "Swift.CollectionOfOne<Foundation.Data>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Data",
-                        "printedName": "Foundation.Data",
-                        "usr": "s:10Foundation4DataV"
-                      }
-                    ],
-                    "usr": "s:s15CollectionOfOneV"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:10Foundation12DataProtocolP",
-            "mangledName": "$s10Foundation12DataProtocolP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SendableMetatype",
-            "printedName": "SendableMetatype",
-            "usr": "s:s16SendableMetatypeP",
-            "mangledName": "$ss16SendableMetatypeP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sequence",
-            "printedName": "Sequence",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Element",
-                "printedName": "Element",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UInt8",
-                    "printedName": "Swift.UInt8",
-                    "usr": "s:s5UInt8V"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "Iterator",
-                "printedName": "Iterator",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Iterator",
-                    "printedName": "Foundation.Data.Iterator",
-                    "usr": "s:10Foundation4DataV8IteratorV"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:ST",
-            "mangledName": "$sST"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomReflectable",
-            "printedName": "CustomReflectable",
-            "usr": "s:s17CustomReflectableP",
-            "mangledName": "$ss17CustomReflectableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ReferenceConvertible",
-            "printedName": "ReferenceConvertible",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ReferenceType",
-                "printedName": "ReferenceType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NSData",
-                    "printedName": "Foundation.NSData",
-                    "usr": "c:objc(cs)NSData"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:10Foundation20ReferenceConvertibleP",
-            "mangledName": "$s10Foundation20ReferenceConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_ObjectiveCBridgeable",
-            "printedName": "_ObjectiveCBridgeable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "_ObjectiveCType",
-                "printedName": "_ObjectiveCType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NSData",
-                    "printedName": "Foundation.NSData",
-                    "usr": "c:objc(cs)NSData"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s21_ObjectiveCBridgeableP",
-            "mangledName": "$ss21_ObjectiveCBridgeableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Transferable",
-            "printedName": "Transferable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Representation",
-                "printedName": "Representation",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some CoreTransferable.TransferRepresentation",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "TransferRepresentation",
-                        "printedName": "CoreTransferable.TransferRepresentation",
-                        "usr": "s:16CoreTransferable22TransferRepresentationP"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "usr": "s:16CoreTransferable0B0P",
-            "mangledName": "$s16CoreTransferable0B0P"
           }
         ]
       },
@@ -11760,13 +11833,6 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/highlight\/HighlightState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 271,
-      "length": 8,
-      "value": "1"
-    },
-    {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/Selector.swift",
       "kind": "StringLiteral",
       "offset": 1888,
@@ -11916,86 +11982,93 @@
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ViewProperties.swift",
       "kind": "Dictionary",
-      "offset": 368,
+      "offset": 410,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ViewProperties.swift",
       "kind": "BooleanLiteral",
-      "offset": 472,
+      "offset": 451,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ViewProperties.swift",
       "kind": "IntegerLiteral",
-      "offset": 774,
+      "offset": 699,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ViewProperties.swift",
       "kind": "StringLiteral",
-      "offset": 3282,
+      "offset": 3064,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ViewProperties.swift",
       "kind": "StringLiteral",
-      "offset": 3294,
+      "offset": 3076,
       "length": 8,
       "value": "\"#\""
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ViewProperties.swift",
       "kind": "StringLiteral",
-      "offset": 3301,
+      "offset": 3083,
       "length": 8,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ViewProperties.swift",
       "kind": "StringLiteral",
-      "offset": 3308,
+      "offset": 3090,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ViewProperties.swift",
       "kind": "StringLiteral",
-      "offset": 3373,
+      "offset": 3155,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ViewProperties.swift",
       "kind": "StringLiteral",
-      "offset": 3439,
+      "offset": 3221,
       "length": 25,
       "value": "\"[\""
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ViewProperties.swift",
       "kind": "StringLiteral",
-      "offset": 3450,
+      "offset": 3232,
       "length": 1,
       "value": "\"=\""
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ViewProperties.swift",
       "kind": "StringLiteral",
-      "offset": 3462,
+      "offset": 3244,
       "length": 1,
       "value": "\"]\""
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ViewProperties.swift",
       "kind": "StringLiteral",
-      "offset": 3512,
+      "offset": 3294,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/Extensions\/CVPixelBuffer.swift",
+      "kind": "Array",
+      "offset": 1161,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/annotation\/RippleLayer+Engine.swift",
@@ -12161,30 +12234,30 @@
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ViewPropertiesTree.swift",
       "kind": "IntegerLiteral",
-      "offset": 309,
+      "offset": 248,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ViewPropertiesTree.swift",
       "kind": "StringLiteral",
-      "offset": 317,
+      "offset": 256,
       "length": 6,
       "value": "\"Root\""
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ViewPropertiesTree.swift",
       "kind": "StringLiteral",
-      "offset": 329,
+      "offset": 268,
       "length": 3,
       "value": "\"0\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/Extensions\/CVPixelBuffer.swift",
-      "kind": "Array",
-      "offset": 1162,
-      "length": 2,
-      "value": "[]"
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/redaction\/ViewPropertiesTree.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1942,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/session-context\/SessionMetricsTransmitter.swift",
@@ -12194,74 +12267,60 @@
       "value": "5"
     },
     {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/stream-protocol\/h264\/CMSampleBuffer+AnnexB.swift",
       "kind": "IntegerLiteral",
-      "offset": 240,
+      "offset": 5329,
       "length": 1,
-      "value": "0"
+      "value": "1"
     },
     {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/stream-protocol\/h264\/CMSampleBuffer+AnnexB.swift",
       "kind": "IntegerLiteral",
-      "offset": 366,
+      "offset": 5377,
       "length": 1,
-      "value": "0"
+      "value": "2"
     },
     {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/stream-protocol\/h264\/CMSampleBuffer+AnnexB.swift",
       "kind": "IntegerLiteral",
-      "offset": 493,
-      "length": 1,
-      "value": "0"
+      "offset": 5430,
+      "length": 11,
+      "value": "0b00010000"
     },
     {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/stream-protocol\/h264\/CMSampleBuffer+AnnexB.swift",
       "kind": "IntegerLiteral",
-      "offset": 633,
-      "length": 1,
-      "value": "0"
+      "offset": 5549,
+      "length": 11,
+      "value": "0b00011111"
     },
     {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/stream-protocol\/h264\/CMSampleBuffer+AnnexB.swift",
       "kind": "IntegerLiteral",
-      "offset": 766,
+      "offset": 5670,
       "length": 1,
-      "value": "0"
+      "value": "7"
     },
     {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
-      "kind": "FloatLiteral",
-      "offset": 950,
-      "length": 5,
-      "value": "0.125"
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/stream-protocol\/h264\/CMSampleBuffer+AnnexB.swift",
+      "kind": "Array",
+      "offset": 6071,
+      "length": 166,
+      "value": "[44, 86, 100, 110, 122, 244]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
-      "kind": "StringLiteral",
-      "offset": 1041,
-      "length": 24,
-      "value": "\"CBORSocketMetricsQueue\""
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/stream-protocol\/h264\/CMSampleBuffer+AnnexB.swift",
+      "kind": "Array",
+      "offset": 6342,
+      "length": 12,
+      "value": "[0, 0, 0, 1]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/stream-protocol\/h264\/CMSampleBuffer+AnnexB.swift",
       "kind": "IntegerLiteral",
-      "offset": 1396,
+      "offset": 6492,
       "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1481,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1680,
-      "length": 1,
-      "value": "0"
+      "value": "4"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/cbor\/Cbor.swift",
@@ -12477,6 +12536,202 @@
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/cbor\/CborEncodable.swift",
       "kind": "IntegerLiteral",
       "offset": 464,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/stream-protocol\/h264\/CompressionSession.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1351,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/stream-protocol\/h264\/CompressionSession.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1382,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/stream-protocol\/h264\/CompressionSession.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1529,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/stream-protocol\/h264\/CompressionSession.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1656,
+      "length": 4,
+      "value": "1920"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/stream-protocol\/h264\/CompressionSession.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1670,
+      "length": 4,
+      "value": "1080"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/stream-protocol\/h264\/H264Stream.swift",
+      "kind": "BooleanLiteral",
+      "offset": 650,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/stream-protocol\/h264\/H264Stream.swift",
+      "kind": "FloatLiteral",
+      "offset": 1270,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/stream-protocol\/h264\/H264Stream.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1345,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/stream-protocol\/h264\/H264Stream.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1417,
+      "length": 7,
+      "value": "512000"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/stream-protocol\/h264\/H264Stream.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1484,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/stream-protocol\/h264\/H264Stream.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1558,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/stream-protocol\/h264\/H264Stream.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1631,
+      "length": 3,
+      "value": "120"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/stream-protocol\/h264\/H264Stream.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1713,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/stream-protocol\/h264\/H264Stream.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1785,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/stream-protocol\/h264\/H264Stream.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1848,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/stream-protocol\/h264\/H264Stream.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7197,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/stream-protocol\/h264\/H264Stream.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7244,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/highlight\/HighlightState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 271,
+      "length": 8,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 240,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 366,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 493,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 633,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 766,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
+      "kind": "FloatLiteral",
+      "offset": 950,
+      "length": 5,
+      "value": "0.125"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 1041,
+      "length": 24,
+      "value": "\"CBORSocketMetricsQueue\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1697,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1782,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocketMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1981,
       "length": 1,
       "value": "0"
     },

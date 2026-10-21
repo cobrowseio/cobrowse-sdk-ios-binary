@@ -14,6 +14,7 @@ import Foundation
 import QuartzCore
 import Swift
 import SwiftUI
+import VideoToolbox
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims

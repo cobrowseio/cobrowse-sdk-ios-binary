@@ -2,412 +2,426 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [3.19.7](#) (2026-09-29)
-
-### [3.19.6](#) (2026-09-29)
+### [3.19.8](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.19.8) (2026-10-21)
 
 
 ### Bug Fixes
 
-* capture views whose layer contents change, such as Flutter's ([#393](#)) ([6bb890c](#))
-* don't highlight a redacted view ([#391](#)) ([b1c6b6f](#))
+* CBIORenderMethod 1, 2 and 3 have been removed. The SDK will fall back to the default render method if one of these values is used.
+* crash from recording diagnostics off the main thread
+* duplicate frame detection and local context detection on iOS 15
+* iPhone duo annotation and render position bugs
+* macOS full device remote control and annotations positioned incorrectly
+* place SwiftUI views correctly in offset or moved windows
+* rename Declaration to MarkerView
+* Views rendered out of process are now always redacted (e.g. QLPreviewController, SFSafariViewController)
 
-### [3.19.5](#) (2026-09-24)
+### [3.19.7](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.19.7) (2026-09-29)
 
-### [3.19.4](#) (2026-09-23)
-
-
-### Bug Fixes
-
-* keep Cobrowse's own windows out of the view hierarchy ([#367](#)) ([20eff0d](#))
-* keep the highlight anchor out of the view tree ([#377](#)) ([861d57b](#))
-* keep the window scene reader out of the view tree ([#373](#)) ([c4c6087](#))
-* measure view frames with one transform per window ([#387](#)) ([f55ff8b](#))
-* remove internal selector types from the public headers ([#359](#)) ([320bbca](#))
-
-### [3.19.3](#) (2026-09-07)
+### [3.19.6](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.19.6) (2026-09-29)
 
 
 ### Bug Fixes
 
-* Introduce parallel compositor ([#357](#)) ([10d60ca](#))
+* capture views whose layer contents change, such as Flutter's
+* don't highlight a redacted view
 
-### [3.19.2](#) (2026-08-28)
+### [3.19.5](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.19.5) (2026-09-24)
 
-
-### Bug Fixes
-
-* ignore safe area in swiftui redactions ([#354](#)) ([523b4cb](#))
-
-### [3.19.1](#) (2026-08-27)
+### [3.19.4](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.19.4) (2026-09-23)
 
 
 ### Bug Fixes
 
-* better handling of redaction overlay lifetime ([#353](#)) ([d025e51](#))
+* keep Cobrowse's own windows out of the view hierarchy
+* keep the highlight anchor out of the view tree
+* keep the window scene reader out of the view tree
+* measure view frames with one transform per window
+* remove internal selector types from the public headers
 
-## [3.19.0](#) (2026-08-19)
+### [3.19.3](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.19.3) (2026-09-07)
+
+
+### Bug Fixes
+
+* Introduce parallel compositor
+
+### [3.19.2](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.19.2) (2026-08-28)
+
+
+### Bug Fixes
+
+* ignore safe area in swiftui redactions
+
+### [3.19.1](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.19.1) (2026-08-27)
+
+
+### Bug Fixes
+
+* better handling of redaction overlay lifetime
+
+## [3.19.0](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.19.0) (2026-08-19)
 
 
 ### Features
 
-* indicate redacted nodes in the view hierarchy ([#345](#)) ([17dcfb1](#))
+* indicate redacted nodes in the view hierarchy
 
 
 ### Bug Fixes
 
-* better draw performance ([#343](#)) ([2835042](#))
-* don't send segment titles for a redacted `UISegmentedControl` ([#346](#)) ([17495a5](#))
-* never redact Cobrowse's own overlay windows ([#350](#)) ([0c073e2](#))
-* recognise every SwiftUI hosting controller, not just AnyView ([#347](#)) ([0f94ecc](#))
+* better draw performance
+* don't send segment titles for a redacted `UISegmentedControl`
+* never redact Cobrowse's own overlay windows
+* recognise every SwiftUI hosting controller, not just AnyView
 
-### [3.18.1](#) (2026-08-12)
+### [3.18.1](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.18.1) (2026-08-12)
 
-## [3.18.0](#) (2026-08-12)
+## [3.18.0](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.18.0) (2026-08-12)
 
 
 ### Features
 
-* add `cobrowseUnredacted` to unredact individual UIKit views ([#344](#)) ([95605ac](#))
+* add `cobrowseUnredacted` to unredact individual UIKit views
 
-## [3.17.0](#) (2026-08-11)
-
-
-### Features
-
-* device metrics ([#342](#)) ([df83e81](#))
-
-### [3.16.4](#) (2026-07-28)
-
-
-### Bug Fixes
-
-* session restoration fails ([#328](#)) ([dd379f5](#))
-* Webview redaction scripts not loading ([#340](#)) ([562ac9e](#))
-
-### [3.16.3](#) (2026-07-15)
-
-### [3.16.2](#) (2026-07-14)
-
-### [3.16.1](#) (2026-07-14)
-
-## [3.16.0](#) (2026-07-14)
+## [3.17.0](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.17.0) (2026-08-11)
 
 
 ### Features
 
-* Add laser pointer ripples ([#325](#)) ([8012571](#))
+* device metrics
+
+### [3.16.4](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.16.4) (2026-07-28)
 
 
 ### Bug Fixes
 
-* Embedded flutter views not rendering correctly ([#326](#)) ([6c4c9de](#))
-* ensure that the calculated latency is returned when a message tracking is concluded ([#321](#)) ([efa21ec](#))
+* session restoration fails
+* Webview redaction scripts not loading
 
-### [3.15.1](#) (2026-06-03)
+### [3.16.3](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.16.3) (2026-07-15)
 
+### [3.16.2](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.16.2) (2026-07-14)
 
-### Bug Fixes
+### [3.16.1](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.16.1) (2026-07-14)
 
-* change minimum deployment target to iOS 15 ([#310](#)) ([d43b569](#))
-* use content worlds when executing js ([#311](#)) ([fe4e03c](#))
-
-## [3.15.0](#) (2026-05-29)
+## [3.16.0](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.16.0) (2026-07-14)
 
 
 ### Features
 
-* **cbor:** Cbor.SwiftEncodableEncoder ([#304](#)) ([630afb0](#))
-* highlight tool for swiftui and uikit ([#276](#)) ([43e2862](#))
-* Require Xcode 26.0.1 ([#271](#)) ([5bc27f1](#))
-* switch CBOR encoder / decoder ([#301](#)) ([9e668d9](#))
+* Add laser pointer ripples
 
 
 ### Bug Fixes
 
-* performance optimisations of CBOR encoder ([#289](#)) ([7ad3292](#))
-* resolve simulator OS version against iOS runtimes only ([#293](#)) ([d45c4ed](#))
-* skip `CBOR.encodeAny` for the view-tree hot path ([#290](#)) ([4a65093](#))
+* Embedded flutter views not rendering correctly
+* ensure that the calculated latency is returned when a message tracking is concluded
 
-## [3.14.0](#) (2026-04-16)
+### [3.15.1](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.15.1) (2026-06-03)
+
+
+### Bug Fixes
+
+* change minimum deployment target to iOS 15
+* use content worlds when executing js
+
+## [3.15.0](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.15.0) (2026-05-29)
 
 
 ### Features
 
-* Improved redaction for Flutter add-to-app ([#284](#)) ([10503f4](#))
+* **cbor:** Cbor.SwiftEncodableEncoder
+* highlight tool for swiftui and uikit
+* Require Xcode 26.0.1
+* switch CBOR encoder / decoder
 
 
 ### Bug Fixes
 
-* replace `@_implementationOnly` with `internal` imports ([#287](#)) ([d5974a3](#))
+* performance optimisations of CBOR encoder
+* resolve simulator OS version against iOS runtimes only
+* skip `CBOR.encodeAny` for the view-tree hot path
 
-### [3.13.10](#) (2026-04-11)
-
-
-### Bug Fixes
-
-* make webview selectors non-null and init to an empty object ([#286](#)) ([15374e2](#))
-
-### [3.13.9](#) (2026-04-04)
-
-### [3.13.8](#) (2026-04-04)
-
-
-### Bug Fixes
-
-* improve thread concurrency handling around ws acks ([#283](#)) ([122be30](#))
-* improve view tree diffing ([#263](#)) ([e029874](#))
-* update ordering of of message properties ([#266](#)) ([b855b94](#))
-
-### [3.13.7](#) (2026-01-27)
-
-
-### Bug Fixes
-
-* restore Cartfile to project ([#264](#)) ([6ff0e8c](#))
-
-### [3.13.6](#) (2026-01-27)
-
-
-### Bug Fixes
-
-* fix redaction performance issue ([#257](#)) ([b5ba53d](#))
-* fix view attribute performance issues ([#258](#)) ([43212d6](#))
-* improve support for out-of-process rendered views (e.g. QLPreviewController) ([#262](#)) ([1bd0ecc](#))
-
-### [3.13.5](#) (2026-01-07)
-
-
-### Bug Fixes
-
-* ensure content marked as unredacted is never redacted ([#248](#)) ([fe2ca50](#))
-* intermittent crash when calculating session metrics ([#253](#)) ([421f50e](#))
-
-### [3.13.4](#) (2025-11-12)
-
-
-### Bug Fixes
-
-* fix regression in legacy render method ([a596b19](#))
-* fix rendering of lottie animations ([#244](#)) ([16f0472](#))
-
-### [3.13.3](#) (2025-11-11)
-
-
-### Bug Fixes
-
-* ensure that session overlays aren't covered by other windows ([#239](#)) ([4edc65d](#))
-* fix cases where input views would be redacted even when the first responder was not ([#241](#)) ([b06e29d](#))
-* switch default render method to be more accurate and performant ([#242](#)) ([fb29567](#))
-
-### [3.13.2](#) (2025-11-10)
-
-
-### Bug Fixes
-
-* Improve performance of new render method ([#235](#)) ([b74e8fb](#))
-* session prompt dismissed when remote control consent disabled ([#238](#)) ([79fb9d7](#))
-
-### [3.13.1](#) (2025-11-04)
-
-
-### Bug Fixes
-
-* Bug where webview cleanup scripts were running when not needed ([#237](#)) ([554dd45](#))
-
-## [3.13.0](#) (2025-10-24)
+## [3.14.0](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.14.0) (2026-04-16)
 
 
 ### Features
 
-* expose session timestamps ([#234](#)) ([0d285b1](#))
-* redact inside shadow roots ([#228](#)) ([168c7e4](#))
+* Improved redaction for Flutter add-to-app
 
-## [3.12.0](#) (2025-10-15)
+
+### Bug Fixes
+
+* replace `@_implementationOnly` with `internal` imports
+
+### [3.13.10](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.13.10) (2026-04-11)
+
+
+### Bug Fixes
+
+* make webview selectors non-null and init to an empty object
+
+### [3.13.9](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.13.9) (2026-04-04)
+
+### [3.13.8](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.13.8) (2026-04-04)
+
+
+### Bug Fixes
+
+* improve thread concurrency handling around ws acks
+* improve view tree diffing
+* update ordering of of message properties
+
+### [3.13.7](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.13.7) (2026-01-27)
+
+
+### Bug Fixes
+
+* restore Cartfile to project
+
+### 3.13.6 (2026-01-27)
+
+
+### Bug Fixes
+
+* fix redaction performance issue
+* fix view attribute performance issues
+* improve support for out-of-process rendered views (e.g. QLPreviewController)
+
+### [3.13.5](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.13.5) (2026-01-07)
+
+
+### Bug Fixes
+
+* ensure content marked as unredacted is never redacted
+* intermittent crash when calculating session metrics
+
+### [3.13.4](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.13.4) (2025-11-12)
+
+
+### Bug Fixes
+
+* fix regression in legacy render method
+* fix rendering of lottie animations
+
+### [3.13.3](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.13.3) (2025-11-11)
+
+
+### Bug Fixes
+
+* ensure that session overlays aren't covered by other windows
+* fix cases where input views would be redacted even when the first responder was not
+* switch default render method to be more accurate and performant
+
+### [3.13.2](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.13.2) (2025-11-10)
+
+
+### Bug Fixes
+
+* Improve performance of new render method
+* session prompt dismissed when remote control consent disabled
+
+### [3.13.1](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.13.1) (2025-11-04)
+
+
+### Bug Fixes
+
+* Bug where webview cleanup scripts were running when not needed
+
+## [3.13.0](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.13.0) (2025-10-24)
 
 
 ### Features
 
-* expose ended_reason on Session ([#224](#)) ([a39eba0](#))
+* expose session timestamps
+* redact inside shadow roots
 
-
-### Bug Fixes
-
-* crash when redacting controllers that haven't loaded their views ([#232](#)) ([606f325](#))
-* detect viewport misalignment in webviews ([#230](#)) ([d11bcc6](#))
-
-### [3.11.1](#) (2025-09-30)
-
-
-### Bug Fixes
-
-* fix cases where Webview redacted content could be exposed ([#221](#)) ([fbdf247](#))
-
-## [3.11.0](#) (2025-09-18)
+## [3.12.0](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.12.0) (2025-10-15)
 
 
 ### Features
 
-* Improved rendering method for iOS 26.0 ([#196](#)) ([7da4850](#)) ([docs](https://docs.cobrowse.io/sdk-features/advanced-features/ios/alternate-render-method))
-* Support multi window drawing overlay ([#200](#)) ([e4e361f](#))
-* Update the design of the default session indicators ([#207](#)) ([51c040d](#))
+* expose ended_reason on Session
 
 
 ### Bug Fixes
 
-* Allow websocket method to be chosen via `CBIOWebSocketMethod` ([#215](#)) ([c9a1f1f](#))
-* fix flicker with legacy redaction method ([#209](#)) ([341dbd7](#))
-* fix webview clipping redactions inside content inset area ([#213](#)) ([442d1ce](#))
-* Implement redaction fixes for special effect views ([#212](#)) ([4f2270c](#))
+* crash when redacting controllers that haven't loaded their views
+* detect viewport misalignment in webviews
 
-## [3.10.0](#) (2025-08-26)
+### [3.11.1](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.11.1) (2025-09-30)
+
+
+### Bug Fixes
+
+* fix cases where Webview redacted content could be exposed
+
+## [3.11.0](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.11.0) (2025-09-18)
 
 
 ### Features
 
-* expose extra view attributes ([#194](#)) ([ec8fbce](#))
+* Improved rendering method for iOS 26.0 ([docs](https://docs.cobrowse.io/sdk-features/advanced-features/ios/alternate-render-method))
+* Support multi window drawing overlay
+* Update the design of the default session indicators
 
 
 ### Bug Fixes
 
-* Add session indicators to all windows ([#199](#)) ([6f90234](#))
-* ensure js is injected if needed when the selectors change ([#205](#)) ([bcac772](#))
-* rendering issues on iPad in the split-screen mode ([#195](#)) ([223ece1](#))
-* use lower scaling ratio but prefer hardware accelerated H.264 encoder on macOS ([#190](#)) ([f259f71](#))
+* Allow websocket method to be chosen via `CBIOWebSocketMethod`
+* fix flicker with legacy redaction method
+* fix webview clipping redactions inside content inset area
+* Implement redaction fixes for special effect views
 
-## [3.9.0](#) (2025-07-29)
+## [3.10.0](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.10.0) (2025-08-26)
 
 
 ### Features
 
-* UIKit depth first view hierarchy ([#192](#)) ([45d75a9](#))
+* expose extra view attributes
 
 
 ### Bug Fixes
 
-* Avoid doesNotRecognizeSelector by always providing a method signature that will be ignored ([#193](#)) ([81e1a62](#))
-* use `kCGWindowImageDefault` instead of `kCGWindowImageBoundsIgnoreFraming` as `CGWindowImageOption` when capturing app windows ([#191](#)) ([526c83f](#))
+* Add session indicators to all windows
+* ensure js is injected if needed when the selectors change
+* rendering issues on iPad in the split-screen mode
+* use lower scaling ratio but prefer hardware accelerated H.264 encoder on macOS
 
-### [3.8.1](#) (2025-07-12)
-
-
-### Bug Fixes
-
-* Handle unknown method signatures ([#187](#)) ([4024422](#))
-* hide remote control consent when the agent cancels ([#188](#)) ([37ff702](#))
-
-## [3.8.0](#) (2025-07-04)
+## [3.9.0](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.9.0) (2025-07-29)
 
 
 ### Features
 
-* session quality monitoring ([#181](#)) ([3ef5187](#))
-
-## [3.7.0](#) (2025-05-20)
-
-
-### Features
-
-* add support for disappearing ink and multi agent drawings ([#164](#)) ([9e01203](#))
-* relay screen capturable state to agent frontend ([909d6a2](#))
-* webview domain redaction config from sdk ([#165](#)) ([988209e](#))
+* UIKit depth first view hierarchy
 
 
 ### Bug Fixes
 
-* fix a case where the SDK could fail to provide an initial frame after first connection ([a6a6687](#))
-* Floor overscroll to ignore sub-point differences ([#179](#)) ([a2d44c9](#))
-* optimise textfield redaction logic ([#177](#)) ([179812c](#))
+* Avoid doesNotRecognizeSelector by always providing a method signature that will be ignored
+* use `kCGWindowImageDefault` instead of `kCGWindowImageBoundsIgnoreFraming` as `CGWindowImageOption` when capturing app windows
 
-### [3.6.2](#) (2025-04-22)
-
-
-### Bug Fixes
-
-* Allow any Hashable to be passed as the ID ([#169](#)) ([14c0dfa](#))
-
-### [3.6.1](#) (2025-04-15)
+### [3.8.1](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.8.1) (2025-07-12)
 
 
 ### Bug Fixes
 
-* ignore safe area insets when calculating view hierarchy bounds ([6e26468](#))
+* Handle unknown method signatures
+* hide remote control consent when the agent cancels
 
-## [3.6.0](#) (2025-04-15)
+## [3.8.0](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.8.0) (2025-07-04)
 
 
 ### Features
 
-* require Xcode 16.0 or newer ([#160](#)) ([6ed9627](#))
+* session quality monitoring
+
+## [3.7.0](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.7.0) (2025-05-20)
+
+
+### Features
+
+* add support for disappearing ink and multi agent drawings
+* relay screen capturable state to agent frontend
+* webview domain redaction config from sdk
 
 
 ### Bug Fixes
 
-* safely handle webview redaction json errors ([#162](#)) ([f6f6641](#))
-* use indexed tree structure for view tracking ([#163](#)) ([76300b3](#))
+* fix a case where the SDK could fail to provide an initial frame after first connection
+* Floor overscroll to ignore sub-point differences
+* optimise textfield redaction logic
 
-### [3.5.1](#) (2025-04-08)
-
-
-### Bug Fixes
-
-* redaction in webview iframes ([#159](#)) ([974714c](#))
-
-## [3.5.0](#) (2025-04-08)
-
-
-### Features
-
-* webview redaction rules ([#152](#)) ([f26f10f](#))
-
-## [3.4.0](#) (2025-04-07)
-
-
-### Features
-
-* allow custom colors for laser pointer ([#156](#)) ([4d7bac5](#))
+### [3.6.2](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.6.2) (2025-04-22)
 
 
 ### Bug Fixes
 
-* ignore gestures for printer picker ([#157](#)) ([be276ac](#))
+* Allow any Hashable to be passed as the ID
 
-### [3.3.1](#) (2025-03-25)
-
-## [3.3.0](#) (2025-03-25)
-
-
-### Features
-
-* Add support for iOS 14 using URLSession ([#151](#)) ([bcb89be](#))
-* add support for redaction playground ([406aa8e](#))
-* support unredaction for Swift UI ([#150](#)) ([6d9ce55](#))
-
-## [3.2.0](#) (2025-02-19)
-
-
-### Features
-
-* Add setDeviceToken to `CobrowseIO` to register an APNS token with a device. ([#147](#)) ([79f6774](#))
-* add support to arrows and rectangles drawings ([#146](#)) ([68e94c1](#))
-
-### [3.1.2](#) (2025-02-11)
-
-### [3.1.1](#) (2025-02-11)
-
-## [3.1.0](#) (2025-02-06)
-
-
-### Features
-
-* Add support for custom URLSession ([#143](#)) ([70df37a](#))
+### [3.6.1](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.6.1) (2025-04-15)
 
 
 ### Bug Fixes
 
-* use shared URLSession to allow request filtering via NSURLProtocol ([#142](#)) ([b889fea](#))
+* ignore safe area insets when calculating view hierarchy bounds
 
-## [3.0.0](#) (2025-01-27)
+## [3.6.0](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.6.0) (2025-04-15)
+
+
+### Features
+
+* require Xcode 16.0 or newer
+
+
+### Bug Fixes
+
+* safely handle webview redaction json errors
+* use indexed tree structure for view tracking
+
+### [3.5.1](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.5.1) (2025-04-08)
+
+
+### Bug Fixes
+
+* redaction in webview iframes
+
+## [3.5.0](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.5.0) (2025-04-08)
+
+
+### Features
+
+* webview redaction rules
+
+## [3.4.0](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.4.0) (2025-04-07)
+
+
+### Features
+
+* allow custom colors for laser pointer
+
+
+### Bug Fixes
+
+* ignore gestures for printer picker
+
+### [3.3.1](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.3.1) (2025-03-25)
+
+## [3.3.0](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.3.0) (2025-03-25)
+
+
+### Features
+
+* Add support for iOS 14 using URLSession
+* add support for redaction playground
+* support unredaction for Swift UI
+
+## [3.2.0](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.2.0) (2025-02-19)
+
+
+### Features
+
+* Add setDeviceToken to `CobrowseIO` to register an APNS token with a device.
+* add support to arrows and rectangles drawings
+
+### [3.1.2](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.1.2) (2025-02-11)
+
+### [3.1.1](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.1.1) (2025-02-11)
+
+## [3.1.0](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.1.0) (2025-02-06)
+
+
+### Features
+
+* Add support for custom URLSession
+
+
+### Bug Fixes
+
+* use shared URLSession to allow request filtering via NSURLProtocol
+
+## [3.0.0](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.0.0) (2025-01-27)
 
 
 ### ⚠ BREAKING CHANGES
@@ -445,349 +459,349 @@ cobrowse.customData = [
 
 ### Features
 
-* invoke SDK callbacks on the main thread ([#139](#)) ([4af7ce0](#))
-* Make cobrowseShouldAllow methods private ([8525fd0](#))
-* Merge extension framework into one CobrowseSDK framework ([dd138cd](#))
-* only allow strings as customData ([a71c9ec](#))
-* Remove automatic intercom integration ([#123](#)) ([fddceb6](#))
-* Remove bool versions of full device ([5a122f3](#))
-* Remove default code and session UI ([1376d36](#))
-* Rename Frameworks to CobrowseSDK ([cc7401d](#))
-* Rename redacted view modifier to cobrowseRedacted ([e3aded1](#))
-* Update minimum API version to 1.21.0 ([#128](#)) ([ef27eb0](#))
-* Use URLSession for iOS 13 & macOS 10.15 or above ([#135](#)) ([9af99fa](#))
+* invoke SDK callbacks on the main thread
+* Make cobrowseShouldAllow methods private
+* Merge extension framework into one CobrowseSDK framework
+* only allow strings as customData
+* Remove automatic intercom integration
+* Remove bool versions of full device
+* Remove default code and session UI
+* Rename Frameworks to CobrowseSDK
+* Rename redacted view modifier to cobrowseRedacted
+* Update minimum API version to 1.21.0
+* Use URLSession for iOS 13 & macOS 10.15 or above
 
-### [2.33.2](#) (2024-11-13)
+### [2.33.2](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.33.2) (2024-11-13)
 
 
 ### Bug Fixes
 
-* don't specify default port numbers (443 or 80) in the `Host` header ([#133](#)) ([a5b32c3](#))
+* don't specify default port numbers (443 or 80) in the `Host` header
 
-### [2.33.1](#) (2024-10-09)
+### [2.33.1](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.33.1) (2024-10-09)
 
-## [2.33.0](#) (2024-10-04)
+## [2.33.0](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.33.0) (2024-10-04)
 
 
 ### Features
 
-* add redactedViews and unredactedViews APIs for setting selectors ([#121](#)) ([3e030f5](#))
-* use os_log based logging ([#120](#)) ([159edf2](#))
+* add redactedViews and unredactedViews APIs for setting selectors
+* use os_log based logging
 
-### [2.32.3](#) (2024-09-25)
-
-
-### Bug Fixes
-
-* catch invalid selectors ([284681d](#))
-
-### [2.32.2](#) (2024-09-20)
+### [2.32.3](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.32.3) (2024-09-25)
 
 
 ### Bug Fixes
 
-* fix binary compatibility with newer Swift versions ([715d41f](#))
+* catch invalid selectors
 
-### [2.32.1](#) (2024-09-14)
+### [2.32.2](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.32.2) (2024-09-20)
 
 
 ### Bug Fixes
 
-* optimisations for dashboard selectors ([19477cf](#))
+* fix binary compatibility with newer Swift versions
 
-## [2.32.0](#) (2024-09-11)
+### [2.32.1](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.32.1) (2024-09-14)
+
+
+### Bug Fixes
+
+* optimisations for dashboard selectors
+
+## [2.32.0](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.32.0) (2024-09-11)
 
 
 ### Features
 
-* SwiftUI dashboard redaction support ([#115](#)) ([313ab0a](#))
+* SwiftUI dashboard redaction support
 
 
 ### Bug Fixes
 
-* remote scrolling in WKWebView on iOS 17.4+ ([#113](#)) ([2af1a0b](#))
-* remove kvo for webview progressing in favor of navigationDelegate for compliance with iOS 18 ([#116](#)) ([390cb7e](#))
+* remote scrolling in WKWebView on iOS 17.4+
+* remove kvo for webview progressing in favor of navigationDelegate for compliance with iOS 18
 
-### [2.31.2](#) (2024-08-26)
-
-
-### Bug Fixes
-
-* prevent zombie webviews from dropping frames ([#112](#)) ([dd1b728](#))
-
-### [2.31.1](#) (2024-07-29)
+### [2.31.2](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.31.2) (2024-08-26)
 
 
 ### Bug Fixes
 
-* improve support for rendering Alert views ([#111](#)) ([9ec5c1b](#))
+* prevent zombie webviews from dropping frames
 
-## [2.31.0](#) (2024-07-25)
+### [2.31.1](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.31.1) (2024-07-29)
+
+
+### Bug Fixes
+
+* improve support for rendering Alert views
+
+## [2.31.0](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.31.0) (2024-07-25)
 
 
 ### Features
 
-* Improvements for webview redaction ([#107](#)) ([e8f3c3a](#))
+* Improvements for webview redaction
 
 
 ### Bug Fixes
 
-* ensure we only skip frames when the zoom has been user initiated ([#110](#)) ([38877cf](#))
+* ensure we only skip frames when the zoom has been user initiated
 
-### [2.30.3](#) (2024-06-06)
+### [2.30.3](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.30.3) (2024-06-06)
 
-### [2.30.2](#) (2024-06-05)
-
-
-### Bug Fixes
-
-* always use the alternate rendering method with Flutter ([#104](#)) ([a512aa3](#))
-
-### [2.30.1](#) (2024-05-01)
+### [2.30.2](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.30.2) (2024-06-05)
 
 
 ### Bug Fixes
 
-* Remove empty item in PrivacyInfo.xcprivacy ([#103](#)) ([50ff57f](#))
+* always use the alternate rendering method with Flutter
 
-## [2.30.0](#) (2024-04-18)
+### [2.30.1](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.30.1) (2024-05-01)
+
+
+### Bug Fixes
+
+* Remove empty item in PrivacyInfo.xcprivacy
+
+## [2.30.0](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.30.0) (2024-04-18)
 
 
 ### Features
 
-* Add support for SwiftUI redaction ([#100](#)) ([7f6c2ff](#))
+* Add support for SwiftUI redaction
 
-### [2.29.7](#) (2024-04-15)
-
-
-### Bug Fixes
-
-* Add privacy manifest to iOS, macOS and Extension frameworks ([#102](#)) ([b19d53e](#))
-* fix unwanted green line in the screencasting stream ([#98](#)) ([b870b7b](#))
-
-### [2.29.6](#) (2024-01-17)
+### [2.29.7](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.29.7) (2024-04-15)
 
 
 ### Bug Fixes
 
-* make sure the SDK renders a new frame when the content of `UIImageView` changes ([#97](#)) ([560f739](#))
+* Add privacy manifest to iOS, macOS and Extension frameworks
+* fix unwanted green line in the screencasting stream
 
-### [2.29.5](#) (2023-12-20)
-
-
-### Bug Fixes
-
-* ensure we don't query the dom when webview redaction isn't configured ([#95](#)) ([c954914](#))
-
-### [2.29.4](#) (2023-12-19)
+### [2.29.6](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.29.6) (2024-01-17)
 
 
 ### Bug Fixes
 
-* remove dependency on WKNavigationDelegate to prevent conflicts with error reporting sdks ([#94](#)) ([68009fd](#))
+* make sure the SDK renders a new frame when the content of `UIImageView` changes
 
-### [2.29.3](#) (2023-12-08)
-
-
-### Bug Fixes
-
-* fix unredaction edge case when using multiple nested view controllers ([ab71819](#))
-
-### [2.29.2](#) (2023-11-10)
-
-### [2.29.1](#) (2023-11-10)
+### [2.29.5](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.29.5) (2023-12-20)
 
 
 ### Bug Fixes
 
-* remove the usage of [@import](#) within the sdk code ([#89](#)) ([ace2866](#))
+* ensure we don't query the dom when webview redaction isn't configured
 
-## [2.29.0](#) (2023-09-29)
+### [2.29.4](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.29.4) (2023-12-19)
+
+
+### Bug Fixes
+
+* remove dependency on WKNavigationDelegate to prevent conflicts with error reporting sdks
+
+### [2.29.3](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.29.3) (2023-12-08)
+
+
+### Bug Fixes
+
+* fix unredaction edge case when using multiple nested view controllers
+
+### [2.29.2](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.29.2) (2023-11-10)
+
+### [2.29.1](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.29.1) (2023-11-10)
+
+
+### Bug Fixes
+
+* remove the usage of @import within the sdk code
+
+## [2.29.0](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.29.0) (2023-09-29)
 
 
 ### Features
 
-* Allow capabilities to be set on a session object ([#86](#)) ([a98823a](#))
+* Allow capabilities to be set on a session object
 
 
 ### Bug Fixes
 
-* Clear currentSession if error is retuned ([#85](#)) ([ee43e58](#))
+* Clear currentSession if error is retuned
 
-### [2.28.6](#) (2023-09-11)
-
-
-### Bug Fixes
-
-* return the device capabilities when the server doesn't support capabilities ([#84](#)) ([8006299](#))
-
-### [2.28.5](#) (2023-09-08)
+### [2.28.6](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.28.6) (2023-09-11)
 
 
 ### Bug Fixes
 
-* ensure data from previous stream is discarded after switching ([#83](#)) ([63109c3](#))
+* return the device capabilities when the server doesn't support capabilities
 
-### [2.28.4](#) (2023-08-22)
-
-
-### Bug Fixes
-
-* ensure full redaction is removed when the keyboard animation is complete ([#81](#)) ([26db78b](#))
-
-### [2.28.3](#) (2023-08-18)
+### [2.28.5](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.28.5) (2023-09-08)
 
 
 ### Bug Fixes
 
-* avoid webview dealloc crash ([#80](#)) ([33232ac](#))
-* improve redaction support inside WKWebViews ([#78](#)) ([0517fc8](#))
+* ensure data from previous stream is discarded after switching
 
-### [2.28.2](#) (2023-08-07)
+### [2.28.4](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.28.4) (2023-08-22)
 
 
 ### Bug Fixes
 
-* apply workaround for iOS 15 remote touch issues. ([#14](#)) ([e5eedde](#))
+* ensure full redaction is removed when the keyboard animation is complete
 
-### [2.28.1](#) (2023-07-31)
+### [2.28.3](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.28.3) (2023-08-18)
+
+
+### Bug Fixes
+
+* avoid webview dealloc crash
+* improve redaction support inside WKWebViews
+
+### [2.28.2](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.28.2) (2023-08-07)
+
+
+### Bug Fixes
+
+* apply workaround for iOS 15 remote touch issues.
+
+### [2.28.1](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.28.1) (2023-07-31)
 
 
 ### Features
 
-* allow setting capabilities on launch ([#77](#)) ([cabef31](#))
+* allow setting capabilities on launch
 
 
 ### Bug Fixes
 
-* improve socket liveness checking ([#76](#)) ([b8cc376](#))
+* improve socket liveness checking
 
-## [2.28.0](#) (2023-07-19)
+## [2.28.0](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.28.0) (2023-07-19)
 
 
 ### Features
 
-* Add redaction support to WKWebViews ([#70](#)) ([24806bb](#))
+* Add redaction support to WKWebViews
 
 
 ### Bug Fixes
 
-* rendering issue on iOS 17 beta ([#72](#)) ([ed9c044](#))
+* rendering issue on iOS 17 beta
 
-### [2.27.4](#) (2023-06-30)
-
-
-### Bug Fixes
-
-* **push:** Wait for shared application to be available to swizzle token and notification delegate methods ([#69](#)) ([3423fc2](#))
-* trigger remote touches on WKWebViews via JavaScript code ([#71](#)) ([6ef985a](#))
-
-### [2.27.3](#) (2023-06-05)
+### [2.27.4](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.27.4) (2023-06-30)
 
 
 ### Bug Fixes
 
-* integration with the Intercom SDK v13 ([#68](#)) ([d26ab7c](#))
+* **push:** Wait for shared application to be available to swizzle token and notification delegate methods
+* trigger remote touches on WKWebViews via JavaScript code
 
-### [2.27.2](#) (2023-05-24)
-
-
-### Bug Fixes
-
-* remove exessive logging ([#67](#)) ([f39bd60](#))
-
-### [2.27.1](#) (2023-05-22)
+### [2.27.3](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.27.3) (2023-06-05)
 
 
 ### Bug Fixes
 
-* redaction does not apply on modal ViewControllers in the full-device mode ([#65](#)) ([4cfcb07](#))
-* redaction does not apply when ViewController's layout changes in the full-device mode ([#66](#)) ([df3b237](#))
+* integration with the Intercom SDK v13
 
-## [2.27.0](#) (2023-05-01)
-
-### [2.26.4](#) (2023-04-27)
-
-### [2.26.3](#) (2023-04-27)
-
-### [2.26.2](#) (2023-04-27)
+### [2.27.2](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.27.2) (2023-05-24)
 
 
 ### Bug Fixes
 
-* Allow broadcast upload extension to initialise with capabilities ([#64](#)) ([03ba49a](#))
+* remove exessive logging
 
-### [2.26.1](#) (2023-04-13)
+### [2.27.1](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.27.1) (2023-05-22)
 
 
 ### Bug Fixes
 
-* annotation and remote control capabilities are off in full-device mode on macOS ([#62](#)) ([6d78502](#))
+* redaction does not apply on modal ViewControllers in the full-device mode
+* redaction does not apply when ViewController's layout changes in the full-device mode
 
-## [2.26.0](#) (2023-03-28)
+## [2.27.0](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.27.0) (2023-05-01)
+
+### [2.26.4](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.26.4) (2023-04-27)
+
+### [2.26.3](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.26.3) (2023-04-27)
+
+### [2.26.2](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.26.2) (2023-04-27)
+
+
+### Bug Fixes
+
+* Allow broadcast upload extension to initialise with capabilities
+
+### [2.26.1](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.26.1) (2023-04-13)
+
+
+### Bug Fixes
+
+* annotation and remote control capabilities are off in full-device mode on macOS
+
+## [2.26.0](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.26.0) (2023-03-28)
 
 
 ### Features
 
-* use Xcode 14.1 ([#53](#)) ([d140090](#))
+* use Xcode 14.1
 
-## [2.25.0](#) (2023-03-09)
-
-
-### Features
-
-* Support unredaction as a first class SDK feature ([68e7339](#))
-
-
-### Bug Fixes
-
-* Fix macOS SDK crash: `-[__NSPlaceholderDictionary initWithObjects:forKeys:count:]: attempt to insert nil object from objects[4]`` ([#60](#)) ([c972f51](#))
-
-### [2.24.1](#) (2023-03-06)
-
-
-### Bug Fixes
-
-* Fix creation of invalid context ([#59](#)) ([8fd489c](#))
-
-## [2.24.0](#) (2023-03-02)
+## [2.25.0](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.25.0) (2023-03-09)
 
 
 ### Features
 
-* allow new sessions to preempt existing ones ([f064dc8](#))
-* Capabilities support ([#49](#)) ([6cc45e5](#))
-* **capabilities:** add dynamic capabilities functionality ([#55](#)) ([b5f49ea](#))
-* support non-FQDN socket URLs ([afa43e4](#))
+* Support unredaction as a first class SDK feature
 
 
 ### Bug Fixes
 
-* encoding glitches on iPad with iOS 15 when in the split-screen mode ([#52](#)) ([567a4ba](#))
-* redacted content is displayed after a full device session is ended ([#56](#)) ([ba06718](#))
+* Fix macOS SDK crash: `-[__NSPlaceholderDictionary initWithObjects:forKeys:count:]: attempt to insert nil object from objects[4]``
 
-### [2.23.4](#) (2023-01-17)
-
-
-### Bug Fixes
-
-* Fix/UI text field redaction ([#47](#)) ([9ecfe89](#))
-
-### [2.23.3](#) (2023-01-16)
+### [2.24.1](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.24.1) (2023-03-06)
 
 
 ### Bug Fixes
 
-* must push before linting as linting fetches from repo ([1298735](#))
+* Fix creation of invalid context
 
-### [2.23.2](#) (2023-01-16)
+## [2.24.0](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.24.0) (2023-03-02)
+
+
+### Features
+
+* allow new sessions to preempt existing ones
+* Capabilities support
+* **capabilities:** add dynamic capabilities functionality
+* support non-FQDN socket URLs
 
 
 ### Bug Fixes
 
-* improve Carthage binary support ([#48](#)) ([6231952](#))
+* encoding glitches on iPad with iOS 15 when in the split-screen mode
+* redacted content is displayed after a full device session is ended
 
-### [2.23.1](#) (2022-12-13)
+### [2.23.4](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.23.4) (2023-01-17)
+
+
+### Bug Fixes
+
+* Fix/UI text field redaction
+
+### [2.23.3](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.23.3) (2023-01-16)
+
+
+### Bug Fixes
+
+* must push before linting as linting fetches from repo
+
+### 2.23.2 (2023-01-16)
+
+
+### Bug Fixes
+
+* improve Carthage binary support
+
+### [2.23.1](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.23.1) (2022-12-13)
 
 
 ### Features
@@ -800,15 +814,15 @@ cobrowse.customData = [
 * remove `kCGBitmapByteOrder32Little` CGBitmap option
 * Try to fix excessive memory usage in the extension
 
-### [2.22.4](#) (2022-11-08)
+### [2.22.4](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.22.4) (2022-11-08)
 
-### [2.22.3](#) (2022-11-08)
+### [2.22.3](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.22.3) (2022-11-08)
 
-### [2.22.2](#) (2022-11-08)
+### 2.22.2 (2022-11-08)
 
-### [2.22.1](#) (2022-09-21)
+### [2.22.1](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.22.1) (2022-09-21)
 
-## [2.22.0](#) (2022-09-20)
+## [2.22.0](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.22.0) (2022-09-20)
 
 
 ### Features
@@ -821,11 +835,11 @@ cobrowse.customData = [
 
 * remote redaction not applying to UITextField in UIAlertController.
 
-### [2.21.2](#) (2022-08-29)
+### [2.21.2](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.21.2) (2022-08-29)
 
-### [2.21.1](#) (2022-08-29)
+### [2.21.1](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.21.1) (2022-08-29)
 
-## [2.21.0](#) (2022-08-29)
+## 2.21.0 (2022-08-29)
 
 
 ### Features
@@ -835,21 +849,21 @@ cobrowse.customData = [
 * implement a full-device confirmation prompt on macOS.
 * implement localizable strings on macOS.
 
-### [2.20.1](#) (2022-06-14)
+### [2.20.1](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.20.1) (2022-06-14)
 
 
 ### Bug Fixes
 
 * make render method more aware of what's redacted to optimise render strategy
 
-## [2.20.0](#) (2022-06-14)
+## [2.20.0](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.20.0) (2022-06-14)
 
 
 ### Features
 
 * add API and License configuration to the sample app.
 
-## [2.19.0](#) (2022-05-12)
+## [2.19.0](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.19.0) (2022-05-12)
 
 
 ### Features
@@ -863,7 +877,7 @@ cobrowse.customData = [
 * EXC_BAD_ACCESS when working with CVImageBufferRef.
 * full-device gets disabled when the ReplayKit suspends broadcasting.
 
-## [2.18.0](#) (2022-04-19)
+## [2.18.0](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.18.0) (2022-04-19)
 
 
 ### Features
@@ -877,86 +891,86 @@ cobrowse.customData = [
 * fix duplicate requests, update delegate api
 * simplify broadcast extension check
 
-### [2.17.1](#) (2022-02-07)
+### [2.17.1](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.17.1) (2022-02-07)
 
 
 ### Bug Fixes
 
 * only call loaded event after call completes
 
-## [2.17.0](#) (2022-02-02)
+## [2.17.0](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.17.0) (2022-02-02)
 
 
 ### Features
 
 * add delegate method that's called the first time a session is fetched from the server
 
-### [2.16.4](#) (2022-01-29)
+### [2.16.4](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.16.4) (2022-01-29)
 
 
 ### Bug Fixes
 
 * use XCFramework for broadcast extension via Pods
 
-### [2.16.3](#) (2022-01-28)
+### [2.16.3](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.16.3) (2022-01-28)
 
 
 ### Bug Fixes
 
 * skip custom data updates that match the cached version
 
-### [2.16.2](#) (2022-01-25)
+### [2.16.2](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.16.2) (2022-01-25)
 
 
 ### Bug Fixes
 
 * fix full device mode when session are initiated with full_device already set to true
 
-### [2.16.1](#) (2021-12-08)
+### [2.16.1](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.16.1) (2021-12-08)
 
-## [2.16.0](#) (2021-11-15)
+## [2.16.0](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.16.0) (2021-11-15)
 
 
 ### Features
 
 * send device and custom data on session creation
 
-### [2.15.1](#) (2021-10-12)
+### [2.15.1](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.15.1) (2021-10-12)
 
 
 ### Bug Fixes
 
 * restore macos build
 
-## [2.15.0](#) (2021-09-08)
+## [2.15.0](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.15.0) (2021-09-08)
 
 
 ### Features
 
 * add XCFramework of the broadcast extension
 
-### [2.14.4](#) (2021-09-02)
+### [2.14.4](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.14.4) (2021-09-02)
 
 
 ### Bug Fixes
 
 * the delegate can now be dynamically updates during an active session
 
-### [2.14.3](#) (2021-08-10)
+### [2.14.3](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.14.3) (2021-08-10)
 
 
 ### Bug Fixes
 
 * optimise lazy removal of redaction on next activation when possible
 
-### [2.14.2](#) (2021-08-09)
+### [2.14.2](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.14.2) (2021-08-09)
 
 
 ### Bug Fixes
 
 * ensure redacted views are cleaned up if no longer specified as redacted by the delegate
 
-### [2.14.1](#) (2021-07-28)
+### [2.14.1](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v2.14.1) (2021-07-28)
 
 
 ### Bug Fixes

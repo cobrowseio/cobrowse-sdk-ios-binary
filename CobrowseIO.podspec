@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name = 'CobrowseIO'
-    s.version = '3.19.7'
+    s.version = '3.19.8'
     s.summary = 'CobrowseIO SDK'
     s.description = 'CobrowseIO SDK. See cobrowse.io for more information.'
     s.license = 'Proprietary'
