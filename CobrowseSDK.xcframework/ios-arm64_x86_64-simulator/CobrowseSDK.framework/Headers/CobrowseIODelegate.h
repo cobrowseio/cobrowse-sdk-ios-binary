@@ -1,4 +1,5 @@
 #import <Foundation/Foundation.h>
+#import "CBIODevice.h"
 
 @class UIWindow;
 @class UIViewController;
@@ -25,6 +26,22 @@
 ///
 /// - Parameter session The session which metrics changed
 -(void) cobrowseSessionMetricsDidUpdate: (nonnull CBIOSession*) session;
+
+/// Called whenever the device's connection to Cobrowse changes state. Agents use this connection
+/// to start sessions with the device; sessions started from a 6-digit code don't need it.
+///
+/// The connection is opened once the device has registered and is reopened automatically after
+/// it drops. With ``CobrowseIO/registration`` turned off the state stays
+/// ``CBIODeviceConnectionState/disconnected``. If the account's configuration does not let agents start
+/// sessions with the device, the state is ``CBIODeviceConnectionState/disabled``.
+///
+/// Called on the main thread.
+///
+/// - Parameters:
+///    - device: The device, already reporting the state it is now in
+///    - previousDevice: The device as it was before, fixed at that state
+/// - See: ``CBIODevice/connectionState``
+-(void) cobrowseDeviceConnectionStateDidChange: (nonnull CBIODevice*) device previousDevice: (nonnull CBIODevice*) previousDevice;
 
 /// Called when a session is first loaded from the server, either via 6 digit code or connection
 /// from an agent.

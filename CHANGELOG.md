@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.20.0](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.20.0) (2026-11-18)
+
+
+### Features
+
+* register Firebase installation IDs with `setPushToken:[CBIOPushToken firebaseInstallationId:]` and deprecate the APNS token method
+* report the device's connection to Cobrowse through the delegate
+
+
+### Bug Fixes
+
+* crash and dead remote clicks in web views on iOS 26 and later
+* draw the keyboard on iOS 27 with render method 4
+* Drop support for CocoaPods. Use Swift Package Manager instead
+* edge case where other SDKs tracking views missed web views
+* races between the main thread and the snapshot compositing queue
+* render a new frame when the session scale changes
+* show the whole window of an iPad app running on a Mac, where it is on the display
+
 ### [3.19.8](https://github.com/cobrowseio/cobrowse-sdk-ios-binary/releases/tag/v3.19.8) (2026-10-21)
 
 

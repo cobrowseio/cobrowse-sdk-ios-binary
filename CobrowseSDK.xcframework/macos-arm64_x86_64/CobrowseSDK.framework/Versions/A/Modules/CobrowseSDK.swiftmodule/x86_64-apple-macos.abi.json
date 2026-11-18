@@ -27,55 +27,6 @@
       },
       {
         "kind": "Import",
-        "name": "QuartzCore",
-        "printedName": "QuartzCore",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "QuartzCore",
-        "printedName": "QuartzCore",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "AppKit",
-        "printedName": "AppKit",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Accelerate",
-        "printedName": "Accelerate",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Accelerate",
-        "printedName": "Accelerate",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Accelerate",
-        "printedName": "Accelerate",
-        "declKind": "Import",
-        "moduleName": "CobrowseSDK"
-      },
-      {
-        "kind": "Import",
         "name": "AppKit",
         "printedName": "AppKit",
         "declKind": "Import",
@@ -132,6 +83,55 @@
         "declAttributes": [
           "AccessControl"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "QuartzCore",
+        "printedName": "QuartzCore",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "QuartzCore",
+        "printedName": "QuartzCore",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AppKit",
+        "printedName": "AppKit",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Accelerate",
+        "printedName": "Accelerate",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Accelerate",
+        "printedName": "Accelerate",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Accelerate",
+        "printedName": "Accelerate",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
       },
       {
         "kind": "Import",
@@ -228,6 +228,85 @@
       },
       {
         "kind": "Import",
+        "name": "ObjectiveC",
+        "printedName": "ObjectiveC",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "ObjectiveC",
+        "printedName": "ObjectiveC",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CobrowseSDKPrivate",
+        "printedName": "CobrowseSDKPrivate",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ObjectiveC",
+        "printedName": "ObjectiveC",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CobrowseSDKPrivate",
+        "printedName": "CobrowseSDKPrivate",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "ObjectiveC",
+        "printedName": "ObjectiveC",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CobrowseSDKPrivate",
+        "printedName": "CobrowseSDKPrivate",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "CobrowseSDKPrivate",
         "printedName": "CobrowseSDKPrivate",
         "declKind": "Import",
@@ -247,6 +326,13 @@
         "kind": "Import",
         "name": "CoreVideo",
         "printedName": "CoreVideo",
+        "declKind": "Import",
+        "moduleName": "CobrowseSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "CobrowseSDK"
       },
@@ -905,13 +991,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "BNNSScalar",
-            "printedName": "BNNSScalar",
-            "usr": "s:10Accelerate10BNNSScalarP",
-            "mangledName": "$s10Accelerate10BNNSScalarP"
-          },
-          {
-            "kind": "Conformance",
             "name": "AtomicRepresentable",
             "printedName": "AtomicRepresentable",
             "children": [
@@ -931,6 +1010,13 @@
             ],
             "usr": "s:15Synchronization19AtomicRepresentableP",
             "mangledName": "$s15Synchronization19AtomicRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BNNSScalar",
+            "printedName": "BNNSScalar",
+            "usr": "s:10Accelerate10BNNSScalarP",
+            "mangledName": "$s10Accelerate10BNNSScalarP"
           }
         ]
       },
@@ -1350,20 +1436,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "vDSP_IntegerConvertable",
-            "printedName": "vDSP_IntegerConvertable",
-            "usr": "s:10Accelerate23vDSP_IntegerConvertableP",
-            "mangledName": "$s10Accelerate23vDSP_IntegerConvertableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "BNNSScalar",
-            "printedName": "BNNSScalar",
-            "usr": "s:10Accelerate10BNNSScalarP",
-            "mangledName": "$s10Accelerate10BNNSScalarP"
-          },
-          {
-            "kind": "Conformance",
             "name": "AtomicRepresentable",
             "printedName": "AtomicRepresentable",
             "children": [
@@ -1383,6 +1455,20 @@
             ],
             "usr": "s:15Synchronization19AtomicRepresentableP",
             "mangledName": "$s15Synchronization19AtomicRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "vDSP_IntegerConvertable",
+            "printedName": "vDSP_IntegerConvertable",
+            "usr": "s:10Accelerate23vDSP_IntegerConvertableP",
+            "mangledName": "$s10Accelerate23vDSP_IntegerConvertableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BNNSScalar",
+            "printedName": "BNNSScalar",
+            "usr": "s:10Accelerate10BNNSScalarP",
+            "mangledName": "$s10Accelerate10BNNSScalarP"
           }
         ]
       },
@@ -2612,13 +2698,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "BNNSScalar",
-            "printedName": "BNNSScalar",
-            "usr": "s:10Accelerate10BNNSScalarP",
-            "mangledName": "$s10Accelerate10BNNSScalarP"
-          },
-          {
-            "kind": "Conformance",
             "name": "AtomicRepresentable",
             "printedName": "AtomicRepresentable",
             "children": [
@@ -2638,6 +2717,13 @@
             ],
             "usr": "s:15Synchronization19AtomicRepresentableP",
             "mangledName": "$s15Synchronization19AtomicRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BNNSScalar",
+            "printedName": "BNNSScalar",
+            "usr": "s:10Accelerate10BNNSScalarP",
+            "mangledName": "$s10Accelerate10BNNSScalarP"
           }
         ]
       },
@@ -3050,20 +3136,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "vDSP_IntegerConvertable",
-            "printedName": "vDSP_IntegerConvertable",
-            "usr": "s:10Accelerate23vDSP_IntegerConvertableP",
-            "mangledName": "$s10Accelerate23vDSP_IntegerConvertableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "BNNSScalar",
-            "printedName": "BNNSScalar",
-            "usr": "s:10Accelerate10BNNSScalarP",
-            "mangledName": "$s10Accelerate10BNNSScalarP"
-          },
-          {
-            "kind": "Conformance",
             "name": "AtomicRepresentable",
             "printedName": "AtomicRepresentable",
             "children": [
@@ -3083,6 +3155,20 @@
             ],
             "usr": "s:15Synchronization19AtomicRepresentableP",
             "mangledName": "$s15Synchronization19AtomicRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "vDSP_IntegerConvertable",
+            "printedName": "vDSP_IntegerConvertable",
+            "usr": "s:10Accelerate23vDSP_IntegerConvertableP",
+            "mangledName": "$s10Accelerate23vDSP_IntegerConvertableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BNNSScalar",
+            "printedName": "BNNSScalar",
+            "usr": "s:10Accelerate10BNNSScalarP",
+            "mangledName": "$s10Accelerate10BNNSScalarP"
           }
         ]
       },
@@ -3502,20 +3588,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "vDSP_IntegerConvertable",
-            "printedName": "vDSP_IntegerConvertable",
-            "usr": "s:10Accelerate23vDSP_IntegerConvertableP",
-            "mangledName": "$s10Accelerate23vDSP_IntegerConvertableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "BNNSScalar",
-            "printedName": "BNNSScalar",
-            "usr": "s:10Accelerate10BNNSScalarP",
-            "mangledName": "$s10Accelerate10BNNSScalarP"
-          },
-          {
-            "kind": "Conformance",
             "name": "AtomicRepresentable",
             "printedName": "AtomicRepresentable",
             "children": [
@@ -3535,6 +3607,20 @@
             ],
             "usr": "s:15Synchronization19AtomicRepresentableP",
             "mangledName": "$s15Synchronization19AtomicRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "vDSP_IntegerConvertable",
+            "printedName": "vDSP_IntegerConvertable",
+            "usr": "s:10Accelerate23vDSP_IntegerConvertableP",
+            "mangledName": "$s10Accelerate23vDSP_IntegerConvertableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BNNSScalar",
+            "printedName": "BNNSScalar",
+            "usr": "s:10Accelerate10BNNSScalarP",
+            "mangledName": "$s10Accelerate10BNNSScalarP"
           }
         ]
       },
@@ -3954,20 +4040,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "vDSP_IntegerConvertable",
-            "printedName": "vDSP_IntegerConvertable",
-            "usr": "s:10Accelerate23vDSP_IntegerConvertableP",
-            "mangledName": "$s10Accelerate23vDSP_IntegerConvertableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "BNNSScalar",
-            "printedName": "BNNSScalar",
-            "usr": "s:10Accelerate10BNNSScalarP",
-            "mangledName": "$s10Accelerate10BNNSScalarP"
-          },
-          {
-            "kind": "Conformance",
             "name": "AtomicRepresentable",
             "printedName": "AtomicRepresentable",
             "children": [
@@ -3987,6 +4059,20 @@
             ],
             "usr": "s:15Synchronization19AtomicRepresentableP",
             "mangledName": "$s15Synchronization19AtomicRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "vDSP_IntegerConvertable",
+            "printedName": "vDSP_IntegerConvertable",
+            "usr": "s:10Accelerate23vDSP_IntegerConvertableP",
+            "mangledName": "$s10Accelerate23vDSP_IntegerConvertableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BNNSScalar",
+            "printedName": "BNNSScalar",
+            "usr": "s:10Accelerate10BNNSScalarP",
+            "mangledName": "$s10Accelerate10BNNSScalarP"
           }
         ]
       },
@@ -4837,20 +4923,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "vDSP_IntegerConvertable",
-            "printedName": "vDSP_IntegerConvertable",
-            "usr": "s:10Accelerate23vDSP_IntegerConvertableP",
-            "mangledName": "$s10Accelerate23vDSP_IntegerConvertableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "BNNSScalar",
-            "printedName": "BNNSScalar",
-            "usr": "s:10Accelerate10BNNSScalarP",
-            "mangledName": "$s10Accelerate10BNNSScalarP"
-          },
-          {
-            "kind": "Conformance",
             "name": "AtomicRepresentable",
             "printedName": "AtomicRepresentable",
             "children": [
@@ -4870,6 +4942,20 @@
             ],
             "usr": "s:15Synchronization19AtomicRepresentableP",
             "mangledName": "$s15Synchronization19AtomicRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "vDSP_IntegerConvertable",
+            "printedName": "vDSP_IntegerConvertable",
+            "usr": "s:10Accelerate23vDSP_IntegerConvertableP",
+            "mangledName": "$s10Accelerate23vDSP_IntegerConvertableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BNNSScalar",
+            "printedName": "BNNSScalar",
+            "usr": "s:10Accelerate10BNNSScalarP",
+            "mangledName": "$s10Accelerate10BNNSScalarP"
           }
         ]
       },
@@ -5289,20 +5375,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "vDSP_IntegerConvertable",
-            "printedName": "vDSP_IntegerConvertable",
-            "usr": "s:10Accelerate23vDSP_IntegerConvertableP",
-            "mangledName": "$s10Accelerate23vDSP_IntegerConvertableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "BNNSScalar",
-            "printedName": "BNNSScalar",
-            "usr": "s:10Accelerate10BNNSScalarP",
-            "mangledName": "$s10Accelerate10BNNSScalarP"
-          },
-          {
-            "kind": "Conformance",
             "name": "AtomicRepresentable",
             "printedName": "AtomicRepresentable",
             "children": [
@@ -5322,6 +5394,20 @@
             ],
             "usr": "s:15Synchronization19AtomicRepresentableP",
             "mangledName": "$s15Synchronization19AtomicRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "vDSP_IntegerConvertable",
+            "printedName": "vDSP_IntegerConvertable",
+            "usr": "s:10Accelerate23vDSP_IntegerConvertableP",
+            "mangledName": "$s10Accelerate23vDSP_IntegerConvertableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BNNSScalar",
+            "printedName": "BNNSScalar",
+            "usr": "s:10Accelerate10BNNSScalarP",
+            "mangledName": "$s10Accelerate10BNNSScalarP"
           }
         ]
       },
@@ -5755,13 +5841,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "SliceIndex",
-            "printedName": "SliceIndex",
-            "usr": "s:10Accelerate9BNNSGraphO7BuilderV10SliceIndexP",
-            "mangledName": "$s10Accelerate9BNNSGraphO7BuilderV10SliceIndexP"
-          },
-          {
-            "kind": "Conformance",
             "name": "AtomicRepresentable",
             "printedName": "AtomicRepresentable",
             "children": [
@@ -5781,6 +5860,13 @@
             ],
             "usr": "s:15Synchronization19AtomicRepresentableP",
             "mangledName": "$s15Synchronization19AtomicRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SliceIndex",
+            "printedName": "SliceIndex",
+            "usr": "s:10Accelerate9BNNSGraphO7BuilderV10SliceIndexP",
+            "mangledName": "$s10Accelerate9BNNSGraphO7BuilderV10SliceIndexP"
           }
         ]
       },
@@ -5948,13 +6034,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "BNNSScalar",
-            "printedName": "BNNSScalar",
-            "usr": "s:10Accelerate10BNNSScalarP",
-            "mangledName": "$s10Accelerate10BNNSScalarP"
-          },
-          {
-            "kind": "Conformance",
             "name": "AtomicRepresentable",
             "printedName": "AtomicRepresentable",
             "children": [
@@ -5974,6 +6053,13 @@
             ],
             "usr": "s:15Synchronization19AtomicRepresentableP",
             "mangledName": "$s15Synchronization19AtomicRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BNNSScalar",
+            "printedName": "BNNSScalar",
+            "usr": "s:10Accelerate10BNNSScalarP",
+            "mangledName": "$s10Accelerate10BNNSScalarP"
           }
         ]
       },
@@ -6478,6 +6564,28 @@
           },
           {
             "kind": "Conformance",
+            "name": "AtomicRepresentable",
+            "printedName": "AtomicRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AtomicRepresentation",
+                "printedName": "AtomicRepresentation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_Atomic32BitStorage",
+                    "printedName": "Synchronization._Atomic32BitStorage",
+                    "usr": "s:15Synchronization19_Atomic32BitStorageV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:15Synchronization19AtomicRepresentableP",
+            "mangledName": "$s15Synchronization19AtomicRepresentableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "vDSP_FloatingPointConvertable",
             "printedName": "vDSP_FloatingPointConvertable",
             "usr": "s:10Accelerate29vDSP_FloatingPointConvertableP",
@@ -6584,28 +6692,6 @@
             "printedName": "vDSP_FloatingPointGeneratable",
             "usr": "s:10Accelerate29vDSP_FloatingPointGeneratableP",
             "mangledName": "$s10Accelerate29vDSP_FloatingPointGeneratableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "AtomicRepresentable",
-            "printedName": "AtomicRepresentable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "AtomicRepresentation",
-                "printedName": "AtomicRepresentation",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "_Atomic32BitStorage",
-                    "printedName": "Synchronization._Atomic32BitStorage",
-                    "usr": "s:15Synchronization19_Atomic32BitStorageV"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:15Synchronization19AtomicRepresentableP",
-            "mangledName": "$s15Synchronization19AtomicRepresentableP"
           }
         ]
       },
@@ -7132,6 +7218,28 @@
           },
           {
             "kind": "Conformance",
+            "name": "AtomicRepresentable",
+            "printedName": "AtomicRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AtomicRepresentation",
+                "printedName": "AtomicRepresentation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_Atomic64BitStorage",
+                    "printedName": "Synchronization._Atomic64BitStorage",
+                    "usr": "s:15Synchronization19_Atomic64BitStorageV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:15Synchronization19AtomicRepresentableP",
+            "mangledName": "$s15Synchronization19AtomicRepresentableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "vDSP_FloatingPointConvertable",
             "printedName": "vDSP_FloatingPointConvertable",
             "usr": "s:10Accelerate29vDSP_FloatingPointConvertableP",
@@ -7209,28 +7317,6 @@
             "printedName": "vDSP_FloatingPointGeneratable",
             "usr": "s:10Accelerate29vDSP_FloatingPointGeneratableP",
             "mangledName": "$s10Accelerate29vDSP_FloatingPointGeneratableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "AtomicRepresentable",
-            "printedName": "AtomicRepresentable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "AtomicRepresentation",
-                "printedName": "AtomicRepresentation",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "_Atomic64BitStorage",
-                    "printedName": "Synchronization._Atomic64BitStorage",
-                    "usr": "s:15Synchronization19_Atomic64BitStorageV"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:15Synchronization19AtomicRepresentableP",
-            "mangledName": "$s15Synchronization19AtomicRepresentableP"
           }
         ]
       },
@@ -9017,6 +9103,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Content",
+            "printedName": "Content",
+            "usr": "s:So17CMSampleBufferRefa9CoreMediaE7ContentP",
+            "mangledName": "$sSo17CMSampleBufferRefa9CoreMediaE7ContentP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ContentWithFormatDescription",
+            "printedName": "ContentWithFormatDescription",
+            "usr": "s:So17CMSampleBufferRefa9CoreMediaE28ContentWithFormatDescriptionP",
+            "mangledName": "$sSo17CMSampleBufferRefa9CoreMediaE28ContentWithFormatDescriptionP"
+          },
+          {
+            "kind": "Conformance",
             "name": "AccelerateMutableBuffer",
             "printedName": "AccelerateMutableBuffer",
             "usr": "s:10Accelerate0A13MutableBufferP",
@@ -9063,20 +9163,6 @@
             ],
             "usr": "s:10Accelerate9BNNSGraphO7BuilderV18OperationParameterP",
             "mangledName": "$s10Accelerate9BNNSGraphO7BuilderV18OperationParameterP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Content",
-            "printedName": "Content",
-            "usr": "s:So17CMSampleBufferRefa9CoreMediaE7ContentP",
-            "mangledName": "$sSo17CMSampleBufferRefa9CoreMediaE7ContentP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ContentWithFormatDescription",
-            "printedName": "ContentWithFormatDescription",
-            "usr": "s:So17CMSampleBufferRefa9CoreMediaE28ContentWithFormatDescriptionP",
-            "mangledName": "$sSo17CMSampleBufferRefa9CoreMediaE28ContentWithFormatDescriptionP"
           }
         ]
       },
@@ -12064,13 +12150,6 @@
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/Extensions\/CVPixelBuffer.swift",
-      "kind": "Array",
-      "offset": 1161,
-      "length": 2,
-      "value": "[]"
-    },
-    {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/annotation\/RippleLayer+Engine.swift",
       "kind": "FloatLiteral",
       "offset": 134,
@@ -12134,6 +12213,13 @@
       "value": "0"
     },
     {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/Extensions\/CVPixelBuffer.swift",
+      "kind": "Array",
+      "offset": 1161,
+      "length": 2,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/stream-protocol\/JPEGStream.swift",
       "kind": "FloatLiteral",
       "offset": 206,
@@ -12155,6 +12241,104 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/swizzle\/SwizzleEngine.swift",
+      "kind": "StringLiteral",
+      "offset": 145,
+      "length": 15,
+      "value": "\"SwizzleEngine\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/swizzle\/SwizzleEngine.Signature.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4418,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/swizzle\/SwizzleEngine.Signature.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4423,
+      "length": 2,
+      "value": "25"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/swizzle\/SwizzleEngine.Signature.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4479,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/swizzle\/SwizzleEngine.Signature.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4484,
+      "length": 2,
+      "value": "22"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/swizzle\/SwizzleEngine.Signature.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4537,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/swizzle\/SwizzleEngine.Signature.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4542,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/swizzle\/SwizzleEngine.Signature.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4593,
+      "length": 8,
+      "value": "0b11111"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/swizzle\/SwizzleEngine.Signature.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4605,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/swizzle\/SwizzleEngine.Signature.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4731,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/swizzle\/SwizzleEngine.Signature.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4773,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/swizzle\/SwizzleEngine.Signature.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4853,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/swizzle\/SwizzleEngine.Signature.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4926,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/swizzle\/SwizzleEngine.Signature.swift",
+      "kind": "Array",
+      "offset": 7451,
+      "length": 35,
+      "value": "[\"r\", \"n\", \"N\", \"o\", \"O\", \"R\", \"V\"]"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/frameloop\/CBIOCVDisplayLink.swift",
       "kind": "IntegerLiteral",
       "offset": 318,
@@ -12171,37 +12355,51 @@
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
       "kind": "IntegerLiteral",
-      "offset": 3280,
+      "offset": 4318,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
       "kind": "IntegerLiteral",
-      "offset": 3505,
+      "offset": 4543,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
       "kind": "IntegerLiteral",
-      "offset": 3617,
+      "offset": 4655,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
       "kind": "IntegerLiteral",
-      "offset": 3743,
+      "offset": 4781,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
       "kind": "FloatLiteral",
-      "offset": 3816,
+      "offset": 4854,
       "length": 3,
       "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/utils\/CBORSocket.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5352,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/core\/DeviceConnectionStateTracker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2134,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/cobrowse-sdk-apple\/cobrowse-sdk-apple\/Source\/modules\/frameloop\/DisplayLinkFrameScheduler.swift",
